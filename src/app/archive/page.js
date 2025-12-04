@@ -44,7 +44,7 @@ const Archive = () => {
               const { slug, thumbnail, title } = video;
               return (
                 <LazyWrapper
-                  lazyLoad={index > 9}
+                  enable={index > 9}
                   offset={0}
                   height={0}
                   key={`${title}-${index}`}

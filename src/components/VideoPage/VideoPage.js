@@ -4,8 +4,8 @@ import { Headline } from "#/components/Typography/Typography";
 import BackButtonBar from "../BackButtonBar";
 import VideoPlayer from "../VideoPlayer";
 
-const VideoPage = ({ video }) => {
-  const { src, thumbnail, title } = video;
+export const VideoPage = ({ video }) => {
+  const { src, thumbnail, title } = video || {};
 
   return (
     <>
@@ -19,5 +19,3 @@ const VideoPage = ({ video }) => {
     </>
   );
 };
-
-export default VideoPage;
