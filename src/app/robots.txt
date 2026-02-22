@@ -1,19 +1,5 @@
-# Allow Google bots (needed for AdSense verification + crawling)
-User-agent: Googlebot
-Allow: /
-
-User-agent: Mediapartners-Google
-Allow: /
-
-User-agent: Google-Display-Ads-Bot
-Allow: /
-
-User-agent: AdsBot-Google
-Allow: /
-
-User-agent: AdsBot-Google-Mobile
-Allow: /
-
-# Block all other bots
+# Allow all bots
 User-agent: *
-Disallow: /
+Allow: /
+
+Sitemap: https://skatehousemedia.com/sitemap.xml
