@@ -10,15 +10,14 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <head>
+      <head />
+      <body>
         <Script
           async
           src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6675084090356256"
           crossOrigin="anonymous"
           strategy="afterInteractive"
         />
-      </head>
-      <body>
         <StyledComponentsRegistry>
           {children}
         </StyledComponentsRegistry>
