@@ -32,14 +32,13 @@ const Archive = () => {
       <BackButtonBar target={"/"} />
       <PageWrapper>
         <Script
-        async
-        src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6675084090356256"
-        crossOrigin="anonymous"
-        strategy="afterInteractive"
-      />
+          async
+          src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6675084090356256"
+          crossOrigin="anonymous"
+          strategy="afterInteractive"
+        />
         <ins
-          className="adsbygoogle"
-          style={{ display: "block" }}
+          className="adsbygoogle banner"
           data-ad-client="ca-pub-6675084090356256"
           data-ad-slot="4725789316"
           data-ad-format="auto"

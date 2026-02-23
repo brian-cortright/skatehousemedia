@@ -100,22 +100,21 @@ const Shuffle = () => {
       <BackButtonBar target={"/"} />
       <PageWrapper>
         <Script
-        async
-        src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6675084090356256"
-        crossOrigin="anonymous"
-        strategy="afterInteractive"
-      />
-      <ins
-        className="adsbygoogle"
-        style={{ display: "block" }}
-        data-ad-client="ca-pub-6675084090356256"
-        data-ad-slot="4725789316"
-        data-ad-format="auto"
-        data-full-width-responsive="true"
-      />
-      <Script id="adsense-init" strategy="afterInteractive">
-        {`(adsbygoogle = window.adsbygoogle || []).push({});`}
-      </Script>
+          async
+          src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6675084090356256"
+          crossOrigin="anonymous"
+          strategy="afterInteractive"
+        />
+        <ins
+          className="adsbygoogle banner"
+          data-ad-client="ca-pub-6675084090356256"
+          data-ad-slot="4725789316"
+          data-ad-format="auto"
+          data-full-width-responsive="true"
+        />
+        <Script id="adsense-init" strategy="afterInteractive">
+          {`(adsbygoogle = window.adsbygoogle || []).push({});`}
+        </Script>
         <Headline
           as="h1"
           margin={`0 auto ${basePadding.xLarge} auto`}

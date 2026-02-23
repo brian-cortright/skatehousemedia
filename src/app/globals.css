@@ -34,3 +34,10 @@ a {
     color-scheme: dark;
   }
 }
+
+.adsbygoogle.banner {
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  width: 100%;
+}

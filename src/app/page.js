@@ -22,8 +22,7 @@ export default function Home() {
         strategy="afterInteractive"
       />
       <ins
-        className="adsbygoogle"
-        style={{ display: "block" }}
+        className="adsbygoogle banner"
         data-ad-client="ca-pub-6675084090356256"
         data-ad-slot="4725789316"
         data-ad-format="auto"
