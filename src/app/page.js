@@ -15,22 +15,6 @@ import { MidsLogo, ShmLogo, VenomLogo } from "#/components/enhancedSvg/svgs";
 export default function Home() {
   return (
     <PageWrapper>
-      <Script
-        async
-        src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6675084090356256"
-        crossOrigin="anonymous"
-        strategy="afterInteractive"
-      />
-      <ins
-        className="adsbygoogle banner"
-        data-ad-client="ca-pub-6675084090356256"
-        data-ad-slot="4725789316"
-        data-ad-format="auto"
-        data-full-width-responsive="true"
-      />
-      <Script id="adsense-init" strategy="afterInteractive">
-        {`(adsbygoogle = window.adsbygoogle || []).push({});`}
-      </Script>
       <LogoWrapper>
         <ShmLogo customWidth={500} />
       </LogoWrapper>
