@@ -1,9 +1,11 @@
 "use client";
-import { TitleWrapper, BylineWrapper, ContentWrapper } from "./PostPageStyled";
-import { Headline, Subhead } from "#/components/Typography/Typography";
+import { TitleWrapper, BylineWrapper, ContentWrapper, TaxonomyWrapper, CategoriesWrapper, TagsWrapper } from "./PostPageStyled";
+import { Headline, Subhead, BodyText } from "#/components/Typography/Typography";
 import BackButtonBar from "../BackButtonBar";
 import Script from "next/script";
-import { fontSizing } from "#/theme";
+import slugify from "#/utils/slugify";
+import { useRouter } from "next/navigation";
+import Link from "next/link";
 
 export const PostPage = ({ post }) => {
   const { pageTitle, postDate, author, bodyText, tags, categories } = post || {};
@@ -37,6 +39,34 @@ export const PostPage = ({ post }) => {
           {postDate ? <Subhead variant="3">Published on: {postDate}</Subhead> : null}
           {author ? <Subhead variant="3">By: {author}</Subhead> : null}
         </BylineWrapper>
+      ) : null}
+      {(tags && tags.length) || (categories && categories.length) ? (
+        <TaxonomyWrapper>
+          <CategoriesWrapper>
+            <Link href="/categories">
+              <BodyText variant="3">Categories:&nbsp;</BodyText>
+            </Link>
+            {categories.map((category, index) => (
+              <Link href={`/categories/${slugify(category)}`} key={category}>
+                <BodyText variant="5">
+                  {category}{index < categories.length - 1 ? ', ' : ''}
+                </BodyText>
+              </Link>
+            ))}
+          </CategoriesWrapper>
+          <TagsWrapper>
+            <Link href="/tags">
+              <BodyText variant="3">Tags:&nbsp;</BodyText>
+            </Link>
+            {tags.map((tag, index) => (
+              <Link href={`/tags/${slugify(tag)}`} key={tag}>
+                <BodyText variant="5">
+                  {tag}{index < tags.length - 1 ? ', ' : ''}
+                </BodyText>
+              </Link>
+            ))}
+          </TagsWrapper>
+        </TaxonomyWrapper>
       ) : null}
       <ContentWrapper>
         <div dangerouslySetInnerHTML={{ __html: bodyText }} />
