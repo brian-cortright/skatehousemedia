@@ -4,8 +4,8 @@ import { Headline, Subhead, BodyText } from "#/components/Typography/Typography"
 import BackButtonBar from "../BackButtonBar";
 import Script from "next/script";
 import slugify from "#/utils/slugify";
-import { useRouter } from "next/navigation";
 import Link from "next/link";
+import Markdown from "#/components/Markdown/Markdown";
 
 export const PostPage = ({ post }) => {
   const { pageTitle, postDate, author, bodyText, tags, categories } = post || {};
@@ -42,34 +42,38 @@ export const PostPage = ({ post }) => {
       ) : null}
       {(tags && tags.length) || (categories && categories.length) ? (
         <TaxonomyWrapper>
-          <CategoriesWrapper>
-            <Link href="/categories">
-              <BodyText variant="3">Categories:&nbsp;</BodyText>
-            </Link>
-            {categories.map((category, index) => (
-              <Link href={`/categories/${slugify(category)}`} key={category}>
-                <BodyText variant="5">
-                  {category}{index < categories.length - 1 ? ', ' : ''}
-                </BodyText>
+          {categories && categories.length ? (
+            <CategoriesWrapper>
+              <Link href="/categories">
+                <BodyText variant="3">Categories:&nbsp;</BodyText>
               </Link>
-            ))}
-          </CategoriesWrapper>
-          <TagsWrapper>
-            <Link href="/tags">
-              <BodyText variant="3">Tags:&nbsp;</BodyText>
-            </Link>
-            {tags.map((tag, index) => (
-              <Link href={`/tags/${slugify(tag)}`} key={tag}>
-                <BodyText variant="5">
-                  {tag}{index < tags.length - 1 ? ', ' : ''}
-                </BodyText>
+              {categories.map((category, index) => (
+                <Link href={`/categories/${slugify(category)}`} key={category}>
+                  <BodyText variant="5">
+                    {category}{index < categories.length - 1 ? ', ' : ''}
+                  </BodyText>
+                </Link>
+              ))}
+            </CategoriesWrapper>
+          ) : null}
+          {tags && tags.length ? (
+            <TagsWrapper>
+              <Link href="/tags">
+                <BodyText variant="3">Tags:&nbsp;</BodyText>
               </Link>
-            ))}
-          </TagsWrapper>
+              {tags.map((tag, index) => (
+                <Link href={`/tags/${slugify(tag)}`} key={tag}>
+                  <BodyText variant="5">
+                    {tag}{index < tags.length - 1 ? ', ' : ''}
+                  </BodyText>
+                </Link>
+              ))}
+            </TagsWrapper>
+          ) : null}
         </TaxonomyWrapper>
       ) : null}
       <ContentWrapper>
-        <div dangerouslySetInnerHTML={{ __html: bodyText }} />
+        <Markdown text={bodyText} />
       </ContentWrapper>
     </>
   );
