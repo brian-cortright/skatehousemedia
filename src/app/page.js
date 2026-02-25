@@ -8,13 +8,18 @@ import {
   PageWrapper,
   SponsorLogo,
   SponsorWrapper,
-  TipMe,
+  Notice,
 } from "./home-styled";
 import { MidsLogo, ShmLogo, VenomLogo } from "#/components/enhancedSvg/svgs";
 
 export default function Home() {
   return (
     <PageWrapper>
+      <Notice italic={true} textAlignment="center" variant="4">
+        {`Hey there! We're working on something now.`}
+        <br></br>
+        {`In a spurt of motivation, we've decided to use the Wayback Machine APIs to scrape every single blog post from the original site. It's going to take some time to process all of it, and scrub any posts that make no sense with the missing assets. But check back as work through this large volume of content. `}
+      </Notice>
       <LogoWrapper>
         <ShmLogo customWidth={500} />
       </LogoWrapper>
@@ -35,11 +40,6 @@ export default function Home() {
           <MidsLogo customWidth={175} />
         </SponsorLogo>
       </SponsorWrapper>
-      <TipMe italic={true} textAlignment="center" variant="6">
-        {`Welcome to the archive! We'll be slowly adding some features to the site so be patient.`}
-        <br></br>
-        {`(want to buy us a coffee for doing this? my venmo is @chubbaluv)`}
-      </TipMe>
     </PageWrapper>
   );
 }

@@ -36,8 +36,8 @@ export const IntroParagraph = styled(BodyText)`
   width: 100%;
 `;
 
-export const TipMe = styled(BodyText)`
-  margin-block-start: ${basePadding.xxxxLarge};
+export const Notice = styled(BodyText)`
+  margin-block: ${basePadding.xxxxLarge};
   margin-inline: auto;
   max-width: 700px;
   width: 100%;
