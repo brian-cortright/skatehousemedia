@@ -1,8 +1,3 @@
-## TO-DO List
-Add Husky and pre-commit rules
-Finish shuffle
-Maybe start adding facet data to videos???
-
 ## General Architecture
 
 This archive site is a combination of NextJS SSR (static build), Vercel (Frontend cloud), and Cloudflare (R2 bucket for assets, other CF perks.)
