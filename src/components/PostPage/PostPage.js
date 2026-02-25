@@ -1,8 +1,9 @@
 "use client";
-import { TitleWrapper } from "./PostPageStyled";
-import { Headline } from "#/components/Typography/Typography";
+import { TitleWrapper, BylineWrapper, ContentWrapper } from "./PostPageStyled";
+import { Headline, Subhead } from "#/components/Typography/Typography";
 import BackButtonBar from "../BackButtonBar";
 import Script from "next/script";
+import { fontSizing } from "#/theme";
 
 export const PostPage = ({ post }) => {
   const { pageTitle, postDate, author, bodyText, tags, categories } = post || {};
@@ -27,11 +28,19 @@ export const PostPage = ({ post }) => {
         {`(adsbygoogle = window.adsbygoogle || []).push({});`}
       </Script>
       <TitleWrapper>
-        <Headline as="h1" variant="4">
+        <Headline as="h1" variant="5">
           {pageTitle}
         </Headline>
       </TitleWrapper>
-      <div dangerouslySetInnerHTML={{ __html: bodyText }} />
+      {postDate || author ? (
+        <BylineWrapper>
+          {postDate ? <Subhead variant="3">Published on: {postDate}</Subhead> : null}
+          {author ? <Subhead variant="3">By: {author}</Subhead> : null}
+        </BylineWrapper>
+      ) : null}
+      <ContentWrapper>
+        <div dangerouslySetInnerHTML={{ __html: bodyText }} />
+      </ContentWrapper>
     </>
   );
 };
