@@ -1,6 +1,8 @@
 TODO
 - convert to typescript
 - remove styled-components and replace with css modules
+- accessibility audit
+- opengraph stuff like thumbnail
 
 ## General Architecture
 
