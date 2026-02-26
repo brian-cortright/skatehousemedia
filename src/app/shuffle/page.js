@@ -15,7 +15,6 @@ import {
   Subhead,
 } from "#/components/Typography/Typography";
 import { baseColors, basePadding } from "#/theme";
-import BackButtonBar from "#/components/BackButtonBar";
 import VideoPlayer from "#/components/VideoPlayer";
 import Button from "#/components/Button";
 import Popup from "#/components/Popup/Popup";
@@ -97,7 +96,6 @@ const Shuffle = () => {
 
   return (
     <Fragment>
-      <BackButtonBar target={"/"} />
       <PageWrapper>
         <Script
           async
@@ -118,7 +116,7 @@ const Shuffle = () => {
         <Headline
           as="h1"
           margin={`0 auto ${basePadding.xLarge} auto`}
-          variant="3"
+          variant="5"
         >
           Shuffle
         </Headline>

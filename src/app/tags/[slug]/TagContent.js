@@ -1,14 +1,12 @@
 "use client";
 import { PageWrapper, Grid } from "./tags-sub-styled";
 import { Headline } from "#/components/Typography/Typography";
-import BackButtonBar from "#/components/BackButtonBar";
 import PostCard from "#/components/PostCard/PostCard";
 import { basePadding } from "#/theme";
 
 const TagContent = ({ tag, posts }) => {
   return (
     <>
-      <BackButtonBar target={"/tags"} />
       <PageWrapper>
         <Headline
           as="h1"

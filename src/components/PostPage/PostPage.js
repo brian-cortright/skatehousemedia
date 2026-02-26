@@ -1,7 +1,6 @@
 "use client";
 import { TitleWrapper, BylineWrapper, ContentWrapper, TaxonomyWrapper, CategoriesWrapper, TagsWrapper } from "./PostPageStyled";
 import { Headline, Subhead, BodyText } from "#/components/Typography/Typography";
-import BackButtonBar from "../BackButtonBar";
 import Script from "next/script";
 import slugify from "#/utils/slugify";
 import Link from "next/link";
@@ -12,7 +11,6 @@ export const PostPage = ({ post }) => {
 
   return (
     <>
-      <BackButtonBar target={"/archive"} />
       <Script
         async
         src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6675084090356256"
@@ -30,7 +28,7 @@ export const PostPage = ({ post }) => {
         {`(adsbygoogle = window.adsbygoogle || []).push({});`}
       </Script>
       <TitleWrapper>
-        <Headline as="h1" variant="5">
+        <Headline as="h1" variant="6">
           {pageTitle}
         </Headline>
       </TitleWrapper>

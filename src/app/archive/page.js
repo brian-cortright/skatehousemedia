@@ -2,8 +2,7 @@
 import React, { useState } from "react";
 import videos from "../../../data/videoData";
 import { Grid, PageWrapper } from "./archive-styled";
-import { Headline } from "#/components/Typography/Typography";
-import BackButtonBar from "#/components/BackButtonBar";
+import { Headline, BodyText } from "#/components/Typography/Typography";
 import VideoCard from "#/components/VideoCard";
 import LazyWrapper from "#/components/LazyWrapper/LazyWrapper";
 import { basePadding } from "#/theme";
@@ -29,7 +28,6 @@ const Archive = () => {
 
   return (
     <>
-      <BackButtonBar target={"/"} />
       <PageWrapper>
         <Script
           async
@@ -50,10 +48,11 @@ const Archive = () => {
         <Headline
           as="h1"
           margin={`0 auto ${basePadding.xLarge} auto`}
-          variant="3"
+          variant="5"
         >
-          Archive
+          Just the videos
         </Headline>
+        <BodyText margin={`0 auto ${basePadding.medium} auto`} textAlignment='center' variant="5">{`This is an incomplete collection of the SHM videos. These we're pulled from the hard drives of two housemates who were forward thinking enough to back up their content onto hard drives. Unfortunately, the original content was not linked to these videos and some assumptions had to be made about their titles based on file names. Try searching, and maybe you'll get lucky.`}</BodyText>
         <SearchBar value={searchInput} onChange={handleSearch} />
         {filteredVideos && filteredVideos.length > 0 && (
           <Grid>

@@ -1,14 +1,12 @@
 "use client";
 import { PageWrapper, Grid } from "./categories-sub-styled";
 import { Headline } from "#/components/Typography/Typography";
-import BackButtonBar from "#/components/BackButtonBar";
 import PostCard from "#/components/PostCard/PostCard";
 import { basePadding } from "#/theme";
 
 const CategoryContent = ({ category, posts }) => {
   return (
     <>
-      <BackButtonBar target={"/categories"} />
       <PageWrapper>
         <Headline
           as="h1"
