@@ -48,6 +48,7 @@ const Archive = () => {
         <Headline
           as="h1"
           margin={`0 auto ${basePadding.xLarge} auto`}
+          textAlignment="center"
           variant="5"
         >
           Just the videos

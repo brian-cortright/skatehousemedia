@@ -67,11 +67,6 @@ export const CardExcerpt = styled.div`
   flex-grow: 1;
 `;
 
-export const ButtonWrapper = styled.div`
-  margin-top: auto;
-  align-self: flex-start;
-`;
-
 export const LoadMoreContainer = styled.div`
   display: flex;
   justify-content: center;
