@@ -1,6 +1,7 @@
 import Script from 'next/script'
 import './globals.css'
 import StyledComponentsRegistry from './registry'
+import ClientLayout from '#/components/ClientLayout'
 
 export const metadata = {
   title: 'SkateHouseMedia',
@@ -36,7 +37,9 @@ export default function RootLayout({ children }) {
           }}
         />
         <StyledComponentsRegistry>
-          {children}
+          <ClientLayout>
+            {children}
+          </ClientLayout>
         </StyledComponentsRegistry>
       </body>
     </html>

@@ -1,7 +1,6 @@
 "use client";
 import { TitleWrapper } from "./VideoPageStyled";
 import { Headline } from "#/components/Typography/Typography";
-import BackButtonBar from "../BackButtonBar";
 import VideoPlayer from "../VideoPlayer";
 import Script from "next/script";
 
@@ -10,7 +9,6 @@ export const VideoPage = ({ video }) => {
 
   return (
     <>
-      <BackButtonBar target={"/archive"} />
       <Script
         async
         src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6675084090356256"

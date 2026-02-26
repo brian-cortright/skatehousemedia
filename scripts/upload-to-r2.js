@@ -61,7 +61,7 @@ function main() {
 
     try {
       execSync(
-        `npx -y wrangler r2 object put "${BUCKET}/${r2Key}" --file="${filePath}" --content-type="${contentType}"`,
+        `npx -y wrangler r2 object put "${BUCKET}/${r2Key}" --file="${filePath}" --content-type="${contentType}" --remote`,
         { stdio: 'pipe', timeout: 30000 }
       );
       console.log('✓');
