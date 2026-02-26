@@ -6,8 +6,10 @@ export const TitleWrapper = styled.div`
   align-items: center;
   display: flex;
   flex-direction: column;
+  justify-content: center;
   margin-block-end: ${basePadding.large};
   padding: 0 ${basePadding.large};
+  text-align: center;
 `;
 
 export const BylineWrapper = styled.div`
