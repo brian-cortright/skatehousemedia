@@ -1,5 +1,5 @@
 "use client";
-import { TitleWrapper } from "./VideoPageStyled";
+import styles from "./VideoPage.module.css";
 import { Headline } from "#/components/Typography/Typography";
 import VideoPlayer from "../VideoPlayer";
 import Script from "next/script";
@@ -25,11 +25,11 @@ export const VideoPage = ({ video }) => {
       <Script id="adsense-init" strategy="afterInteractive">
         {`(adsbygoogle = window.adsbygoogle || []).push({});`}
       </Script>
-      <TitleWrapper>
+      <div className={styles.titleWrapper}>
         <Headline as="h1" variant="4">
           {title}
         </Headline>
-      </TitleWrapper>
+      </div>
       <VideoPlayer thumbnail={thumbnail} src={src} />
     </>
   );

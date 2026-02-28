@@ -1,6 +1,5 @@
 import Script from 'next/script'
 import './globals.css'
-import StyledComponentsRegistry from './registry'
 import ClientLayout from '#/components/ClientLayout'
 
 export const metadata = {
@@ -36,11 +35,9 @@ export default function RootLayout({ children }) {
             `,
           }}
         />
-        <StyledComponentsRegistry>
-          <ClientLayout>
-            {children}
-          </ClientLayout>
-        </StyledComponentsRegistry>
+        <ClientLayout>
+          {children}
+        </ClientLayout>
       </body>
     </html>
   )

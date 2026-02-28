@@ -3,6 +3,67 @@
 :root {
   font-family: 'Poppins';
   font-weight: 400;
+
+  /* Colors */
+  --color-black: #000000;
+  --color-white: #ffffff;
+  --color-shm-black: #252525;
+  --color-gray-1: #333;
+  --color-gray-2: #444;
+  --color-gray-3: #666;
+  --color-gray-4: #888;
+  --color-gray-5: #999;
+  --color-gray-6: #dedede;
+
+  /* Font Sizing */
+  --font-min: 10px;
+  --font-xs: 12px;
+  --font-sm: 14px;
+  --font-base: 16px;
+  --font-base-plus: 20px;
+  --font-md: 24px;
+  --font-md-plus: 32px;
+  --font-lg: 40px;
+  --font-lg-plus: 44px;
+  --font-xl: 48px;
+  --font-xxl: 56px;
+  --font-xxxl: 64px;
+  --font-xxxxl: 72px;
+  --font-max: 80px;
+
+  /* Font Weights */
+  --weight-thin: 200;
+  --weight-light: 300;
+  --weight-normal: 400;
+  --weight-medium: 500;
+  --weight-bold: 700;
+  --weight-bolder: 800;
+
+  /* Line Heights */
+  --line-height-sm: 80%;
+  --line-height-base: 100%;
+  --line-height-base-plus: 110%;
+  --line-height-md-plus: 116%;
+  --line-height-lg: 125%;
+  --line-height-xl: 130%;
+  --line-height-xxl: 135%;
+  --line-height-max: 150%;
+
+  /* Spacing / Padding */
+  --space-half: 4px;
+  --space-base: 8px;
+  --space-sm: 12px;
+  --space-md: 16px;
+  --space-md-lg: 20px;
+  --space-lg: 24px;
+  --space-xl: 32px;
+  --space-xxl: 40px;
+  --space-xxxl: 48px;
+  --space-xxxxl: 56px;
+  --space-max: 64px;
+
+  /* Transitions */
+  --transition-default: all 300ms ease;
 }
 
 

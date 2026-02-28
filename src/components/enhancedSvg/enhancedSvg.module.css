@@ -1,0 +1,21 @@
+.svgWrapper {
+  display: flex;
+}
+
+.svgWrapper svg {
+  fill: var(--color-shm-black);
+  height: var(--svg-height, 24px);
+  width: var(--svg-width, 24px);
+}
+
+.alignleft {
+  justify-content: flex-start;
+}
+
+.aligncenter {
+  justify-content: center;
+}
+
+.alignright {
+  justify-content: flex-end;
+}

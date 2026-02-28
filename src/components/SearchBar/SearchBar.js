@@ -1,9 +1,10 @@
 'use client'
-import { SearchInput } from './SearchBarStyled';
+import styles from './SearchBar.module.css';
 
 export const SearchBar = ({ value, onChange }) => {
   return (
-    <SearchInput
+    <input
+      className={styles.searchInput}
       type="text"
       placeholder="Search by title"
       value={value}

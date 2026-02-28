@@ -1,5 +1,5 @@
 "use client";
-import { TitleWrapper, BylineWrapper, ContentWrapper, TaxonomyWrapper, CategoriesWrapper, TagsWrapper } from "./PostPageStyled";
+import styles from "./PostPage.module.css";
 import { Headline, Subhead, BodyText } from "#/components/Typography/Typography";
 import Script from "next/script";
 import slugify from "#/utils/slugify";
@@ -27,21 +27,21 @@ export const PostPage = ({ post }) => {
       <Script id="adsense-init" strategy="afterInteractive">
         {`(adsbygoogle = window.adsbygoogle || []).push({});`}
       </Script>
-      <TitleWrapper>
+      <div className={styles.titleWrapper}>
         <Headline as="h1" variant="6">
           {pageTitle}
         </Headline>
-      </TitleWrapper>
+      </div>
       {postDate || author ? (
-        <BylineWrapper>
+        <div className={styles.bylineWrapper}>
           {postDate ? <Subhead variant="3">Published on: {postDate}</Subhead> : null}
           {author ? <Subhead variant="3">By: {author}</Subhead> : null}
-        </BylineWrapper>
+        </div>
       ) : null}
       {(tags && tags.length) || (categories && categories.length) ? (
-        <TaxonomyWrapper>
+        <div className={styles.taxonomyWrapper}>
           {categories && categories.length ? (
-            <CategoriesWrapper>
+            <div className={styles.categoriesWrapper}>
               <Link href="/categories">
                 <BodyText variant="3">Categories:&nbsp;</BodyText>
               </Link>
@@ -52,10 +52,10 @@ export const PostPage = ({ post }) => {
                   </BodyText>
                 </Link>
               ))}
-            </CategoriesWrapper>
+            </div>
           ) : null}
           {tags && tags.length ? (
-            <TagsWrapper>
+            <div className={styles.tagsWrapper}>
               <Link href="/tags">
                 <BodyText variant="3">Tags:&nbsp;</BodyText>
               </Link>
@@ -66,13 +66,13 @@ export const PostPage = ({ post }) => {
                   </BodyText>
                 </Link>
               ))}
-            </TagsWrapper>
+            </div>
           ) : null}
-        </TaxonomyWrapper>
+        </div>
       ) : null}
-      <ContentWrapper>
+      <div className={styles.contentWrapper}>
         <Markdown text={bodyText} />
-      </ContentWrapper>
+      </div>
     </>
   );
 };

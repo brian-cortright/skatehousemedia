@@ -1,0 +1,59 @@
+.titleWrapper {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-block-end: var(--space-lg);
+  padding: 0 var(--space-lg);
+  text-align: center;
+}
+
+.bylineWrapper {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  margin-block: var(--space-lg);
+  padding: 0 var(--space-lg);
+}
+
+.contentWrapper {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-block-start: var(--space-lg);
+  margin-block-end: var(--space-xxxxl);
+  margin-inline: auto;
+  max-width: 900px;
+  padding: 0 var(--space-lg);
+  width: 100%;
+}
+
+.taxonomyWrapper {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  margin-block: var(--space-lg);
+  padding: 0 var(--space-lg);
+}
+
+.categoriesWrapper,
+.tagsWrapper {
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-block: var(--space-base);
+  padding: 0 var(--space-lg);
+}
+
+.categoriesWrapper a,
+.tagsWrapper a {
+  padding-inline-end: 8px;
+}
+
+.categoriesWrapper a:hover,
+.tagsWrapper a:hover {
+  text-decoration: underline;
+}

@@ -1,12 +1,5 @@
 import Link from "next/link";
-import {
-  CardWrapper,
-  CardBody,
-  CardImageWrapper,
-  CardImage,
-  CardMeta,
-  CardExcerpt,
-} from "./PostFeedStyled";
+import styles from "./PostFeed.module.css";
 import { Subhead, BodyText } from "#/components/Typography/Typography";
 import slugify from "#/utils/slugify";
 import { stripHtmlAndTruncate } from "#/utils/extractors";
@@ -17,27 +10,27 @@ const FeedCard = ({ pageTitle, postDate, author, bodyText, thumbnail }) => {
 
   return (
     <Link href={`/post/${slug}`} style={{ textDecoration: 'none' }}>
-    <CardWrapper>
+    <article className={styles.cardWrapper}>
         {thumbnail && (
-          <CardImageWrapper>
-            <CardImage src={thumbnail} alt={pageTitle} loading="lazy" />
-          </CardImageWrapper>
+          <div className={styles.cardImageWrapper}>
+            <img className={styles.cardImage} src={thumbnail} alt={pageTitle} loading="lazy" />
+          </div>
         )}
-        <CardBody>
+        <div className={styles.cardBody}>
             <Subhead variant="3">{pageTitle}</Subhead>
-          <CardMeta>
+          <div className={styles.cardMeta}>
             {postDate && <BodyText variant="5" color="#999">{postDate}</BodyText>}
             {author && <BodyText variant="5" color="#999">by {author}</BodyText>}
-          </CardMeta>
+          </div>
 
           {excerpt && (
-            <CardExcerpt>
+            <div className={styles.cardExcerpt}>
               <BodyText variant="5">{excerpt}</BodyText>
-            </CardExcerpt>
+            </div>
           )}
           <BodyText variant="5">Read More {'>'}</BodyText>
-        </CardBody>
-      </CardWrapper>
+        </div>
+      </article>
     </Link>
   );
 };

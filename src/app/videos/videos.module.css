@@ -1,0 +1,36 @@
+.pageWrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  padding: var(--space-xl);
+  min-height: 100vh;
+}
+
+.backButtonWrapper {
+  background: var(--color-black);
+  margin-block-end: var(--space-xxxl);
+  padding: var(--space-lg);
+  width: 100%;
+}
+
+.backButtonWrapper > button {
+  background: none;
+  border: none;
+  border-bottom: 2px solid transparent;
+  cursor: pointer;
+  transition: var(--transition-default);
+}
+
+.backButtonWrapper > button:hover {
+  border-bottom: 2px solid var(--color-white);
+}
+
+.grid {
+  display: grid;
+  grid-gap: var(--space-lg);
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  margin: 0 auto;
+  max-width: 1200px;
+  width: 100%;
+}

@@ -1,0 +1,49 @@
+.button {
+  border-radius: 8px;
+  cursor: pointer;
+  font-family: 'Poppins', sans-serif;
+  padding: var(--space-base) var(--space-md);
+  text-decoration: none;
+  text-transform: none;
+  transition: var(--transition-default);
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.button > * {
+  color: inherit;
+}
+
+/* Light mode */
+.light {
+  background: var(--color-white);
+  border: 2px solid var(--color-white);
+  color: var(--color-shm-black);
+}
+
+.light:hover {
+  background: var(--color-gray-6);
+  border: 2px solid var(--color-gray-6);
+}
+
+/* Dark mode */
+.dark {
+  background: var(--color-shm-black);
+  border: 2px solid var(--color-shm-black);
+  color: var(--color-white);
+}
+
+.dark:hover {
+  background: var(--color-gray-1);
+  border: 2px solid var(--color-gray-1);
+}
+
+/* Full Width */
+.fullWidth {
+  width: 100%;
+}
+
+.autoWidth {
+  width: max-content;
+}

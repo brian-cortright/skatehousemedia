@@ -1,21 +1,20 @@
 "use client";
-import { PageWrapper, Grid } from "./categories-sub-styled";
+import styles from "./categories-sub.module.css";
 import { Headline } from "#/components/Typography/Typography";
 import PostCard from "#/components/PostCard/PostCard";
-import { basePadding } from "#/theme";
 
 const CategoryContent = ({ category, posts }) => {
   return (
     <>
-      <PageWrapper>
+      <main className={styles.pageWrapper}>
         <Headline
           as="h1"
-          margin={`0 auto ${basePadding.xLarge} auto`}
+          margin="0 auto var(--space-xl) auto"
           variant="3"
         >
           {category}
         </Headline>
-        <Grid>
+        <div className={styles.grid}>
           {posts.map((post, index) => (
             <PostCard
               key={`${post.pageTitle}-${index}`}
@@ -25,8 +24,8 @@ const CategoryContent = ({ category, posts }) => {
               bodyText={post.bodyText}
             />
           ))}
-        </Grid>
-      </PageWrapper>
+        </div>
+      </main>
     </>
   );
 };

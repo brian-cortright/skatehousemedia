@@ -1,10 +1,4 @@
 import React, { useState, useEffect, useRef } from "react";
-import styled from "styled-components";
-
-const LazyDiv = styled.div`
-  ${({ $height, $isInView }) =>
-    $height && !$isInView && `min-height: ${$height}px;`}
-`;
 
 const LazyWrapper = ({ children, enable = true, height, offset }) => {
   const [isInView, setIsInView] = useState(!enable);
@@ -38,16 +32,18 @@ const LazyWrapper = ({ children, enable = true, height, offset }) => {
     };
   }, [enable, offset]);
 
-  const styleOnbject = {};
+  const styleObject = {};
 
-  if (height) {
-    styleOnbject["height"] = `${height}px`;
+  if (height && !isInView) {
+    styleObject.minHeight = `${height}px`;
+  } else if (height) {
+    styleObject.height = `${height}px`;
   }
 
   return (
-    <LazyDiv ref={wrapperRef} $height={height} $isInView={isInView}>
+    <div ref={wrapperRef} style={styleObject}>
       {isInView ? children : null}
-    </LazyDiv>
+    </div>
   );
 };
 

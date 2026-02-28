@@ -1,5 +1,5 @@
 import React, { useEffect } from "react";
-import { ContentWrapper, Container } from "./PopupStyled";
+import styles from "./Popup.module.css";
 import useScrollBlock from "#/hooks/useScrollBlock";
 
 const Popup = ({ children, handleClose = () => {}, isOpen }) => {
@@ -25,9 +25,9 @@ const Popup = ({ children, handleClose = () => {}, isOpen }) => {
   }, []);
 
   return (
-    <Container $isOpen={isOpen}>
-      <ContentWrapper $isOpen={isOpen}>{children}</ContentWrapper>
-    </Container>
+    <div className={`${styles.container} ${isOpen ? styles.containerOpen : ''}`}>
+      <div className={styles.contentWrapper}>{children}</div>
+    </div>
   );
 };
 

@@ -1,0 +1,32 @@
+.card {
+  background: var(--color-gray-3);
+  border-radius: 8px;
+  flex-grow: 1;
+  overflow: hidden;
+}
+
+.cardWrapper {
+  display: flex;
+  height: 100%;
+}
+
+.cardWrapper a {
+  display: flex;
+  height: 100%;
+  text-decoration: none;
+}
+
+.imageWrapper {
+  aspect-ratio: 16 / 9;
+  overflow: hidden;
+  width: 100%;
+}
+
+.imageWrapper img {
+  height: auto;
+  width: 100%;
+}
+
+.titleWrapper {
+  padding: var(--space-base) var(--space-sm);
+}

@@ -1,48 +1,14 @@
 'use client'
 import React from 'react';
-import styled from 'styled-components';
-import { baseColors, fontSizing } from '../../theme';
+import styles from './enhancedSvg.module.css';
+import { fontSizing } from '../../theme';
 
 const sizes = {
-  small: `${fontSizing.base}`,
-  medium: `${fontSizing.medium}`,
-  large: `${fontSizing.large}`,
-  xLarge: `${fontSizing.xLarge}`,
+  small: fontSizing?.base || '16px',
+  medium: fontSizing?.medium || '24px',
+  large: fontSizing?.large || '40px',
+  xLarge: fontSizing?.xLarge || '48px',
 };
-
-const SvgWrapper = styled.div`
-  display: flex;
-
-  ${({ $align }) => $align === 'left' && `
-    justify-content: flex-start;
-  `}
-  ${({ $align }) => $align === 'center' && `
-    justify-content: center;
-  `}
-  ${({ $align }) => $align === 'right' && `
-    justify-content: flex-end;
-  `}
-
-  ${({ cursor }) => `cursor: ${cursor};`}
-
-  svg {
-    fill: ${baseColors.shmBlack};
-    height: ${({ $size }) => ($size ? `${sizes[$size]}` : `${fontSizing.medium}`)};
-    width: ${({ $size }) => ($size ? `${sizes[$size]}` : `${fontSizing.medium}`)};
-
-    ${({ $customWidth, $customHeight }) => ($customHeight || $customWidth) && `
-      height: ${$customHeight ? `${$customHeight}px` : 'auto'};
-      width: ${$customWidth ? `${$customWidth}px` : 'auto'};
-    `}
-
-    ${({ $fill }) => $fill && `
-     & .fill-target {
-      fill: ${$fill};
-     }
-
-    `}
-  }
-`;
 
 const enhancedSvg = (Component) => ({
   align = '',
@@ -53,19 +19,33 @@ const enhancedSvg = (Component) => ({
   fill = '',
   handleClick = () => { },
   size = '',
-}) => (
-  <SvgWrapper
-    $align={align}
-    className={className}
-    $cursor={cursor}
-    $customHeight={customHeight}
-    $customWidth={customWidth}
-    $fill={fill}
-    onClick={handleClick}
-    $size={size}
-  >
-    <Component />
-  </SvgWrapper>
-);
+}) => {
+  const alignClass = align ? styles[`align${align}`] : '';
+  const wrapperClassNames = `${styles.svgWrapper} ${alignClass} ${className}`.trim();
+
+  // Create standard inline styles for the wrapper
+  const wrapperStyle = {};
+  if (cursor) wrapperStyle.cursor = cursor;
+
+  // Custom properties to be passed down and inherited
+  const styleVariables = {};
+
+  if (fill) {
+    styleVariables['--color-shm-black'] = fill;
+  }
+
+  styleVariables['--svg-height'] = (customHeight || customWidth) ? (customHeight ? `${customHeight}px` : 'auto') : (size ? sizes[size] : sizes.medium);
+  styleVariables['--svg-width']  = (customHeight || customWidth) ? (customWidth ? `${customWidth}px` : 'auto') : (size ? sizes[size] : sizes.medium);
+
+  return (
+    <div
+      className={wrapperClassNames}
+      style={{ ...wrapperStyle, ...styleVariables }}
+      onClick={handleClick}
+    >
+      <Component />
+    </div>
+  );
+};
 
 export default enhancedSvg;

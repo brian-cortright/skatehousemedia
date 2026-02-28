@@ -1,0 +1,71 @@
+.feedWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: var(--space-xxl);
+  width: 100%;
+  max-width: 900px;
+  margin: var(--space-xxl) auto;
+}
+
+.gridContainer {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+  gap: var(--space-xl);
+  width: 100%;
+}
+
+.cardWrapper {
+  background: var(--color-gray-2);
+  border-radius: 8px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  transition: var(--transition-default);
+  height: 100%;
+}
+
+.cardWrapper:hover {
+  background: var(--color-gray-3);
+  transform: translateY(-2px);
+}
+
+.cardImageWrapper {
+  width: 100%;
+  aspect-ratio: 16 / 9;
+  background: var(--color-gray-1);
+  overflow: hidden;
+}
+
+.cardImage {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.cardBody {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-md);
+  padding: var(--space-lg);
+  flex-grow: 1;
+}
+
+.cardMeta {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--space-base);
+  margin-bottom: var(--space-half);
+}
+
+.cardExcerpt {
+  margin-bottom: var(--space-md);
+  flex-grow: 1;
+}
+
+.loadMoreContainer {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  margin-top: var(--space-lg);
+}

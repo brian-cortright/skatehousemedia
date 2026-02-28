@@ -1,20 +1,13 @@
 "use client";
 import { useEffect, useRef, useState, Fragment } from "react";
 import videos from "../../../data/videoData";
-import {
-  Column,
-  EntryThumbnail,
-  MessageWrapper,
-  PageWrapper,
-  TitleWrapper,
-  UpNextCard,
-} from "./shuffle-styled";
+import styles from "./shuffle.module.css";
 import {
   BodyText,
   Headline,
   Subhead,
 } from "#/components/Typography/Typography";
-import { baseColors, basePadding } from "#/theme";
+import { baseColors } from "#/theme";
 import VideoPlayer from "#/components/VideoPlayer";
 import Button from "#/components/Button";
 import Popup from "#/components/Popup/Popup";
@@ -96,7 +89,7 @@ const Shuffle = () => {
 
   return (
     <Fragment>
-      <PageWrapper>
+      <main className={styles.pageWrapper}>
         <Script
           async
           src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6675084090356256"
@@ -115,7 +108,7 @@ const Shuffle = () => {
         </Script>
         <Headline
           as="h1"
-          margin={`0 auto ${basePadding.xLarge} auto`}
+          margin="0 auto var(--space-xl) auto"
           variant="5"
         >
           Shuffle
@@ -126,7 +119,7 @@ const Shuffle = () => {
           src={currentVideo?.src}
           thumbnail={currentVideo?.thumbnail}
         />
-        <TitleWrapper>
+        <div className={styles.titleWrapper}>
           <Subhead variant="2">{currentVideo?.title}</Subhead>
           <Fragment>
             <Button handleClick={() => setVideoToNext()}>
@@ -136,31 +129,32 @@ const Shuffle = () => {
               <Subhead variant="4">Shuffle</Subhead>
             </Button>
           </Fragment>
-        </TitleWrapper>
+        </div>
         <Headline
-          margin={`${basePadding.xxxLarge} 0 0 0`}
+          margin="var(--space-xxxl) 0 0 0"
           textAlignment="left"
           variant="5"
         >
           Up Next:
         </Headline>
-        <UpNextCard onClick={() => setVideoToNext()}>
-          <EntryThumbnail
-            $backgroundImage={shuffledList[currentIndex + 1]?.thumbnail}
+        <button className={styles.upNextCard} onClick={() => setVideoToNext()}>
+          <div
+            className={styles.entryThumbnail}
+            style={{ backgroundImage: `url(${shuffledList[currentIndex + 1]?.thumbnail})` }}
           />
-          <Column>
+          <div className={styles.column}>
             <Subhead variant="2">
               {shuffledList[currentIndex + 1]?.title}
             </Subhead>
             <BodyText variant="4">{"Play Now >"}</BodyText>
-          </Column>
-        </UpNextCard>
-      </PageWrapper>
+          </div>
+        </button>
+      </main>
       <Popup
         handleClose={() => handleKeepWatchingClick()}
         isOpen={showContinueWatching}
       >
-        <MessageWrapper>
+        <div className={styles.messageWrapper}>
           <Subhead color={baseColors.black} variant="2">
             Still watching?
           </Subhead>
@@ -171,7 +165,7 @@ const Shuffle = () => {
           <Button handleClick={() => handleKeepWatchingClick()} mode="dark">
             Keep Watching
           </Button>
-        </MessageWrapper>
+        </div>
       </Popup>
     </Fragment>
   );

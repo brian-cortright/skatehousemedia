@@ -1,25 +1,25 @@
 import Link from "next/link";
-import { Card, CardWrapper, ImageWrapper, TitleWrapper } from "./VideoCardStyled";
+import styles from "./VideoCard.module.css";
 import { Subhead } from "../Typography/Typography";
 
 const VideoCard = ({ slug, thumbnail, title }) => {
 
   return (
-    <CardWrapper>
+    <div className={styles.cardWrapper}>
       <Link href={`watch/${slug}`}>
-        <Card>
-          <ImageWrapper>
+        <div className={styles.card}>
+          <div className={styles.imageWrapper}>
             <img alt={title} loading="lazy" src={thumbnail} />
-          </ImageWrapper>
-          <TitleWrapper>
+          </div>
+          <div className={styles.titleWrapper}>
             <Subhead variant='3'>
               {title}
             </Subhead>
-          </TitleWrapper>
-        </Card>
+          </div>
+        </div>
       </Link>
-    </CardWrapper>
+    </div>
   );
 };
 
-export default VideoCard;
+export default VideoCard;;

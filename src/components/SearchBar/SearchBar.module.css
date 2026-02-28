@@ -1,0 +1,22 @@
+.searchInput {
+  background: var(--color-gray-1);
+  border: 1px solid var(--color-gray-1);
+  border-radius: 4px;
+  color: var(--color-white);
+  font-family: "Poppins", sans-serif;
+  font-size: var(--font-base);
+  margin: var(--space-md) 0;
+  max-width: 1200px;
+  outline: none;
+  padding: var(--space-md);
+  transition: var(--transition-default);
+  width: 100%;
+}
+
+.searchInput::placeholder {
+  color: var(--color-white);
+}
+
+.searchInput:focus {
+  border-color: var(--color-primary, #ffffff);
+}

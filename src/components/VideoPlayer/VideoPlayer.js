@@ -1,9 +1,9 @@
 "use client";
-import { VideoWrapper } from "./VideoPlayerStyled";
+import styles from "./VideoPlayer.module.css";
 
 const VideoPlayer = ({ ref, shouldAutoPlay, src, thumbnail }) => {
   return (
-    <VideoWrapper>
+    <div className={styles.videoWrapper}>
       <video
         autoPlay={shouldAutoPlay}
         controls
@@ -14,7 +14,7 @@ const VideoPlayer = ({ ref, shouldAutoPlay, src, thumbnail }) => {
         src={src}
         type="video/mp4"
       />
-    </VideoWrapper>
+    </div>
   );
 };
 

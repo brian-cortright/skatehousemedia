@@ -1,0 +1,12 @@
+.videoWrapper {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.videoWrapper > video {
+  aspect-ratio: 16 / 9;
+  max-width: 700px;
+  width: 100%;
+}

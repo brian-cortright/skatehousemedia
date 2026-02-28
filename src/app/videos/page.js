@@ -1,11 +1,10 @@
 "use client";
 import React, { useState } from "react";
 import videos from "../../../data/videoData";
-import { Grid, PageWrapper } from "./archive-styled";
+import styles from "./videos.module.css";
 import { Headline, BodyText } from "#/components/Typography/Typography";
-import VideoCard from "#/components/VideoCard";
+import VideoCard from "#/components/VideoCard/VideoCard";
 import LazyWrapper from "#/components/LazyWrapper/LazyWrapper";
-import { basePadding } from "#/theme";
 import SearchBar from "#/components/SearchBar/SearchBar";
 import Script from "next/script";
 
@@ -28,7 +27,7 @@ const Archive = () => {
 
   return (
     <>
-      <PageWrapper>
+      <main className={styles.pageWrapper}>
         <Script
           async
           src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6675084090356256"
@@ -47,16 +46,16 @@ const Archive = () => {
         </Script>
         <Headline
           as="h1"
-          margin={`0 auto ${basePadding.xLarge} auto`}
+          margin="0 auto var(--space-xl) auto"
           textAlignment="center"
           variant="5"
         >
           Just the videos
         </Headline>
-        <BodyText margin={`0 auto ${basePadding.medium} auto`} textAlignment='center' variant="5">{`This is an incomplete collection of the SHM videos. These we're pulled from the hard drives of two housemates who were forward thinking enough to back up their content onto hard drives. Unfortunately, the original content was not linked to these videos and some assumptions had to be made about their titles based on file names. Try searching, and maybe you'll get lucky.`}</BodyText>
+        <BodyText margin="0 auto var(--space-md) auto" textAlignment='center' variant="5">{`This is an incomplete collection of the SHM videos. These we're pulled from the hard drives of two housemates who were forward thinking enough to back up their content onto hard drives. Unfortunately, the original content was not linked to these videos and some assumptions had to be made about their titles based on file names. Try searching, and maybe you'll get lucky.`}</BodyText>
         <SearchBar value={searchInput} onChange={handleSearch} />
         {filteredVideos && filteredVideos.length > 0 && (
-          <Grid>
+          <div className={styles.grid}>
             {filteredVideos.map((video, index) => {
               const { slug, thumbnail, title } = video;
               return (
@@ -70,9 +69,9 @@ const Archive = () => {
                 </LazyWrapper>
               );
             })}
-          </Grid>
+          </div>
         )}
-      </PageWrapper>
+      </main>
     </>
   );
 };

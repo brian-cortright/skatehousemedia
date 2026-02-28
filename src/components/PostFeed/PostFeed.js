@@ -2,7 +2,7 @@
 import { useState } from "react";
 import FeedCard from "./FeedCard";
 import Button from "#/components/Button/Button";
-import { FeedWrapper, GridContainer, LoadMoreContainer } from "./PostFeedStyled";
+import styles from "./PostFeed.module.css";
 
 const PostFeed = ({ posts }) => {
   const [visiblePosts, setVisiblePosts] = useState(20);
@@ -19,24 +19,24 @@ const PostFeed = ({ posts }) => {
   const hasMore = visiblePosts < posts.length;
 
   return (
-    <FeedWrapper>
-      <GridContainer>
+    <div className={styles.feedWrapper}>
+      <div className={styles.gridContainer}>
         {[...posts]
           .sort((a, b) => (b.ranking || 0) - (a.ranking || 0))
           .slice(0, visiblePosts)
           .map((post, indx) => (
             <FeedCard key={`feed-post-${indx}`} {...post} />
           ))}
-      </GridContainer>
+      </div>
 
       {hasMore && (
-        <LoadMoreContainer>
+        <div className={styles.loadMoreContainer}>
           <Button handleClick={handleLoadMore} mode="dark">
             Load More Posts
           </Button>
-        </LoadMoreContainer>
+        </div>
       )}
-    </FeedWrapper>
+    </div>
   );
 };
 

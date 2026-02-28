@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { Card, CardWrapper, CardBody, CardMeta, CardExcerpt } from "./PostCardStyled";
+import styles from "./PostCard.module.css";
 import { Subhead, BodyText } from "../Typography/Typography";
 import slugify from "#/utils/slugify";
 
@@ -15,24 +15,24 @@ const PostCard = ({ pageTitle, postDate, author, bodyText }) => {
   const slug = slugify(pageTitle);
 
   return (
-    <CardWrapper>
+    <div className={styles.cardWrapper}>
       <Link href={`/post/${slug}`}>
-        <Card>
-          <CardBody>
+        <div className={styles.card}>
+          <div className={styles.cardBody}>
             <Subhead variant="3">{pageTitle}</Subhead>
-            <CardMeta>
+            <div className={styles.cardMeta}>
               {postDate && <BodyText variant="5" color="#999">{postDate}</BodyText>}
               {author && <BodyText variant="5" color="#999">{author}</BodyText>}
-            </CardMeta>
+            </div>
             {excerpt && (
-              <CardExcerpt>
+              <div className={styles.cardExcerpt}>
                 <BodyText variant="5">{excerpt}</BodyText>
-              </CardExcerpt>
+              </div>
             )}
-          </CardBody>
-        </Card>
+          </div>
+        </div>
       </Link>
-    </CardWrapper>
+    </div>
   );
 };
 

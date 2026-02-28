@@ -1,21 +1,20 @@
 "use client";
-import { PageWrapper, Grid } from "./tags-sub-styled";
+import styles from "./tags-sub.module.css";
 import { Headline } from "#/components/Typography/Typography";
 import PostCard from "#/components/PostCard/PostCard";
-import { basePadding } from "#/theme";
 
 const TagContent = ({ tag, posts }) => {
   return (
     <>
-      <PageWrapper>
+      <main className={styles.pageWrapper}>
         <Headline
           as="h1"
-          margin={`0 auto ${basePadding.xLarge} auto`}
+          margin="0 auto var(--space-xl) auto"
           variant="3"
         >
           {tag}
         </Headline>
-        <Grid>
+        <div className={styles.grid}>
           {posts.map((post, index) => (
             <PostCard
               key={`${post.pageTitle}-${index}`}
@@ -25,8 +24,8 @@ const TagContent = ({ tag, posts }) => {
               bodyText={post.bodyText}
             />
           ))}
-        </Grid>
-      </PageWrapper>
+        </div>
+      </main>
     </>
   );
 };
