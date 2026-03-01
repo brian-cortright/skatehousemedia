@@ -3,13 +3,13 @@
   flex-direction: column;
   justify-content: flex-start;
   align-items: center;
-  padding: var(--space-xl);
+  padding: var(--spacing-medium_300);
   min-height: 100vh;
 }
 
 .grid {
   display: grid;
-  grid-gap: var(--space-lg);
+  grid-gap: var(--spacing-medium_200);
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   margin: 0 auto;
   max-width: 1200px;

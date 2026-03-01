@@ -37,6 +37,6 @@
   flex-direction: column;
   height: auto;
   max-width: calc(100% - 100px);
-  padding: var(--space-md);
+  padding: var(--spacing-medium_100);
   width: max-content;
 }

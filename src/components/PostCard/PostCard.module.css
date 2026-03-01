@@ -25,16 +25,16 @@
 .cardBody {
   display: flex;
   flex-direction: column;
-  gap: var(--space-base);
-  padding: var(--space-md);
+  gap: var(--spacing-small_200);
+  padding: var(--spacing-medium_100);
 }
 
 .cardMeta {
   display: flex;
   flex-direction: row;
-  gap: var(--space-base);
+  gap: var(--spacing-small_200);
 }
 
 .cardExcerpt {
-  margin-block-start: var(--space-base);
+  margin-block-start: var(--spacing-small_200);
 }

@@ -46,13 +46,13 @@ const Archive = () => {
         </Script>
         <Headline
           as="h1"
-          margin="0 auto var(--space-xl) auto"
+          margin="0 auto var(--spacing-medium_300) auto"
           textAlignment="center"
           variant="5"
         >
           Just the videos
         </Headline>
-        <BodyText margin="0 auto var(--space-md) auto" textAlignment='center' variant="5">{`This is an incomplete collection of the SHM videos. These we're pulled from the hard drives of two housemates who were forward thinking enough to back up their content onto hard drives. Unfortunately, the original content was not linked to these videos and some assumptions had to be made about their titles based on file names. Try searching, and maybe you'll get lucky.`}</BodyText>
+        <BodyText margin="0 auto var(--spacing-medium_100) auto" textAlignment='center' variant="5">{`This is an incomplete collection of the SHM videos. These we're pulled from the hard drives of two housemates who were forward thinking enough to back up their content onto hard drives. Unfortunately, the original content was not linked to these videos and some assumptions had to be made about their titles based on file names. Try searching, and maybe you'll get lucky.`}</BodyText>
         <SearchBar value={searchInput} onChange={handleSearch} />
         {filteredVideos && filteredVideos.length > 0 && (
           <div className={styles.grid}>

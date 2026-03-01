@@ -2,7 +2,7 @@
   border-radius: 8px;
   cursor: pointer;
   font-family: 'Poppins', sans-serif;
-  padding: var(--space-base) var(--space-md);
+  padding: var(--spacing-small_200) var(--spacing-medium_100);
   text-decoration: none;
   text-transform: none;
   transition: var(--transition-default);

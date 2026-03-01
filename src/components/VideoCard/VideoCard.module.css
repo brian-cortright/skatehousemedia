@@ -28,5 +28,5 @@
 }
 
 .titleWrapper {
-  padding: var(--space-base) var(--space-sm);
+  padding: var(--spacing-small_200) var(--spacing-small_300);
 }
