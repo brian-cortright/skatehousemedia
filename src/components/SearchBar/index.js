@@ -1,3 +1,0 @@
-export {
-  SearchBar
-} from './SearchBar'
