@@ -21,7 +21,54 @@ const Footer: React.FC = () => {
             </a>
           </div>
         </div>
-        {/* ADD LINKS HERE */}
+        <nav className={styles.footerNav}>
+          <ul className={styles.navLinks}>
+            <Subhead as='h2' variant="2">Quick Links</Subhead>
+            <li>
+              <Link href="/">
+              <Subhead as='h3' fontWeight="400" variant="4">Blog</Subhead>
+              </Link>
+            </li>
+            <li>
+              <Link href="/videos">
+              <Subhead as='h3' fontWeight="400" variant="4">Videos</Subhead>
+              </Link>
+            </li>
+            <li>
+              <Link href="/events">
+                <Subhead as='h3' fontWeight="400" variant="4">Events</Subhead>
+              </Link>
+            </li>
+            <li>
+              <Link href="/history">
+                <Subhead as='h3' fontWeight="400" variant="4">History</Subhead>
+              </Link>
+            </li>
+          </ul>
+          <ul className={styles.navLinks}>
+            <Subhead as='h2' variant="2">Browse</Subhead>
+            <li>
+              <Link href="/shuffle">
+              <Subhead as='h3' fontWeight="400" variant="4">Shuffle</Subhead>
+              </Link>
+            </li>
+            <li>
+              <Link href="/categories">
+              <Subhead as='h3' fontWeight="400" variant="4">Categories</Subhead>
+              </Link>
+            </li>
+            <li>
+              <Link href="/tags">
+                <Subhead as='h3' fontWeight="400" variant="4">Tags</Subhead>
+              </Link>
+            </li>
+            <li>
+              <Link href="/contact">
+                <Subhead as='h3' fontWeight="400" variant="4">Contact</Subhead>
+              </Link>
+            </li>
+          </ul>
+        </nav>
       </div>
       <div className={styles.footerBottom}>
         <BodyText variant="5">© {new Date().getFullYear()} Skatehouse Media. All rights reserved.</BodyText>
