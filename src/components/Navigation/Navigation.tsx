@@ -1,7 +1,7 @@
 import React from 'react';
 import Link from "next/link";
-import { ShmLogo } from "./enhancedSvg/svgs";
-import { Headline, Subhead } from "./Typography/Typography";
+import { ShmLogo } from "../enhancedSvg/svgs";
+import { Headline, Subhead } from "../Typography/Typography";
 import styles from "./Navigation.module.css";
 
 const Navigation: React.FC = () => {

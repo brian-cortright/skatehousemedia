@@ -19,23 +19,3 @@
   min-height: 100vh;
 }
 
-.introParagraph {
-  margin-block-end: var(--spacing-medium_100);
-  margin-inline: auto;
-  max-width: 650px;
-  width: 100%;
-}
-
-.sponsorWrapper {
-  display: flex;
-  gap: var(--spacing-medium_150);
-  margin-block-end: var(--spacing-large_100);
-  max-width: clamp(550px, 700px, 100%);
-}
-
-.sponsorLogo {
-  align-items: center;
-  display: flex;
-  justify-content: center;
-  width: 100%;
-}

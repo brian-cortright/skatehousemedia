@@ -1,8 +1,6 @@
-const { posts } = require("./postData");
+import { posts } from "./postData";
 
-const taxonomy = {
+export const taxonomy = {
   categories: [...new Set(posts.flatMap((post) => post.categories || []))],
   tags: [...new Set(posts.flatMap((post) => post.tags || []))],
 };
-
-module.exports = { taxonomy };
