@@ -17,7 +17,7 @@ const TagsPage = () => {
       <main className={styles.pageWrapper}>
         <Headline
           as="h1"
-          margin="0 auto var(--space-xl) auto"
+          margin="0 auto var(--spacing-medium_300) auto"
           variant="5"
         >
           Tags

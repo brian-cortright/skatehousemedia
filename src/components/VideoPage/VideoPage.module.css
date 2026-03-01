@@ -2,6 +2,6 @@
   align-items: center;
   display: flex;
   flex-direction: column;
-  margin-block-end: var(--space-lg);
-  padding: 0 var(--space-lg);
+  margin-block-end: var(--spacing-medium_200);
+  padding: 0 var(--spacing-medium_200);
 }

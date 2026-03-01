@@ -3,14 +3,14 @@
   flex-direction: column;
   justify-content: flex-start;
   align-items: center;
-  padding: var(--space-xl);
+  padding: var(--spacing-medium_300);
   min-height: 100vh;
 }
 
 .gridWrapper {
   display: flex;
   flex-wrap: wrap;
-  gap: var(--space-sm);
+  gap: var(--spacing-small_300);
   max-width: 900px;
   width: 100%;
   justify-content: center;
@@ -19,11 +19,11 @@
 .pillItem a {
   display: inline-flex;
   align-items: center;
-  gap: var(--space-base);
+  gap: var(--spacing-small_200);
   background: var(--color-gray-1);
   border: 1px solid var(--color-gray-2);
   border-radius: 999px;
-  padding: var(--space-base) var(--space-md-lg);
+  padding: var(--spacing-small_200) var(--spacing-medium_150);
   text-decoration: none;
   transition: var(--transition-default);
   white-space: nowrap;

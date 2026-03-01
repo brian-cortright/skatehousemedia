@@ -108,7 +108,7 @@ const Shuffle = () => {
         </Script>
         <Headline
           as="h1"
-          margin="0 auto var(--space-xl) auto"
+          margin="0 auto var(--spacing-medium_300) auto"
           variant="5"
         >
           Shuffle
@@ -131,7 +131,7 @@ const Shuffle = () => {
           </Fragment>
         </div>
         <Headline
-          margin="var(--space-xxxl) 0 0 0"
+          margin="var(--spacing-large_100) 0 0 0"
           textAlignment="left"
           variant="5"
         >

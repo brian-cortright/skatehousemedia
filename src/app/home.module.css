@@ -2,8 +2,8 @@
   align-items: center;
   display: flex;
   flex-wrap: nowrap;
-  margin-block-start: var(--space-md);
-  gap: var(--space-base);
+  margin-block-start: var(--spacing-medium_100);
+  gap: var(--spacing-small_200);
 }
 
 .altNavWrapper a {
@@ -15,12 +15,12 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding-inline: var(--space-xl);
+  padding-inline: var(--spacing-medium_300);
   min-height: 100vh;
 }
 
 .introParagraph {
-  margin-block-end: var(--space-md);
+  margin-block-end: var(--spacing-medium_100);
   margin-inline: auto;
   max-width: 650px;
   width: 100%;
@@ -28,8 +28,8 @@
 
 .sponsorWrapper {
   display: flex;
-  gap: var(--space-md-lg);
-  margin-block-end: var(--space-xxxl);
+  gap: var(--spacing-medium_150);
+  margin-block-end: var(--spacing-large_100);
   max-width: clamp(550px, 700px, 100%);
 }
 
