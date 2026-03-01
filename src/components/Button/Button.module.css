@@ -1,7 +1,7 @@
 .button {
   border-radius: 8px;
   cursor: pointer;
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Noto Sans', sans-serif;
   padding: var(--spacing-small_200) var(--spacing-medium_100);
   text-decoration: none;
   text-transform: none;
