@@ -1,6 +1,6 @@
 .container {
   align-items: center;
-  background: var(--color-shm-black);
+  background: var(--color-grey-50);
   display: flex;
   flex-direction: row;
   justify-content: space-between;
