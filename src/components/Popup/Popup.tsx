@@ -1,40 +1,60 @@
 import React, { useEffect } from "react";
 import styles from "./Popup.module.css";
 import useScrollBlock from "@/hooks/useScrollBlock";
+import CloseIcon from "@/components/enhancedSvg/svgs/CloseIcon";
 
 interface PopupProps {
   children: React.ReactNode;
-  handleClose?: () => void;
   isOpen: boolean;
+  padding?: string;
+  maxWidth?: string;
+  onOverlayClick?: (e: React.MouseEvent<HTMLDivElement>) => void;
+  onClose?: () => void;
 }
 
-const Popup: React.FC<PopupProps> = ({ children, handleClose = () => {}, isOpen }) => {
+const Popup: React.FC<PopupProps> = ({
+  children,
+  isOpen,
+  padding = "var(--spacing-medium_100)",
+  maxWidth = "calc(100% - 100px)",
+  onOverlayClick,
+  onClose,
+}) => {
   const { blockScroll, allowScroll } = useScrollBlock();
 
   useEffect(() => {
     if (isOpen) {
       blockScroll();
+    } else {
+      allowScroll();
     }
     return () => allowScroll();
   }, [isOpen, blockScroll, allowScroll]);
 
-  useEffect(() => {
-    const handleKeyDown = (event: KeyboardEvent) => {
-      if (event.key === "Escape") {
-        handleClose();
-      }
-    };
-
-    window.addEventListener("keydown", handleKeyDown);
-    return () => removeEventListener("keydown", handleKeyDown);
-    // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, []);
-
   return (
-    <div className={`${styles.container} ${isOpen ? styles.containerOpen : ''}`}>
-      <div className={styles.contentWrapper}>{children}</div>
+    <div
+      className={`${styles.overlay} ${isOpen ? styles.overlayOpen : ""}`}
+      onClick={onOverlayClick}
+    >
+      <div
+        className={styles.contentWrapper}
+        style={{ padding, maxWidth }}
+      >
+        {onClose && (
+          <button
+            className={styles.closeButton}
+            onClick={onClose}
+            aria-label="Close popup"
+            type="button"
+          >
+            <CloseIcon fill="var(--color-gray-6)" size="large" />
+          </button>
+        )}
+        {children}
+      </div>
     </div>
   );
 };
 
 export default Popup;
+

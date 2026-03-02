@@ -2,6 +2,7 @@
 import React from 'react';
 import Navigation from "./Navigation/Navigation"
 import Footer from "./Navigation/Footer"
+import { PopupProvider } from "./Popup/PopupContext"
 
 interface ClientLayoutProps {
   children: React.ReactNode;
@@ -9,11 +10,11 @@ interface ClientLayoutProps {
 
 const ClientLayout: React.FC<ClientLayoutProps> = ({ children }) => {
   return (
-    <>
+    <PopupProvider>
       <Navigation />
       {children}
       <Footer />
-    </>
+    </PopupProvider>
   )
 }
 

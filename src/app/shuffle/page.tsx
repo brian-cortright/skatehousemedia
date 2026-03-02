@@ -10,7 +10,7 @@ import {
 import { baseColors } from "@/theme";
 import VideoPlayer from "@/components/VideoPlayer";
 import Button from "@/components/Button";
-import Popup from "@/components/Popup/Popup";
+import { usePopup } from "@/components/Popup/PopupContext";
 import useTimer from "@/hooks/useTimer";
 import Script from "next/script";
 import type { Video } from "@/types";
@@ -22,18 +22,40 @@ const Shuffle: React.FC = () => {
   const [currentIndex, setCurentIndex] = useState(0);
   const [shuffledList, setShuffledList] = useState<Video[]>(videos as Video[]);
   const [currentVideo, setCurrentVideo] = useState<Video | undefined>(shuffledList[currentIndex]);
-  const [showContinueWatching, setShowContinueWatching] = useState(false);
+  const { openPopup, closePopup } = usePopup();
 
   // Set an expiration time to pop the 'Continue watching' popup
   // Set to 25 minutes
   const expiryTimestamp = new Date();
   expiryTimestamp.setSeconds(expiryTimestamp.getSeconds() + 1500);
 
+  const handleKeepWatchingClick = () => {
+    // restart the timer
+    restart(expiryTimestamp);
+    closePopup();
+    videoRef?.current?.play();
+  };
+
   const { restart } = useTimer({
     expiryTimestamp,
     onExpire: () => {
       videoRef?.current?.pause();
-      setShowContinueWatching(true);
+      openPopup({
+        children: (
+          <div className={styles.messageWrapper}>
+            <Subhead color={baseColors.black} variant="2">
+              Still watching?
+            </Subhead>
+            <BodyText color={baseColors.black} variant="4">
+              Sorry to interrupt, but we just want to make sure you are still
+              there and not running up our tab for no reason.
+            </BodyText>
+            <Button handleClick={() => handleKeepWatchingClick()} mode="dark">
+              Keep Watching
+            </Button>
+          </div>
+        ),
+      });
     },
   });
 
@@ -54,13 +76,6 @@ const Shuffle: React.FC = () => {
     setCurentIndex(currentIndex + 1);
     unMutedVideo.current = false;
     videoPlayCount.current = videoPlayCount.current + 1;
-  };
-
-  const handleKeepWatchingClick = () => {
-    // restart the timer
-    restart(expiryTimestamp);
-    setShowContinueWatching(false);
-    videoRef?.current?.play();
   };
 
   useEffect(() => {
@@ -89,87 +104,69 @@ const Shuffle: React.FC = () => {
   }, [videoRef.current]);
 
   return (
-    <Fragment>
-      <main className={styles.pageWrapper}>
-        <Script
-          async
-          src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6675084090356256"
-          crossOrigin="anonymous"
-          strategy="afterInteractive"
-        />
-        <ins
-          className="adsbygoogle banner"
-          data-ad-client="ca-pub-6675084090356256"
-          data-ad-slot="4725789316"
-          data-ad-format="auto"
-          data-full-width-responsive="true"
-        />
-        <Script id="adsense-init" strategy="afterInteractive">
-          {`(adsbygoogle = window.adsbygoogle || []).push({});`}
-        </Script>
-        <Headline
-          as="h1"
-          margin="0 auto var(--spacing-medium_300) auto"
-          variant="5"
-        >
-          Shuffle
-        </Headline>
-        <VideoPlayer
-          ref={videoRef}
-          shouldAutoPlay={true}
-          src={currentVideo?.src}
-          thumbnail={currentVideo?.thumbnail}
-        />
-        <div className={styles.titleWrapper}>
-          <Subhead variant="2">{currentVideo?.title}</Subhead>
-          <Fragment>
-            <Button handleClick={() => setVideoToNext()}>
-              <Subhead variant="4">Skip</Subhead>
-            </Button>
-            <Button handleClick={() => shuffleVideos()}>
-              <Subhead variant="4">Shuffle</Subhead>
-            </Button>
-          </Fragment>
-        </div>
-        <Headline
-          margin="var(--spacing-large_100) 0 0 0"
-          textAlignment="left"
-          variant="5"
-        >
-          Up Next:
-        </Headline>
-        <button className={styles.upNextCard} onClick={() => setVideoToNext()}>
-          <div
-            className={styles.entryThumbnail}
-            style={{ backgroundImage: `url(${shuffledList[currentIndex + 1]?.thumbnail})` }}
-          />
-          <div className={styles.column}>
-            <Subhead variant="2">
-              {shuffledList[currentIndex + 1]?.title}
-            </Subhead>
-            <BodyText variant="4">{"Play Now >"}</BodyText>
-          </div>
-        </button>
-      </main>
-      <Popup
-        handleClose={() => handleKeepWatchingClick()}
-        isOpen={showContinueWatching}
+    <main className={styles.pageWrapper}>
+      <Script
+        async
+        src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6675084090356256"
+        crossOrigin="anonymous"
+        strategy="afterInteractive"
+      />
+      <ins
+        className="adsbygoogle banner"
+        data-ad-client="ca-pub-6675084090356256"
+        data-ad-slot="4725789316"
+        data-ad-format="auto"
+        data-full-width-responsive="true"
+      />
+      <Script id="adsense-init" strategy="afterInteractive">
+        {`(adsbygoogle = window.adsbygoogle || []).push({});`}
+      </Script>
+      <Headline
+        as="h1"
+        margin="0 auto var(--spacing-medium_300) auto"
+        variant="5"
       >
-        <div className={styles.messageWrapper}>
-          <Subhead color={baseColors.black} variant="2">
-            Still watching?
-          </Subhead>
-          <BodyText color={baseColors.black} variant="4">
-            Sorry to interrupt, but we just want to make sure you are still
-            there and not running up our tab for no reason.
-          </BodyText>
-          <Button handleClick={() => handleKeepWatchingClick()} mode="dark">
-            Keep Watching
+        Shuffle
+      </Headline>
+      <VideoPlayer
+        ref={videoRef}
+        shouldAutoPlay={true}
+        src={currentVideo?.src}
+        thumbnail={currentVideo?.thumbnail}
+      />
+      <div className={styles.titleWrapper}>
+        <Subhead variant="2">{currentVideo?.title}</Subhead>
+        <Fragment>
+          <Button handleClick={() => setVideoToNext()}>
+            <Subhead variant="4">Skip</Subhead>
           </Button>
+          <Button handleClick={() => shuffleVideos()}>
+            <Subhead variant="4">Shuffle</Subhead>
+          </Button>
+        </Fragment>
+      </div>
+      <Headline
+        margin="var(--spacing-large_100) 0 0 0"
+        textAlignment="left"
+        variant="5"
+      >
+        Up Next:
+      </Headline>
+      <button className={styles.upNextCard} onClick={() => setVideoToNext()}>
+        <div
+          className={styles.entryThumbnail}
+          style={{ backgroundImage: `url(${shuffledList[currentIndex + 1]?.thumbnail})` }}
+        />
+        <div className={styles.column}>
+          <Subhead variant="2">
+            {shuffledList[currentIndex + 1]?.title}
+          </Subhead>
+          <BodyText variant="4">{"Play Now >"}</BodyText>
         </div>
-      </Popup>
-    </Fragment>
+      </button>
+    </main>
   );
 };
 
 export default Shuffle;
+
