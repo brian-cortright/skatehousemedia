@@ -4,8 +4,9 @@ import styles from "./home.module.css";
 import PostFeed from "@/components/PostFeed/PostFeed";
 import { posts } from "../../data/postData";
 import SearchBar from '@/components/SearchBar';
-import { BodyText, Subhead } from "@/components/Typography/Typography";
-import Link from "next/link";
+import Button from '@/components/Button';
+import FilterIcon from '@/components/enhancedSvg/svgs/FilterIcon';
+import { BodyText } from '@/components/Typography';
 
 export default function Home() {
   const [searchInput, setSearchInput] = useState("");
@@ -25,8 +26,13 @@ export default function Home() {
 
   return (
     <main className={styles.pageWrapper}>
-      <SearchBar value={searchInput} onChange={handleSearch}/>
-      {/* facets go here */}
+      <div className={styles.searchWrapper}>
+        <Button>
+          <FilterIcon />
+          <BodyText variant="5">Filter</BodyText>
+        </Button>
+        <SearchBar value={searchInput} onChange={handleSearch}/>
+      </div>
       <PostFeed posts={filteredPosts} />
     </main>
   );
