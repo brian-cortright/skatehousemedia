@@ -1,0 +1,10 @@
+import React from 'react';
+import enhancedSvg from '../enhancedSvg';
+
+const CloseIcon = () => (
+  <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#e3e3e3">
+    <path className='fill-target' d="m336-280-56-56 144-144-144-143 56-56 144 144 143-144 56 56-144 143 144 144-56 56-143-144-144 144Z"/>
+  </svg>
+);
+
+export default enhancedSvg(CloseIcon);

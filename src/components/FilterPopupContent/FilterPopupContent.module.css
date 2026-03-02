@@ -1,0 +1,53 @@
+.filterPopup {
+  display: flex;
+  flex-direction: column;
+  gap: var(--spacing-medium_100);
+}
+
+.filterColumns {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: var(--spacing-medium_300);
+}
+
+@media (max-width: 600px) {
+  .filterColumns {
+    grid-template-columns: 1fr;
+  }
+}
+
+.filterColumn {
+  display: flex;
+  flex-direction: column;
+  gap: var(--spacing-small_300);
+}
+
+.checkboxList {
+  display: flex;
+  flex-direction: column;
+  gap: var(--spacing-small_100);
+}
+
+.checkboxItem {
+  align-items: center;
+  cursor: pointer;
+  display: flex;
+  gap: var(--spacing-small_200);
+}
+
+.checkboxIcon {
+  border: 1px solid var(--color-gray-3);
+  border-radius: 4px;
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+  justify-content: center;
+  height: 20px;
+  transition: var(--transition-default);
+  width: 20px;
+}
+
+.checkboxIconChecked {
+  background-color: var(--color-gray-3);
+  border-color: var(--color-gray-3);
+}
