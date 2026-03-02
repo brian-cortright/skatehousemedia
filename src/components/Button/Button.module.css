@@ -1,5 +1,5 @@
 .button {
-  border-radius: 8px;
+  border-radius: var(--border-radius-200);
   cursor: pointer;
   font-family: 'Noto Sans', sans-serif;
   padding: var(--spacing-small_200) var(--spacing-medium_100);
@@ -17,7 +17,7 @@
 
 /* Light mode */
 .light {
-  background: var(--color-white);
+  background: var(--color-grey-800);
   border: 2px solid var(--color-white);
   color: var(--color-shm-black);
 }

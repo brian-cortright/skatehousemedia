@@ -19,3 +19,16 @@
   min-height: 100vh;
 }
 
+.searchWrapper {
+  align-items: center;
+  display: flex;
+  gap: var(--spacing-small_200);
+  margin: 0 auto;
+  max-width: 900px;
+  width: 100%;
+
+  & button {
+    height: 55.5px;
+  }
+}
+  
