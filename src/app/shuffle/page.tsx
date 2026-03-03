@@ -13,6 +13,7 @@ import { usePopup } from "@/components/Popup/PopupContext";
 import useTimer from "@/hooks/useTimer";
 import Script from "next/script";
 import type { Video } from "@/types";
+import MotionPlayIcon from "@/components/enhancedSvg/svgs/MotionPlayIcon";
 
 const Shuffle: React.FC = () => {
   const videoRef = useRef<HTMLVideoElement>(null);
@@ -160,7 +161,10 @@ const Shuffle: React.FC = () => {
           <Subhead variant="2">
             {shuffledList[currentIndex + 1]?.title}
           </Subhead>
-          <BodyText variant="4">{"Play Now >"}</BodyText>
+          <BodyText className={styles.playNow} variant="5">
+            Play Now
+            <MotionPlayIcon fill='var(--color-grey-800)' size='small' />
+          </BodyText>
         </div>
       </button>
     </main>

@@ -31,7 +31,7 @@
 .cardImageWrapper {
   width: 100%;
   aspect-ratio: 16 / 9;
-  border-radius: var(--border-radius-400);
+  border-radius: var(--border-radius-500);
   overflow: hidden;
   position: relative;
 }

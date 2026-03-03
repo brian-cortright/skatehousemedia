@@ -7,6 +7,7 @@ import slugify from "@/utils/slugify";
 import Link from "next/link";
 import Markdown from "@/components/Markdown/Markdown";
 import type { Post } from "@/types";
+import formatDate from "@/utils/formatDate";
 
 interface PostPageProps {
   post?: Post;
@@ -40,7 +41,7 @@ export const PostPage: React.FC<PostPageProps> = ({ post }) => {
       </div>
       {postDate || author ? (
         <div className={styles.bylineWrapper}>
-          {postDate ? <Subhead variant="3">Published on: {postDate}</Subhead> : null}
+          {postDate ? <Subhead variant="3">Published on: {formatDate(postDate)}</Subhead> : null}
           {author ? <Subhead variant="3">By: {author}</Subhead> : null}
         </div>
       ) : null}

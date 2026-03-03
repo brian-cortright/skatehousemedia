@@ -1,5 +1,5 @@
 .button {
-  border-radius: var(--border-radius-200);
+  border-radius: var(--border-radius-600);
   cursor: pointer;
   font-family: 'Noto Sans', sans-serif;
   padding: var(--spacing-small_200) var(--spacing-medium_100);
