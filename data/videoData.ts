@@ -1,19 +1,5 @@
 const videos = [
   {
-    slug: "15-crashes-at-angies",
-    src: "https://assets.skatehousemedia.com/15-Crashes-at-Angies-Final.mp4",
-    thumbnail:
-      "https://assets.skatehousemedia.com/thumbnails/15-Crashes-at-Angies-Final.jpg",
-    title: "15 Crashes at Angies",
-  },
-  {
-    slug: "2011-compilation-part-1",
-    src: "https://assets.skatehousemedia.com/2011-Compilation-Part-1.mp4",
-    thumbnail:
-      "https://assets.skatehousemedia.com/thumbnails/2011-Compilation-Part-1.jpg",
-    title: "2011 Compilation Part 1",
-  },
-  {
     slug: "2012-winsport-igsa-world-championship-finals",
     src: "https://assets.skatehousemedia.com/2012-Winsport-IGSA-World-Championship-Finals.mp4",
     thumbnail:
@@ -40,13 +26,6 @@ const videos = [
     title: "A-ha featuring Max Myers",
   },
   {
-    slug: "a-quick-clip-from-the-road",
-    src: "https://assets.skatehousemedia.com/A-Quick-Clip-From-The-Road.mp4",
-    thumbnail:
-      "https://assets.skatehousemedia.com/thumbnails/A-Quick-Clip-From-The-Road.jpg",
-    title: "A Quick Clip from the Road",
-  },
-  {
     slug: "a-quick-run-with-ethan-lau",
     src: "https://assets.skatehousemedia.com/A-Quick-Run-with-Ethan-Lau.mp4",
     thumbnail:
@@ -71,12 +50,6 @@ const videos = [
     thumbnail:
       "https://assets.skatehousemedia.com/thumbnails/Aidan-Spain-Raw-Run-Skatehouse.jpg",
     title: "Aidan Spain Raw Run Skatehouse",
-  },
-  {
-    slug: "ali-learning-curve",
-    src: "https://assets.skatehousemedia.com/ALI-LEARING-CURVE.mp4",
-    thumbnail: "https://assets.skatehousemedia.com/thumbnails/ALI-LEARING-CURVE.jpg",
-    title: "Learning Curve: Ali",
   },
   {
     slug: "ali-nas-shm",
@@ -119,12 +92,6 @@ const videos = [
     src: "https://assets.skatehousemedia.com/Anaconda.mp4",
     thumbnail: "https://assets.skatehousemedia.com/thumbnails/Anaconda.jpg",
     title: "Anaconda???",
-  },
-  {
-    slug: "andres-zarate-2",
-    src: "https://assets.skatehousemedia.com/Andres-Zarate-2.mp4",
-    thumbnail: "https://assets.skatehousemedia.com/thumbnails/Andres-Zarate-2.jpg",
-    title: "Andres Zarate 2",
   },
   {
     slug: "angelopolis-outlaw",
@@ -204,22 +171,10 @@ const videos = [
     title: "Axel",
   },
   {
-    slug: "backyard-blues",
-    src: "https://assets.skatehousemedia.com/Backyard-Blues.mp4",
-    thumbnail: "https://assets.skatehousemedia.com/thumbnails/Backyard-Blues.jpg",
-    title: "Backyard Blues",
-  },
-  {
     slug: "batesrun",
     src: "https://assets.skatehousemedia.com/batesrun.mp4",
     thumbnail: "https://assets.skatehousemedia.com/thumbnails/batesrun.jpg",
     title: "Bates Run",
-  },
-  {
-    slug: "bay-sessions",
-    src: "https://assets.skatehousemedia.com/Bay-Sessions.mp4",
-    thumbnail: "https://assets.skatehousemedia.com/thumbnails/Bay-Sessions.jpg",
-    title: "Bay Sessions",
   },
   {
     slug: "bbdh-race-footage",
@@ -263,13 +218,6 @@ const videos = [
     src: "https://assets.skatehousemedia.com/Ben-Hot-Pants.mp4",
     thumbnail: "https://assets.skatehousemedia.com/thumbnails/Ben-Hot-Pants.jpg",
     title: "Ben Hot Pants",
-  },
-  {
-    slug: "benny-ds-not-so-magic-puck-004",
-    src: "https://assets.skatehousemedia.com/Benny-Ds-Not-So-Magic-Puck-004.mp4",
-    thumbnail:
-      "https://assets.skatehousemedia.com/thumbnails/Benny-Ds-Not-So-Magic-Puck-004.jpg",
-    title: "Benny Ds Not So Magic Puck",
   },
   {
     slug: "best-of-2010-compilation-part-1",
@@ -431,13 +379,6 @@ const videos = [
     title: "Buffalo Bill Downhill 2010 Final Heat",
   },
   {
-    slug: "byron-essert-skating-a-classic",
-    src: "https://assets.skatehousemedia.com/Byron-Essert-skating-a-Classic.mp4",
-    thumbnail:
-      "https://assets.skatehousemedia.com/thumbnails/Byron-Essert-skating-a-Classic.jpg",
-    title: "Byron Essert Skating a Classic",
-  },
-  {
     slug: "byronandliamshm",
     src: "https://assets.skatehousemedia.com/ByronandliamSHM.mp4",
     thumbnail: "https://assets.skatehousemedia.com/thumbnails/ByronandliamSHM.jpg",
@@ -468,13 +409,6 @@ const videos = [
     thumbnail:
       "https://assets.skatehousemedia.com/thumbnails/Casey-Morrow-skates-Wallows.jpg",
     title: "Casey Morrow Skates Wallows",
-  },
-  {
-    slug: "catalina-classic-2013",
-    src: "https://assets.skatehousemedia.com/Catalina-Classic-2013.mp4",
-    thumbnail:
-      "https://assets.skatehousemedia.com/thumbnails/Catalina-Classic-2013.jpg",
-    title: "Catalina Classic 2013",
   },
   {
     slug: "catalina-classic-2015",
@@ -510,20 +444,6 @@ const videos = [
     title: "Cathlamet 2010 Champion: James Kelly",
   },
   {
-    slug: "cathlamet-downhill-corral-semi-final-heat-1",
-    src: "https://assets.skatehousemedia.com/Cathlamet-Downhill-Corral-Semi-Final-Heat-1.mp4",
-    thumbnail:
-      "https://assets.skatehousemedia.com/thumbnails/Cathlamet-Downhill-Corral-Semi-Final-Heat-1.jpg",
-    title: "Cathlamet Downhill Corral: Semi-Final Heat 1",
-  },
-  {
-    slug: "cathlamet-maryhill-ratz-boarder-cross",
-    src: "https://assets.skatehousemedia.com/Cathlamet-Maryhill-Ratz-Boarder-Cross.mp4",
-    thumbnail:
-      "https://assets.skatehousemedia.com/thumbnails/Cathlamet-Maryhill-Ratz-Boarder-Cross.jpg",
-    title: "Cathlamet Maryhill Ratz Boarder Cross",
-  },
-  {
     slug: "chela-shm",
     src: "https://assets.skatehousemedia.com/Chela-SHM.mp4",
     thumbnail: "https://assets.skatehousemedia.com/thumbnails/Chela-SHM.jpg",
@@ -553,12 +473,6 @@ const videos = [
     src: "https://assets.skatehousemedia.com/Community-Anaconda.mp4",
     thumbnail: "https://assets.skatehousemedia.com/thumbnails/Community-Anaconda.jpg",
     title: "Community: Anaconda",
-  },
-  {
-    slug: "conner-stanek-shm",
-    src: "https://assets.skatehousemedia.com/Conner-Stanek-SHM.mp4",
-    thumbnail: "https://assets.skatehousemedia.com/thumbnails/Conner-Stanek-SHM.jpg",
-    title: "Conner Stanek Part I",
   },
   {
     slug: "coop-and-matt",
@@ -729,13 +643,6 @@ const videos = [
     title: "Emma Daigle at KNK",
   },
   {
-    slug: "euro-tour-2012-part-2-special-place",
-    src: "https://assets.skatehousemedia.com/Euro-Tour-2012-Part-2-Special-Place.mp4",
-    thumbnail:
-      "https://assets.skatehousemedia.com/thumbnails/Euro-Tour-2012-Part-2-Special-Place.jpg",
-    title: "Euro Tour 2012 Part 2: Special Place",
-  },
-  {
     slug: "euro-tour-2012-part-3-igsa-padova",
     src: "https://assets.skatehousemedia.com/Euro-Tour-2012-Part-3-IGSA-Padova.mp4",
     thumbnail:
@@ -762,13 +669,6 @@ const videos = [
     thumbnail:
       "https://assets.skatehousemedia.com/thumbnails/Euro-Tour-Part-1-Norway.mp4",
     title: "Euro Tour Part 1: Norway",
-  },
-  {
-    slug: "euro-tour-part-2-voss-downhill-championship",
-    src: "https://assets.skatehousemedia.com/Euro-Tour-Part-2-Voss-Downhill-Championship.mp4",
-    thumbnail:
-      "https://assets.skatehousemedia.com/thumbnails/Euro-Tour-Part-2-Voss-Downhill-Championship.jpg",
-    title: "Euro Tour Part 2: Voss Downhill Championship",
   },
   {
     slug: "euro-tour-part-3",
@@ -887,13 +787,6 @@ const videos = [
     thumbnail:
       "https://assets.skatehousemedia.com/thumbnails/Event-Coverage-WW3-Womens-FInal.jpg",
     title: "Event: WW3 Womens Final",
-  },
-  {
-    slug: "event-giants-head-freeride-2015",
-    src: "https://assets.skatehousemedia.com/Event-Giants-Head-Freeride-2015.mp4",
-    thumbnail:
-      "https://assets.skatehousemedia.com/thumbnails/Event-Giants-Head-Freeride-2015.jpg",
-    title: "Event: Giants Head Freeride 2015",
   },
   {
     slug: "event-giants-head-teaser",
@@ -1059,13 +952,6 @@ const videos = [
     title: "Frenando Yuppie in Hollywood",
   },
   {
-    slug: "festival-de-la-bajada",
-    src: "https://assets.skatehousemedia.com/Festival-de-la-bajada.mp4",
-    thumbnail:
-      "https://assets.skatehousemedia.com/thumbnails/Festival-de-la-bajada.jpg",
-    title: "Festival de la Bajada",
-  },
-  {
     slug: "final-heat-north-carolina-downhill-at-mount-jefferson",
     src: "https://assets.skatehousemedia.com/Final-Heat-North-Carolina-Downhill-at-Mount-Jefferson.mp4",
     thumbnail:
@@ -1172,13 +1058,6 @@ const videos = [
     title: "Go Freeride",
   },
   {
-    slug: "gonna-have-a-good-day",
-    src: "https://assets.skatehousemedia.com/Gonna-Have-a-Good-Day.mp4",
-    thumbnail:
-      "https://assets.skatehousemedia.com/thumbnails/Gonna-Have-a-Good-Day.jpg",
-    title: "Gonna Have a Good Day",
-  },
-  {
     slug: "gourly-2-shm",
     src: "https://assets.skatehousemedia.com/gourly-2-shm.mp4",
     thumbnail: "https://assets.skatehousemedia.com/thumbnails/gourly-2-shm.jpg",
@@ -1195,13 +1074,6 @@ const videos = [
     src: "https://assets.skatehousemedia.com/Group-More-Runs.mp4",
     thumbnail: "https://assets.skatehousemedia.com/thumbnails/Group-More-Runs.jpg",
     title: "More Group Runs",
-  },
-  {
-    slug: "group-riding-one-year-ago",
-    src: "https://assets.skatehousemedia.com/Group-Riding-One-Year-Ago.mp4",
-    thumbnail:
-      "https://assets.skatehousemedia.com/thumbnails/Group-Riding-One-Year-Ago.jpg",
-    title: "Group Riding One Year Ago",
   },
   {
     slug: "guns-and-skateboarding",
@@ -1353,13 +1225,6 @@ const videos = [
     title: "Learning Curve: NO PLAY",
   },
   {
-    slug: "learning-curving-clapping-pucks",
-    src: "https://assets.skatehousemedia.com/Learning-Curving-Clapping-Pucks.mp4",
-    thumbnail:
-      "https://assets.skatehousemedia.com/thumbnails/Learning-Curving-Clapping-Pucks.jpg",
-    title: "Learning Curve: Clapping Pucks",
-  },
-  {
     slug: "legends-ethan-lau",
     src: "https://assets.skatehousemedia.com/Legends-Ethan-Lau.mp4",
     thumbnail: "https://assets.skatehousemedia.com/thumbnails/Legends-Ethan-Lau.jpg",
@@ -1385,12 +1250,6 @@ const videos = [
     title: "Levi Chunderbunny",
   },
   {
-    slug: "lgc-clip",
-    src: "https://assets.skatehousemedia.com/lgc-clip.mp4",
-    thumbnail: "https://assets.skatehousemedia.com/thumbnails/lgc-clip.jpg",
-    title: "Longboard Girls Crew",
-  },
-  {
     slug: "liam-morgan-shreds-hawaii",
     src: "https://assets.skatehousemedia.com/Liam-Morgan-shreds-Hawaii.mp4",
     thumbnail:
@@ -1410,24 +1269,11 @@ const videos = [
     title: "Locals: Andrew Mercado",
   },
   {
-    slug: "local-dustin-hampton",
-    src: "https://assets.skatehousemedia.com/Local-Dustin-Hampton.mp4",
-    thumbnail: "https://assets.skatehousemedia.com/thumbnails/Local-Dustin-Hampton.jpg",
-    title: "Locals: Dustin Hampton",
-  },
-  {
     slug: "local-stephen-beckman",
     src: "https://assets.skatehousemedia.com/Local-Stephen-Beckman.mp4",
     thumbnail:
       "https://assets.skatehousemedia.com/thumbnails/Local-Stephen-Beckman.jpg",
     title: "Locals: Stephen Beckman",
-  },
-  {
-    slug: "locals-adam-and-louis-go-switch",
-    src: "https://assets.skatehousemedia.com/Locals-Adam-and-Louis-Go-Switch.mp4",
-    thumbnail:
-      "https://assets.skatehousemedia.com/thumbnails/Locals-Adam-and-Louis-Go-Switch.jpg",
-    title: "Locals: Adam and Louis Go Switch",
   },
   {
     slug: "locals-adam-colton",
@@ -1564,34 +1410,6 @@ const videos = [
     title: "Raw Run: Maryhill Festival of Speed 2012",
   },
   {
-    slug: "maryhill-festival-of-speed-2015",
-    src: "https://assets.skatehousemedia.com/Maryhill-Festival-of-Speed-2015.mp4",
-    thumbnail:
-      "https://assets.skatehousemedia.com/thumbnails/Maryhill-Festival-of-Speed-2015.jpg",
-    title: "Maryhill Festival of Speed 2015",
-  },
-  {
-    slug: "maryhill-festival-of-speed-finals",
-    src: "https://assets.skatehousemedia.com/Maryhill-Festival-of-Speed-Finals.mp4",
-    thumbnail:
-      "https://assets.skatehousemedia.com/thumbnails/Maryhill-Festival-of-Speed-Finals.jpg",
-    title: "Maryhill Festival of Speed Finals",
-  },
-  {
-    slug: "maryhill-freeride-ladies-edition",
-    src: "https://assets.skatehousemedia.com/Maryhill-Freeride-Ladies-Edition.mp4",
-    thumbnail:
-      "https://assets.skatehousemedia.com/thumbnails/Maryhill-Freeride-Ladies-Edition.jpg",
-    title: "Maryhill Freeride Ladies Edition",
-  },
-  {
-    slug: "maryhill-freeride-raw-run-camera-angle-2",
-    src: "https://assets.skatehousemedia.com/Maryhill-Freeride-Raw-Run-Camera-Angle-2.mp4",
-    thumbnail:
-      "https://assets.skatehousemedia.com/thumbnails/Maryhill-Freeride-Raw-Run-Camera-Angle-2.jpg",
-    title: "Raw Run: Maryhill Freeride Camera 2",
-  },
-  {
     slug: "maryhill-freeride-teaser",
     src: "https://assets.skatehousemedia.com/Maryhill-Freeride-Teaser.mp4",
     thumbnail:
@@ -1665,12 +1483,6 @@ const videos = [
     title: "Max' Setup",
   },
   {
-    slug: "medellin",
-    src: "https://assets.skatehousemedia.com/medellin.mp4",
-    thumbnail: "https://assets.skatehousemedia.com/thumbnails/medellin.jpg",
-    title: "Medellin",
-  },
-  {
     slug: "megaspacerawrun",
     src: "https://assets.skatehousemedia.com/MegaSpacerawrun.mp4",
     thumbnail: "https://assets.skatehousemedia.com/thumbnails/MegaSpacerawrun.jpg",
@@ -1728,19 +1540,6 @@ const videos = [
     src: "https://assets.skatehousemedia.com/MLF.mp4",
     thumbnail: "https://assets.skatehousemedia.com/thumbnails/MLF.jpg",
     title: "MLF",
-  },
-  {
-    slug: "mont-tremblant-luge-track",
-    src: "https://assets.skatehousemedia.com/Mont-Tremblant-Luge-Track.mp4",
-    thumbnail:
-      "https://assets.skatehousemedia.com/thumbnails/Mont-Tremblant-Luge-Track.jpg",
-    title: "Mont Tremblant Luge Track",
-  },
-  {
-    slug: "montreal-bomb-jam",
-    src: "https://assets.skatehousemedia.com/Montreal-Bomb-Jam.mp4",
-    thumbnail: "https://assets.skatehousemedia.com/thumbnails/Montreal-Bomb-Jam.jpg",
-    title: "Montreal Bomb Jam",
   },
   {
     slug: "mortal-kombat",
@@ -1827,23 +1626,10 @@ const videos = [
     title: "Night Runs",
   },
   {
-    slug: "no-future-skateboarding-jm-duran",
-    src: "https://assets.skatehousemedia.com/No-Future-Skateboarding-JM-Duran.mp4",
-    thumbnail:
-      "https://assets.skatehousemedia.com/thumbnails/No-Future-Skateboarding-JM-Duran.jpg",
-    title: "No Future Skateboarding JM Duran",
-  },
-  {
     slug: "norcal-on-mohaulin",
     src: "https://assets.skatehousemedia.com/Norcal-on-Mohaulin.mp4",
     thumbnail: "https://assets.skatehousemedia.com/thumbnails/Norcal-on-Mohaulin.jpg",
     title: "NorCal on MoHaulin",
-  },
-  {
-    slug: "norwegian-groms",
-    src: "https://assets.skatehousemedia.com/Norwegian-Groms.mp4",
-    thumbnail: "https://assets.skatehousemedia.com/thumbnails/Norwegian-Groms.jpg",
-    title: "Norwegian Groms",
   },
   {
     slug: "not-borderlands",
@@ -1863,18 +1649,6 @@ const videos = [
     src: "https://assets.skatehousemedia.com/ODDA.mp4",
     thumbnail: "https://assets.skatehousemedia.com/thumbnails/ODDA.jpg",
     title: "ODDA",
-  },
-  {
-    slug: "ok-canada-tour",
-    src: "https://assets.skatehousemedia.com/OK-Canada-Tour.mp4",
-    thumbnail: "https://assets.skatehousemedia.com/thumbnails/OK-Canada-Tour.jpg",
-    title: "OK Canada Tour",
-  },
-  {
-    slug: "one-day-cory",
-    src: "https://assets.skatehousemedia.com/One-Day-Cory.mp4",
-    thumbnail: "https://assets.skatehousemedia.com/thumbnails/One-Day-Cory.jpg",
-    title: "One Day with Cory",
   },
   {
     slug: "oscar-shm",
@@ -1944,12 +1718,6 @@ const videos = [
     thumbnail:
       "https://assets.skatehousemedia.com/thumbnails/Peyradudes-Follow-Run-Overview.jpg",
     title: "Peyradudes",
-  },
-  {
-    slug: "peyragudes-finals",
-    src: "https://assets.skatehousemedia.com/Peyragudes-Finals.mp4",
-    thumbnail: "https://assets.skatehousemedia.com/thumbnails/Peyragudes-Finals.jpg",
-    title: "Peyragudes Finals",
   },
   {
     slug: "peyragudes-mikel-clips",
@@ -2040,13 +1808,6 @@ const videos = [
     title: "Quick Clip: Bottreau",
   },
   {
-    slug: "quick-clip-cooper-can",
-    src: "https://assets.skatehousemedia.com/Quick-Clip-Cooper-CAN.mp4",
-    thumbnail:
-      "https://assets.skatehousemedia.com/thumbnails/Quick-Clip-Cooper-CAN.jpg",
-    title: "Quick Clip: Cooper",
-  },
-  {
     slug: "quick-clip-east-coast",
     src: "https://assets.skatehousemedia.com/Quick-Clip-East-Coast.mp4",
     thumbnail:
@@ -2054,24 +1815,11 @@ const videos = [
     title: "Quick Clip: East Coast",
   },
   {
-    slug: "quick-clip-guajataka-downhill-7",
-    src: "https://assets.skatehousemedia.com/Quick-Clip-Guajataka-Downhill-7.mp4",
-    thumbnail:
-      "https://assets.skatehousemedia.com/thumbnails/Quick-Clip-Guajataka-Downhill-7.jpg",
-    title: "Quick Clip: Guajataka Downhill 7",
-  },
-  {
     slug: "quick-clip-kaimana-pinto",
     src: "https://assets.skatehousemedia.com/Quick-Clip-Kaimana-Pinto.mp4",
     thumbnail:
       "https://assets.skatehousemedia.com/thumbnails/Quick-Clip-Kaimana-Pinto.jpg",
     title: "Quick Clip: Kaimano Pinto",
-  },
-  {
-    slug: "quick-clip-pat-schep-1",
-    src: "https://assets.skatehousemedia.com/Quick-Clip-Pat-Schep.mp4",
-    thumbnail: "https://assets.skatehousemedia.com/thumbnails/Quick-Clip-Pat-Schep.jpg",
-    title: "Quick Clip: Pat Schep #1",
   },
   {
     slug: "quick-clip-pete-bombs-the-tunnels",
@@ -2177,13 +1925,6 @@ const videos = [
     title: "Quick Clip: Dejan Mustard Djukic",
   },
   {
-    slug: "quick-clips-dexter-manning",
-    src: "https://assets.skatehousemedia.com/Quick-Clips-Dexter-Manning.mp4",
-    thumbnail:
-      "https://assets.skatehousemedia.com/thumbnails/Quick-Clips-Dexter-Manning.jpg",
-    title: "Quick Clip: Dexter Manning",
-  },
-  {
     slug: "quick-clips-dirty-ben-30",
     src: "https://assets.skatehousemedia.com/Quick-Clips-Dirty-Ben-30.mp4",
     thumbnail:
@@ -2250,13 +1991,6 @@ const videos = [
     thumbnail:
       "https://assets.skatehousemedia.com/thumbnails/Quick-Clips-Mt-St-Helen-Pack-Weaving.jpg",
     title: "Quick Clip: Mt. St. Helen Pack Weaving",
-  },
-  {
-    slug: "quick-clips-pat-schep-2",
-    src: "https://assets.skatehousemedia.com/Quick-Clips-Pat-Schep.mp4",
-    thumbnail:
-      "https://assets.skatehousemedia.com/thumbnails/Quick-Clips-Pat-Schep.jpg",
-    title: "Quick Clip: Pat Schep #2",
   },
   {
     slug: "quick-clips-peru",
@@ -2421,13 +2155,6 @@ const videos = [
     title: "Raw Run: Louis on a Driveway",
   },
   {
-    slug: "raw-run-aaron-from-the-block",
-    src: "https://assets.skatehousemedia.com/Raw-Run-Aaron-from-the-Block.mp4",
-    thumbnail:
-      "https://assets.skatehousemedia.com/thumbnails/Raw-Run-Aaron-from-the-Block.jpg",
-    title: "Raw Run: Aaron from the Block",
-  },
-  {
     slug: "raw-run-almabtrieb",
     src: "https://assets.skatehousemedia.com/Raw-Run-Almabtrieb.mp4",
     thumbnail: "https://assets.skatehousemedia.com/thumbnails/Raw-Run-Almabtrieb.jpg",
@@ -2469,12 +2196,6 @@ const videos = [
     title: "Raw Run: Brian and Kody",
   },
   {
-    slug: "raw-run-buffalo-bill",
-    src: "https://assets.skatehousemedia.com/Raw-Run-Buffalo-Bill.mp4",
-    thumbnail: "https://assets.skatehousemedia.com/thumbnails/Raw-Run-Buffalo-Bill.jpg",
-    title: "Raw Run: Buffalo Bill",
-  },
-  {
     slug: "raw-run-byron-essert-and-jm-duran",
     src: "https://assets.skatehousemedia.com/Raw-Run-Byron-Essert-and-JM-Duran.mp4",
     thumbnail:
@@ -2494,13 +2215,6 @@ const videos = [
     thumbnail:
       "https://assets.skatehousemedia.com/thumbnails/Raw-Run-Calvin-Staub-Malibu-Mile.jpg",
     title: "Raw Run: Calvin Staub and the Malibu Mile",
-  },
-  {
-    slug: "raw-run-catalina-classic-with-byron-essert-and-louis-pilloni",
-    src: "https://assets.skatehousemedia.com/Raw-Run-Catalina-Classic-with-Byron-Essert-and-Louis-Pilloni.mp4",
-    thumbnail:
-      "https://assets.skatehousemedia.com/thumbnails/Raw-Run-Catalina-Classic-with-Byron-Essert-and-Louis-Pilloni.jpg",
-    title: "Raw Run: Catalina Island Classic with Byron Essert and Louis Pilloni",
   },
   {
     slug: "raw-run-chance-gaul",
@@ -2528,20 +2242,6 @@ const videos = [
     title: "Raw Run: Deck Her",
   },
   {
-    slug: "raw-run-dex-manning-at-belly",
-    src: "https://assets.skatehousemedia.com/Raw-Run-Dex-Manning-at-Belly.mp4",
-    thumbnail:
-      "https://assets.skatehousemedia.com/thumbnails/Raw-Run-Dex-Manning-at-Belly.jpg",
-    title: "Raw Run: Dex Manning",
-  },
-  {
-    slug: "raw-run-dexter-manning-on-big-table",
-    src: "https://assets.skatehousemedia.com/Raw-Run-Dexter-Manning-on-Big-Table.mp4",
-    thumbnail:
-      "https://assets.skatehousemedia.com/thumbnails/Raw-Run-Dexter-Manning-on-Big-Table.jpg",
-    title: "Raw Run: Dexter Manning",
-  },
-  {
     slug: "raw-run-dicking-around-vol-2-with-jesse-breiman",
     src: "https://assets.skatehousemedia.com/Raw-Run-Dicking-Around-Vol-2-with-Jesse-Breiman.mp4",
     thumbnail:
@@ -2554,26 +2254,6 @@ const videos = [
     thumbnail:
       "https://assets.skatehousemedia.com/thumbnails/Raw-Run-Dicking-Around.jpg",
     title: "Raw Run: Dicking Around",
-  },
-  {
-    slug: "raw-run-dillon-stephens",
-    src: "https://assets.skatehousemedia.com/Raw-Run-Dillon-Stephens.mp4",
-    thumbnail:
-      "https://assets.skatehousemedia.com/thumbnails/Raw-Run-Dillon-Stephens.jpg",
-    title: "Raw Run: Dillon Stephens",
-  },
-  {
-    slug: "raw-run-emily-pross-at-newtons-nation-2018",
-    src: "https://assets.skatehousemedia.com/Raw-Run-Emily-Pross-at-Newtons-Nation-2018.mp4",
-    thumbnail:
-      "https://assets.skatehousemedia.com/thumbnails/Raw-Run-Emily-Pross-at-Newtons-Nation-2018.jpg",
-    title: "Raw Run: Emily Pross at Newtons",
-  },
-  {
-    slug: "raw-run-eric-jensen",
-    src: "https://assets.skatehousemedia.com/Raw-Run-Eric-Jensen.mp4",
-    thumbnail: "https://assets.skatehousemedia.com/thumbnails/Raw-Run-Eric-Jensen.jpg",
-    title: "Raw Run: Eric Jense",
   },
   {
     slug: "raw-run-george-g-mack-mackenzie",
@@ -2602,20 +2282,6 @@ const videos = [
     thumbnail:
       "https://assets.skatehousemedia.com/thumbnails/Raw-Run-King-Brian-on-Giants-Head.jpg",
     title: "Raw Run: King Brian on Giants Head",
-  },
-  {
-    slug: "raw-run-kneepads-and-coffee",
-    src: "https://assets.skatehousemedia.com/Raw-Run-Kneepads-and-Coffee.mp4",
-    thumbnail:
-      "https://assets.skatehousemedia.com/thumbnails/Raw-Run-Kneepads-and-Coffee.jpg",
-    title: "Raw Run: Kneepads and Coffee",
-  },
-  {
-    slug: "raw-run-knk-dominic-schenk-and-ian-freire",
-    src: "https://assets.skatehousemedia.com/Raw-Run-KnK-Dominic-Schenk-and-Ian-Freire.mp4",
-    thumbnail:
-      "https://assets.skatehousemedia.com/thumbnails/Raw-Run-KnK-Dominic-Schenk-and-Ian-Freire.jpg",
-    title: "Raw Run: KNK Dominic Schenk and Ian Freire",
   },
   {
     slug: "raw-run-kody-on-mohaulin",
@@ -2718,31 +2384,11 @@ const videos = [
     title: "Raw Run: Max Dubeler II",
   },
   {
-    slug: "raw-run-max",
-    src: "https://assets.skatehousemedia.com/Raw-Run-Max.mp4",
-    thumbnail: "https://assets.skatehousemedia.com/thumbnails/Raw-Run-Max.jpg",
-    title: "Raw Run: Max Dubler 1",
-  },
-  {
     slug: "raw-run-mt-keira-rawjackoshm",
     src: "https://assets.skatehousemedia.com/Raw-Run-Mt-Keira-RawJackoSHM.mp4",
     thumbnail:
       "https://assets.skatehousemedia.com/thumbnails/Raw-Run-Mt-Keira-RawJackoSHM.jpg",
     title: "Raw Run: Mt. Kiera Jacko",
-  },
-  {
-    slug: "raw-run-netwons-nations",
-    src: "https://assets.skatehousemedia.com/Raw-Run-Netwons-Nations.mp4",
-    thumbnail:
-      "https://assets.skatehousemedia.com/thumbnails/Raw-Run-Netwons-Nations.jpg",
-    title: "Raw Run: Newtons Nation I",
-  },
-  {
-    slug: "raw-run-newtons-nation",
-    src: "https://assets.skatehousemedia.com/Raw-Run-Newtons-Nation.mp4",
-    thumbnail:
-      "https://assets.skatehousemedia.com/thumbnails/Raw-Run-Newtons-Nation.jpg",
-    title: "Raw Run: Newtons Nation II",
   },
   {
     slug: "raw-run-norm-plante-in-florida",
@@ -2756,12 +2402,6 @@ const videos = [
     src: "https://assets.skatehousemedia.com/Raw-Run-Oscar.mp4",
     thumbnail: "https://assets.skatehousemedia.com/thumbnails/Raw-Run-Oscar.jpg",
     title: "Raw Run: Oscar",
-  },
-  {
-    slug: "raw-run-pat-schep",
-    src: "https://assets.skatehousemedia.com/Raw-Run-Pat-Schep.mp4",
-    thumbnail: "https://assets.skatehousemedia.com/thumbnails/Raw-Run-Pat-Schep.jpg",
-    title: "Raw Run: Pat Schep",
   },
   {
     slug: "raw-run-pete-eubank",
@@ -2851,19 +2491,6 @@ const videos = [
     title: "Raw Run: Whistler Backwards",
   },
   {
-    slug: "raw-run-will-royce-mulholland",
-    src: "https://assets.skatehousemedia.com/Raw-Run-Will-Royce-Mulholland.mp4",
-    thumbnail:
-      "https://assets.skatehousemedia.com/thumbnails/Raw-Run-Will-Royce-Mulholland.jpg",
-    title: "Raw Run: Will Royce Mohaulin",
-  },
-  {
-    slug: "raw-run-will-seal",
-    src: "https://assets.skatehousemedia.com/Raw-Run-Will-Seal.mp4",
-    thumbnail: "https://assets.skatehousemedia.com/thumbnails/Raw-Run-Will-Seal.jpg",
-    title: "Raw Run: Will Seal #1",
-  },
-  {
     slug: "raw-run-zak-maytum-barrett-junction",
     src: "https://assets.skatehousemedia.com/Raw-Run-Zak-Maytum-Barrett-Junction.mp4",
     thumbnail:
@@ -2895,13 +2522,6 @@ const videos = [
     thumbnail:
       "https://assets.skatehousemedia.com/thumbnails/Salt-Spring-Slasher-for-Skate-House.jpg",
     title: "Salt Spring Slasher",
-  },
-  {
-    slug: "santa-gnarbara-slide-jam",
-    src: "https://assets.skatehousemedia.com/Santa-Gnarbara-Slide-Jam.mp4",
-    thumbnail:
-      "https://assets.skatehousemedia.com/thumbnails/Santa-Gnarbara-Slide-Jam.jpg",
-    title: "Santa Gnarbara Slide Jam",
   },
   {
     slug: "sb-road-trip-part-2",
@@ -3204,20 +2824,6 @@ const videos = [
     title: "Sessions: GoPro on a Nice Boom",
   },
   {
-    slug: "sessions-group-mountain-riding",
-    src: "https://assets.skatehousemedia.com/Sessions-Group-Mountain-Riding.mp4",
-    thumbnail:
-      "https://assets.skatehousemedia.com/thumbnails/Sessions-Group-Mountain-Riding.jpg",
-    title: "Sessions: Group Mountain Riding",
-  },
-  {
-    slug: "sessions-happy-birthday-louis",
-    src: "https://assets.skatehousemedia.com/Sessions-Happy-Birthday-Louis.mp4",
-    thumbnail:
-      "https://assets.skatehousemedia.com/thumbnails/Sessions-Happy-Birthday-Louis.jpg",
-    title: "Sessions: Happy Birthday Louis",
-  },
-  {
     slug: "sessions-laguna",
     src: "https://assets.skatehousemedia.com/Sessions-Laguna.mp4",
     thumbnail: "https://assets.skatehousemedia.com/thumbnails/Sessions-Laguna.jpg",
@@ -3257,13 +2863,6 @@ const videos = [
     title: "Sessions: NYCL",
   },
   {
-    slug: "sessions-otang-and-the-porsche-cayenne",
-    src: "https://assets.skatehousemedia.com/Sessions-OTang-and-the-Porsche-Cayenne.mp4",
-    thumbnail:
-      "https://assets.skatehousemedia.com/thumbnails/Sessions-OTang-and-the-Porsche-Cayenne.jpg",
-    title: "Sessions: Otang and the Porsche Cayenne",
-  },
-  {
     slug: "sessions-sk8-bus-escape",
     src: "https://assets.skatehousemedia.com/Sessions-Sk8-bus-Escape.mp4",
     thumbnail:
@@ -3276,13 +2875,6 @@ const videos = [
     thumbnail:
       "https://assets.skatehousemedia.com/thumbnails/Sessions-Sketchy-Mohaulin.jpg",
     title: "Sessions: Sketchy Mohaulin",
-  },
-  {
-    slug: "sessions-the-great-mountain-road",
-    src: "https://assets.skatehousemedia.com/Sessions-The-Great-Mountain-Road.mp4",
-    thumbnail:
-      "https://assets.skatehousemedia.com/thumbnails/Sessions-The-Great-Mountain-Road.jpg",
-    title: "Sessions: The Great Mountain Road",
   },
   {
     slug: "sessions-with-a-zipline",
@@ -3302,20 +2894,6 @@ const videos = [
     src: "https://assets.skatehousemedia.com/SHM_alicanteraw.mp4",
     thumbnail: "https://assets.skatehousemedia.com/thumbnails/SHM_alicanteraw.jpg",
     title: "Raw Run: Alicante",
-  },
-  {
-    slug: "shm-2013-compilation-part-1",
-    src: "https://assets.skatehousemedia.com/SHM-2013-Compilation-Part-1.mp4",
-    thumbnail:
-      "https://assets.skatehousemedia.com/thumbnails/SHM-2013-Compilation-Part-1.jpg",
-    title: "2013 Compilation Part 1",
-  },
-  {
-    slug: "shm-2013-compilation-part-2",
-    src: "https://assets.skatehousemedia.com/SHM-2013-Compilation-Part-2.mp4",
-    thumbnail:
-      "https://assets.skatehousemedia.com/thumbnails/SHM-2013-Compilation-Part-2.jpg",
-    title: "2013 Compilation Part 2",
   },
   {
     slug: "shm-arbor-dannymac-full",
@@ -3375,13 +2953,6 @@ const videos = [
     title: "Six Pack",
   },
   {
-    slug: "skate-hard-skate-safe-vol-2",
-    src: "https://assets.skatehousemedia.com/Skate-Hard-Skate-Safe-Vol-2.mp4",
-    thumbnail:
-      "https://assets.skatehousemedia.com/thumbnails/Skate-Hard-Skate-Safe-Vol-2.jpg",
-    title: "Skate Hard Skate Safe Vol. 2",
-  },
-  {
     slug: "skate-house-escobar",
     src: "https://assets.skatehousemedia.com/Skate-House-Escobar.mp4",
     thumbnail: "https://assets.skatehousemedia.com/thumbnails/Skate-House-Escobar.jpg",
@@ -3435,12 +3006,6 @@ const videos = [
     title: "Skatesgiving: Camp Sucky",
   },
   {
-    slug: "skatesgiving-dry-run",
-    src: "https://assets.skatehousemedia.com/Skatesgiving-Dry-Run.mp4",
-    thumbnail: "https://assets.skatehousemedia.com/thumbnails/Skatesgiving-Dry-Run.jpg",
-    title: "Skatesgiving: Dry Run",
-  },
-  {
     slug: "skatesgiving-in-full-effect",
     src: "https://assets.skatehousemedia.com/Skatesgiving-in-full-effect.mp4",
     thumbnail:
@@ -3453,13 +3018,6 @@ const videos = [
     thumbnail:
       "https://assets.skatehousemedia.com/thumbnails/Skatesgiving-Raw-Dry-Run.jpg",
     title: "Skatesgiving: Raw Dry Run",
-  },
-  {
-    slug: "skatesgiving-secret-surf-spot",
-    src: "https://assets.skatehousemedia.com/Skatesgiving-Secret-Surf-Spot.mp4",
-    thumbnail:
-      "https://assets.skatehousemedia.com/thumbnails/Skatesgiving-Secret-Surf-Spot.jpg",
-    title: "Skatesgiving: Secret Surf Spot",
   },
   {
     slug: "skatesgiving-the-south",
@@ -3482,12 +3040,6 @@ const videos = [
     title: "Sketch Fest III",
   },
   {
-    slug: "sketch-fest",
-    src: "https://assets.skatehousemedia.com/Sketch-Fest.mp4",
-    thumbnail: "https://assets.skatehousemedia.com/thumbnails/Sketch-Fest.jpg",
-    title: "Sketch Fest",
-  },
-  {
     slug: "slap-2012",
     src: "https://assets.skatehousemedia.com/SLAP-2012.mp4",
     thumbnail: "https://assets.skatehousemedia.com/thumbnails/SLAP-2012.jpg",
@@ -3507,13 +3059,6 @@ const videos = [
     title: "Snake Skeleton Finals",
   },
   {
-    slug: "soldiers-of-downhill-2012-finals",
-    src: "https://assets.skatehousemedia.com/Soldiers-Of-Downhill-2012-Finals.mp4",
-    thumbnail:
-      "https://assets.skatehousemedia.com/thumbnails/Soldiers-Of-Downhill-2012-Finals.jpg",
-    title: "Soldiers of Downhill 2012 Finals",
-  },
-  {
     slug: "soldiers-of-downhill-finals",
     src: "https://assets.skatehousemedia.com/Soldiers-of-Downhill-Finals.mp4",
     thumbnail:
@@ -3525,13 +3070,6 @@ const videos = [
     src: "https://assets.skatehousemedia.com/SOLDIERS.mp4",
     thumbnail: "https://assets.skatehousemedia.com/thumbnails/SOLDIERS.jpg",
     title: "Soldiers",
-  },
-  {
-    slug: "solo-cut-with-james-kelly",
-    src: "https://assets.skatehousemedia.com/Solo-Cut-with-James-Kelly.mp4",
-    thumbnail:
-      "https://assets.skatehousemedia.com/thumbnails/Solo-Cut-with-James-Kelly.jpg",
-    title: "James Kelly Solo",
   },
   {
     slug: "south-side-medellin-shm",
@@ -3564,12 +3102,6 @@ const videos = [
     src: "https://assets.skatehousemedia.com/Texas-Session.mp4",
     thumbnail: "https://assets.skatehousemedia.com/thumbnails/Texas-Session.jpg",
     title: "Sessions: Texas",
-  },
-  {
-    slug: "the-island-3",
-    src: "https://assets.skatehousemedia.com/the-island-3.mp4",
-    thumbnail: "https://assets.skatehousemedia.com/thumbnails/the-island-3.jpg",
-    title: "The Island 3",
   },
   {
     slug: "the-madagascar-gnar",
@@ -3774,13 +3306,6 @@ const videos = [
     title: "Visitors: Nick Hayes",
   },
   {
-    slug: "visitor-patrick-switzer",
-    src: "https://assets.skatehousemedia.com/Visitor-Patrick-Switzer.mp4",
-    thumbnail:
-      "https://assets.skatehousemedia.com/thumbnails/Visitor-Patrick-Switzer.jpg",
-    title: "Visitors: Patrick Switzer #1",
-  },
-  {
     slug: "visitor-rylan-raggie-english",
     src: "https://assets.skatehousemedia.com/Visitor-Rylan-Raggie-English.mp4",
     thumbnail:
@@ -3822,13 +3347,6 @@ const videos = [
     title: "Visitors: Braden and the Rock Wall",
   },
   {
-    slug: "visitors-camilo-cespedes-part-ii",
-    src: "https://assets.skatehousemedia.com/Visitors-Camilo-Cespedes-Part-II.mp4",
-    thumbnail:
-      "https://assets.skatehousemedia.com/thumbnails/Visitors-Camilo-Cespedes-Part-II.jpg",
-    title: "Visitors: Camilo Cespedes Part II",
-  },
-  {
     slug: "visitors-cole-kurtz",
     src: "https://assets.skatehousemedia.com/Visitors-Cole-Kurtz.mp4",
     thumbnail: "https://assets.skatehousemedia.com/thumbnails/Visitors-Cole-Kurtz.jpg",
@@ -3854,20 +3372,6 @@ const videos = [
     thumbnail:
       "https://assets.skatehousemedia.com/thumbnails/Visitors-Fernando-Yuppie-Pt-1.jpg",
     title: "Visitors: Fernando Yuppie Part I",
-  },
-  {
-    slug: "visitors-george-mackenzie",
-    src: "https://assets.skatehousemedia.com/Visitors-George-Mackenzie.mp4",
-    thumbnail:
-      "https://assets.skatehousemedia.com/thumbnails/Visitors-George-Mackenzie.jpg",
-    title: "Visitors: George Mackenzie",
-  },
-  {
-    slug: "visitors-isac-printz-sidewalk",
-    src: "https://assets.skatehousemedia.com/Visitors-Isac-Printz-Sidewalk.mp4",
-    thumbnail:
-      "https://assets.skatehousemedia.com/thumbnails/Visitors-Isac-Printz-Sidewalk.jpg",
-    title: "Visitors: Isac Printz Sidewalk",
   },
   {
     slug: "visitors-jeremy-ross",
@@ -3905,13 +3409,6 @@ const videos = [
     src: "https://assets.skatehousemedia.com/Visitors-Oregon-Crew.mp4",
     thumbnail: "https://assets.skatehousemedia.com/thumbnails/Visitors-Oregon-Crew.jpg",
     title: "Visitors: Oregon Crew",
-  },
-  {
-    slug: "visitors-patrick-switzer",
-    src: "https://assets.skatehousemedia.com/Visitors-Patrick-Switzer.mp4",
-    thumbnail:
-      "https://assets.skatehousemedia.com/thumbnails/Visitors-Patrick-Switzer.jpg",
-    title: "Visitors: Patrick Switzer #2",
   },
   {
     slug: "visitors-portland-crew",
@@ -3966,22 +3463,10 @@ const videos = [
     title: "Which Duro is Best for Sliding",
   },
   {
-    slug: "whisler2013rawrun",
-    src: "https://assets.skatehousemedia.com/whisler2013rawrun.mp4",
-    thumbnail: "https://assets.skatehousemedia.com/thumbnails/whisler2013rawrun.jpg",
-    title: "Raw Run: Whistler 2013",
-  },
-  {
     slug: "whistler-finals",
     src: "https://assets.skatehousemedia.com/Whistler-Finals.mp4",
     thumbnail: "https://assets.skatehousemedia.com/thumbnails/Whistler-Finals.jpg",
     title: "Whistler Finals",
-  },
-  {
-    slug: "whistler-raw-run",
-    src: "https://assets.skatehousemedia.com/Whistler-Raw-Run.mp4",
-    thumbnail: "https://assets.skatehousemedia.com/thumbnails/Whistler-Raw-Run.jpg",
-    title: "Raw Run: Whistler again",
   },
   {
     slug: "why-we-cant-have-nice-things",
@@ -3996,12 +3481,6 @@ const videos = [
     thumbnail:
       "https://assets.skatehousemedia.com/thumbnails/Will-and-Pablo-Night-Runs-SHM.jpg",
     title: "Will and Pablo Night Runs",
-  },
-  {
-    slug: "will-seal-raw",
-    src: "https://assets.skatehousemedia.com/WILL-SEAL-RAW.mp4",
-    thumbnail: "https://assets.skatehousemedia.com/thumbnails/WILL-SEAL-RAW.jpg",
-    title: "Raw Run: Will Seal #2",
   },
   {
     slug: "winter-wonderland-raw-run",
