@@ -1,7 +1,6 @@
 'use client'
 import React from 'react';
 import styles from './enhancedSvg.module.css';
-import { fontSizing } from '../../theme';
 
 interface EnhancedSvgProps {
   align?: string;
@@ -15,10 +14,10 @@ interface EnhancedSvgProps {
 }
 
 const sizes: Record<string, string> = {
-  small: fontSizing?.base || '16px',
-  medium: fontSizing?.medium || '24px',
-  large: fontSizing?.large || '40px',
-  xLarge: fontSizing?.xLarge || '48px',
+  small: 'var(--font-base)',
+  medium: 'var(--font-md)',
+  large: 'var(--font-lg)',
+  xLarge: 'var(--font-xl)',
 };
 
 const enhancedSvg = (Component: React.ComponentType) => {
