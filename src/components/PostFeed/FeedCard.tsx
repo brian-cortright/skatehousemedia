@@ -6,6 +6,7 @@ import slugify from "@/utils/slugify";
 import { stripHtmlAndTruncate } from "@/utils/extractors";
 import type { Post } from "@/types";
 import LinkOutIcon from '../enhancedSvg/svgs/LinkOutIcon';
+import formatDate from '@/utils/formatDate';
 
 const FeedCard: React.FC<Post> = ({ pageTitle, postDate, author, bodyText, thumbnail }) => {
   const excerpt = stripHtmlAndTruncate(bodyText, 120);
@@ -27,8 +28,8 @@ const FeedCard: React.FC<Post> = ({ pageTitle, postDate, author, bodyText, thumb
 
         {postDate || author ? (
           <div className={styles.cardMeta}>
-            {postDate && <BodyText variant="5" color="var(--color-grey-50)">{postDate}</BodyText>}
-            {author && <BodyText variant="5" color="var(--color-grey-50)">by {author}</BodyText>}
+            {postDate && <BodyText variant="5">{formatDate(postDate)}</BodyText>}
+            {author && <BodyText variant="5">by {author}</BodyText>}
           </div>
         ) : null}
 

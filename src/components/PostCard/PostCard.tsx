@@ -3,6 +3,7 @@ import Link from "next/link";
 import styles from "./PostCard.module.css";
 import { Subhead, BodyText } from "../Typography/Typography";
 import slugify from "@/utils/slugify";
+import formatDate from "@/utils/formatDate";
 
 interface PostCardProps {
   pageTitle: string;
@@ -29,7 +30,7 @@ const PostCard: React.FC<PostCardProps> = ({ pageTitle, postDate, author, bodyTe
           <div className={styles.cardBody}>
             <Subhead variant="3">{pageTitle}</Subhead>
             <div className={styles.cardMeta}>
-              {postDate && <BodyText variant="5" color="#999">{postDate}</BodyText>}
+              {postDate && <BodyText variant="5" color="#999">{formatDate(postDate)}</BodyText>}
               {author && <BodyText variant="5" color="#999">{author}</BodyText>}
             </div>
             {excerpt && (

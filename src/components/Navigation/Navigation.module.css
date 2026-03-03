@@ -35,7 +35,7 @@
 }
 
 .navLinks a {
-  border-radius: var(--border-radius-200);
+  border-radius: var(--border-radius-400);
   display: block;
   padding: var(--spacing-small_150) var(--spacing-small_400);
   transition: all 250ms ease-in-out;
