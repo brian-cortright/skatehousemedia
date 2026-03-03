@@ -7,7 +7,6 @@ import {
   Headline,
   Subhead,
 } from "@/components/Typography/Typography";
-import { baseColors } from "@/theme";
 import VideoPlayer from "@/components/VideoPlayer";
 import Button from "@/components/Button";
 import { usePopup } from "@/components/Popup/PopupContext";
@@ -43,10 +42,10 @@ const Shuffle: React.FC = () => {
       openPopup({
         children: (
           <div className={styles.messageWrapper}>
-            <Subhead color={baseColors.black} variant="2">
+            <Subhead color={'var(--color-black)'} variant="2">
               Still watching?
             </Subhead>
-            <BodyText color={baseColors.black} variant="4">
+            <BodyText color={'var(--color-black)'} variant="4">
               Sorry to interrupt, but we just want to make sure you are still
               there and not running up our tab for no reason.
             </BodyText>

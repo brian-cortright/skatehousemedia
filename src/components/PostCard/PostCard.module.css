@@ -1,5 +1,5 @@
 .card {
-  background: var(--color-gray-2);
+  background: var(--color-grey-300);
   border-radius: 8px;
   display: flex;
   flex-direction: column;
@@ -8,7 +8,7 @@
 }
 
 .card:hover {
-  background: var(--color-gray-3);
+  background: var(--color-grey-400);
 }
 
 .cardWrapper {

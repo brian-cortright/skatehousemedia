@@ -47,7 +47,7 @@ const Popup: React.FC<PopupProps> = ({
             aria-label="Close popup"
             type="button"
           >
-            <CloseIcon fill="var(--color-gray-6)" size="large" />
+            <CloseIcon fill="var(--color-grey-700)" size="large" />
           </button>
         )}
         {children}

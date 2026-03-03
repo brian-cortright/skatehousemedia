@@ -1,5 +1,5 @@
 .card {
-  background: var(--color-gray-3);
+  background: var(--color-grey-400);
   border-radius: 8px;
   flex-grow: 1;
   overflow: hidden;
