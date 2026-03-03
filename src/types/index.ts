@@ -4,6 +4,7 @@ export interface Post {
   author?: string;
   bodyText: string;
   thumbnail?: string | null;
+  featuredVideo?: string | null;
   tags?: string[];
   categories?: string[];
   ranking?: number;
