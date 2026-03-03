@@ -105,7 +105,7 @@ export default function Home() {
       <div className={styles.searchWrapper}>
         <Button handleClick={handleFilterClick}>
           <FilterIcon />
-          <BodyText variant="5">Filter</BodyText>
+          <BodyText color="var(--color-grey-50)" variant="5">Filter</BodyText>
         </Button>
         <SearchBar value={searchInput} onChange={handleSearch}/>
       </div>
