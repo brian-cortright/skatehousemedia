@@ -1,10 +1,11 @@
 import React from 'react';
 import Link from "next/link";
 import styles from "./PostFeed.module.css";
-import { Subhead, BodyText } from "@/components/Typography/Typography";
+import { BodyText, Headline } from "@/components/Typography/Typography";
 import slugify from "@/utils/slugify";
 import { stripHtmlAndTruncate } from "@/utils/extractors";
 import type { Post } from "@/types";
+import LinkOutIcon from '../enhancedSvg/svgs/LinkOutIcon';
 
 const FeedCard: React.FC<Post> = ({ pageTitle, postDate, author, bodyText, thumbnail }) => {
   const excerpt = stripHtmlAndTruncate(bodyText, 120);
@@ -13,26 +14,37 @@ const FeedCard: React.FC<Post> = ({ pageTitle, postDate, author, bodyText, thumb
   return (
     <Link href={`/post/${slug}`} style={{ textDecoration: 'none' }}>
     <article className={styles.cardWrapper}>
-        {thumbnail && (
-          <div className={styles.cardImageWrapper}>
-            <img className={styles.cardImage} src={thumbnail} alt={pageTitle} loading="lazy" />
+      {thumbnail && (
+        <div className={styles.cardImageWrapper}>
+          <img className={styles.cardImage} src={thumbnail} alt={pageTitle} loading="lazy" />
+          <div className={styles.cardImageOverlay}>
+            <LinkOutIcon fill='var(--color-grey-800)' size='medium' />
+          </div>
+        </div>
+      )}
+      <div className={styles.cardBody}>
+        <Headline as='h3' variant="7">{pageTitle}</Headline>
+
+        {postDate || author ? (
+          <div className={styles.cardMeta}>
+            {postDate && <BodyText variant="5" color="var(--color-grey-50)">{postDate}</BodyText>}
+            {author && <BodyText variant="5" color="var(--color-grey-50)">by {author}</BodyText>}
+          </div>
+        ) : null}
+
+        {excerpt && (
+          <div className={styles.cardExcerpt}>
+            <BodyText variant="5">{excerpt}</BodyText>
           </div>
         )}
-        <div className={styles.cardBody}>
-            <Subhead variant="3">{pageTitle}</Subhead>
-          <div className={styles.cardMeta}>
-            {postDate && <BodyText variant="5" color="#999">{postDate}</BodyText>}
-            {author && <BodyText variant="5" color="#999">by {author}</BodyText>}
-          </div>
-
-          {excerpt && (
-            <div className={styles.cardExcerpt}>
-              <BodyText variant="5">{excerpt}</BodyText>
-            </div>
-          )}
-          <BodyText variant="5">Read More {'>'}</BodyText>
-        </div>
-      </article>
+      </div>
+      {!thumbnail ? (
+        <BodyText className={styles.readMore} variant="5">
+          Read More
+          <LinkOutIcon fill='var(--color-grey-800)' size='small' />
+        </BodyText>
+      ) : null}
+    </article>
     </Link>
   );
 };
