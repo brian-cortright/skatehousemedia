@@ -1,17 +1,21 @@
 import React from 'react';
 import { VideoPage } from "@/components/VideoPage/VideoPage";
-import videos from "../../../../data/videoData";
+import { posts } from "../../../../data/postData";
+import slugify from "@/utils/slugify";
+import type { Post } from "@/types";
+
+const videoPosts = posts.filter((p: Post) => p.featuredVideo);
 
 export async function generateStaticParams() {
-  return videos;
+  return videoPosts.map((post: Post) => ({ slug: slugify(post.pageTitle) }));
 }
 
 const Watch = async ({ params }: { params: Promise<{ slug: string }> }) => {
   const awaitedParams = await params;
   const { slug } = awaitedParams;
-  const video = videos.find((item: { slug: string }) => item.slug === slug);
+  const post = videoPosts.find((item: Post) => slugify(item.pageTitle) === slug);
 
-  return <VideoPage video={video} />;
+  return <VideoPage post={post} />;
 };
 
 export default Watch;
