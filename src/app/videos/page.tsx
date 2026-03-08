@@ -1,17 +1,20 @@
 "use client";
 import React, { useState } from "react";
-import videos from "../../../data/videoData";
+import { posts } from "../../../data/postData";
 import styles from "./videos.module.css";
 import { Headline, BodyText } from "@/components/Typography/Typography";
 import VideoCard from "@/components/VideoCard/VideoCard";
 import LazyWrapper from "@/components/LazyWrapper/LazyWrapper";
 import SearchBar from "@/components/SearchBar/SearchBar";
 import Script from "next/script";
-import type { Video } from "@/types";
+import slugify from "@/utils/slugify";
+import type { Post } from "@/types";
+
+const videoPosts = posts.filter((p: Post) => p.featuredVideo);
 
 const Archive: React.FC = () => {
   const [searchInput, setSearchInput] = useState("");
-  const [filteredVideos, setFilteredVideos] = useState<Video[]>(videos as Video[]);
+  const [filteredVideos, setFilteredVideos] = useState<Post[]>(videoPosts);
 
   const handleSearch = (e: React.ChangeEvent<HTMLInputElement>) => {
     const searchTerm = e.target.value;
@@ -20,8 +23,8 @@ const Archive: React.FC = () => {
   };
 
   const filterVideos = (searchTerm: string) => {
-    const filtered = (videos as Video[]).filter((video) =>
-      video.title.toLowerCase().includes(searchTerm.toLowerCase())
+    const filtered = videoPosts.filter((post) =>
+      post.pageTitle.toLowerCase().includes(searchTerm.toLowerCase())
     );
     setFilteredVideos(filtered);
   };
@@ -57,8 +60,10 @@ const Archive: React.FC = () => {
         <SearchBar value={searchInput} onChange={handleSearch} />
         {filteredVideos && filteredVideos.length > 0 && (
           <div className={styles.grid}>
-            {filteredVideos.map((video, index) => {
-              const { slug, thumbnail, title } = video;
+            {filteredVideos.map((post, index) => {
+              const slug = slugify(post.pageTitle);
+              const thumbnail = post.thumbnail || '';
+              const title = post.pageTitle;
               return (
                 <LazyWrapper
                   enable={index > 9}

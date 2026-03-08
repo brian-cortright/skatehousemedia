@@ -4,14 +4,16 @@ import styles from "./VideoPage.module.css";
 import { Headline } from "@/components/Typography/Typography";
 import VideoPlayer from "../VideoPlayer";
 import Script from "next/script";
-import type { Video } from "@/types";
+import type { Post } from "@/types";
 
 interface VideoPageProps {
-  video?: Video;
+  post?: Post;
 }
 
-export const VideoPage: React.FC<VideoPageProps> = ({ video }) => {
-  const { src, thumbnail, title } = video || {};
+export const VideoPage: React.FC<VideoPageProps> = ({ post }) => {
+  const src = post?.featuredVideo ?? undefined;
+  const thumbnail = post?.thumbnail ?? undefined;
+  const title = post?.pageTitle;
 
   return (
     <>

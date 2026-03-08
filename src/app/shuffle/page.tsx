@@ -1,6 +1,6 @@
 "use client";
 import React, { useEffect, useRef, useState, Fragment } from "react";
-import videos from "../../../data/videoData";
+import { posts } from "../../../data/postData";
 import styles from "./shuffle.module.css";
 import {
   BodyText,
@@ -12,16 +12,18 @@ import Button from "@/components/Button";
 import { usePopup } from "@/components/Popup/PopupContext";
 import useTimer from "@/hooks/useTimer";
 import Script from "next/script";
-import type { Video } from "@/types";
+import type { Post } from "@/types";
 import MotionPlayIcon from "@/components/enhancedSvg/svgs/MotionPlayIcon";
+
+const videoPosts = posts.filter((p: Post) => p.featuredVideo);
 
 const Shuffle: React.FC = () => {
   const videoRef = useRef<HTMLVideoElement>(null);
   const unMutedVideo = useRef(false);
   const videoPlayCount = useRef(0);
   const [currentIndex, setCurentIndex] = useState(0);
-  const [shuffledList, setShuffledList] = useState<Video[]>(videos as Video[]);
-  const [currentVideo, setCurrentVideo] = useState<Video | undefined>(shuffledList[currentIndex]);
+  const [shuffledList, setShuffledList] = useState<Post[]>(videoPosts);
+  const [currentPost, setCurrentPost] = useState<Post | undefined>(shuffledList[currentIndex]);
   const { openPopup, closePopup } = usePopup();
 
   // Set an expiration time to pop the 'Continue watching' popup
@@ -84,7 +86,7 @@ const Shuffle: React.FC = () => {
   }, []);
 
   useEffect(() => {
-    setCurrentVideo(shuffledList[currentIndex]);
+    setCurrentPost(shuffledList[currentIndex]);
   }, [currentIndex, shuffledList]);
 
   useEffect(() => {
@@ -131,11 +133,11 @@ const Shuffle: React.FC = () => {
       <VideoPlayer
         ref={videoRef}
         shouldAutoPlay={true}
-        src={currentVideo?.src}
-        thumbnail={currentVideo?.thumbnail}
+        src={currentPost?.featuredVideo ?? undefined}
+        thumbnail={currentPost?.thumbnail ?? undefined}
       />
       <div className={styles.titleWrapper}>
-        <Subhead variant="2">{currentVideo?.title}</Subhead>
+        <Subhead variant="2">{currentPost?.pageTitle}</Subhead>
         <Fragment>
           <Button handleClick={() => setVideoToNext()}>
             <Subhead variant="4">Skip</Subhead>
@@ -159,7 +161,7 @@ const Shuffle: React.FC = () => {
         />
         <div className={styles.column}>
           <Subhead variant="2">
-            {shuffledList[currentIndex + 1]?.title}
+            {shuffledList[currentIndex + 1]?.pageTitle}
           </Subhead>
           <BodyText className={styles.playNow} variant="5">
             Play Now
@@ -172,4 +174,3 @@ const Shuffle: React.FC = () => {
 };
 
 export default Shuffle;
-
