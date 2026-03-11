@@ -1,0 +1,39 @@
+.pageWrapper {
+  display: flex;
+  flex-direction: column;
+  padding: var(--spacing-medium_300);
+  min-height: 100vh;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.section {
+  margin-bottom: var(--spacing-medium_300);
+}
+
+.section h2 {
+  font-family: 'Noto Sans', sans-serif;
+  font-size: var(--font-base-plus);
+  font-weight: var(--weight-bold);
+  color: var(--color-grey-800);
+  margin-bottom: var(--spacing-small_300);
+}
+
+.section p,
+.section li {
+  font-size: var(--font-sm);
+  color: var(--color-grey-600);
+  line-height: var(--line-height-max);
+  margin-bottom: var(--spacing-small_300);
+}
+
+.section ul {
+  padding-left: var(--spacing-medium_200);
+  margin-bottom: var(--spacing-small_300);
+}
+
+.lastUpdated {
+  font-size: var(--font-xs);
+  color: var(--color-grey-400);
+  margin-bottom: var(--spacing-medium_300);
+}
