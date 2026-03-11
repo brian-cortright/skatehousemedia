@@ -9,6 +9,7 @@ interface ButtonProps {
   href?: string;
   mode?: 'light' | 'dark';
   target?: string;
+  variant?: 'solid' | 'outline';
 }
 
 const Button: React.FC<ButtonProps> = ({
@@ -19,12 +20,14 @@ const Button: React.FC<ButtonProps> = ({
   href = "",
   mode = "light",
   target,
+  variant = 'solid',
 }) => {
   const Component: React.ElementType = href ? "a" : "button";
 
   const classNames = [
     styles.button,
     styles[mode],
+    styles[variant],
     fullWidth ? styles.fullWidth : styles.autoWidth,
     className
   ].filter(Boolean).join(" ");

@@ -1,0 +1,8 @@
+.regionBadge {
+  background-color: var(--color-grey-700);
+  padding: 4px 8px;
+  border-radius: 4px;
+  font-size: var(--font-xs);
+  color: var(--color-grey-100);
+  border: 1px solid var(--color-grey-700);
+}
