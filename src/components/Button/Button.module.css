@@ -39,6 +39,27 @@
   border: 2px solid var(--color-grey-200);
 }
 
+/* Variants */
+.outline {
+  background-color: transparent !important;
+}
+.outline.light {
+  border-color: var(--color-grey-800);
+  color: var(--color-grey-800);
+}
+.outline.light:hover {
+  background-color: var(--color-grey-800) !important;
+  color: var(--color-shm-black);
+}
+.outline.dark {
+  border-color: var(--color-white);
+  color: var(--color-white);
+}
+.outline.dark:hover {
+  background-color: var(--color-white) !important;
+  color: var(--color-shm-black);
+}
+
 /* Full Width */
 .fullWidth {
   width: 100%;

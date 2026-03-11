@@ -6,6 +6,7 @@ export interface Event {
   country: string;
   featuredImage: string | null;
   registrationLink: string | null;
+  websiteLink: string | null;
 }
 
 export const events: Event[] = [
@@ -17,6 +18,7 @@ export const events: Event[] = [
     country: "ES",
     featuredImage: null,
     registrationLink: null,
+    websiteLink: null,
   },
   {
     title: "Rasen in Wasen, Freiburg*",
@@ -26,6 +28,7 @@ export const events: Event[] = [
     country: "DE",
     featuredImage: null,
     registrationLink: null,
+    websiteLink: null,
   },
   {
     title: "Tepe & Tacos*",
@@ -35,6 +38,7 @@ export const events: Event[] = [
     country: "US",
     featuredImage: null,
     registrationLink: null,
+    websiteLink: null,
   },
   {
     title: "Bo Peep, Eastbourne",
@@ -44,6 +48,7 @@ export const events: Event[] = [
     country: "GB",
     featuredImage: null,
     registrationLink: null,
+    websiteLink: null,
   },
   {
     title: "TUP opening",
@@ -53,6 +58,7 @@ export const events: Event[] = [
     country: "DE",
     featuredImage: null,
     registrationLink: null,
+    websiteLink: null,
   },
   {
     title: "Groberlach",
@@ -62,6 +68,7 @@ export const events: Event[] = [
     country: "DE",
     featuredImage: null,
     registrationLink: null,
+    websiteLink: null,
   },
   {
     title: "Marchaux, Frankreich",
@@ -71,6 +78,7 @@ export const events: Event[] = [
     country: "FR",
     featuredImage: null,
     registrationLink: null,
+    websiteLink: null,
   },
   {
     title: "Outdoor Mix*",
@@ -80,6 +88,7 @@ export const events: Event[] = [
     country: "FR",
     featuredImage: null,
     registrationLink: null,
+    websiteLink: null,
   },
   {
     title: "Alva*",
@@ -89,6 +98,7 @@ export const events: Event[] = [
     country: "PT",
     featuredImage: null,
     registrationLink: null,
+    websiteLink: null,
   },
   {
     title: "Pukas",
@@ -98,6 +108,7 @@ export const events: Event[] = [
     country: "ES",
     featuredImage: null,
     registrationLink: null,
+    websiteLink: null,
   },
   {
     title: "WDSC*",
@@ -107,6 +118,7 @@ export const events: Event[] = [
     country: "TR",
     featuredImage: null,
     registrationLink: null,
+    websiteLink: null,
   },
   {
     title: "Ach Freeride*",
@@ -116,6 +128,7 @@ export const events: Event[] = [
     country: "CZ",
     featuredImage: null,
     registrationLink: null,
+    websiteLink: null,
   },
   {
     title: "Veko",
@@ -125,6 +138,7 @@ export const events: Event[] = [
     country: "NO",
     featuredImage: null,
     registrationLink: null,
+    websiteLink: null,
   },
   {
     title: "lichtenhain???*",
@@ -134,6 +148,7 @@ export const events: Event[] = [
     country: "DE",
     featuredImage: null,
     registrationLink: null,
+    websiteLink: null,
   },
   {
     title: "WDSC*",
@@ -143,6 +158,7 @@ export const events: Event[] = [
     country: "IM",
     featuredImage: null,
     registrationLink: null,
+    websiteLink: null,
   },
   {
     title: "SB",
@@ -152,6 +168,7 @@ export const events: Event[] = [
     country: "IT",
     featuredImage: null,
     registrationLink: null,
+    websiteLink: null,
   },
   {
     title: "KNK*",
@@ -161,6 +178,7 @@ export const events: Event[] = [
     country: "SI",
     featuredImage: null,
     registrationLink: null,
+    websiteLink: null,
   },
   {
     title: "Lemanik*",
@@ -170,6 +188,7 @@ export const events: Event[] = [
     country: "FR",
     featuredImage: null,
     registrationLink: null,
+    websiteLink: null,
   },
   {
     title: "Straja ???",
@@ -179,6 +198,7 @@ export const events: Event[] = [
     country: "RO",
     featuredImage: null,
     registrationLink: null,
+    websiteLink: null,
   },
   {
     title: "Vulcan",
@@ -188,6 +208,7 @@ export const events: Event[] = [
     country: "RO",
     featuredImage: null,
     registrationLink: null,
+    websiteLink: null,
   },
   {
     title: "Velefique",
@@ -197,6 +218,7 @@ export const events: Event[] = [
     country: "ES",
     featuredImage: null,
     registrationLink: null,
+    websiteLink: null,
   },
   {
     title: "WDSC",
@@ -206,6 +228,7 @@ export const events: Event[] = [
     country: "US",
     featuredImage: null,
     registrationLink: null,
+    websiteLink: null,
   },
   {
     title: "Polopes*",
@@ -215,6 +238,7 @@ export const events: Event[] = [
     country: "ES",
     featuredImage: null,
     registrationLink: null,
+    websiteLink: null,
   },
   {
     title: "WSG*",
@@ -224,6 +248,7 @@ export const events: Event[] = [
     country: "PY",
     featuredImage: null,
     registrationLink: null,
+    websiteLink: null,
   },
   {
     title: "WDSC QS",
@@ -233,6 +258,7 @@ export const events: Event[] = [
     country: "BR",
     featuredImage: null,
     registrationLink: null,
+    websiteLink: null,
   },
   {
     title: "WDSC",
@@ -242,5 +268,6 @@ export const events: Event[] = [
     country: "SV",
     featuredImage: null,
     registrationLink: null,
+    websiteLink: null,
   },
 ];
