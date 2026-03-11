@@ -30,8 +30,11 @@ export default function EventsPage() {
   }, []);
 
   const filteredEvents = useMemo(() => {
-    if (!selectedRegion) return events;
-    return events.filter(e => e.region === selectedRegion);
+    let result = [...events];
+    if (selectedRegion) {
+      result = result.filter(e => e.region === selectedRegion);
+    }
+    return result.sort((a, b) => new Date(a.date).getTime() - new Date(b.date).getTime());
   }, [selectedRegion]);
 
   const formatDate = (dateStr: string, endDateStr?: string) => {
@@ -63,7 +66,7 @@ export default function EventsPage() {
       <div className={styles.headerContainer}>
         <div className={styles.headerText}>
           <Headline as="h1" variant="4">Event Calendar</Headline>
-          <BodyText variant="5" className={styles.subhead}>
+          <BodyText variant="5">
             Upcoming skateboarding events, competitions, and community meetups
           </BodyText>
         </div>
@@ -166,8 +169,8 @@ export default function EventsPage() {
                     </a>
                   ) : null}
                   {event.websiteLink ? (
-                    <span className={styles.websiteLink} style={{pointerEvents: 'none', opacity: 0.5}}>
-                      <LinkOutIcon fill="var(--color-grey-400)" size="small" />
+                    <span className={styles.websiteLink}>
+                      <LinkOutIcon fill="var(--color-grey-800)" size="small" />
                       Website
                     </span>
                   ) : null}
