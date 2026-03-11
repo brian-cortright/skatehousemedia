@@ -1,16 +1,32 @@
 import React from 'react';
+import type { Metadata } from 'next';
 import { PostPage } from "@/components/PostPage/PostPage";
 import { posts } from "../../../../data/postData";
 import slugify from "@/utils/slugify";
+import type { Post } from "@/types";
+import { getWordCount } from '@/utils/getWordCount';
 
 export async function generateStaticParams() {
-  return posts.map((post: { pageTitle: string }) => ({ slug: slugify(post.pageTitle) }));
+  return posts.map((post: Post) => ({ slug: slugify(post.pageTitle) }));
+}
+
+export async function generateMetadata({ params }: { params: Promise<{ slug: string }> }): Promise<Metadata> {
+  const { slug } = await params;
+  const post = posts.find((item: Post) => slugify(item.pageTitle) === slug);
+
+  const wordCount = post?.bodyText ? getWordCount(post.bodyText) : 0;
+  const shouldNoIndex = wordCount < 100;
+
+  return {
+    title: post?.pageTitle ?? 'Post',
+    ...(shouldNoIndex && { robots: { index: false, follow: true } }),
+  };
 }
 
 const PostPageRoute = async ({ params }: { params: Promise<{ slug: string }> }) => {
   const awaitedParams = await params;
   const { slug } = awaitedParams;
-  const post = posts.find((item: { pageTitle: string }) => slugify(item.pageTitle) === slug);
+  const post = posts.find((item: Post) => slugify(item.pageTitle) === slug);
 
   return <PostPage post={post} />;
 };
