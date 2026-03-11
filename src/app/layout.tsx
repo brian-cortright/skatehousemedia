@@ -6,7 +6,7 @@ import type { Metadata } from 'next'
 
 export const metadata: Metadata = {
   title: 'SkateHouseMedia',
-  description: 'Archival preservation of SkateHouseMedia',
+  description: 'SkateHouseMedia — Downhill skateboarding videos, event coverage, rider profiles, and community content since 2009',
 }
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {

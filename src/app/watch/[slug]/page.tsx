@@ -4,7 +4,7 @@ import { VideoPage } from "@/components/VideoPage/VideoPage";
 import { posts } from "../../../../data/postData";
 import slugify from "@/utils/slugify";
 import type { Post } from "@/types";
-import { getWordCount } from '@/utils/getWordCount';  
+import { getWordCount, getExcerpt } from '@/utils/getWordCount';
 
 const videoPosts = posts.filter((p: Post) => p.featuredVideo);
 
@@ -21,6 +21,7 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
 
   return {
     title: post?.pageTitle ?? 'Video',
+    ...(!shouldNoIndex && post?.bodyText && { description: getExcerpt(post.bodyText) }),
     ...(shouldNoIndex && { robots: { index: false, follow: true } }),
   };
 }
