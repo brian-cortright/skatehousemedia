@@ -68,6 +68,19 @@ const Footer: React.FC = () => {
               </Link>
             </li>
           </ul>
+          <ul className={styles.navLinks}>
+            <Subhead as='h2' variant="2">Boring Stuff</Subhead>
+            <li>
+              <Link href="/privacy-policy">
+              <Subhead as='h3' fontWeight="400" variant="4">Privacy Policy</Subhead>
+              </Link>
+            </li>
+            <li>
+              <Link href="/terms">
+              <Subhead as='h3' fontWeight="400" variant="4">Terms of Service</Subhead>
+              </Link>
+            </li>
+          </ul>
         </nav>
       </div>
       <div className={styles.footerBottom}>
