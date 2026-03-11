@@ -1,5 +1,5 @@
 "use client";
-import React, { useEffect, useRef, useState, Fragment } from "react";
+import React, { useEffect, useRef, useState } from "react";
 import { posts } from "../../../data/postData";
 import styles from "./shuffle.module.css";
 import {
@@ -7,13 +7,13 @@ import {
   Headline,
   Subhead,
 } from "@/components/Typography/Typography";
-import VideoPlayer from "@/components/VideoPlayer";
 import Button from "@/components/Button";
 import { usePopup } from "@/components/Popup/PopupContext";
 import useTimer from "@/hooks/useTimer";
 import Script from "next/script";
 import type { Post } from "@/types";
-import MotionPlayIcon from "@/components/enhancedSvg/svgs/MotionPlayIcon";
+import { getVimeoId } from "@/utils/videoUtils";
+import { getYouTubeId } from "@/utils/videoUtils";
 
 const videoPosts = posts.filter((p: Post) => p.featuredVideo);
 
@@ -69,13 +69,18 @@ const Shuffle: React.FC = () => {
       newShuffle[i] = newShuffle[j];
       newShuffle[j] = temp;
     }
-
     setShuffledList(newShuffle);
     setCurentIndex(0);
   };
 
   const setVideoToNext = () => {
     setCurentIndex(currentIndex + 1);
+    unMutedVideo.current = false;
+    videoPlayCount.current = videoPlayCount.current + 1;
+  };
+
+  const playAtIndex = (index: number) => {
+    setCurentIndex(index);
     unMutedVideo.current = false;
     videoPlayCount.current = videoPlayCount.current + 1;
   };
@@ -91,7 +96,6 @@ const Shuffle: React.FC = () => {
 
   useEffect(() => {
     if (videoRef.current) {
-      // This is all to avoid autoplay blocking
       videoRef.current.onplaying = () => {
         if (!unMutedVideo.current) {
           videoRef.current!.muted = false;
@@ -104,6 +108,12 @@ const Shuffle: React.FC = () => {
     }
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [videoRef.current]);
+
+  const currentSrc = currentPost?.featuredVideo ?? "";
+  const youtubeId = currentSrc ? getYouTubeId(currentSrc) : null;
+  const vimeoId = currentSrc ? getVimeoId(currentSrc) : null;
+
+  const upNext = shuffledList.slice(currentIndex + 1, currentIndex + 4);
 
   return (
     <main className={styles.pageWrapper}>
@@ -125,50 +135,83 @@ const Shuffle: React.FC = () => {
       </Script>
       <Headline
         as="h1"
-        margin="0 auto var(--spacing-medium_300) auto"
+        margin="0 auto var(--spacing-small_300) auto"
         variant="5"
       >
         Shuffle
       </Headline>
-      <VideoPlayer
-        ref={videoRef}
-        shouldAutoPlay={true}
-        src={currentPost?.featuredVideo ?? undefined}
-        thumbnail={currentPost?.thumbnail ?? undefined}
-      />
-      <div className={styles.titleWrapper}>
-        <Subhead variant="2">{currentPost?.pageTitle}</Subhead>
-        <Fragment>
-          <Button handleClick={() => setVideoToNext()}>
-            <Subhead variant="4">Skip</Subhead>
-          </Button>
-          <Button handleClick={() => shuffleVideos()}>
-            <Subhead variant="4">Shuffle</Subhead>
-          </Button>
-        </Fragment>
-      </div>
-      <Headline
-        margin="var(--spacing-large_100) 0 0 0"
-        textAlignment="left"
-        variant="5"
-      >
-        Up Next:
-      </Headline>
-      <button className={styles.upNextCard} onClick={() => setVideoToNext()}>
-        <div
-          className={styles.entryThumbnail}
-          style={{ backgroundImage: `url(${shuffledList[currentIndex + 1]?.thumbnail})` }}
-        />
-        <div className={styles.column}>
-          <Subhead variant="2">
-            {shuffledList[currentIndex + 1]?.pageTitle}
-          </Subhead>
-          <BodyText className={styles.playNow} variant="5">
-            Play Now
-            <MotionPlayIcon fill='var(--color-grey-800)' size='small' />
-          </BodyText>
+      <BodyText margin="0 auto var(--spacing-medium_100) auto" textAlignment="center" variant="5">
+        Endless video content injected straight into your veins. Sit back and enjoy the session.
+      </BodyText>
+
+      <div className={styles.columns}>
+        {/* Player Card */}
+        <div className={styles.playerCard}>
+          {youtubeId ? (
+            <iframe
+              src={`https://www.youtube.com/embed/${youtubeId}?autoplay=1&mute=0`}
+              title="Video player"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowFullScreen
+            />
+          ) : vimeoId ? (
+            <iframe
+              src={`https://player.vimeo.com/video/${vimeoId}?autoplay=1`}
+              title="Video player"
+              allow="autoplay; fullscreen; picture-in-picture"
+              allowFullScreen
+            />
+          ) : (
+            <video
+              autoPlay
+              controls
+              muted
+              preload="none"
+              poster={currentPost?.thumbnail ?? undefined}
+              ref={videoRef}
+              src={currentSrc || undefined}
+            />
+          )}
+          <div className={styles.playerCardBody}>
+            <div className={styles.playerCardText}>
+              <Subhead variant="2">{currentPost?.pageTitle}</Subhead>
+              <BodyText variant="5" color="var(--color-grey-600)">
+                {currentIndex + 1} / {shuffledList.length}
+              </BodyText>
+            </div>
+            <div className={styles.playerButtons}>
+              <Button handleClick={() => setVideoToNext()}>
+                <Subhead variant="4">Next Video</Subhead>
+              </Button>
+              <Button handleClick={() => shuffleVideos()}>
+                <Subhead variant="4">Reshuffle</Subhead>
+              </Button>
+            </div>
+          </div>
         </div>
-      </button>
+
+        {/* Up Next Card */}
+        <div className={styles.upNextCard}>
+          <div className={styles.upNextHeader}>
+            <Subhead variant="2">Up Next</Subhead>
+          </div>
+          {upNext.map((post, i) => (
+            <button
+              key={`queue-${currentIndex + 1 + i}`}
+              className={styles.queueItem}
+              onClick={() => playAtIndex(currentIndex + 1 + i)}
+            >
+              <div
+                className={styles.queueThumbnail}
+                style={{ backgroundImage: `url(${post.thumbnail})` }}
+              />
+              <div className={styles.queueInfo}>
+                <Subhead variant="4">{post.pageTitle}</Subhead>
+              </div>
+            </button>
+          ))}
+        </div>
+      </div>
     </main>
   );
 };
