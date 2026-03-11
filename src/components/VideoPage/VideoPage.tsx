@@ -34,7 +34,7 @@ export const VideoPage: React.FC<VideoPageProps> = ({ post }) => {
         {`(adsbygoogle = window.adsbygoogle || []).push({});`}
       </Script>
       <div className={styles.titleWrapper}>
-        <Headline as="h1" variant="4">
+        <Headline as="h1" variant="5">
           {title}
         </Headline>
       </div>
