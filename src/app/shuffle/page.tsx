@@ -45,14 +45,14 @@ const Shuffle: React.FC = () => {
       openPopup({
         children: (
           <div className={styles.messageWrapper}>
-            <Subhead color={'var(--color-black)'} variant="2">
+            <Subhead variant="2">
               Still watching?
             </Subhead>
-            <BodyText color={'var(--color-black)'} variant="4">
+            <BodyText variant="4">
               Sorry to interrupt, but we just want to make sure you are still
               there and not running up our tab for no reason.
             </BodyText>
-            <Button handleClick={() => handleKeepWatchingClick()} mode="dark">
+            <Button handleClick={() => handleKeepWatchingClick()}>
               Keep Watching
             </Button>
           </div>
