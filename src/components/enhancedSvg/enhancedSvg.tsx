@@ -49,13 +49,13 @@ const enhancedSvg = (Component: React.ComponentType) => {
     styleVariables['--svg-width']  = (customHeight || customWidth) ? (customWidth ? `${customWidth}px` : 'auto') : (size ? sizes[size] : sizes.medium);
 
     return (
-      <div
+      <span
         className={wrapperClassNames}
         style={{ ...wrapperStyle, ...styleVariables } as React.CSSProperties}
         onClick={handleClick}
       >
         <Component />
-      </div>
+      </span>
     );
   };
 
