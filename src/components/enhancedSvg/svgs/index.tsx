@@ -9,3 +9,5 @@ export { default as ViewListIcon } from './ViewListIcon';
 export { default as EventIcon } from './EventIcon';
 export { default as PlaceIcon } from './PlaceIcon';
 export { default as LinkOutIcon } from './LinkOutIcon';
+export { default as MenuIcon } from './MenuIcon';
+export { default as CloseIcon } from './CloseIcon';
