@@ -39,11 +39,11 @@ const Footer: React.FC = () => {
                 <Subhead as='h3' fontWeight="400" variant="4">Events</Subhead>
               </Link>
             </li>
-            <li>
+            {/* <li>
               <Link href="/history">
                 <Subhead as='h3' fontWeight="400" variant="4">History</Subhead>
               </Link>
-            </li>
+            </li> */}
           </ul>
           <ul className={styles.navLinks}>
             <Subhead as='h2' variant="2">Browse</Subhead>

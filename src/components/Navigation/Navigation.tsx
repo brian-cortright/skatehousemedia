@@ -36,11 +36,11 @@ const Navigation: React.FC = () => {
             <Subhead as='h3'variant="4">Events</Subhead>
           </Link>
         </li>
-        <li className={pathname === "/history" ? styles.active : ""}>
+        {/* <li className={pathname === "/history" ? styles.active : ""}>
           <Link href="/history">
             <Subhead as='h3'variant="4">History</Subhead>
           </Link>
-        </li>
+        </li> */}
         <li className={pathname === "/contact" ? styles.active : ""}>
           <Link href="/contact">
             <Subhead as='h3'variant="4">Contact</Subhead>
