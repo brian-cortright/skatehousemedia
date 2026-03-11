@@ -6,6 +6,7 @@ import Script from "next/script";
 import slugify from "@/utils/slugify";
 import Link from "next/link";
 import Markdown from "@/components/Markdown/Markdown";
+import VideoPlayer from "@/components/VideoPlayer";
 import type { Post } from "@/types";
 import formatDate from "@/utils/formatDate";
 
@@ -14,7 +15,7 @@ interface PostPageProps {
 }
 
 export const PostPage: React.FC<PostPageProps> = ({ post }) => {
-  const { pageTitle, postDate, author, bodyText, tags, categories } = post || {};
+  const { pageTitle, postDate, author, bodyText, tags, categories, featuredVideo, thumbnail } = post || {};
 
   return (
     <>
@@ -76,6 +77,9 @@ export const PostPage: React.FC<PostPageProps> = ({ post }) => {
             </div>
           ) : null}
         </div>
+      ) : null}
+      {featuredVideo ? (
+        <VideoPlayer src={featuredVideo} thumbnail={thumbnail ?? undefined} />
       ) : null}
       <div className={styles.contentWrapper}>
         <Markdown text={bodyText} />
