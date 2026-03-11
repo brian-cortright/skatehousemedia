@@ -30,7 +30,7 @@
   flex-direction: column;
   justify-content: flex-start;
   align-items: center;
-  padding: var(--spacing-medium_300);
+  padding: var(--spacing-medium_100);
   min-height: 100vh;
 }
 

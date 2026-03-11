@@ -2,6 +2,7 @@
   align-items: center;
   display: flex;
   flex-direction: column;
+  margin-block-end: var(--spacing-large_100);
   width: 100%;
 }
 
