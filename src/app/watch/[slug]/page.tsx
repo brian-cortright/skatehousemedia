@@ -23,6 +23,15 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
     title: post?.pageTitle ?? 'Video',
     ...(!shouldNoIndex && post?.bodyText && { description: getExcerpt(post.bodyText) }),
     ...(shouldNoIndex && { robots: { index: false, follow: true } }),
+    openGraph: {
+      title: post?.pageTitle ?? 'Video',
+      description: post?.bodyText ? getExcerpt(post.bodyText) : undefined,
+      images: [
+        {
+          url: post?.thumbnail ? post.thumbnail : '/shm-logo.svg',
+        }
+      ]
+    }
   };
 }
 

@@ -5,8 +5,24 @@ import ClientLayout from '@/components/ClientLayout'
 import type { Metadata } from 'next'
 
 export const metadata: Metadata = {
+  metadataBase: new URL('https://skatehousemedia.com'),
   title: 'SkateHouseMedia',
   description: 'SkateHouseMedia — Downhill skateboarding videos, event coverage, rider profiles, and community content since 2009',
+  openGraph: {
+    title: 'SkateHouseMedia',
+    description: 'SkateHouseMedia — Downhill skateboarding videos, event coverage, rider profiles, and community content since 2009',
+    url: 'https://skatehousemedia.com',
+    siteName: 'SkateHouseMedia',
+    images: [
+      {
+        url: '/shm-logo.svg',
+        width: 800,
+        height: 600,
+      },
+    ],
+    locale: 'en_US',
+    type: 'website',
+  },
 }
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
