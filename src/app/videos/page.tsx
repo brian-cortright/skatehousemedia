@@ -18,7 +18,7 @@ import type { Post, Taxonomy } from "@/types";
 
 const videoPosts = posts.filter((p: Post) => p.featuredVideo);
 
-const Archive: React.FC = () => {
+const Videos: React.FC = () => {
   const [searchInput, setSearchInput] = useState("");
   const [selectedTags, setSelectedTags] = useState<Set<string>>(new Set());
   const [selectedCategories, setSelectedCategories] = useState<Set<string>>(new Set());
@@ -187,4 +187,4 @@ const Archive: React.FC = () => {
   );
 };
 
-export default Archive;
+export default Videos;
