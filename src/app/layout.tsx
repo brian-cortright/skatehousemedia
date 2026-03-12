@@ -7,17 +7,17 @@ import type { Metadata } from 'next'
 export const metadata: Metadata = {
   metadataBase: new URL('https://skatehousemedia.com'),
   title: 'SkateHouseMedia',
-  description: 'SkateHouseMedia — Downhill skateboarding videos, event coverage, rider profiles, and community content since 2009',
+  description: 'Downhill skateboarding videos, event coverage, rider profiles, and community content since 2009',
   openGraph: {
     title: 'SkateHouseMedia',
-    description: 'SkateHouseMedia — Downhill skateboarding videos, event coverage, rider profiles, and community content since 2009',
+    description: 'Downhill skateboarding videos, event coverage, rider profiles, and community content since 2009',
     url: 'https://skatehousemedia.com',
     siteName: 'SkateHouseMedia',
     images: [
       {
-        url: '/shm-logo.svg',
-        width: 800,
-        height: 600,
+        url: '/shm-logo.png',
+        width: 1200,
+        height: 1000,
       },
     ],
     locale: 'en_US',

@@ -28,7 +28,7 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
       description: post?.bodyText ? getExcerpt(post.bodyText) : undefined,
       images: [
         {
-          url: post?.thumbnail ? post.thumbnail : '/shm-logo.svg',
+          url: post?.thumbnail ? post.thumbnail : '/shm-logo.png',
         }
       ]
     }
