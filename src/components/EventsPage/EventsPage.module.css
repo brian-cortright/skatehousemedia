@@ -93,6 +93,10 @@
 .eventsContainerList .eventCard {
   flex-direction: row;
   align-items: center;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-radius: 0;
 }
 
 .eventImagePlaceholder {
@@ -107,10 +111,7 @@
 }
 
 .eventsContainerList .eventImagePlaceholder {
-  width: 250px;
-  height: 100%;
-  min-height: 180px;
-  flex-shrink: 0;
+  display: none;
 }
 
 .eventImage {
@@ -120,10 +121,7 @@
 }
 
 .eventsContainerList .eventImage {
-  width: 250px;
-  height: 100%;
-  min-height: 180px;
-  flex-shrink: 0;
+  display: none;
 }
 
 .eventContent {
@@ -134,6 +132,8 @@
 }
 
 .eventsContainerList .eventContent {
+  padding-block: var(--spacing-medium_100);
+  padding-inline: 0;
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
@@ -142,7 +142,12 @@
 .eventDetails {
   display: flex;
   flex-direction: column;
-  gap: 12px;
+  gap: var(--spacing-small_300);
+}
+
+.eventsContainerList .eventDetails {
+  flex-direction: row;
+  flex-wrap: wrap;
 }
 
 .eventMeta {
@@ -248,6 +253,7 @@
   .eventsContainerList .eventContent {
     flex-direction: column;
     align-items: flex-start;
+    width: 100%;
   }
   
   .eventsContainerList .eventActions {
@@ -260,6 +266,12 @@
 
 @media (max-width: 650px) {
   .viewToggles {
+    width: 100%;
+  }
+
+  .eventsContainerList .eventDetails {
+    flex-direction: column;
+    align-items: flex-start;
     width: 100%;
   }
 }

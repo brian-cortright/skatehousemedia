@@ -8,6 +8,7 @@ export interface Post {
   tags?: string[];
   categories?: string[];
   ranking?: number;
+  featuredPost?: boolean | string;
 }
 
 export interface Video {
