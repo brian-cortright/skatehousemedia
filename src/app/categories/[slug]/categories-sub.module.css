@@ -1,10 +1,10 @@
 .pageWrapper {
+  align-items: center;
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
-  align-items: center;
-  padding: var(--spacing-medium_300);
   min-height: 100vh;
+  padding: var(--spacing-medium_300);
 }
 
 .grid {

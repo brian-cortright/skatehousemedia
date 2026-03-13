@@ -2,8 +2,8 @@
   align-items: center;
   display: flex;
   flex-wrap: nowrap;
-  margin-block-start: var(--spacing-medium_100);
   gap: var(--spacing-small_200);
+  margin-block-start: var(--spacing-medium_100);
 }
 
 .altNavWrapper a {
@@ -11,12 +11,12 @@
 }
 
 .pageWrapper {
+  align-items: center;
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: center;
-  padding-inline: var(--spacing-medium_300);
   min-height: 100vh;
+  padding-inline: var(--spacing-medium_300);
 }
 
 .searchWrapper {

@@ -25,8 +25,8 @@
 }
 
 .footerBottom {
-  padding-block-start: var(--spacing-medium_300);
   padding-block-end: var(--spacing-medium_150);
+  padding-block-start: var(--spacing-medium_300);
 }
 
 .footerNav {
@@ -60,11 +60,11 @@
 }
 
 .sponsorsWrapper {
+  align-items: center;
   display: flex;
   flex-direction: column;
   gap: var(--spacing-medium_100);
   justify-content: center;
-  align-items: center;
   width: max-content;
 }
 

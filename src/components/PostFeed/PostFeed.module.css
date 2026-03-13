@@ -1,27 +1,27 @@
 .feedWrapper {
+  align-items: center;
   display: flex;
   flex-direction: column;
-  align-items: center;
   gap: var(--spacing-large_50);
-  width: 100%;
-  max-width: 900px;
   margin: var(--spacing-large_50) auto;
+  max-width: 900px;
+  width: 100%;
 }
 
 .gridContainer {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
   gap: var(--spacing-medium_300);
+  grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
   width: 100%;
 }
 
 .cardWrapper {
-  overflow: hidden;
   display: flex;
   flex-direction: column;
   gap: var(--spacing-medium_300);
-  transition: var(--transition-default);
   height: 100%;
+  overflow: hidden;
+  transition: var(--transition-default);
 }
 
 .cardWrapper:hover .cardImageOverlay {
@@ -29,31 +29,31 @@
 }
 
 .cardImageWrapper {
-  width: 100%;
   aspect-ratio: 16 / 9;
   border-radius: var(--border-radius-500);
   overflow: hidden;
   position: relative;
+  width: 100%;
 }
 
 .cardWrapper .cardImageOverlay {
+  align-items: center;
   background: color(from var(--color-black) srgb r g b / 0.7);
   display: flex;
-  align-items: center;
+  height: 100%;
   justify-content: center;
+  left: 0;
+  opacity: 0;
   position: absolute;
   top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  opacity: 0;
   transition: var(--transition-default);
+  width: 100%;
 }
 
 .cardImage {
-  width: 100%;
   height: 100%;
   object-fit: cover;
+  width: 100%;
 }
 
 .cardBody {
@@ -76,13 +76,13 @@
 .loadMoreContainer {
   display: flex;
   justify-content: center;
-  width: 100%;
   margin-top: var(--spacing-medium_200);
+  width: 100%;
 }
 
 .readMore {
-  display: flex;
   align-items: center;
+  display: flex;
   gap: var(--spacing-small_100);
   opacity: 0;
   transition: var(--transition-default);

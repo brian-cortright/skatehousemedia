@@ -4,8 +4,8 @@
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  max-width: 1800px;
   margin: 0 auto var(--spacing-medium_300) auto;
+  max-width: 1800px;
   padding: var(--spacing-medium_150);
   width: 100%;
 }
@@ -20,8 +20,8 @@
   align-items: center;
   display: flex;
   flex-direction: row;
-  justify-content: center;
   gap: var(--spacing-small_300);
+  justify-content: center;
 }
 
 .navLinks {
@@ -50,12 +50,12 @@
 }
 
 .mobileMenuToggle {
-  display: none;
   background: transparent;
   border: none;
-  cursor: pointer;
-  padding: var(--spacing-small_150);
   border-radius: var(--border-radius-400);
+  cursor: pointer;
+  display: none;
+  padding: var(--spacing-small_150);
   transition: background-color 0.2s ease;
 }
 
@@ -66,17 +66,17 @@
 /* Mobile Nav Overlay */
 
 .mobileNavOverlay {
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100vw;
-  height: 100vh;
+  animation: slideIn 0.3s ease-in-out forwards;
   background-color: var(--color-grey-50);
-  z-index: 1000;
   display: flex;
   flex-direction: column;
+  height: 100vh;
+  left: 0;
   padding: var(--spacing-medium_150);
-  animation: slideIn 0.3s ease-in-out forwards;
+  position: fixed;
+  top: 0;
+  width: 100vw;
+  z-index: 1000;
 }
 
 @keyframes slideIn {
@@ -89,18 +89,18 @@
 }
 
 .mobileNavHeader {
+  align-items: center;
   display: flex;
   justify-content: space-between;
-  align-items: center;
   width: 100%;
 }
 
 .mobileCloseButton {
   background: transparent;
   border: none;
+  border-radius: var(--border-radius-400);
   cursor: pointer;
   padding: var(--spacing-small_150);
-  border-radius: var(--border-radius-400);
   transition: background-color 0.2s ease;
 }
 
@@ -109,19 +109,19 @@
 }
 
 .mobileNavLinks {
-  list-style: none;
+  align-items: center;
   display: flex;
   flex-direction: column;
   gap: var(--spacing-medium_100);
-  align-items: center;
+  list-style: none;
   margin-top: var(--spacing-large_100);
 }
 
 .mobileNavLinks a {
-  display: block;
-  text-decoration: none;
-  padding: var(--spacing-small_200) var(--spacing-large_100);
   border-radius: var(--border-radius-400);
+  display: block;
+  padding: var(--spacing-small_200) var(--spacing-large_100);
+  text-decoration: none;
   transition: background-color 0.2s ease;
 }
 
@@ -137,8 +137,8 @@
     display: none;
   }
   .mobileMenuToggle {
-    display: flex;
     align-items: center;
+    display: flex;
     justify-content: center;
   }
 }
