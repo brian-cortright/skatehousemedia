@@ -2,13 +2,14 @@
 import React, { useState, useCallback, useRef } from 'react';
 import styles from "./home.module.css";
 import PostFeed from "@/components/PostFeed/PostFeed";
+import FeaturedPost from "@/components/FeaturedPost/FeaturedPost";
 import { posts } from "../../data/postData";
 import { taxonomy } from "../../data/taxonomy";
 import SearchBar from '@/components/SearchBar';
 import Button from '@/components/Button';
 import FilterIcon from '@/components/enhancedSvg/svgs/FilterIcon';
 import CloseIcon from '@/components/enhancedSvg/svgs/CloseIcon';
-import { BodyText } from '@/components/Typography';
+import { Headline, BodyText } from '@/components/Typography';
 import { usePopup } from '@/components/Popup/PopupContext';
 import FilterPopupContent from '@/components/FilterPopupContent/FilterPopupContent';
 import type { Post, Taxonomy } from '@/types';
@@ -102,6 +103,8 @@ export default function Home() {
 
   return (
     <main className={styles.pageWrapper}>
+      <FeaturedPost posts={posts} />
+      <Headline className={styles.postFeedTitle} as='h2' variant='6'>Posts</Headline>
       <div className={styles.searchWrapper}>
         <Button handleClick={handleFilterClick}>
           <FilterIcon />

@@ -59,3 +59,10 @@
   background: var(--color-grey-300);
   border-color: var(--color-grey-400);
 }
+
+h2.postFeedTitle {
+  margin-block-start: var(--spacing-large_100);
+  margin-block-end: var(--spacing-medium_100);
+  max-width: 900px;
+  width: 100%;
+}
