@@ -12,6 +12,7 @@ import { BodyText } from '@/components/Typography';
 import { usePopup } from '@/components/Popup/PopupContext';
 import FilterPopupContent from '@/components/FilterPopupContent/FilterPopupContent';
 import type { Post, Taxonomy } from '@/types';
+import AdBanner from '@/components/AdBanner/AdBanner';
 
 
 export default function Home() {
@@ -102,6 +103,7 @@ export default function Home() {
 
   return (
     <main className={styles.pageWrapper}>
+      <AdBanner />
       <div className={styles.searchWrapper}>
         <Button handleClick={handleFilterClick}>
           <FilterIcon />

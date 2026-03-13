@@ -1,0 +1,9 @@
+.banner {
+  display: block;
+  height: 80px;
+  width: 100%;
+  max-width: 900px;
+  margin-block: var(--spacing-medium_200);
+  margin-inline: auto;
+  background-color: red;
+}
