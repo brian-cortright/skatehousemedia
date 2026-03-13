@@ -1,17 +1,17 @@
 .pageWrapper {
   display: flex;
   flex-direction: column;
-  padding: var(--spacing-medium_300);
-  min-height: 100vh;
-  max-width: 1100px;
   margin: 0 auto;
+  max-width: 1100px;
+  min-height: 100vh;
+  padding: var(--spacing-medium_300);
 }
 
 .columns {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: var(--spacing-large_100);
   align-items: start;
+  display: grid;
+  gap: var(--spacing-large_100);
+  grid-template-columns: 1fr 1fr;
 }
 
 .leftColumn {
@@ -23,8 +23,8 @@
 }
 
 .leftColumn p {
-  font-size: var(--font-sm);
   color: var(--color-grey-600);
+  font-size: var(--font-sm);
   line-height: var(--line-height-max);
 }
 
@@ -45,11 +45,11 @@
 }
 
 .responseTime {
+  background: var(--color-grey-200);
+  border-radius: var(--border-radius-300);
   display: flex;
   flex-direction: column;
   gap: var(--spacing-small_200);
-  background: var(--color-grey-200);
-  border-radius: var(--border-radius-300);
   padding: var(--spacing-medium_150);
 }
 
@@ -58,9 +58,9 @@
 }
 
 .formWrapper iframe {
-  width: 100%;
   border: none;
   border-radius: var(--border-radius-300);
+  width: 100%;
 }
 
 @media (max-width: 768px) {

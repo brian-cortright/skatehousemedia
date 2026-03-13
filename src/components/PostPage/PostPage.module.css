@@ -21,8 +21,8 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
-  margin-block-start: var(--spacing-medium_200);
   margin-block-end: var(--spacing-large_150);
+  margin-block-start: var(--spacing-medium_200);
   margin-inline: auto;
   max-width: 900px;
   padding: 0 var(--spacing-medium_200);

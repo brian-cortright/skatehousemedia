@@ -1,51 +1,51 @@
 .pageWrapper {
+  align-items: center;
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
-  align-items: center;
-  padding: var(--spacing-medium_100);
   min-height: 100vh;
+  padding: var(--spacing-medium_100);
 }
 
 .columns {
+  align-items: start;
   display: grid;
-  grid-template-columns: 3fr 2fr;
   gap: var(--spacing-medium_200);
+  grid-template-columns: 3fr 2fr;
   margin-block-start: var(--spacing-medium_150);
   max-width: 1100px;
   width: 100%;
-  align-items: start;
 }
 
 /* Player Card */
 .playerCard {
   background: var(--color-grey-100);
   border-radius: var(--border-radius-300);
-  overflow: hidden;
   display: flex;
   flex-direction: column;
+  overflow: hidden;
 }
 
 .playerCard video,
 .playerCard iframe {
   aspect-ratio: 16 / 9;
-  width: 100%;
   border: none;
   display: block;
+  width: 100%;
 }
 
 .playerCardBody {
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
   gap: var(--spacing-medium_100);
+  justify-content: space-between;
   padding: var(--spacing-medium_200);
 }
 
 .playerMeta {
+  align-items: center;
   display: flex;
   justify-content: space-between;
-  align-items: center;
 }
 
 .playerButtons {
@@ -77,12 +77,12 @@
 .queueItem {
   align-items: center;
   background: none;
-  border-radius: var(--border-radius-200);
   border: none;
+  border-radius: var(--border-radius-200);
   cursor: pointer;
   display: grid;
-  grid-template-columns: 100px 1fr;
   gap: var(--spacing-small_300);
+  grid-template-columns: 100px 1fr;
   margin-block-start: var(--spacing-medium_100);
   text-align: left;
   transition: var(--transition-default);

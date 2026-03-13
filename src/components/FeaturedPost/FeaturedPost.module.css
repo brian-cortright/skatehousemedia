@@ -10,33 +10,33 @@
 }
 
 .cardWrapper {
-  width: 100%;
   display: flex;
+  width: 100%;
 }
 
 .cardWrapper a {
   display: flex;
-  width: 100%;
   height: 100%;
   text-decoration: none;
+  width: 100%;
 }
 
 .card {
   display: flex;
   flex-direction: column;
+  height: 100%;
   overflow: hidden;
   transition: var(--transition-default);
   width: 100%;
-  height: 100%;
 }
 
 .imageContainer {
   aspect-ratio: 2 / 1;
-  border-radius: var(--border-radius-500);
-  width: 100%;
-  overflow: hidden;
   background: var(--color-grey-200);
+  border-radius: var(--border-radius-500);
+  overflow: hidden;
   position: relative;
+  width: 100%;
 }
 
 .card:hover .imageOverlay {
@@ -44,24 +44,24 @@
 }
 
 .imageOverlay {
+  align-items: center;
   background: color(from var(--color-black) srgb r g b / 0.7);
   display: flex;
-  align-items: center;
+  height: 100%;
   justify-content: center;
+  left: 0;
+  opacity: 0;
   position: absolute;
   top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  opacity: 0;
   transition: var(--transition-default);
+  width: 100%;
 }
 
 .thumbnail {
-  width: 100%;
+  display: block;
   height: 100%;
   object-fit: cover;
-  display: block;
+  width: 100%;
 }
 
 .cardBody {

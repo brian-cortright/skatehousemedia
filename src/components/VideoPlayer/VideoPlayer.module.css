@@ -9,7 +9,7 @@
 .videoWrapper > video,
 .videoWrapper > iframe {
   aspect-ratio: 16 / 9;
+  border: none;
   max-width: 700px;
   width: 100%;
-  border: none;
 }
