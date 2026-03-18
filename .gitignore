@@ -40,3 +40,6 @@ next-env.d.ts
 
 # downloaded post photos
 /data/post-photos/
+
+# reports
+dead_links_report.json
