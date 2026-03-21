@@ -27645,27 +27645,6 @@ export const posts = [
     "featuredPost": false
   },
   {
-    "pageTitle": "James Kelly Slangen",
-    "postDate": "2012-11-16",
-    "author": "SkateHouseMedia",
-    "bodyText": "<p><iframe src=\"https://player.vimeo.com/video/140682912\" width=\"700\" height=\"394\" frameborder=\"0\" title=\"James SHM Stalheim\" webkitallowfullscreen=\"\" mozallowfullscreen=\"\" allowfullscreen=\"\"></iframe></p>\n<p>James Kelly (<a href=\"https://arborcollective.com/skateboards/\">Arbor</a>, <a href=\"https://www.radesigns.com/\">RAD</a>, <a href=\"https://calibertruckco.com/\">Caliber</a>, <a href=\"https://skatebloodorange.com/\">Blood Orange</a>) cruised out to Norway on his annual Summer Eurotour. There he hit up a classic Norwegian one way downhill road originally made for horse traffic. These corners are not meant for cars let alone skateboards creating an incredibly challenging course.</p>",
-    "tags": [],
-    "categories": [
-      "Housemates"
-    ],
-    "contentUrls": [
-      "https://arborcollective.com/skateboards",
-      "https://www.radesigns.com",
-      "https://calibertruckco.com",
-      "https://skatebloodorange.com",
-      "https://player.vimeo.com/video/140682912"
-    ],
-    "ranking": 2,
-    "thumbnail": null,
-    "featuredVideo": null,
-    "featuredPost": false
-  },
-  {
     "pageTitle": "Whistler IDF World Cup Finals and Afterparty",
     "postDate": "2014-10-17",
     "author": "SkateHouseMedia",
@@ -27761,23 +27740,6 @@ export const posts = [
     "featuredPost": false
   },
   {
-    "pageTitle": "Raw Cuts with Rob and Mustard at the KnK Freeride",
-    "postDate": "2014-02-01",
-    "author": "SkateHouseMedia",
-    "bodyText": "<p><iframe src=\"//player.vimeo.com/video/75798710\" width=\"700\" height=\"394\" frameborder=\"0\" webkitallowfullscreen=\"\" mozallowfullscreen=\"\" allowfullscreen=\"\"></iframe></p>\n<p>Ozzie’s Rob McWhinnie and Dejan Djukic were out shredding Europe this past summer. Follow a run of Rob (black shirt) and Mustard (blue tough guy shirt) down the <a href=\"https://www.skatehousemedia.com/?s=knk\" target=\"_blank\">KnK Bear’s Guts Freeride </a>.</p>",
-    "tags": [],
-    "categories": [
-      "Raw Run"
-    ],
-    "contentUrls": [
-      "https://www.skatehousemedia.com/?s=knk"
-    ],
-    "ranking": 1,
-    "thumbnail": null,
-    "featuredVideo": null,
-    "featuredPost": false
-  },
-  {
     "pageTitle": "Gullwing Trucks Pala Death Race 2014",
     "postDate": "2013-10-21",
     "author": "SkateHouseMedia",
@@ -27815,27 +27777,6 @@ export const posts = [
     "featuredPost": false
   },
   {
-    "pageTitle": "Santa Gnarbara Raw Run with the These Crew",
-    "postDate": "2013-06-11",
-    "author": "SkateHouseMedia",
-    "bodyText": "<p><iframe src=\"https://player.vimeo.com/video/140950672\" width=\"700\" height=\"394\" frameborder=\"0\" title=\"Santa Gnarbara Raw Run with These\" webkitallowfullscreen=\"\" mozallowfullscreen=\"\" allowfullscreen=\"\"></iframe></p>\n<p>The Santa Gnarbara Downhill was moved to a new course this year that challenged skaters with tight technical turns on the edge of traction. Follow along with the These Wheels crew as <a href=\"https://www.skatehousemedia.com/tags/kevin-reimer\" target=\"_blank\">Kevin Reimer</a>, <a href=\"https://www.skatehousemedia.com/tags/tyler-howell\" target=\"_blank\">Tyler Howell</a>, and <a href=\"https://www.skatehousemedia.com/tags/dave-billesbach\" target=\"_blank\">Dave Billesbach</a> rips down the freeride track. Special thanks to the <a href=\"https://www.santagnarbara.com/\" target=\"_blank\">Santa Gnarbara Crew </a>for organizing an amazing event.</p>",
-    "tags": [],
-    "categories": [
-      "Event Coverage"
-    ],
-    "contentUrls": [
-      "https://www.skatehousemedia.com/tags/kevin-reimer",
-      "https://www.skatehousemedia.com/tags/tyler-howell",
-      "https://www.skatehousemedia.com/tags/dave-billesbach",
-      "https://www.santagnarbara.com",
-      "https://player.vimeo.com/video/140950672"
-    ],
-    "ranking": 2,
-    "thumbnail": null,
-    "featuredVideo": null,
-    "featuredPost": false
-  },
-  {
     "pageTitle": "Skate to Fight",
     "postDate": "2014-08-30",
     "author": "SkateHouseMedia",
@@ -27850,33 +27791,6 @@ export const posts = [
     ],
     "ranking": 2,
     "thumbnail": "https://img.youtube.com/vi/vKOlfS3y9Sc/hqdefault.jpg",
-    "featuredVideo": null,
-    "featuredPost": false
-  },
-  {
-    "pageTitle": "Properties Session",
-    "postDate": "2016-09-30",
-    "author": "SkateHouseMedia",
-    "bodyText": "<p>If you’ve ever been skating in Vancouver you know these properties. After fighting our way across the Candian border we spent the day with Levi Green, Ian McSherry (<a href=\"https://s1helmets.com\">S1</a>, <a href=\"https://valhallaskateboards.com\">Valhalla</a>), and Eduardo Cordero&nbsp;(<a href=\"https://s1helmets.com\">S1</a>, <a href=\"https://valhallaskateboards.com\">Valhalla</a>).</p>",
-    "tags": [
-      "Alex Ameen",
-      "Bad Decisions Alex",
-      "british properties",
-      "Canada",
-      "Eduardo Cordero",
-      "ian mcsherry",
-      "Levi Green",
-      "Vancouver"
-    ],
-    "categories": [
-      "Sessions"
-    ],
-    "contentUrls": [
-      "https://s1helmets.com",
-      "https://valhallaskateboards.com"
-    ],
-    "ranking": 1,
-    "thumbnail": null,
     "featuredVideo": null,
     "featuredPost": false
   },
@@ -27902,31 +27816,6 @@ export const posts = [
     ],
     "ranking": 4,
     "thumbnail": "https://img.youtube.com/vi/iBpV2oEIsuk/hqdefault.jpg",
-    "featuredVideo": null,
-    "featuredPost": false
-  },
-  {
-    "pageTitle": "Community: NCDH // Saturated September Brixton",
-    "postDate": "2018-09-30",
-    "author": "SkateHouseMedia",
-    "bodyText": "<p>As Hurricane Florence entered it’s third day of landfall on the coast, the <a href=\"https://ncdownhill.com/\" rel=\"noopener\" target=\"_blank\">NCDH</a> crew decided it would be best to not cancel the September Brixton. The storm was forecasted to stall it’s inland approach, allowing for possible dry conditions. Despite the optimistic weather reports and hopeful visitors that traveled, we were in store for another rainy race at Beech.</p>\n<p>As usual, Kactus Kevin was the first one skating and got everyone else to join in between pockets of rainfall. DTB showed up in full force just in time for Round 2 and fun runs. The <a href=\"https://skatehousemedia.com/?s=Asheville+Pastry+Boys\" rel=\"noopener\" target=\"_blank\">Asheville Pastry Boys</a> showed up with a tarp and saved the day, as well as snagging every podium spot. Muff (Marshal Parrish) took the win after a tangle in the first corner that took out Dan Arney (who was allegedly pushed at the line, pending review for recall), with Tyler Hunt and Chris Anders following.</p>\n<p>Join the NCDH boys next month for the Halloween Brixton on October 27th! Keep up to date with their events on the NCDH <a href=\"https://www.facebook.com/northcarolinadownhill/\" rel=\"noopener\" target=\"_blank\">Facebook Page</a> and follow them on instagram <a href=\"https://instagram.com/northcarolinadownhill\" rel=\"noopener\" target=\"_blank\">@northcarolinadownhill</a> for future content!</p>\n<p>Enjoy this re-cap video from Thomas Richmond.</p>",
-    "tags": [
-      "Chris Anders",
-      "Dan Arney",
-      "Marshal Parrish",
-      "Tyler Hunt"
-    ],
-    "categories": [
-      "Community Front Page"
-    ],
-    "contentUrls": [
-      "https://ncdownhill.com",
-      "https://skatehousemedia.com/?s=Asheville+Pastry+Boys",
-      "https://www.facebook.com/northcarolinadownhill",
-      "https://instagram.com/northcarolinadownhill"
-    ],
-    "ranking": 2,
-    "thumbnail": null,
     "featuredVideo": null,
     "featuredPost": false
   },
@@ -28287,24 +28176,6 @@ export const posts = [
     "featuredPost": false
   },
   {
-    "pageTitle": "Session: Sao Roque | SkateHouseMedia.com",
-    "postDate": "2011-05-23",
-    "author": "SkateHouseMedia",
-    "bodyText": "<p><iframe src=\"https://player.vimeo.com/video/29909077?title=0&amp;byline=0&amp;portrait=0\" width=\"700\" height=\"400\" frameborder=\"0\" webkitallowfullscreen=\"\" allowfullscreen=\"\"></iframe></p>\n<p>Sao Paulo shredders Caco Ratos (Ricardo Reis) and Marcello Benevides shred a rad hill in Sao Roque, Brazil.<br>\n Thumbnail Picture- Rafael Fazano</p>",
-    "tags": [],
-    "categories": [
-      "Community",
-      "Sessions"
-    ],
-    "contentUrls": [
-      "https://player.vimeo.com/video/29909077?title=0&byline=0&portrait=0"
-    ],
-    "ranking": 1,
-    "thumbnail": null,
-    "featuredVideo": null,
-    "featuredPost": false
-  },
-  {
     "pageTitle": "Thiago Daudt Marciel- Brazilian Grom | SkateHouseMedia.com",
     "postDate": "2014-07-31",
     "author": "SkateHouseMedia",
@@ -28364,24 +28235,6 @@ export const posts = [
     "featuredPost": false
   },
   {
-    "pageTitle": "Sessions: Coop & Matt",
-    "postDate": "2015-05-13",
-    "author": "SkateHouseMedia",
-    "bodyText": "<p><iframe src=\"//player.vimeo.com/video/75619043\" width=\"700\" height=\"394\" frameborder=\"0\" webkitallowfullscreen=\"\" mozallowfullscreen=\"\" allowfullscreen=\"\"></iframe></p>\n<p>Classics are always the best. Watch <a href=\"https://www.skatehousemedia.com/tags/matt-kienzle\" target=\"_blank\">Matt K</a> &amp; <a href=\"https://www.skatehousemedia.com/tags/francis-cooper-darquea-mauro\" target=\"_blank\">Cooper Darquea Mauro</a> speed down our local run.</p>",
-    "tags": [],
-    "categories": [
-      "Sessions"
-    ],
-    "contentUrls": [
-      "https://www.skatehousemedia.com/tags/matt-kienzle",
-      "https://www.skatehousemedia.com/tags/francis-cooper-darquea-mauro"
-    ],
-    "ranking": 1,
-    "thumbnail": null,
-    "featuredVideo": null,
-    "featuredPost": false
-  },
-  {
     "pageTitle": "Maryhill Freeride Raw Run with Zak Maytum | SkateHouseMedia.com",
     "postDate": "2011-09-25",
     "author": "SkateHouseMedia",
@@ -28397,25 +28250,6 @@ export const posts = [
     "ranking": 1,
     "thumbnail": "https://assets.skatehousemedia.com/thumbnails/Maryhill-Freeride-with-Zak-Maytum.jpg",
     "featuredVideo": "https://assets.skatehousemedia.com/Maryhill-Freeride-with-Zak-Maytum.mp4",
-    "featuredPost": false
-  },
-  {
-    "pageTitle": "Dalua Downhill – Episodio 4 Teutonia  | SkateHouseMedia.com",
-    "postDate": "2016-07-29",
-    "author": "SkateHouseMedia",
-    "bodyText": "<p><iframe src=\"https://player.vimeo.com/video/30099362\" width=\"700\" height=\"394\" frameborder=\"0\" webkitallowfullscreen=\"\" allowfullscreen=\"\"></iframe></p>\n<p>This year’s IGSA World Championship is at Teutonia. Check out what the event is all about through the eyes of the people who live for it.</p>",
-    "tags": [],
-    "categories": [
-      "Abec 11",
-      "Community",
-      "Rayne Longboards"
-    ],
-    "contentUrls": [
-      "https://player.vimeo.com/video/30099362"
-    ],
-    "ranking": 1,
-    "thumbnail": null,
-    "featuredVideo": null,
     "featuredPost": false
   },
   {
@@ -28519,22 +28353,6 @@ export const posts = [
     "featuredPost": false
   },
   {
-    "pageTitle": "Events: IDF Kozakov Challenge 2014",
-    "postDate": "2016-10-13",
-    "author": "SkateHouseMedia",
-    "bodyText": "<p><iframe src=\"//player.vimeo.com/video/106577247\" width=\"700\" height=\"394\" frameborder=\"0\" title=\"IDF Kozakov Challange 2014\" webkitallowfullscreen=\"\" mozallowfullscreen=\"\" allowfullscreen=\"\"></iframe></p>\n<p><a href=\"3heads.info\" target=\"_blank\">3heads</a>&nbsp;coming through year after year with the quality coverage of <span style=\"color: #71767a;\"><a href=\"kozakovchallenge.cz\" target=\"_blank\">Kozakov</a>.</span></p>",
-    "tags": [],
-    "categories": [
-      "Community",
-      "Event Coverage"
-    ],
-    "contentUrls": [],
-    "ranking": 1,
-    "thumbnail": null,
-    "featuredVideo": null,
-    "featuredPost": false
-  },
-  {
     "pageTitle": "Medellin Session",
     "postDate": "2015-01-17",
     "author": "SkateHouseMedia",
@@ -28588,21 +28406,6 @@ export const posts = [
     ],
     "ranking": 3,
     "thumbnail": "https://img.youtube.com/vi/D6Rorv7Edeg/hqdefault.jpg",
-    "featuredVideo": null,
-    "featuredPost": false
-  },
-  {
-    "pageTitle": "Finals: Kozakov Challenge 2014",
-    "postDate": "2015-07-05",
-    "author": "SkateHouseMedia",
-    "bodyText": "<p><iframe src=\"//player.vimeo.com/video/108129218\" width=\"700\" height=\"394\" frameborder=\"0\" webkitallowfullscreen=\"\" mozallowfullscreen=\"\" allowfullscreen=\"\"></iframe></p>\n<p>Sebastian Hertler snags a clean win at this year’s Kozakov Challenge.</p>",
-    "tags": [],
-    "categories": [
-      "Event Coverage"
-    ],
-    "contentUrls": [],
-    "ranking": 1,
-    "thumbnail": null,
     "featuredVideo": null,
     "featuredPost": false
   },
@@ -28714,26 +28517,6 @@ export const posts = [
     "featuredPost": false
   },
   {
-    "pageTitle": "Caliber Truck Co. Featuring Jordan Riachi #2",
-    "postDate": "2016-10-07",
-    "author": "SkateHouseMedia",
-    "bodyText": "<p>“Jordan found some down time while waiting to head to the mountains for the Prism Pilgrims trip, so he and Jack headed out to some local gems to stack a couple clips! Film/Edit: Jack Boston” – <a href=\"https://www.calibertruckco.com\" target=\"_blank\">Caliber Truck Co</a></p>",
-    "tags": [
-      "Jordan Riachi"
-    ],
-    "categories": [
-      "Caliber Truck Co",
-      "Scene Supporters"
-    ],
-    "contentUrls": [
-      "https://www.calibertruckco.com"
-    ],
-    "ranking": 1,
-    "thumbnail": null,
-    "featuredVideo": null,
-    "featuredPost": false
-  },
-  {
     "pageTitle": "Maryhill Fall Freeride: Madrid Edition",
     "postDate": "2016-12-04",
     "author": "SkateHouseMedia",
@@ -28798,58 +28581,6 @@ export const posts = [
       "Community"
     ],
     "contentUrls": [],
-    "ranking": 1,
-    "thumbnail": null,
-    "featuredVideo": null,
-    "featuredPost": false
-  },
-  {
-    "pageTitle": "Peyragudes Follow Run Overview",
-    "postDate": "2013-05-04",
-    "author": "SkateHouseMedia",
-    "bodyText": "<p><iframe src=\"//player.vimeo.com/video/76446545\" width=\"700\" height=\"394\" frameborder=\"0\" webkitallowfullscreen=\"\" mozallowfullscreen=\"\" allowfullscreen=\"\"></iframe></p>\n<p>There are many ways to collect skate footage. Each filming technique gives a unique feel to clips. As pack of skaters descend down the 2013 Peyragudes Track, Axel captures some of the SkateHouse crew filming down the track. </p>",
-    "tags": [],
-    "categories": [
-      "Raw Run"
-    ],
-    "contentUrls": [],
-    "ranking": 1,
-    "thumbnail": null,
-    "featuredVideo": null,
-    "featuredPost": false
-  },
-  {
-    "pageTitle": "Arbor Apparel :: Build Things & Ride Them – James Kelly and Liam Morgan",
-    "postDate": "2013-01-19",
-    "author": "SkateHouseMedia",
-    "bodyText": "<p><iframe src=\"//www.youtube.com/embed/jrSL6apeRuY?rel=0&amp;controls=0&amp;showinfo=0\" width=\"700\" height=\"394\" frameborder=\"0\" allowfullscreen=\"allowfullscreen\"></iframe></p>\n<p>“A new video series from Arbor Apparel – Build Things &amp; Ride Them was developed to highlight some of the hand-made practices still used here at the Arbor Collective. In this first episode, we welcome Liam Morgan and James Kelly to the Arbor Apparel program, as we launch the new Fall/Holliday line. Step into Arbor’s shaping room with Liam and James for a glimpse into the prototyping efforts that went into their new pro models. A great follow up to the release of their pro-model videos:</p>\n<p><a href=\"https://www.skatehousemedia.com/09/24/2014/arbor-skateboards-james-kelly-burn-it-do\" target=\"_blank\">James Kelly – Burn It Down</a><br>\n<a href=\"https://www.skatehousemedia.com/09/18/2014/arbor-skateboards-liam-morgan-pro-model\" target=\"_blank\">Liam Morgan – Pro Model</a></p>\n<p>About Liam: Oakland native, Liam Morgan helped lead the evolution of what freeride skateboarding is today. For years, Liam has been re-defining the sport, blending speed and massive slides with an ability to ride switch at all levels and a unique confidence on both mountain and urban roads. He has proven that skill and style still drive top level skateboarding, and that being a professional downhill skateboarder isn’t just about racing.</p>\n<p>About James: Born in Petaluma, CA – James grew up riding with some of downhill’s most influential skaters. For years, he’s been showing that there’s no road that can’t be conquered. He has perfected his abilities to skate anything at speed, while building the discipline required to keep calm when the consequences are high. James is no stranger to the racecourse and podium, but he’s most at home on the hills in the Western Sierras.</p>\n<p>About Arbor: The Arbor Collective was founded in 1995 to cultivate collaboration between athletes, artists, and friends who share a vision for forward thinking design and time-honored craftsmanship.” -&nbsp; <a href=\"https://arborcollective.com\" target=\"_blank\">The Arbor Collective</a></p>",
-    "tags": [],
-    "categories": [
-      "Arbor",
-      "Scene Supporters"
-    ],
-    "contentUrls": [
-      "https://www.skatehousemedia.com/09/24/2014/arbor-skateboards-james-kelly-burn-it-do",
-      "https://www.skatehousemedia.com/09/18/2014/arbor-skateboards-liam-morgan-pro-model",
-      "https://arborcollective.com"
-    ],
-    "ranking": 3,
-    "thumbnail": null,
-    "featuredVideo": null,
-    "featuredPost": false
-  },
-  {
-    "pageTitle": "Madrid Skateboards – Europe Tour 2014",
-    "postDate": "2012-04-11",
-    "author": "SkateHouseMedia",
-    "bodyText": "<p><iframe src=\"//player.vimeo.com/video/108514696\" width=\"700\" height=\"525\" frameborder=\"0\" webkitallowfullscreen=\"\" mozallowfullscreen=\"\" allowfullscreen=\"\"></iframe></p>\n<p>The <a href=\"https://madridskateboards.com\">Madrid</a> team had a bit of a bumpy ride through Europe this year, but they made the best of it and came back with this&nbsp;video&nbsp;jam-packed with race action, crashes, and Zak Maytum going HAAM&nbsp;in the Pyrenees.</p>",
-    "tags": [],
-    "categories": [
-      "Madrid Skateboards"
-    ],
-    "contentUrls": [
-      "https://madridskateboards.com"
-    ],
     "ranking": 1,
     "thumbnail": null,
     "featuredVideo": null,
@@ -28936,22 +28667,6 @@ export const posts = [
     "featuredPost": false
   },
   {
-    "pageTitle": "Road Trip Breton – Episode 1 & 2",
-    "postDate": "2012-01-20",
-    "author": "SkateHouseMedia",
-    "bodyText": "<p><iframe src=\"//player.vimeo.com/video/104338688?title=0&amp;byline=0&amp;color=9e0000\" width=\"700\" height=\"394\" frameborder=\"0\" webkitallowfullscreen=\"\" mozallowfullscreen=\"\" allowfullscreen=\"\"></iframe></p>\n<p>“We are french riders who just made a road trip in Britanny ( region in the west of france ) and we’ve made some video report. We just wanted to know if you want to share it, we would really enjoy it.” – Vince Le Goff</p>\n<p><iframe src=\"//player.vimeo.com/video/104870989?title=0&amp;byline=0&amp;color=9e0000\" width=\"700\" height=\"394\" frameborder=\"0\" webkitallowfullscreen=\"\" mozallowfullscreen=\"\" allowfullscreen=\"\"></iframe></p>",
-    "tags": [],
-    "categories": [
-      "Community",
-      "Road Trip"
-    ],
-    "contentUrls": [],
-    "ranking": 1,
-    "thumbnail": null,
-    "featuredVideo": null,
-    "featuredPost": false
-  },
-  {
     "pageTitle": "Sector 9 | Mr. Tibs, Text Me!",
     "postDate": "2012-08-14",
     "author": "SkateHouseMedia",
@@ -28962,25 +28677,6 @@ export const posts = [
     ],
     "contentUrls": [
       "https://www.sector9.com"
-    ],
-    "ranking": 1,
-    "thumbnail": null,
-    "featuredVideo": null,
-    "featuredPost": false
-  },
-  {
-    "pageTitle": "Arbor Skateboards :: James Kelly and Liam Morgan – Pro Models",
-    "postDate": "2012-07-04",
-    "author": "SkateHouseMedia",
-    "bodyText": "<p><iframe src=\"https://player.vimeo.com/video/140691016\" width=\"700\" height=\"394\" frameborder=\"0\" webkitallowfullscreen=\"\" mozallowfullscreen=\"\" allowfullscreen=\"\"></iframe></p>\n<p><a href=\"https://arborcollective.com/skateboards/\" target=\"_blank\">Arbor Skateboards</a> riders James and Liam have their new pro model 2015 graphics coming out next week! See the video to watch the boards in action.</p>",
-    "tags": [],
-    "categories": [
-      "Arbor",
-      "Scene Supporters"
-    ],
-    "contentUrls": [
-      "https://arborcollective.com/skateboards",
-      "https://player.vimeo.com/video/140691016"
     ],
     "ranking": 1,
     "thumbnail": null,
@@ -29002,28 +28698,6 @@ export const posts = [
     "ranking": 1,
     "thumbnail": "https://assets.skatehousemedia.com/thumbnails/SHM-Arbor-Josh-Neuman-full.jpg",
     "featuredVideo": "https://assets.skatehousemedia.com/SHM-Arbor-Josh-Neuman-full.mp4",
-    "featuredPost": false
-  },
-  {
-    "pageTitle": "S1 Helmets / Zach Keller Lifer Fullface",
-    "postDate": "2018-10-09",
-    "author": "SkateHouseMedia",
-    "bodyText": "<p><a href=\"https://skatehousemedia.com/tags/zach-keller\" rel=\"noopener\" target=\"_blank\">Zach Keller</a> sports the <a href=\"https://shop.s1helmets.com\" rel=\"noopener\" target=\"_blank\">S1</a> “<a href=\"https://shop.s1helmets.com/lifer-fullface/\" rel=\"noopener\" target=\"_blank\">Lifer</a>” Fullface Helmet. Filmed and edited by Alex Colorito.</p>",
-    "tags": [
-      "zach keller"
-    ],
-    "categories": [
-      "S1 Helmets",
-      "Scene Supporters"
-    ],
-    "contentUrls": [
-      "https://skatehousemedia.com/tags/zach-keller",
-      "https://shop.s1helmets.com",
-      "https://shop.s1helmets.com/lifer-fullface"
-    ],
-    "ranking": 1,
-    "thumbnail": null,
-    "featuredVideo": null,
     "featuredPost": false
   },
   {
@@ -29079,40 +28753,6 @@ export const posts = [
     ],
     "ranking": 4,
     "thumbnail": "https://img.youtube.com/vi/yoDCG7SDxvk/hqdefault.jpg",
-    "featuredVideo": null,
-    "featuredPost": false
-  },
-  {
-    "pageTitle": "Pikes Peak Selfie Run with Sebastian Hertler",
-    "postDate": "2015-09-19",
-    "author": "SkateHouseMedia",
-    "bodyText": "<p><iframe src=\"//player.vimeo.com/video/107803495?title=0&amp;byline=0&amp;color=9e0000\" width=\"700\" height=\"394\" frameborder=\"0\" webkitallowfullscreen=\"\" mozallowfullscreen=\"\" allowfullscreen=\"\"></iframe></p>\n<p>Sebastian Hertler brings back the pole cam for a solid run down the IDF Pike’s Peak Race Course. </p>",
-    "tags": [],
-    "categories": [
-      "Community",
-      "Raw Run"
-    ],
-    "contentUrls": [],
-    "ranking": 1,
-    "thumbnail": null,
-    "featuredVideo": null,
-    "featuredPost": false
-  },
-  {
-    "pageTitle": "Learning Curve Vol. 5 with George Mackenzie | SkateHouseMedia.com",
-    "postDate": "2011-12-14",
-    "author": "SkateHouseMedia",
-    "bodyText": "<p><iframe src=\"https://player.vimeo.com/video/15605314\" width=\"700\" height=\"394\" frameborder=\"0\"></iframe></p>\n<p>Communication between riders can help keep you on your board. Sometimes  it’s better to leave the camera in the car or space out the pack if your  unsure. Always remember to skate safe and within your limits.</p>",
-    "tags": [],
-    "categories": [
-      "Crash & Burn",
-      "Learning Curve"
-    ],
-    "contentUrls": [
-      "https://player.vimeo.com/video/15605314"
-    ],
-    "ranking": 1,
-    "thumbnail": null,
     "featuredVideo": null,
     "featuredPost": false
   },
@@ -29416,22 +29056,6 @@ export const posts = [
     "featuredPost": false
   },
   {
-    "pageTitle": "Madrid Skateboards – Nessie Sighting #1",
-    "postDate": "2016-06-17",
-    "author": "SkateHouseMedia",
-    "bodyText": "<p><iframe src=\"//player.vimeo.com/video/76298593\" width=\"700\" height=\"394\" frameborder=\"0\" title=\"Nessie Sighting #1\" webkitallowfullscreen=\"\" mozallowfullscreen=\"\" allowfullscreen=\"\"></iframe></p>\n<p>Grant and Shane ducked out of work to shred some alleys on the new Madrid Nessie model.</p>",
-    "tags": [],
-    "categories": [
-      "Madrid Skateboards",
-      "Scene Supporters"
-    ],
-    "contentUrls": [],
-    "ranking": 1,
-    "thumbnail": null,
-    "featuredVideo": null,
-    "featuredPost": false
-  },
-  {
     "pageTitle": "Raw Run: Soldiers of Downhill",
     "postDate": "2012-12-27",
     "author": "SkateHouseMedia",
@@ -29497,26 +29121,6 @@ export const posts = [
       "Crash & Burn"
     ],
     "contentUrls": [],
-    "ranking": 1,
-    "thumbnail": null,
-    "featuredVideo": null,
-    "featuredPost": false
-  },
-  {
-    "pageTitle": "Kebbek Skateboards – Emma Daigle takes a Shortcut",
-    "postDate": "2016-10-13",
-    "author": "SkateHouseMedia",
-    "bodyText": "<p>Morning coffee routine made easy with the new Shortcut. <a href=\"https://skatehousemedia.com/tags/emma-daigle\" target=\"_blank\">Emma Daigle</a> rips the Whistler Valley Trail to kick start her day.</p>",
-    "tags": [
-      "Emma Daigle"
-    ],
-    "categories": [
-      "Kebbek Skateboards",
-      "Scene Supporters"
-    ],
-    "contentUrls": [
-      "https://skatehousemedia.com/tags/emma-daigle"
-    ],
     "ranking": 1,
     "thumbnail": null,
     "featuredVideo": null,
@@ -29640,26 +29244,6 @@ export const posts = [
     "featuredPost": false
   },
   {
-    "pageTitle": "Gullwing Truck Co. | Welcome to The Team – Louis Pilloni",
-    "postDate": "2015-06-16",
-    "author": "SkateHouseMedia",
-    "bodyText": "<p><iframe src=\"//www.youtube.com/embed/IDwo7MNQFCw?rel=0&amp;controls=0&amp;showinfo=0\" width=\"700\" height=\"394\" frameborder=\"0\" allowfullscreen=\"allowfullscreen\"></iframe></p>\n<p>Louis came back up to SkateHouse for some canyon runs while Bad Decisions Alex manned the camera. A full skate part is in the works for Louis. This was just his warm up run. More footage soon to come from <a href=\"https://gullwingtruckco.com/\" target=\"_blank\">Gullwing </a>as they release their new truck, the Reverse.</p>\n<p>“We are very excited to welcome Louis Pilloni to the <a href=\"https://gullwingtruckco.com/blog/louis-pilloni\" target=\"_blank\">Gullwing Army</a>! Watch him on his first run of the day as he bombs down his favorite Southern California run. More to come from this downhill ruler as he puts the new Gullwing Reverse to test…”</p>",
-    "tags": [],
-    "categories": [
-      "Gullwing Trucks",
-      "Housemates",
-      "Raw Run"
-    ],
-    "contentUrls": [
-      "https://gullwingtruckco.com",
-      "https://gullwingtruckco.com/blog/louis-pilloni"
-    ],
-    "ranking": 2,
-    "thumbnail": null,
-    "featuredVideo": null,
-    "featuredPost": false
-  },
-  {
     "pageTitle": "Quick Clip – Ian McSherry",
     "postDate": "2012-09-27",
     "author": "SkateHouseMedia",
@@ -29708,26 +29292,6 @@ export const posts = [
       "https://player.vimeo.com/video/141956734"
     ],
     "ranking": 4,
-    "thumbnail": null,
-    "featuredVideo": null,
-    "featuredPost": false
-  },
-  {
-    "pageTitle": "Juan Pablo Villegas in The Other Cali",
-    "postDate": "2016-10-14",
-    "author": "SkateHouseMedia",
-    "bodyText": "<p>Juan Pablo Villegas dragged the boys out to an absolutely insane spot in Cal, Colombia. As steep and curvaceous as ever, but this time around the hill had sweet sweet buttery pavement. California isn’t the only Cali with sick hills.</p>",
-    "tags": [
-      "Alex Ameen",
-      "Bad Decisions Alex",
-      "Colombia",
-      "Juan Pablo Villegas"
-    ],
-    "categories": [
-      "Sessions"
-    ],
-    "contentUrls": [],
-    "ranking": 1,
     "thumbnail": null,
     "featuredVideo": null,
     "featuredPost": false
@@ -29915,24 +29479,6 @@ export const posts = [
     ],
     "ranking": 3,
     "thumbnail": "https://img.youtube.com/vi/xRvht6zl1ks/hqdefault.jpg",
-    "featuredVideo": null,
-    "featuredPost": false
-  },
-  {
-    "pageTitle": "Raw Run: David Bubier on Xibalba",
-    "postDate": "2018-10-15",
-    "author": "SkateHouseMedia",
-    "bodyText": "<p>“10 chicken nuggets for $1 at burger king, thats $5 for 50.”</p>",
-    "tags": [
-      "David Bubier"
-    ],
-    "categories": [
-      "Community Front Page",
-      "Raw Run"
-    ],
-    "contentUrls": [],
-    "ranking": 1,
-    "thumbnail": null,
     "featuredVideo": null,
     "featuredPost": false
   },
@@ -30158,67 +29704,6 @@ export const posts = [
     "featuredPost": false
   },
   {
-    "pageTitle": "S1 Helmets / Sho Ouellette en Catedral",
-    "postDate": "2016-10-17",
-    "author": "SkateHouseMedia",
-    "bodyText": "<p>If Colombia has “a classic” like The Fish of California or BPs of Vancouver, it is almost certainly Catedral. The benchmark insane run that everyone needs their turn on. This week Sho gets his chance to show his moves on this gem.<br>\nSho wears the <a href=\"https://s1helmets.com\">S1 Lifer Helmet</a>.</p>",
-    "tags": [
-      "Alex Ameen",
-      "Bad Decisions Alex",
-      "Colombia",
-      "Medellin",
-      "S1 Helmets",
-      "Sho Ouellette"
-    ],
-    "categories": [
-      "S1 Helmets"
-    ],
-    "contentUrls": [
-      "https://s1helmets.com"
-    ],
-    "ranking": 1,
-    "thumbnail": null,
-    "featuredVideo": null,
-    "featuredPost": false
-  },
-  {
-    "pageTitle": "Community: APB “WHEREMST THE ‘MENT ? ” Vol. 1 Chris Anders",
-    "postDate": "2018-10-17",
-    "author": "SkateHouseMedia",
-    "bodyText": "<p>Chris Anders taking his vengeance on wheels that once broke him off!  </p>",
-    "tags": [
-      "Chris Anders"
-    ],
-    "categories": [
-      "Community"
-    ],
-    "contentUrls": [],
-    "ranking": 1,
-    "thumbnail": null,
-    "featuredVideo": null,
-    "featuredPost": false
-  },
-  {
-    "pageTitle": "Road Trip: Emma Daigle at Thunderclap",
-    "postDate": "2018-10-17",
-    "author": "SkateHouseMedia",
-    "bodyText": "<p><a href=\"https://skatehousemedia.com/tags/emma-daigle\" rel=\"noopener\" target=\"_blank\">Emma Daigle</a> may not have the need for speed but she sure has a desire for the steep &amp; deep.<br>\nA quick <a href=\"https://skatehousemedia.com/category/road-trip\" rel=\"noopener\" target=\"_blank\">road trip</a> to NC is always the answer to satisfy her precipitous needs.</p>",
-    "tags": [
-      "Emma Daigle"
-    ],
-    "categories": [
-      "Road Trip"
-    ],
-    "contentUrls": [
-      "https://skatehousemedia.com/tags/emma-daigle",
-      "https://skatehousemedia.com/category/road-trip"
-    ],
-    "ranking": 1,
-    "thumbnail": null,
-    "featuredVideo": null,
-    "featuredPost": false
-  },
-  {
     "pageTitle": "Fan Submitted Photos",
     "postDate": "2014-07-19",
     "author": "SkateHouseMedia",
@@ -30278,66 +29763,6 @@ export const posts = [
     "ranking": 2,
     "thumbnail": "https://assets.skatehousemedia.com/thumbnails/Menlo-Park-Slide-Jam-2012.jpg",
     "featuredVideo": "https://assets.skatehousemedia.com/Menlo-Park-Slide-Jam-2012.mp4",
-    "featuredPost": false
-  },
-  {
-    "pageTitle": "Arbor Skateboards: Brandon Tissen",
-    "postDate": "2013-10-21",
-    "author": "SkateHouseMedia",
-    "bodyText": "<p><iframe src=\"//player.vimeo.com/video/76717130?title=0&amp;byline=0&amp;color=9e0000\" height=\"394\" width=\"700\" allowfullscreen=\"\" frameborder=\"0\"></iframe></p>\n<p><a href=\"https://www.arborcollective.com/skateboards/\" target=\"_blank\">Arbor</a> and <a href=\"https://calibertruckco.com/\" target=\"_blank\">Caliber </a>rider, Brandon Tissen, throws down lines in the city and on mountain runs.</p>",
-    "tags": [],
-    "categories": [
-      "Arbor",
-      "Blood Orange"
-    ],
-    "contentUrls": [
-      "https://www.arborcollective.com/skateboards",
-      "https://calibertruckco.com"
-    ],
-    "ranking": 1,
-    "thumbnail": null,
-    "featuredVideo": null,
-    "featuredPost": false
-  },
-  {
-    "pageTitle": "Community: The Endless Summer; A Downhill Skateboarding Film",
-    "postDate": "2018-10-18",
-    "author": "SkateHouseMedia",
-    "bodyText": "<p>Join the likes of Harry Clarke, Josh Evans and Mitch Thompson as they embark on a cross-continental journey in search of perfectly paved roads and breathtaking vistas, travelling thousands of kilometres across the globe in the hope they can one day create an endless summer.</p>",
-    "tags": [
-      "Harry Clarke",
-      "Josh Evans",
-      "Mitch Thompson"
-    ],
-    "categories": [
-      "Community Front Page"
-    ],
-    "contentUrls": [],
-    "ranking": 1,
-    "thumbnail": null,
-    "featuredVideo": null,
-    "featuredPost": false
-  },
-  {
-    "pageTitle": "S1 Helmets / Danny Macdonald Retro Lifer",
-    "postDate": "2018-10-18",
-    "author": "SkateHouseMedia",
-    "bodyText": "<p>Daniel MacDonald in his new S1 <a href=\"https://shop.s1helmets.com/retro-lifer-helmet-silver-gloss-glitter/\" rel=\"noopener\" target=\"_blank\">Retro Lifer</a> Helmet commercial. Check out his <a href=\"https://shop.s1helmets.com/s1-helmet-blog/video-and-interview-w-daniel-macdonald/\" rel=\"noopener\" target=\"_blank\">Interview</a> on <a href=\"https://shop.s1helmets.com/\" rel=\"noopener\" target=\"_blank\">S1</a> Helmets’ website.</p>",
-    "tags": [
-      "Daniel MacDonald"
-    ],
-    "categories": [
-      "S1 Helmets",
-      "Scene Supporters"
-    ],
-    "contentUrls": [
-      "https://shop.s1helmets.com/retro-lifer-helmet-silver-gloss-glitter",
-      "https://shop.s1helmets.com/s1-helmet-blog/video-and-interview-w-daniel-macdonald",
-      "https://shop.s1helmets.com"
-    ],
-    "ranking": 1,
-    "thumbnail": null,
-    "featuredVideo": null,
     "featuredPost": false
   },
   {
@@ -30416,25 +29841,6 @@ export const posts = [
     "featuredPost": false
   },
   {
-    "pageTitle": "Sector 9 Downhill Division: Jomar Guzman (PR Raw Run)",
-    "postDate": "October 19, 2015",
-    "author": "SkateHouseMedia",
-    "bodyText": "<p>“Searching for roads in the Puerto Rican jungle is what Jomar does best. Here is a newly found bomber through the lush mountains of the island nation.” – <a href=\"https://www.Sector9.com\" target=\"_blank\">Sector 9</a></p>",
-    "tags": [
-      "Jomar Guzman"
-    ],
-    "categories": [
-      "Raw Run"
-    ],
-    "contentUrls": [
-      "https://www.Sector9.com"
-    ],
-    "ranking": 1,
-    "thumbnail": null,
-    "featuredVideo": null,
-    "featuredPost": false
-  },
-  {
     "pageTitle": "Simon Lechner: No Title In Rome",
     "postDate": "2013-12-22",
     "author": "SkateHouseMedia",
@@ -30448,24 +29854,6 @@ export const posts = [
     ],
     "ranking": 3,
     "thumbnail": "https://img.youtube.com/vi/LZynA9UxQwc/hqdefault.jpg",
-    "featuredVideo": null,
-    "featuredPost": false
-  },
-  {
-    "pageTitle": "Red Bull Side Winders",
-    "postDate": "2017-10-19",
-    "author": "SkateHouseMedia",
-    "bodyText": "<p><iframe width=\"560px\" height=\"315px\" frameborder=\"0\" scrolling=\"no\" marginheight=\"0\" marginwidth=\"0\" src=\"https://sharevideo.redbull.com/vjs/index.html?r=1&amp;cornerbug=true&amp;origin=https://www.redbull.com/jp-ja/red-bull-side-winders&amp;accid=1439051358001&amp;pid=4JE31Ysng&amp;vid=5615785348001&amp;crid=rrn:content:videos:765627ba-cb63-4c7c-9020-0d4be8d2c33d:ja-JP\" allowfullscreen=\"\" webkitallowfullscreen=\"\" mozallowfullscreen=\"\"></iframe></p>\n<p><a href=\"https://www.redbull.com/jp-ja/red-bull-side-winders\" rel=\"noopener\" target=\"_blank\">Red Bull Japan</a> found the most epic race track we’ve ever seen. 69 Hairpin turns over 10 kilometers, do you think you could’ve made it down the ten minute chunder bomb ?</p>",
-    "tags": [],
-    "categories": [
-      "Event Coverage"
-    ],
-    "contentUrls": [
-      "https://www.redbull.com/jp-ja/red-bull-side-winders",
-      "https://sharevideo.redbull.com/vjs/index.html?r=1&cornerbug=true&origin=https://www.redbull.com/jp-ja/red-bull-side-winders&accid=1439051358001&pid=4JE31Ysng&vid=5615785348001&crid=rrn:content:videos:765627ba-cb63-4c7c-9020-0d4be8d2c33d:ja-JP"
-    ],
-    "ranking": 1,
-    "thumbnail": null,
     "featuredVideo": null,
     "featuredPost": false
   },
@@ -30579,23 +29967,6 @@ export const posts = [
     "featuredPost": false
   },
   {
-    "pageTitle": "SHM- Dominican Republic | SkateHouseMedia.com",
-    "postDate": "2014-06-24",
-    "author": "SkateHouseMedia",
-    "bodyText": "<p><iframe src=\"https://player.vimeo.com/video/30915320?title=0&amp;byline=0&amp;portrait=0&amp;color=f0000c\" width=\"700\" height=\"389\" frameborder=\"0\" webkitallowfullscreen=\"\" allowfullscreen=\"\"></iframe></p>\n<p>Louis and James took a quick trip to DR to skate with the locals. They showed us a non-stop crazy time full of almost everything you can imagine. Huge thanks to everyone that made it possible! </p>",
-    "tags": [],
-    "categories": [
-      "Community"
-    ],
-    "contentUrls": [
-      "https://player.vimeo.com/video/30915320?title=0&byline=0&portrait=0&color=f0000c"
-    ],
-    "ranking": 1,
-    "thumbnail": null,
-    "featuredVideo": null,
-    "featuredPost": false
-  },
-  {
     "pageTitle": "Bruno Sirera Spanish Insanity",
     "postDate": "2011-06-04",
     "author": "SkateHouseMedia",
@@ -30671,108 +30042,6 @@ export const posts = [
     "featuredPost": false
   },
   {
-    "pageTitle": "Switch Fish w/ Will Royce | MuirSkate Longboard Shop",
-    "postDate": "2016-10-21",
-    "author": "SkateHouseMedia",
-    "bodyText": "<p>Will Royce <a href=\"https://skatehousemedia.com/08/12/2016/william-royce-skate-everything\" target=\"_blank\">skates everything</a>, even switch! Follow <a href=\"https://www.muirskate.com\" target=\"_blank\">MuirSkate</a> rider <a href=\"https://skatehousemedia.com/tags/will-royce\" target=\"_blank\">Bill Rice</a> down the famous One Way.</p>",
-    "tags": [
-      "Will Royce"
-    ],
-    "categories": [
-      "Muir Skate",
-      "Raw Run"
-    ],
-    "contentUrls": [
-      "https://skatehousemedia.com/08/12/2016/william-royce-skate-everything",
-      "https://www.muirskate.com",
-      "https://skatehousemedia.com/tags/will-royce"
-    ],
-    "ranking": 1,
-    "thumbnail": null,
-    "featuredVideo": null,
-    "featuredPost": false
-  },
-  {
-    "pageTitle": "Community: The BIG One | The Homies Skate",
-    "postDate": "2018-10-21",
-    "author": "SkateHouseMedia",
-    "bodyText": "<p>The Homies Skate threw down all over British Columbia this summer to bring you their first official full length.</p>",
-    "tags": [
-      "Alex Charleson",
-      "Clayton Arthurs",
-      "Jake Ballantyne",
-      "Nolan Kraeker",
-      "Oliver Lanyon",
-      "Tyler Gillingham"
-    ],
-    "categories": [
-      "Community Front Page"
-    ],
-    "contentUrls": [],
-    "ranking": 1,
-    "thumbnail": null,
-    "featuredVideo": null,
-    "featuredPost": false
-  },
-  {
-    "pageTitle": "Soldiers of Downhill 2010: S9 Edition | SkateHouseMedia.com",
-    "postDate": "2012-05-27",
-    "author": "SkateHouseMedia",
-    "bodyText": "<p></p>\n<p>Check out the action from the 2010 Soldiers of Downhill in Bainbridge, Ohio.</p>\n<p><strong>Results:</strong><br>\n1st George Mackenzie<br>\n2nd Louis Pilloni<br>\n3rd Joel Putrah<br>\n4th Keith Rebhorn</p>\n<p>For a more indepth write up of the event check out <a href=\"https://www.skateslate.com/event-news/787-soldiers-of-downhill-recap\" target=\"_blank\">Anthony Flis’s Report</a> courtesy of <a href=\"https://www.skateslate.com/\" target=\"_blank\">SkateSlate</a></p>",
-    "tags": [],
-    "categories": [
-      "Event Coverage",
-      "Sector 9"
-    ],
-    "contentUrls": [
-      "https://www.skateslate.com/event-news/787-soldiers-of-downhill-recap",
-      "https://www.skateslate.com",
-      "https://www.youtube.com/e/89ev1M1NbuA"
-    ],
-    "ranking": 1,
-    "thumbnail": null,
-    "featuredVideo": null,
-    "featuredPost": false
-  },
-  {
-    "pageTitle": "Skatesgiving 2011 Photo Flashback",
-    "postDate": "2016-07-12",
-    "author": "SkateHouseMedia",
-    "bodyText": "<p><img class=\"aligncenter size-full wp-image-7307\" title=\"Comet Open Road Crew van\" src=\"https://www.skatehousemedia.com/wp-content/upload/2012/10/DSC_0002.jpg\" alt=\"\" width=\"1000\" height=\"664\"></p>\n<p>The East Coast transplants in the house headed back east last week to meet some of their old friends and hit the road in the <a href=\"https://www.cometskateboards.com\" target=\"_blank\">Comet</a> van for this year’s <a href=\"https://www.skatehousemedia.com/tags/skatesgiving\">Skatesgiving</a> trip. &nbsp; Our crew consists of <a href=\"https://www.skatehousemedia.com/tags/anthony-flis\">Anthony Flis</a>, <a href=\"https://www.skatehousemedia.com/tags/ben-dubreuil\">Ben Dubreuil</a>, <a href=\"https://www.skatehousemedia.com/tags/brian-peck\">Brian Peck</a>, <a href=\"https://www.skatehousemedia.com/tags/matt-kienzle\">Matt Kienzle</a>, and <a href=\"https://www.skatehousemedia.com/tags/pat-schep\">Pat Schep</a> and we’ll be all over the mountains of the East Coast for the next two weeks. We just left Soldiers of Downhill heading south and are currently working on getting footage of the finals up so check back tomorrow for that.&nbsp; The first Skatesgiving video will be released on Thanksgiving day (November 22) but until then we have some never released photos of last year’s trip to keep you stoked.</p>\n<p><span id=\"more-7305\"></span></p>\n<div id=\"attachment_7313\" class=\"wp-caption aligncenter\" style=\"width: 710px\"><a href=\"https://www.skatehousemedia.com/wp-content/upload/2012/10/DSC_0450.jpg\"><img class=\"size-large wp-image-7313\" title=\"DSC_0450\" src=\"https://www.skatehousemedia.com/wp-content/upload/2012/10/DSC_0450-700x523.jpg\" alt=\"\" width=\"700\" height=\"523\"></a><p class=\"wp-caption-text\">Brian Peck kicks out a stylish toeside slide on a beautifully paved steep road in Pennsylvania. <a href=\"https://oslphoto.tumblr.com/\" target=\"_blank\">Photo by OSL</a></p></div>\n<div id=\"attachment_7312\" class=\"wp-caption aligncenter\" style=\"width: 674px\"><a href=\"https://www.skatehousemedia.com/wp-content/upload/2012/10/DSC_0523.jpg\"><img class=\"size-full wp-image-7312\" title=\"DSC_0523\" src=\"https://www.skatehousemedia.com/wp-content/upload/2012/10/DSC_0523.jpg\" alt=\"\" width=\"664\" height=\"1000\"></a><p class=\"wp-caption-text\">Ben Dubreuil is known for getting funky and this photo is no exception- not quite sure what Ben calls this one but we all doubted it was no more than a fluke until he landed it 5 times in a row. Photo by OSL</p></div>\n<div id=\"attachment_7304\" class=\"wp-caption aligncenter\" style=\"width: 710px\"><a href=\"https://www.skatehousemedia.com/wp-content/upload/2012/10/Matt-Keith-Camp-Suckyresize.jpg\"><img class=\"size-large wp-image-7304\" title=\"Matt Keith Camp Sucky resize\" src=\"https://www.skatehousemedia.com/wp-content/upload/2012/10/Matt-Keith-Camp-Suckyresize-700x1050.jpg\" alt=\"\" width=\"700\" height=\"1050\"></a><p class=\"wp-caption-text\">Matt Kienzle and Keith Rebhorn flow down <a href=\"https://www.skatehousemedia.com/02/06/2012/skatesgiving-camp-sucky\">the southeast’s gnarliest road</a> with a beautiful waterfall in the background. Photo by Max Dubber</p></div>\n<div id=\"attachment_7310\" class=\"wp-caption aligncenter\" style=\"width: 710px\"><a href=\"https://www.skatehousemedia.com/wp-content/upload/2012/10/DSC_8787.jpg\"><img class=\"size-large wp-image-7310\" title=\"DSC_8787\" src=\"https://www.skatehousemedia.com/wp-content/upload/2012/10/DSC_8787-700x464.jpg\" alt=\"\" width=\"700\" height=\"464\"></a><p class=\"wp-caption-text\">Pat Schep doing what he does best: falling back on that ass with that hellafied gansta lean. Photo by OSL</p></div>\n<div id=\"attachment_7308\" class=\"wp-caption aligncenter\" style=\"width: 710px\"><a href=\"https://www.skatehousemedia.com/wp-content/upload/2012/10/DSC_0315.jpg\"><img class=\"size-large wp-image-7308\" title=\"DSC_0315\" src=\"https://www.skatehousemedia.com/wp-content/upload/2012/10/DSC_0315-700x464.jpg\" alt=\"\" width=\"700\" height=\"464\"></a><p class=\"wp-caption-text\">Brian, Ben, and Keith hard at lurk in the back of the Comet van… the Christmas lights and American flag are back on this trip but unfortunately Ben forgot his sweet cheetah pants. Photo by OSL</p></div>\n<div id=\"attachment_7306\" class=\"wp-caption aligncenter\" style=\"width: 710px\"><a href=\"https://www.skatehousemedia.com/wp-content/upload/2012/10/Matt-Redneck-Toesideresize.jpg\"><img class=\"size-large wp-image-7306\" title=\"Matt Redneck Toeside\" src=\"https://www.skatehousemedia.com/wp-content/upload/2012/10/Matt-Redneck-Toesideresize-700x466.jpg\" alt=\"\" width=\"700\" height=\"466\"></a><p class=\"wp-caption-text\">Matt gets sideways during the golden hour as a local stops to check out what we’re up to. Photo by Max Dubler</p></div>\n<div id=\"attachment_7311\" class=\"wp-caption aligncenter\" style=\"width: 674px\"><a href=\"https://www.skatehousemedia.com/wp-content/upload/2012/10/DSC_8709.jpg\"><img class=\"size-full wp-image-7311\" title=\"DSC_8709\" src=\"https://www.skatehousemedia.com/wp-content/upload/2012/10/DSC_8709.jpg\" alt=\"\" width=\"664\" height=\"1000\"></a><p class=\"wp-caption-text\">Brian floats a frontside ollie up and over a concrete hip under the dark night sky. Photo by OSL</p></div>\n<div id=\"attachment_7303\" class=\"wp-caption aligncenter\" style=\"width: 710px\"><a href=\"https://www.skatehousemedia.com/wp-content/upload/2012/10/Ludo-and-Ben-Frontflipresize.jpg\"><img class=\"size-large wp-image-7303\" title=\"Ludo and Ben Frontflip\" src=\"https://www.skatehousemedia.com/wp-content/upload/2012/10/Ludo-and-Ben-Frontflipresize-700x466.jpg\" alt=\"\" width=\"700\" height=\"466\"></a><p class=\"wp-caption-text\">Ben and Ludovic Tremblay mashing through a tight hairpin with two very different styles – Ludo standup and Ben with his classic 2-hands down style. Photo by Max Dubler</p></div>\n<p>Remember to check back to SkateHouse on Thanksgiving for the first of this year’s Skatesgiving videos!</p>",
-    "tags": [],
-    "categories": [
-      "Comet Skateboards",
-      "Flashback",
-      "Landyachtz",
-      "Photos",
-      "Scene Supporters",
-      "Sector 9"
-    ],
-    "contentUrls": [
-      "https://www.cometskateboards.com",
-      "https://www.skatehousemedia.com/tags/skatesgiving",
-      "https://www.skatehousemedia.com/tags/anthony-flis",
-      "https://www.skatehousemedia.com/tags/ben-dubreuil",
-      "https://www.skatehousemedia.com/tags/brian-peck",
-      "https://www.skatehousemedia.com/tags/matt-kienzle",
-      "https://www.skatehousemedia.com/tags/pat-schep",
-      "https://www.skatehousemedia.com/wp-content/upload/2012/10/DSC_0450.jpg",
-      "https://oslphoto.tumblr.com",
-      "https://www.skatehousemedia.com/wp-content/upload/2012/10/DSC_0523.jpg",
-      "https://www.skatehousemedia.com/wp-content/upload/2012/10/Matt-Keith-Camp-Suckyresize.jpg",
-      "https://www.skatehousemedia.com/02/06/2012/skatesgiving-camp-sucky",
-      "https://www.skatehousemedia.com/wp-content/upload/2012/10/DSC_8787.jpg",
-      "https://www.skatehousemedia.com/wp-content/upload/2012/10/DSC_0315.jpg",
-      "https://www.skatehousemedia.com/wp-content/upload/2012/10/Matt-Redneck-Toesideresize.jpg",
-      "https://www.skatehousemedia.com/wp-content/upload/2012/10/DSC_8709.jpg",
-      "https://www.skatehousemedia.com/wp-content/upload/2012/10/Ludo-and-Ben-Frontflipresize.jpg"
-    ],
-    "ranking": 3,
-    "thumbnail": null,
-    "featuredVideo": null,
-    "featuredPost": false
-  },
-  {
     "pageTitle": "Comet Skateboards // DCDC TOUR (Part 1)",
     "postDate": "2013-11-17",
     "author": "SkateHouseMedia",
@@ -30844,51 +30113,6 @@ export const posts = [
     "ranking": 1,
     "thumbnail": "https://assets.skatehousemedia.com/thumbnails/Raw-Run-Matt-Deitch.jpg",
     "featuredVideo": "https://assets.skatehousemedia.com/Raw-Run-Matt-Deitch.mp4",
-    "featuredPost": false
-  },
-  {
-    "pageTitle": "Blood Orange Street Wheels and Interview with Jordan Tabayoyon",
-    "postDate": "October 23, 2015",
-    "author": "SkateHouseMedia",
-    "bodyText": "<p>After over a year of testing numerous formulas <a href=\"https://skatebloodorange.com/\" target=\"_blank\">Blood Orange</a> wheels has just launched it’s new street formula. Blood Orange’s new 99a formula comes in two custom shapes (round and conical) available in three sizes. The two shapes cater to all types of street shredding. Blood Orange Conical Shape is designed for a faster and lighter ride. The Blood Orange Rounded Shape are just as fast but are wider and more stable for skating transitions. No Cores, No Fillers, No Gimmicks. Just 100% raw urethane poured in California. Blood Orange has announced its first two street riders Sid Melvin and Jared Huss. To kick off the launch, SkateHouseMedia sent some questions over to Blood Orange Street Manager, Jordan Tabyoyon to get the inside scoop.</p>\n<p><img class=\"aligncenter size-large wp-image-14394\" src=\"https://i0.wp.com/www.skatehousemedia.com/wp-content/upload/2015/10/jordan-700x525.jpg?resize=700%2C525\" alt=\"jordan\" data-recalc-dims=\"1\"></p>\n<p><strong>SHM: Yeah Jordan! Quick us a quick bio about yourself so we can get down to the real meat of this interview?</strong></p>\n<p><strong>Jordan Tabayoyon: </strong>Ok, quick bio. I was born in Berkeley in the same hospital as Liam. I was raised in Sonoma which is the wine country in Northern California right next to James Kelly in Petaluma and right next to Napa where Brandon Stewart is from (<a href=\"https://skatebloodorange.com/team/\" target=\"_blank\">Blood Orange</a>/<a href=\"https://calibertruckco.com/\" target=\"_blank\">Caliber</a> founder) I’m 34 so I’m way older than these guys so and we didn’t grow up together. Plus these guys are downhillers! haha jk. <span id=\"more-14391\"></span> After high school I moved down to Santa Barbara and got a job at Church of Skatan which opened the doors for me entering the skateboard industry. Church of Skatan is owned by Shorty’s which back then was one of the leaders in the core street game. That is when I got seriously addicted to skating and knew there was no turning back. I knew I was a skater but that shit turned me into a 100% skateboarder. Skate, party, skate repeat for 5 years. After five long and fun years of fully absorbing Santa Barbara I moved to Santa Cruz. I got a job running a skate shop that was the original NHS building where Santa Cruz skateboards and Indy sparked from. The shop was across the street from a pizza place where Brandon Stewart worked too. That’s how we first met and we’ve always hung out since. After 5 years of running the skate shop in Santa Cruz I got a job working for Santa Cruz skateboards as a marketing and team manager. Along the way I helped a bunch of other brands like OJ, Indy and Mob. I learned everything from product development, team management, marketing, After 6 long years they let me go. It was the best thing that could have happened to me. I think Brandon called me 2 weeks later. He told me he wanted to start a big project and wanted to enter the street skating world. After I hung up the phone with Brandon it was on! I’ve been here ever since.</p>\n<p><strong>SHM: How did you get involved with Blood Orange?</strong></p>\n<p><strong>JT: </strong>When Brandon hired me, he told me he wanted to start a street program for both Blood Orange and Caliber. That meant wheels, a street truck, hardware, bearings, and grip. Pretty much everything I would ever want to create and skate. How could a skater ever turn that down? Plus with Blood Orange being a high quality wheel brand, it finally gave me the opportunity to create a wheel that I’ve always wanted to.</p>\n<p><img class=\"aligncenter size-large wp-image-14401\" src=\"https://i1.wp.com/www.skatehousemedia.com/wp-content/upload/2015/10/Blood-orange-SHM-2-01-700x583.jpg?resize=700%2C583\" alt=\"Blood orange SHM 2-01\" data-recalc-dims=\"1\"></p>\n<p><strong> SHM: Why make street wheels?</strong></p>\n<p><strong>JT:</strong> Blood Orange is a skateboard accessories brand that encompasses all skateboarding.<br>\nWhy not be a brand that caters to all skateboarding but with more of a “core” high end direction (core DH and core street). So if you look at the big picture and the success of Blood Orange, it makes total sense. As you know there’s a lot of crap out there today.</p>\n<p><strong>SHM: Who is on the Blood Orange Team?</strong></p>\n<p><strong>JT:</strong> That I can speak of? Sid Melvin, Jared Huss and Branden Howard. I have some dudes filming some stuff for their announcements so I’m gonna keep it hush. I can promise you guys you’ll be hyped. Big things in 2016!</p>\n<p><strong>SHM: What is unique about the new BO street wheel offering?</strong></p>\n<p><strong>JT:</strong> The wheels are made from scratch. We seriously tested numerous formulas making sure they rode perfect. We made our own custom conical and rounded edge shapes.<br>\nWe thought way further than finding a good 99a wheel and throwing a graphic on it.<br>\nA majority of skateboarding does that. I wanted to produce a street wheel where skaters go “holy shit these wheels are amazing”. I tried to create a formula where skaters will get addicted and can’t skate anything else. I want skaters to feel these wheels have the feel, look and sound of how a real street wheel should feel.</p>\n<p><img class=\"aligncenter size-large wp-image-14397\" src=\"https://i0.wp.com/www.skatehousemedia.com/wp-content/upload/2015/10/BLOOD-ORANGE-FASTER-58MM-99A-ROUNDED-700x466.jpg?resize=700%2C466\" alt=\"BLOOD ORANGE FASTER 58MM 99A ROUNDED\" data-recalc-dims=\"1\"></p>\n<p><strong>SHM: What kind of terrain do you like to skate?</strong></p>\n<p><strong>JT:</strong> Everything. I’m more of a tech skater but obviously I skate everything. Down for it all. except DH… that shit is so gnarly. Always down for a game of S.K.A.T.E. We have a mini ramp at work and everyone skates so we’re always skating.</p>\n<p><strong>SHM: Do you see differences between Street skaters and downhill skaters?</strong></p>\n<p><strong>JT:</strong> Well, that’s a tricky questions. Yes, big difference. DH guys warm up trick is bombing a hill going 40 or 50mph. Ours is an ollie going probably 2 to 3 mph. So yeah big difference. Overall it seems like a younger group of dudes are into the downhill scene.</p>\n<p><strong>SHM: What about Liam and James style? Will they find a use for street wheels?</strong></p>\n<p><strong>JT: </strong>Liam is a major player in the Blood Orange family so maybe? Liam you down to film a street part? Actually if he beats me at a game of S.K.A.T.E. I’ll give him a street wheel.</p>\n<p><strong>SHM: Any funny stories you want to share about Blood Orange Team?</strong></p>\n<p><strong>JT: </strong>What happens on tour stays on tour.. sorry bro.&nbsp; Ha lemme see…There was that one time when we went out raging the night before an Arbor sales meeting and Liam got super, super, super wasted. The next day we woke him up all early saying James Kelly just got done presenting the downhill boards and Liam was next for the apparel presentation.<br>\nHe woke up all cross eyed and still wasted like “what! why didn’t you tell me James was coming!? Why didn’t you tell me he was presenting? Why didn’t you tell me I was presenting!?” Right then Jack Boston walks in and Liam goes “Jack, I have to present!?”<br>\nJack read into the situation perfectly and goes “yep, right after James”. That night there was a scuffle outside the bar with some of the reps and some punks in the street. We told Liam he was all up on dudes chick and dudes flexed and we had to fight them. Obviously Liam was blacked out and didn’t have any type of memories from the night before so he felt terrible. We go in to the meeting that morning and Liam is stressing. Hours go by and I’m sitting there in the meeting when Liam whispers in my ear “oh way to go asshole, I just figured out James is not here and that fight was not cause of me!” I was like “Oh you’re still stressing about that? we know dude, We just wanted to get your ass up.”&nbsp; Sorry Liam.</p>\n<p><strong>SHM: If you had to ride 1 skateboard everything, what would be your setup?</strong></p>\n<p><strong>JT:</strong> <a href=\"https://arborcollective.com/\" target=\"_blank\">Arbor</a> Whiskey board I designed in standard skateboard shape, nothing fancy (8.25″ x 32″ 14.25″ wheelbase Flatter concave).&nbsp; My hollow 8.0″ caliber standard trucks I designed. 53mm 99a Blood Orange conical wheels. New Blood Orange ceramic bearings I’m working on. Damn I just leaked some shit.</p>\n<p><strong>SHM: Why do you still skateboard?</strong></p>\n<p><strong>JT:</strong> Why would I ever quit? I feel the older we get, the more we progress. The more we progress, the more fun we have. Skateboarder for life.</p>\n<p><strong>SHM: Does being in the skateboard industry make it hard to skate and have fun?</strong></p>\n<p><strong>JT: </strong>Absolutely not. depends on who you’re working for or promoting. We have a day at work where everybody has to learn a new trick. Every Wednesday. It’s so rad. Dudes go for it. We have every obstacle at work so one day it could be a mini ramp day or a slappy day. Either way its the best.</p>\n<p><strong>SHM: Beer, Wine, Liquor, or water?</strong></p>\n<p><strong>JT: </strong>Coffee, gin and tonics and tequila over ice. Oh yeah, mad Yerba Mate too.</p>\n<p><strong>SHM: Steak, Chicken, Fish, or veggies?</strong></p>\n<p><strong>JT: </strong>Birds and fish. No cows or pigs.</p>",
-    "tags": [
-      "Jared Huss",
-      "Jordan Tabayoyon",
-      "Sid Melvin"
-    ],
-    "categories": [
-      "Blood Orange"
-    ],
-    "contentUrls": [
-      "https://skatebloodorange.com",
-      "https://skatebloodorange.com/team",
-      "https://calibertruckco.com",
-      "https://arborcollective.com"
-    ],
-    "ranking": 3,
-    "thumbnail": null,
-    "featuredVideo": null,
-    "featuredPost": false
-  },
-  {
-    "pageTitle": "Community: real girls skate for fun",
-    "postDate": "2018-10-23",
-    "author": "SkateHouseMedia",
-    "bodyText": "<p>Dizzy is here to showcase what real girls do with skateboards.</p>",
-    "tags": [
-      "Charlie Daigneault",
-      "Diane Hiebert",
-      "Eleanor Issel",
-      "Polya Eroujenets",
-      "Sara Schmidts"
-    ],
-    "categories": [
-      "Community"
-    ],
-    "contentUrls": [],
-    "ranking": 1,
-    "thumbnail": null,
-    "featuredVideo": null,
     "featuredPost": false
   },
   {
@@ -30968,97 +30192,6 @@ export const posts = [
     "featuredPost": false
   },
   {
-    "pageTitle": "Aaron Breetwor Photography Feature",
-    "postDate": "2016-09-25",
-    "author": "SkateHouseMedia",
-    "bodyText": "<p><img src=\"https://www.skatehousemedia.com/wp-content/upload/2014/10/amb_dgm_kickstarterpromo_00.jpg\" alt=\"Aaron Breetwor\"></p>\n<p>Aaron Breetwor is a Northern California native currently living in New York City. He was editor in chief of the first six <a href=\"https://www.skateslate.com\">Skate[Slate]</a> issues, you might also recognize his work from the early photography of <a href=\"https://skatebloodorange.com\">Blood Orange</a>. His main focus now is <a href=\"https://www.downgrademagazine.com\">Downgrade Magazine</a>. DGM is in it’s early days, make sure you check out what it’s all about. Here is some of his work, in black &amp; white.</p>\n<div id=\"attachment_7304\" style=\"width: 710px\" class=\"wp-caption aligncenter\"><a href=\"https://www.kickstarter.com/projects/dgm/downgrade-magazine\"><img class=\"size-large wp-image-7304\" title=\"Aaron from the toilet.\" src=\"https://www.skatehousemedia.com/wp-content/upload/2014/10/amb_dgm_kickstarterpromo_06.jpg\" alt=\"\" width=\"700\" height=\"1050\"></a><p class=\"wp-caption-text\">Aaron “from the block” Grulich slowing it down.</p></div>\n<p><span id=\"more-11988\"></span></p>\n<div id=\"attachment_7304\" style=\"width: 710px\" class=\"wp-caption aligncenter\"><a href=\"https://www.kickstarter.com/projects/dgm/downgrade-magazine\"><img class=\"size-large wp-image-7304\" title=\"Tissen on the rocks.\" src=\"https://www.skatehousemedia.com/wp-content/upload/2014/10/amb_dgm_kickstarterpromo_01.jpg\" alt=\"\" width=\"700\" height=\"1050\"></a><p class=\"wp-caption-text\"><a href=\"https://arborcollective.com/\">Arbor</a>/<a href=\"https://calibertruckco.com/\">Caliber</a>/<a href=\"https://skatebloodorange.com/\">Blood Orange</a>‘s all around skater Brandon Tissen can literally skate anything that is in his path.</p></div>\n<div id=\"attachment_7304\" style=\"width: 710px\" class=\"wp-caption aligncenter\"><a href=\"https://www.kickstarter.com/projects/dgm/downgrade-magazine\"><img class=\"size-large wp-image-7304\" title=\"Dakine.\" src=\"https://www.skatehousemedia.com/wp-content/upload/2014/10/amb_dgm_kickstarterpromo_04.jpg\" alt=\"\" width=\"700\" height=\"1050\"></a><p class=\"wp-caption-text\">Adrian Joseph nailing the bush barrel line.</p></div>\n<div id=\"attachment_7304\" style=\"width: 710px\" class=\"wp-caption aligncenter\"><a href=\"https://www.kickstarter.com/projects/dgm/downgrade-magazine\"><img class=\"size-large wp-image-7304\" title=\"SW Lil' B.\" src=\"https://www.skatehousemedia.com/wp-content/upload/2014/10/amb_dgm_kickstarterpromo_08.jpg\" alt=\"\" width=\"700\" height=\"1050\"></a><p class=\"wp-caption-text\">Byron Essert throws his flavor onto a legendary Northern California favorite.</p></div>\n<div id=\"attachment_7304\" style=\"width: 710px\" class=\"wp-caption aligncenter\"><a href=\"https://www.kickstarter.com/projects/dgm/downgrade-magazine\"><img class=\"size-large wp-image-7304\" title=\"Large David.\" src=\"https://www.skatehousemedia.com/wp-content/upload/2014/10/amb_dgm_kickstarterpromo_09.jpg\" alt=\"\" width=\"700\" height=\"1050\"></a><p class=\"wp-caption-text\"><a href=\"https://www.cometskateboards.com/\">Comet</a> rider &amp; <a href=\"https://www.calibertruckco.com/\">Caliber</a> team manager Big Dave wall riding the uber tuber.</p></div>\n<div id=\"attachment_7304\" style=\"width: 710px\" class=\"wp-caption aligncenter\"><a href=\"https://www.kickstarter.com/projects/dgm/downgrade-magazine\"><img class=\"size-large wp-image-7304\" title=\"Tissen on the rocks.\" src=\"https://www.skatehousemedia.com/wp-content/upload/2014/10/amb_dgm_kickstarterpromo_07.jpg\" alt=\"\" width=\"700\" height=\"1050\"></a><p class=\"wp-caption-text\"><a href=\"https://skatebloodorange.com/\">Blood Orange</a>, <a href=\"https://calibertruckco.com/\">Caliber</a>, and <a href=\"https://arborcollective.com/\">Arbor</a>‘s Liam Morgan on the hood of the <a href=\"https://sunsetsliders.com/\">Sunset Sliders</a>‘s bus. Fresh from his high school graduation.</p></div>\n<div id=\"attachment_7304\" style=\"width: 710px\" class=\"wp-caption aligncenter\"><a href=\"https://www.kickstarter.com/projects/dgm/downgrade-magazine\"><img class=\"size-large wp-image-7304\" title=\"Jesse Breiman.\" src=\"https://www.skatehousemedia.com/wp-content/upload/2014/10/amb_dgm_kickstarterpromo_13.jpg\" alt=\"\" width=\"700\" height=\"1050\"></a><p class=\"wp-caption-text\">Sliding his way up, Jesse Breiman heads towards the apex of the turn.</p></div>\n<div id=\"attachment_7304\" style=\"width: 710px\" class=\"wp-caption aligncenter\"><a href=\"https://www.kickstarter.com/projects/dgm/downgrade-magazine\"><img class=\"size-large wp-image-7304\" title=\"Grulich Vermont.\" src=\"https://www.skatehousemedia.com/wp-content/upload/2014/10/amb_dgm_kickstarterpromo_11.jpg\" alt=\"\" width=\"700\" height=\"1050\"></a><p class=\"wp-caption-text\">AFB navigates through a sinuous San Francisco gem.</p></div>\n<div id=\"attachment_7304\" style=\"width: 710px\" class=\"wp-caption aligncenter\"><a href=\"https://www.kickstarter.com/projects/dgm/downgrade-magazine\"><img class=\"size-large wp-image-7304\" title=\"Lil' B fight for flight.\" src=\"https://www.skatehousemedia.com/wp-content/upload/2014/10/amb_dgm_kickstarterpromo_10.jpg\" alt=\"\" width=\"700\" height=\"1050\"></a><p class=\"wp-caption-text\">San Francisco’s beautiful bumps, capitalized on by Byron Essert.</p></div>\n<div id=\"attachment_7304\" style=\"width: 710px\" class=\"wp-caption aligncenter\"><a href=\"https://www.kickstarter.com/projects/dgm/downgrade-magazine\"><img class=\"size-large wp-image-7304\" title=\"SHM Ramp Group\" src=\"https://www.skatehousemedia.com/wp-content/upload/2014/10/amb_dgm_kickstarterpromo_14.jpg\" alt=\"\" width=\"700\" height=\"1050\"></a><p class=\"wp-caption-text\">Construction of the <a href=\"https://www.calibertruckco.com/\">Caliber</a> mini ramp in skate house’s backyard.</p></div>\n<div id=\"attachment_7304\" style=\"width: 710px\" class=\"wp-caption aligncenter\"><a href=\"https://www.kickstarter.com/projects/dgm/downgrade-magazine\"><img class=\"size-large wp-image-7304\" title=\"Jensen's Ass.\" src=\"https://www.skatehousemedia.com/wp-content/upload/2014/10/amb_dgm_kickstarterpromo_03.jpg\" alt=\"\" width=\"700\" height=\"1050\"></a><p class=\"wp-caption-text\"><a href=\"https://www.cometskateboards.com/\">Comet</a> &amp; <a href=\"https://www.calibertruckco.com/\">Caliber</a> rider Jensen ate shit on the <a href=\"https://www.skatehousemedia.com/06/07/2013/volante-wheels-alpine-routes/\">Alpine Routes</a> trip and had to sleep face down ass up for several weeks.</p></div>\n<div id=\"attachment_7304\" style=\"width: 710px\" class=\"wp-caption aligncenter\"><a href=\"https://www.kickstarter.com/projects/dgm/downgrade-magazine\"><img class=\"size-large wp-image-7304\" title=\"JM Duran.\" src=\"https://www.skatehousemedia.com/wp-content/upload/2014/10/amb_dgm_kickstarterpromo_12.jpg\" alt=\"\" width=\"700\" height=\"1050\"></a><p class=\"wp-caption-text\">Josephmyles Duran ollies into a very steep ‘crisco concrete shoot. JM rides <a href=\"https://skatebloodorange.com/\">Blood Orange</a> bushings in his <a href=\"https://calibertruckco.com/\">Caliber</a> trucks.</p></div>\n<p>Like what you see or would like to see more ? Make sure to check out <a href=\"https://www.downgrademagazine.com\" target=\"_blank\">DGM</a>‘s Kickstarter project.</p>\n<p><iframe width=\"700\" height=\"525\" src=\"https://www.kickstarter.com/projects/dgm/downgrade-magazine/widget/video.html\" frameborder=\"0\" scrolling=\"no\"> </iframe></p>",
-    "tags": [],
-    "categories": [
-      "Community",
-      "Photos"
-    ],
-    "contentUrls": [
-      "https://www.skateslate.com",
-      "https://skatebloodorange.com",
-      "https://www.downgrademagazine.com",
-      "https://www.kickstarter.com/projects/dgm/downgrade-magazine",
-      "https://arborcollective.com",
-      "https://calibertruckco.com",
-      "https://www.cometskateboards.com",
-      "https://www.calibertruckco.com",
-      "https://sunsetsliders.com",
-      "https://www.skatehousemedia.com/06/07/2013/volante-wheels-alpine-routes",
-      "https://www.kickstarter.com/projects/dgm/downgrade-magazine/widget/video.html"
-    ],
-    "ranking": 3,
-    "thumbnail": null,
-    "featuredVideo": null,
-    "featuredPost": false
-  },
-  {
-    "pageTitle": "Bear Trucks – Coastal Toti",
-    "postDate": "October 24, 2015",
-    "author": "SkateHouseMedia",
-    "bodyText": "<p>The Gnarlicante went exploring on an island off the coast of Morocco. The beach vibes were plentiful and the roads were smooth. They found this little gem and Toti went to work.</p>",
-    "tags": [
-      "Toti Motocicleta"
-    ],
-    "categories": [
-      "Scene Supporters"
-    ],
-    "contentUrls": [],
-    "ranking": 1,
-    "thumbnail": null,
-    "featuredVideo": null,
-    "featuredPost": false
-  },
-  {
-    "pageTitle": "Event Coverage: Ultime Descente (Top Speed Challenge)",
-    "postDate": "2017-10-24",
-    "author": "SkateHouseMedia",
-    "bodyText": "<p>Another Top Speed Challenge, another top speed record. This year, <a href=\"https://skatehousemedia.com/tags/pete-connolly\" rel=\"noopener\" target=\"_blank\">Pete Connolly</a> set the bar at <a href=\"https://skatehousemedia.com/09/25/2017/photos-top-speed-challenge-ultime-descente\" rel=\"noopener\" target=\"_blank\">147.73 KM/H</a>. Next year who knows ?</p>",
-    "tags": [
-      "Adam Persson",
-      "Anders Inde",
-      "Emily Pross",
-      "Emma Daigle",
-      "Isac Printz",
-      "Rookie",
-      "Zak Maytum"
-    ],
-    "categories": [
-      "Event Coverage"
-    ],
-    "contentUrls": [
-      "https://skatehousemedia.com/tags/pete-connolly",
-      "https://skatehousemedia.com/09/25/2017/photos-top-speed-challenge-ultime-descente"
-    ],
-    "ranking": 1,
-    "thumbnail": null,
-    "featuredVideo": null,
-    "featuredPost": false
-  },
-  {
-    "pageTitle": "S1 Helmets / Mellow Mood / Will Royce",
-    "postDate": "2018-10-24",
-    "author": "SkateHouseMedia",
-    "bodyText": "<p>Will Royce wearing the <a href=\"https://shop.s1helmets.com/retro-lifer-helmet-cyan-matte/\" rel=\"noopener\" target=\"_blank\">S1 Retro Lifer</a> Helmet.</p>",
-    "tags": [
-      "Will Royce"
-    ],
-    "categories": [
-      "S1 Helmets",
-      "Scene Supporters"
-    ],
-    "contentUrls": [
-      "https://shop.s1helmets.com/retro-lifer-helmet-cyan-matte"
-    ],
-    "ranking": 1,
-    "thumbnail": null,
-    "featuredVideo": null,
-    "featuredPost": false
-  },
-  {
     "pageTitle": "Arbor Skateboards’ Get Elevated Tour: Episode 1",
     "postDate": "2013-02-19",
     "author": "SkateHouseMedia",
@@ -31113,26 +30246,6 @@ export const posts = [
     "featuredPost": false
   },
   {
-    "pageTitle": "Sessions: The Black Egg",
-    "postDate": "2014-11-16",
-    "author": "SkateHouseMedia",
-    "bodyText": "<p><iframe src=\"https://player.vimeo.com/video/52155014\" width=\"700\" height=\"394\" frameborder=\"0\" webkitallowfullscreen=\"\" mozallowfullscreen=\"\" allowfullscreen=\"\"></iframe></p>\n<p><a href=\"https://www.skatehousemedia.com/tags/duke-degen\">Duke Degen</a> &amp; <a href=\"https://www.skatehousemedia.com/tags/jimmy-riha\">Jimmy Riha</a>&nbsp;playing skateboards down Arnold Schwarzenegger’s driveway.</p>",
-    "tags": [],
-    "categories": [
-      "Arbor",
-      "Sessions"
-    ],
-    "contentUrls": [
-      "https://www.skatehousemedia.com/tags/duke-degen",
-      "https://www.skatehousemedia.com/tags/jimmy-riha",
-      "https://player.vimeo.com/video/52155014"
-    ],
-    "ranking": 1,
-    "thumbnail": null,
-    "featuredVideo": null,
-    "featuredPost": false
-  },
-  {
     "pageTitle": "The 2012 Broadway Bomb: Wheelbase Edition",
     "postDate": "2011-07-12",
     "author": "SkateHouseMedia",
@@ -31148,45 +30261,6 @@ export const posts = [
     ],
     "ranking": 5,
     "thumbnail": "https://img.youtube.com/vi/AVCA0YdB79I/hqdefault.jpg",
-    "featuredVideo": null,
-    "featuredPost": false
-  },
-  {
-    "pageTitle": "Central Mass 6: Longboard Fest with Original Skateboards",
-    "postDate": "October 25, 2015",
-    "author": "SkateHouseMedia",
-    "bodyText": "<p>The <a href=\"https://originalskateboards.com\">Original Skateboards</a> crew grabs a slew of boards and heads to <a href=\"https://www.skatehousemedia.com/?s=central+mass\">Central Mass</a>. The East Coast comes together with more riders, longer slides, bigger airs, and just as many high fives at this year’s event. Huge thanks to Mike Girard for making it happen year after year.</p>",
-    "tags": [
-      "Brian Bishop",
-      "John Kreutter"
-    ],
-    "categories": [
-      "Original Skateboards",
-      "Scene Supporters"
-    ],
-    "contentUrls": [
-      "https://originalskateboards.com",
-      "https://www.skatehousemedia.com/?s=central+mass"
-    ],
-    "ranking": 1,
-    "thumbnail": null,
-    "featuredVideo": null,
-    "featuredPost": false
-  },
-  {
-    "pageTitle": "Quick Clips: James on Skater-X",
-    "postDate": "2016-01-20",
-    "author": "SkateHouseMedia",
-    "bodyText": "<p><iframe src=\"https://player.vimeo.com/video/16184693\" width=\"700\" height=\"394\" frameborder=\"0\" webkitallowfullscreen=\"\" mozallowfullscreen=\"\" allowfullscreen=\"\"></iframe></p>\n<p>Sometimes skating can be frustrating. If you find yourself grinding your teeth, just remember why you got into skating.&nbsp; CAUSE IT’S FUN!&nbsp; Keep it that way.</p>",
-    "tags": [],
-    "categories": [
-      "Event Coverage"
-    ],
-    "contentUrls": [
-      "https://player.vimeo.com/video/16184693"
-    ],
-    "ranking": 1,
-    "thumbnail": null,
     "featuredVideo": null,
     "featuredPost": false
   },
@@ -31226,68 +30300,6 @@ export const posts = [
     "featuredPost": false
   },
   {
-    "pageTitle": "Action Board Shop: Dan Arney – NCDH",
-    "postDate": "2016-10-26",
-    "author": "SkateHouseMedia",
-    "bodyText": "<p><a href=\"https://www.actionboardshop.com/\" target=\"_blank\">Action Board Shop</a> Team Rider, Dan Arney made the pilgrimage to NC and is enjoying all the best hills on the East Coast. Follow him on this beautiful fall decent and check out North Carolina downhill runs.</p>",
-    "tags": [
-      "Dan Arney"
-    ],
-    "categories": [
-      "Scene Supporters"
-    ],
-    "contentUrls": [
-      "https://www.actionboardshop.com"
-    ],
-    "ranking": 1,
-    "thumbnail": null,
-    "featuredVideo": null,
-    "featuredPost": false
-  },
-  {
-    "pageTitle": "Photos: Braffs",
-    "postDate": "2017-10-26",
-    "author": "SkateHouseMedia",
-    "bodyText": "<div id=\"attachment_21835\" style=\"width: 710px\" class=\"wp-caption aligncenter\"><a href=\"https://i2.wp.com/skatehousemedia.com/wp-content/upload/2017/10/braffs-full-throttle2100x1400.jpg\"><img class=\"size-large wp-image-21835\" src=\"https://i2.wp.com/skatehousemedia.com/wp-content/upload/2017/10/braffs-full-throttle2100x1400.jpg?resize=700%2C467\" alt=\"\" srcset=\"https://i2.wp.com/skatehousemedia.com/wp-content/upload/2017/10/braffs-full-throttle2100x1400.jpg?resize=700%2C467 700w, https://i2.wp.com/skatehousemedia.com/wp-content/upload/2017/10/braffs-full-throttle2100x1400.jpg?resize=250%2C167 250w, https://i2.wp.com/skatehousemedia.com/wp-content/upload/2017/10/braffs-full-throttle2100x1400.jpg?resize=500%2C333 500w, https://i2.wp.com/skatehousemedia.com/wp-content/upload/2017/10/braffs-full-throttle2100x1400.jpg?resize=768%2C512 768w, https://i2.wp.com/skatehousemedia.com/wp-content/upload/2017/10/braffs-full-throttle2100x1400.jpg?resize=150%2C100 150w, https://i2.wp.com/skatehousemedia.com/wp-content/upload/2017/10/braffs-full-throttle2100x1400.jpg?resize=330%2C220 330w, https://i2.wp.com/skatehousemedia.com/wp-content/upload/2017/10/braffs-full-throttle2100x1400.jpg?resize=900%2C600 900w, https://i2.wp.com/skatehousemedia.com/wp-content/upload/2017/10/braffs-full-throttle2100x1400.jpg?resize=736%2C490 736w, https://i2.wp.com/skatehousemedia.com/wp-content/upload/2017/10/braffs-full-throttle2100x1400.jpg?resize=1024%2C683 1024w, https://i2.wp.com/skatehousemedia.com/wp-content/upload/2017/10/braffs-full-throttle2100x1400.jpg?resize=621%2C414 621w, https://i2.wp.com/skatehousemedia.com/wp-content/upload/2017/10/braffs-full-throttle2100x1400.jpg?resize=1280%2C853 1280w, https://i2.wp.com/skatehousemedia.com/wp-content/upload/2017/10/braffs-full-throttle2100x1400.jpg?resize=414%2C276 414w\" sizes=\"(max-width: 700px) 100vw, 700px\" data-recalc-dims=\"1\"></a><p class=\"wp-caption-text\">Last weekend’s squad dropping into Full Throttle.</p></div>\n<p>I started hearing about a dope new run out in the canyon country last year, but didn’t make it out there until earlier this month. This post has photos from two separate visits.</p>\n<div id=\"attachment_21837\" style=\"width: 710px\" class=\"wp-caption aligncenter\"><a href=\"https://i2.wp.com/skatehousemedia.com/wp-content/upload/2017/10/img_5137_1.jpg\"><img class=\"size-large wp-image-21837\" src=\"https://i2.wp.com/skatehousemedia.com/wp-content/upload/2017/10/img_5137_1.jpg?resize=700%2C467\" alt=\"\" srcset=\"https://i2.wp.com/skatehousemedia.com/wp-content/upload/2017/10/img_5137_1.jpg?resize=700%2C467 700w, https://i2.wp.com/skatehousemedia.com/wp-content/upload/2017/10/img_5137_1.jpg?resize=250%2C167 250w, https://i2.wp.com/skatehousemedia.com/wp-content/upload/2017/10/img_5137_1.jpg?resize=500%2C333 500w, https://i2.wp.com/skatehousemedia.com/wp-content/upload/2017/10/img_5137_1.jpg?resize=768%2C512 768w, https://i2.wp.com/skatehousemedia.com/wp-content/upload/2017/10/img_5137_1.jpg?resize=150%2C100 150w, https://i2.wp.com/skatehousemedia.com/wp-content/upload/2017/10/img_5137_1.jpg?resize=330%2C220 330w, https://i2.wp.com/skatehousemedia.com/wp-content/upload/2017/10/img_5137_1.jpg?resize=900%2C600 900w, https://i2.wp.com/skatehousemedia.com/wp-content/upload/2017/10/img_5137_1.jpg?w=1200 1200w, https://i2.wp.com/skatehousemedia.com/wp-content/upload/2017/10/img_5137_1.jpg?resize=736%2C490 736w, https://i2.wp.com/skatehousemedia.com/wp-content/upload/2017/10/img_5137_1.jpg?resize=1024%2C683 1024w, https://i2.wp.com/skatehousemedia.com/wp-content/upload/2017/10/img_5137_1.jpg?resize=621%2C414 621w, https://i2.wp.com/skatehousemedia.com/wp-content/upload/2017/10/img_5137_1.jpg?resize=414%2C276 414w\" sizes=\"(max-width: 700px) 100vw, 700px\" data-recalc-dims=\"1\"></a><p class=\"wp-caption-text\">Riley Irvine airbraking down Wall Street.</p></div>\n<p>Like many other insanely sick downhill spots, this road had been built right before the 2008 housing crash. Some optimistic real estate investor bought a remote mountainside and built a road up it, intending to sell vacation home sites. Then Lehman Brothers went bankrupt, the global economy exploded, and the wealthy people who they were hoping would buy the plots decided to save their pennies. Long story short, we have a steep, winding road that goes from nowhere to nowhere.<span id=\"more-21834\"></span></p>\n<div id=\"attachment_21838\" style=\"width: 710px\" class=\"wp-caption aligncenter\"><a href=\"https://i1.wp.com/skatehousemedia.com/wp-content/upload/2017/10/img_5810.jpg\"><img class=\"wp-image-21838 size-large\" src=\"https://i1.wp.com/skatehousemedia.com/wp-content/upload/2017/10/img_5810.jpg?resize=700%2C467\" alt=\"\" srcset=\"https://i1.wp.com/skatehousemedia.com/wp-content/upload/2017/10/img_5810.jpg?resize=700%2C467 700w, https://i1.wp.com/skatehousemedia.com/wp-content/upload/2017/10/img_5810.jpg?resize=250%2C167 250w, https://i1.wp.com/skatehousemedia.com/wp-content/upload/2017/10/img_5810.jpg?resize=500%2C333 500w, https://i1.wp.com/skatehousemedia.com/wp-content/upload/2017/10/img_5810.jpg?resize=768%2C512 768w, https://i1.wp.com/skatehousemedia.com/wp-content/upload/2017/10/img_5810.jpg?resize=150%2C100 150w, https://i1.wp.com/skatehousemedia.com/wp-content/upload/2017/10/img_5810.jpg?resize=330%2C220 330w, https://i1.wp.com/skatehousemedia.com/wp-content/upload/2017/10/img_5810.jpg?resize=900%2C600 900w, https://i1.wp.com/skatehousemedia.com/wp-content/upload/2017/10/img_5810.jpg?w=1200 1200w, https://i1.wp.com/skatehousemedia.com/wp-content/upload/2017/10/img_5810.jpg?resize=736%2C490 736w, https://i1.wp.com/skatehousemedia.com/wp-content/upload/2017/10/img_5810.jpg?resize=1024%2C683 1024w, https://i1.wp.com/skatehousemedia.com/wp-content/upload/2017/10/img_5810.jpg?resize=621%2C414 621w, https://i1.wp.com/skatehousemedia.com/wp-content/upload/2017/10/img_5810.jpg?resize=414%2C276 414w\" sizes=\"(max-width: 700px) 100vw, 700px\" data-recalc-dims=\"1\"></a><p class=\"wp-caption-text\">Whole squad out here. That’s Ben DeSnyder in the corner there.</p></div>\n<p>We arrived in the middle of the night and pitched tents in the dark.</p>\n<div id=\"attachment_21839\" style=\"width: 710px\" class=\"wp-caption aligncenter\"><a href=\"https://i0.wp.com/skatehousemedia.com/wp-content/upload/2017/10/2017-09-30-04.53.56.jpg\"><img class=\"size-large wp-image-21839\" src=\"https://i0.wp.com/skatehousemedia.com/wp-content/upload/2017/10/2017-09-30-04.53.56.jpg?resize=700%2C700\" alt=\"\" srcset=\"https://i0.wp.com/skatehousemedia.com/wp-content/upload/2017/10/2017-09-30-04.53.56.jpg?resize=700%2C700 700w, https://i0.wp.com/skatehousemedia.com/wp-content/upload/2017/10/2017-09-30-04.53.56.jpg?resize=250%2C250 250w, https://i0.wp.com/skatehousemedia.com/wp-content/upload/2017/10/2017-09-30-04.53.56.jpg?resize=500%2C500 500w, https://i0.wp.com/skatehousemedia.com/wp-content/upload/2017/10/2017-09-30-04.53.56.jpg?resize=768%2C768 768w, https://i0.wp.com/skatehousemedia.com/wp-content/upload/2017/10/2017-09-30-04.53.56.jpg?resize=150%2C150 150w, https://i0.wp.com/skatehousemedia.com/wp-content/upload/2017/10/2017-09-30-04.53.56.jpg?resize=550%2C550 550w, https://i0.wp.com/skatehousemedia.com/wp-content/upload/2017/10/2017-09-30-04.53.56.jpg?resize=1100%2C1100 1100w, https://i0.wp.com/skatehousemedia.com/wp-content/upload/2017/10/2017-09-30-04.53.56.jpg?resize=225%2C225 225w, https://i0.wp.com/skatehousemedia.com/wp-content/upload/2017/10/2017-09-30-04.53.56.jpg?resize=200%2C200 200w, https://i0.wp.com/skatehousemedia.com/wp-content/upload/2017/10/2017-09-30-04.53.56.jpg?resize=400%2C400 400w, https://i0.wp.com/skatehousemedia.com/wp-content/upload/2017/10/2017-09-30-04.53.56.jpg?resize=260%2C260 260w, https://i0.wp.com/skatehousemedia.com/wp-content/upload/2017/10/2017-09-30-04.53.56.jpg?resize=300%2C300 300w, https://i0.wp.com/skatehousemedia.com/wp-content/upload/2017/10/2017-09-30-04.53.56.jpg?resize=600%2C600 600w, https://i0.wp.com/skatehousemedia.com/wp-content/upload/2017/10/2017-09-30-04.53.56.jpg?w=1200 1200w, https://i0.wp.com/skatehousemedia.com/wp-content/upload/2017/10/2017-09-30-04.53.56.jpg?resize=414%2C414 414w\" sizes=\"(max-width: 700px) 100vw, 700px\" data-recalc-dims=\"1\"></a><p class=\"wp-caption-text\">Shout out to the REI Passage 2 tent.</p></div>\n<p>Woke up to some dank scenery and a morning campfire to warm up.</p>\n<div id=\"attachment_21840\" style=\"width: 710px\" class=\"wp-caption aligncenter\"><a href=\"https://i2.wp.com/skatehousemedia.com/wp-content/upload/2017/10/2017-09-30-16.06.16.jpg\"><img class=\"size-large wp-image-21840\" src=\"https://i2.wp.com/skatehousemedia.com/wp-content/upload/2017/10/2017-09-30-16.06.16.jpg?resize=700%2C560\" alt=\"\" srcset=\"https://i2.wp.com/skatehousemedia.com/wp-content/upload/2017/10/2017-09-30-16.06.16.jpg?resize=700%2C560 700w, https://i2.wp.com/skatehousemedia.com/wp-content/upload/2017/10/2017-09-30-16.06.16.jpg?resize=250%2C200 250w, https://i2.wp.com/skatehousemedia.com/wp-content/upload/2017/10/2017-09-30-16.06.16.jpg?resize=500%2C400 500w, https://i2.wp.com/skatehousemedia.com/wp-content/upload/2017/10/2017-09-30-16.06.16.jpg?resize=768%2C614 768w, https://i2.wp.com/skatehousemedia.com/wp-content/upload/2017/10/2017-09-30-16.06.16.jpg?resize=325%2C260 325w, https://i2.wp.com/skatehousemedia.com/wp-content/upload/2017/10/2017-09-30-16.06.16.jpg?w=1200 1200w, https://i2.wp.com/skatehousemedia.com/wp-content/upload/2017/10/2017-09-30-16.06.16.jpg?resize=960%2C768 960w, https://i2.wp.com/skatehousemedia.com/wp-content/upload/2017/10/2017-09-30-16.06.16.jpg?resize=518%2C414 518w, https://i2.wp.com/skatehousemedia.com/wp-content/upload/2017/10/2017-09-30-16.06.16.jpg?resize=414%2C331 414w\" sizes=\"(max-width: 700px) 100vw, 700px\" data-recalc-dims=\"1\"></a><p class=\"wp-caption-text\">OMG so lifestyle.</p></div>\n<div id=\"attachment_21841\" style=\"width: 710px\" class=\"wp-caption aligncenter\"><a href=\"https://i0.wp.com/skatehousemedia.com/wp-content/upload/2017/10/2017-09-30-10.04.10.jpg\"><img class=\"size-large wp-image-21841\" src=\"https://i0.wp.com/skatehousemedia.com/wp-content/upload/2017/10/2017-09-30-10.04.10.jpg?resize=700%2C525\" alt=\"\" srcset=\"https://i0.wp.com/skatehousemedia.com/wp-content/upload/2017/10/2017-09-30-10.04.10.jpg?resize=700%2C525 700w, https://i0.wp.com/skatehousemedia.com/wp-content/upload/2017/10/2017-09-30-10.04.10.jpg?resize=250%2C188 250w, https://i0.wp.com/skatehousemedia.com/wp-content/upload/2017/10/2017-09-30-10.04.10.jpg?resize=500%2C375 500w, https://i0.wp.com/skatehousemedia.com/wp-content/upload/2017/10/2017-09-30-10.04.10.jpg?resize=768%2C576 768w, https://i0.wp.com/skatehousemedia.com/wp-content/upload/2017/10/2017-09-30-10.04.10.jpg?resize=330%2C248 330w, https://i0.wp.com/skatehousemedia.com/wp-content/upload/2017/10/2017-09-30-10.04.10.jpg?w=1200 1200w, https://i0.wp.com/skatehousemedia.com/wp-content/upload/2017/10/2017-09-30-10.04.10.jpg?resize=1024%2C768 1024w, https://i0.wp.com/skatehousemedia.com/wp-content/upload/2017/10/2017-09-30-10.04.10.jpg?resize=552%2C414 552w, https://i0.wp.com/skatehousemedia.com/wp-content/upload/2017/10/2017-09-30-10.04.10.jpg?resize=414%2C311 414w\" sizes=\"(max-width: 700px) 100vw, 700px\" data-recalc-dims=\"1\"></a><p class=\"wp-caption-text\">Coffee. Bagels. Wrenching on skateboards. Typical morning stuff.</p></div>\n<p>Sufficiently warmed, fed, and caffeinated, we got to skating.</p>\n<div id=\"attachment_21842\" style=\"width: 710px\" class=\"wp-caption aligncenter\"><a href=\"https://i0.wp.com/skatehousemedia.com/wp-content/upload/2017/10/img_5393.jpg\"><img class=\"size-large wp-image-21842\" src=\"https://i0.wp.com/skatehousemedia.com/wp-content/upload/2017/10/img_5393.jpg?resize=700%2C1050\" alt=\"\" srcset=\"https://i0.wp.com/skatehousemedia.com/wp-content/upload/2017/10/img_5393.jpg?resize=700%2C1050 700w, https://i0.wp.com/skatehousemedia.com/wp-content/upload/2017/10/img_5393.jpg?resize=167%2C250 167w, https://i0.wp.com/skatehousemedia.com/wp-content/upload/2017/10/img_5393.jpg?resize=500%2C750 500w, https://i0.wp.com/skatehousemedia.com/wp-content/upload/2017/10/img_5393.jpg?resize=768%2C1152 768w, https://i0.wp.com/skatehousemedia.com/wp-content/upload/2017/10/img_5393.jpg?resize=173%2C260 173w, https://i0.wp.com/skatehousemedia.com/wp-content/upload/2017/10/img_5393.jpg?w=800 800w, https://i0.wp.com/skatehousemedia.com/wp-content/upload/2017/10/img_5393.jpg?resize=512%2C768 512w, https://i0.wp.com/skatehousemedia.com/wp-content/upload/2017/10/img_5393.jpg?resize=276%2C414 276w, https://i0.wp.com/skatehousemedia.com/wp-content/upload/2017/10/img_5393.jpg?resize=683%2C1024 683w, https://i0.wp.com/skatehousemedia.com/wp-content/upload/2017/10/img_5393.jpg?resize=414%2C621 414w\" sizes=\"(max-width: 700px) 100vw, 700px\" data-recalc-dims=\"1\"></a><p class=\"wp-caption-text\">This is <del>Doug Tolman</del>&nbsp;Knox Heslop. When he isn’t shooting excellent photographs, he shreds downhill.</p></div>\n<p>“Braffs, dude.”</p>\n<div id=\"attachment_21844\" style=\"width: 710px\" class=\"wp-caption aligncenter\"><a href=\"https://i0.wp.com/skatehousemedia.com/wp-content/upload/2017/10/img_5512.jpg\"><img class=\"size-large wp-image-21844\" src=\"https://i0.wp.com/skatehousemedia.com/wp-content/upload/2017/10/img_5512.jpg?resize=700%2C980\" alt=\"\" srcset=\"https://i0.wp.com/skatehousemedia.com/wp-content/upload/2017/10/img_5512.jpg?resize=700%2C980 700w, https://i0.wp.com/skatehousemedia.com/wp-content/upload/2017/10/img_5512.jpg?resize=179%2C250 179w, https://i0.wp.com/skatehousemedia.com/wp-content/upload/2017/10/img_5512.jpg?resize=500%2C700 500w, https://i0.wp.com/skatehousemedia.com/wp-content/upload/2017/10/img_5512.jpg?resize=768%2C1075 768w, https://i0.wp.com/skatehousemedia.com/wp-content/upload/2017/10/img_5512.jpg?resize=186%2C260 186w, https://i0.wp.com/skatehousemedia.com/wp-content/upload/2017/10/img_5512.jpg?w=857 857w, https://i0.wp.com/skatehousemedia.com/wp-content/upload/2017/10/img_5512.jpg?resize=548%2C768 548w, https://i0.wp.com/skatehousemedia.com/wp-content/upload/2017/10/img_5512.jpg?resize=296%2C414 296w, https://i0.wp.com/skatehousemedia.com/wp-content/upload/2017/10/img_5512.jpg?resize=731%2C1024 731w, https://i0.wp.com/skatehousemedia.com/wp-content/upload/2017/10/img_5512.jpg?resize=414%2C580 414w\" sizes=\"(max-width: 700px) 100vw, 700px\" data-recalc-dims=\"1\"></a><p class=\"wp-caption-text\">Hitting the waterfall corner. (Dubler is bad with names. Hit us up and we’ll get your photo credited.)</p></div>\n<p>The top is at very high altitude and usually has intense winds, but the view is nice.</p>\n<div id=\"attachment_21845\" style=\"width: 710px\" class=\"wp-caption aligncenter\"><a href=\"https://i2.wp.com/skatehousemedia.com/wp-content/upload/2017/10/2017-10-01-12.59.37.jpg\"><img class=\"size-large wp-image-21845\" src=\"https://i2.wp.com/skatehousemedia.com/wp-content/upload/2017/10/2017-10-01-12.59.37.jpg?resize=700%2C525\" alt=\"\" srcset=\"https://i2.wp.com/skatehousemedia.com/wp-content/upload/2017/10/2017-10-01-12.59.37.jpg?resize=700%2C525 700w, https://i2.wp.com/skatehousemedia.com/wp-content/upload/2017/10/2017-10-01-12.59.37.jpg?resize=250%2C188 250w, https://i2.wp.com/skatehousemedia.com/wp-content/upload/2017/10/2017-10-01-12.59.37.jpg?resize=500%2C375 500w, https://i2.wp.com/skatehousemedia.com/wp-content/upload/2017/10/2017-10-01-12.59.37.jpg?resize=768%2C576 768w, https://i2.wp.com/skatehousemedia.com/wp-content/upload/2017/10/2017-10-01-12.59.37.jpg?resize=330%2C248 330w, https://i2.wp.com/skatehousemedia.com/wp-content/upload/2017/10/2017-10-01-12.59.37.jpg?w=1200 1200w, https://i2.wp.com/skatehousemedia.com/wp-content/upload/2017/10/2017-10-01-12.59.37.jpg?resize=1024%2C768 1024w, https://i2.wp.com/skatehousemedia.com/wp-content/upload/2017/10/2017-10-01-12.59.37.jpg?resize=552%2C414 552w, https://i2.wp.com/skatehousemedia.com/wp-content/upload/2017/10/2017-10-01-12.59.37.jpg?resize=414%2C311 414w\" sizes=\"(max-width: 700px) 100vw, 700px\" data-recalc-dims=\"1\"></a><p class=\"wp-caption-text\">That “3 days without a shower” realness. T Shirt from the SF Lone Star, flannel by Schott, vest model’s own design.</p></div>\n<p>The top of the hill is referred to as “Full Throttle,” and it’s a pothole-strewn tucking section where very high speeds are possible.</p>\n<div id=\"attachment_21846\" style=\"width: 710px\" class=\"wp-caption aligncenter\"><a href=\"https://i2.wp.com/skatehousemedia.com/wp-content/upload/2017/10/img_6496.jpg\"><img class=\"size-large wp-image-21846\" src=\"https://i2.wp.com/skatehousemedia.com/wp-content/upload/2017/10/img_6496.jpg?resize=700%2C875\" alt=\"\" srcset=\"https://i2.wp.com/skatehousemedia.com/wp-content/upload/2017/10/img_6496.jpg?resize=700%2C875 700w, https://i2.wp.com/skatehousemedia.com/wp-content/upload/2017/10/img_6496.jpg?resize=200%2C250 200w, https://i2.wp.com/skatehousemedia.com/wp-content/upload/2017/10/img_6496.jpg?resize=500%2C625 500w, https://i2.wp.com/skatehousemedia.com/wp-content/upload/2017/10/img_6496.jpg?resize=768%2C960 768w, https://i2.wp.com/skatehousemedia.com/wp-content/upload/2017/10/img_6496.jpg?resize=208%2C260 208w, https://i2.wp.com/skatehousemedia.com/wp-content/upload/2017/10/img_6496.jpg?w=960 960w, https://i2.wp.com/skatehousemedia.com/wp-content/upload/2017/10/img_6496.jpg?resize=614%2C768 614w, https://i2.wp.com/skatehousemedia.com/wp-content/upload/2017/10/img_6496.jpg?resize=331%2C414 331w, https://i2.wp.com/skatehousemedia.com/wp-content/upload/2017/10/img_6496.jpg?resize=414%2C518 414w\" sizes=\"(max-width: 700px) 100vw, 700px\" data-recalc-dims=\"1\"></a><p class=\"wp-caption-text\">The back of the pack chill squad cruising down Full Throttle. Note the potholes and sheep poop.</p></div>\n<p>After that, it’s a high speed rollercoaster that’s as gnarly as you wanna make it.</p>\n<div id=\"attachment_21847\" style=\"width: 710px\" class=\"wp-caption aligncenter\"><a href=\"https://i2.wp.com/skatehousemedia.com/wp-content/upload/2017/10/img_5976.jpg\"><img class=\"size-large wp-image-21847\" src=\"https://i2.wp.com/skatehousemedia.com/wp-content/upload/2017/10/img_5976.jpg?resize=700%2C875\" alt=\"\" srcset=\"https://i2.wp.com/skatehousemedia.com/wp-content/upload/2017/10/img_5976.jpg?resize=700%2C875 700w, https://i2.wp.com/skatehousemedia.com/wp-content/upload/2017/10/img_5976.jpg?resize=200%2C250 200w, https://i2.wp.com/skatehousemedia.com/wp-content/upload/2017/10/img_5976.jpg?resize=500%2C625 500w, https://i2.wp.com/skatehousemedia.com/wp-content/upload/2017/10/img_5976.jpg?resize=768%2C960 768w, https://i2.wp.com/skatehousemedia.com/wp-content/upload/2017/10/img_5976.jpg?resize=208%2C260 208w, https://i2.wp.com/skatehousemedia.com/wp-content/upload/2017/10/img_5976.jpg?w=960 960w, https://i2.wp.com/skatehousemedia.com/wp-content/upload/2017/10/img_5976.jpg?resize=614%2C768 614w, https://i2.wp.com/skatehousemedia.com/wp-content/upload/2017/10/img_5976.jpg?resize=331%2C414 331w, https://i2.wp.com/skatehousemedia.com/wp-content/upload/2017/10/img_5976.jpg?resize=414%2C518 414w\" sizes=\"(max-width: 700px) 100vw, 700px\" data-recalc-dims=\"1\"></a><p class=\"wp-caption-text\">Austin Pedroni leading Adam Astor down the waterfall left. Caleb brings up the rear.</p></div>\n<div id=\"attachment_21848\" style=\"width: 710px\" class=\"wp-caption aligncenter\"><a href=\"https://i1.wp.com/skatehousemedia.com/wp-content/upload/2017/10/img_5650.jpg\"><img class=\"size-large wp-image-21848\" src=\"https://i1.wp.com/skatehousemedia.com/wp-content/upload/2017/10/img_5650.jpg?resize=700%2C700\" alt=\"\" srcset=\"https://i1.wp.com/skatehousemedia.com/wp-content/upload/2017/10/img_5650.jpg?resize=700%2C700 700w, https://i1.wp.com/skatehousemedia.com/wp-content/upload/2017/10/img_5650.jpg?resize=250%2C250 250w, https://i1.wp.com/skatehousemedia.com/wp-content/upload/2017/10/img_5650.jpg?resize=500%2C500 500w, https://i1.wp.com/skatehousemedia.com/wp-content/upload/2017/10/img_5650.jpg?resize=768%2C768 768w, https://i1.wp.com/skatehousemedia.com/wp-content/upload/2017/10/img_5650.jpg?resize=150%2C150 150w, https://i1.wp.com/skatehousemedia.com/wp-content/upload/2017/10/img_5650.jpg?resize=550%2C550 550w, https://i1.wp.com/skatehousemedia.com/wp-content/upload/2017/10/img_5650.jpg?resize=1100%2C1100 1100w, https://i1.wp.com/skatehousemedia.com/wp-content/upload/2017/10/img_5650.jpg?resize=225%2C225 225w, https://i1.wp.com/skatehousemedia.com/wp-content/upload/2017/10/img_5650.jpg?resize=200%2C200 200w, https://i1.wp.com/skatehousemedia.com/wp-content/upload/2017/10/img_5650.jpg?resize=400%2C400 400w, https://i1.wp.com/skatehousemedia.com/wp-content/upload/2017/10/img_5650.jpg?resize=260%2C260 260w, https://i1.wp.com/skatehousemedia.com/wp-content/upload/2017/10/img_5650.jpg?resize=300%2C300 300w, https://i1.wp.com/skatehousemedia.com/wp-content/upload/2017/10/img_5650.jpg?resize=600%2C600 600w, https://i1.wp.com/skatehousemedia.com/wp-content/upload/2017/10/img_5650.jpg?w=1200 1200w, https://i1.wp.com/skatehousemedia.com/wp-content/upload/2017/10/img_5650.jpg?resize=414%2C414 414w\" sizes=\"(max-width: 700px) 100vw, 700px\" data-recalc-dims=\"1\"></a><p class=\"wp-caption-text\">Zach Keller in the zone.</p></div>\n<p>Someone herds sheep on the mountain. It’s all very Brokeback Mountain.</p>\n<div id=\"attachment_21849\" style=\"width: 710px\" class=\"wp-caption aligncenter\"><a href=\"https://i2.wp.com/skatehousemedia.com/wp-content/upload/2017/10/2017-09-30-17.44.09.jpg\"><img class=\"size-large wp-image-21849\" src=\"https://i2.wp.com/skatehousemedia.com/wp-content/upload/2017/10/2017-09-30-17.44.09.jpg?resize=700%2C560\" alt=\"\" srcset=\"https://i2.wp.com/skatehousemedia.com/wp-content/upload/2017/10/2017-09-30-17.44.09.jpg?resize=700%2C560 700w, https://i2.wp.com/skatehousemedia.com/wp-content/upload/2017/10/2017-09-30-17.44.09.jpg?resize=250%2C200 250w, https://i2.wp.com/skatehousemedia.com/wp-content/upload/2017/10/2017-09-30-17.44.09.jpg?resize=500%2C400 500w, https://i2.wp.com/skatehousemedia.com/wp-content/upload/2017/10/2017-09-30-17.44.09.jpg?resize=768%2C614 768w, https://i2.wp.com/skatehousemedia.com/wp-content/upload/2017/10/2017-09-30-17.44.09.jpg?resize=325%2C260 325w, https://i2.wp.com/skatehousemedia.com/wp-content/upload/2017/10/2017-09-30-17.44.09.jpg?w=1200 1200w, https://i2.wp.com/skatehousemedia.com/wp-content/upload/2017/10/2017-09-30-17.44.09.jpg?resize=960%2C768 960w, https://i2.wp.com/skatehousemedia.com/wp-content/upload/2017/10/2017-09-30-17.44.09.jpg?resize=518%2C414 518w, https://i2.wp.com/skatehousemedia.com/wp-content/upload/2017/10/2017-09-30-17.44.09.jpg?resize=414%2C331 414w\" sizes=\"(max-width: 700px) 100vw, 700px\" data-recalc-dims=\"1\"></a><p class=\"wp-caption-text\">One of the shepherd’s horses chilling by the side of the road. Downhill skateboarding tends to spook them, so chill.</p></div>\n<p>Braffsback Mountain?</p>\n<div id=\"attachment_21850\" style=\"width: 710px\" class=\"wp-caption aligncenter\"><a href=\"https://i0.wp.com/skatehousemedia.com/wp-content/upload/2017/10/2017-10-01-13.04.02.jpg\"><img class=\"size-large wp-image-21850\" src=\"https://i0.wp.com/skatehousemedia.com/wp-content/upload/2017/10/2017-10-01-13.04.02.jpg?resize=700%2C525\" alt=\"\" srcset=\"https://i0.wp.com/skatehousemedia.com/wp-content/upload/2017/10/2017-10-01-13.04.02.jpg?resize=700%2C525 700w, https://i0.wp.com/skatehousemedia.com/wp-content/upload/2017/10/2017-10-01-13.04.02.jpg?resize=250%2C188 250w, https://i0.wp.com/skatehousemedia.com/wp-content/upload/2017/10/2017-10-01-13.04.02.jpg?resize=500%2C375 500w, https://i0.wp.com/skatehousemedia.com/wp-content/upload/2017/10/2017-10-01-13.04.02.jpg?resize=768%2C576 768w, https://i0.wp.com/skatehousemedia.com/wp-content/upload/2017/10/2017-10-01-13.04.02.jpg?resize=330%2C248 330w, https://i0.wp.com/skatehousemedia.com/wp-content/upload/2017/10/2017-10-01-13.04.02.jpg?w=1200 1200w, https://i0.wp.com/skatehousemedia.com/wp-content/upload/2017/10/2017-10-01-13.04.02.jpg?resize=1024%2C768 1024w, https://i0.wp.com/skatehousemedia.com/wp-content/upload/2017/10/2017-10-01-13.04.02.jpg?resize=552%2C414 552w, https://i0.wp.com/skatehousemedia.com/wp-content/upload/2017/10/2017-10-01-13.04.02.jpg?resize=414%2C311 414w\" sizes=\"(max-width: 700px) 100vw, 700px\" data-recalc-dims=\"1\"></a><p class=\"wp-caption-text\">iPhone snap of Roger Hernandez styling the hairpin at the very top of the hill.</p></div>\n<p>The locals have been about this hill for a few years. They considered trying to have a race there, but decided against it to avoid blowing out the spot.</p>\n<div id=\"attachment_21851\" style=\"width: 710px\" class=\"wp-caption aligncenter\"><a href=\"https://i2.wp.com/skatehousemedia.com/wp-content/upload/2017/10/img_5631.jpg\"><img class=\"size-large wp-image-21851\" src=\"https://i2.wp.com/skatehousemedia.com/wp-content/upload/2017/10/img_5631.jpg?resize=700%2C560\" alt=\"\" srcset=\"https://i2.wp.com/skatehousemedia.com/wp-content/upload/2017/10/img_5631.jpg?resize=700%2C560 700w, https://i2.wp.com/skatehousemedia.com/wp-content/upload/2017/10/img_5631.jpg?resize=250%2C200 250w, https://i2.wp.com/skatehousemedia.com/wp-content/upload/2017/10/img_5631.jpg?resize=500%2C400 500w, https://i2.wp.com/skatehousemedia.com/wp-content/upload/2017/10/img_5631.jpg?resize=768%2C614 768w, https://i2.wp.com/skatehousemedia.com/wp-content/upload/2017/10/img_5631.jpg?resize=325%2C260 325w, https://i2.wp.com/skatehousemedia.com/wp-content/upload/2017/10/img_5631.jpg?w=1200 1200w, https://i2.wp.com/skatehousemedia.com/wp-content/upload/2017/10/img_5631.jpg?resize=960%2C768 960w, https://i2.wp.com/skatehousemedia.com/wp-content/upload/2017/10/img_5631.jpg?resize=518%2C414 518w, https://i2.wp.com/skatehousemedia.com/wp-content/upload/2017/10/img_5631.jpg?resize=414%2C331 414w\" sizes=\"(max-width: 700px) 100vw, 700px\" data-recalc-dims=\"1\"></a><p class=\"wp-caption-text\">Riley Irvine leading Kalil and Adam Astor. Spark pucks are so fucking cool.</p></div>\n<p>The hill isn’t crazy fast so you can pack ride it if you’re gnarly. Here’s a sequence of Aaron Breetwor and Austin getting way too rad. They both rode this out.</p>\n<p class=\"jetpack-slideshow-noscript robots-nocontent\">This slideshow requires JavaScript.</p><div id=\"gallery-21834-1-slideshow\" class=\"slideshow-window jetpack-slideshow slideshow-black\" data-trans=\"fade\" data-autostart=\"1\" data-gallery=\"[{&quot;src&quot;:&quot;http:\\/\\/skatehousemedia.com\\/wp-content\\/upload\\/2017\\/10\\/img_5703-700x466.jpg&quot;,&quot;id&quot;:&quot;21853&quot;,&quot;title&quot;:&quot;img_5703&quot;,&quot;alt&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;itemprop&quot;:&quot;image&quot;},{&quot;src&quot;:&quot;http:\\/\\/skatehousemedia.com\\/wp-content\\/upload\\/2017\\/10\\/img_5704-700x466.jpg&quot;,&quot;id&quot;:&quot;21854&quot;,&quot;title&quot;:&quot;img_5704&quot;,&quot;alt&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;itemprop&quot;:&quot;image&quot;},{&quot;src&quot;:&quot;http:\\/\\/skatehousemedia.com\\/wp-content\\/upload\\/2017\\/10\\/img_5705-700x466.jpg&quot;,&quot;id&quot;:&quot;21855&quot;,&quot;title&quot;:&quot;img_5705&quot;,&quot;alt&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;itemprop&quot;:&quot;image&quot;},{&quot;src&quot;:&quot;http:\\/\\/skatehousemedia.com\\/wp-content\\/upload\\/2017\\/10\\/img_5706-700x466.jpg&quot;,&quot;id&quot;:&quot;21856&quot;,&quot;title&quot;:&quot;img_5706&quot;,&quot;alt&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;itemprop&quot;:&quot;image&quot;},{&quot;src&quot;:&quot;http:\\/\\/skatehousemedia.com\\/wp-content\\/upload\\/2017\\/10\\/img_5707-700x466.jpg&quot;,&quot;id&quot;:&quot;21857&quot;,&quot;title&quot;:&quot;img_5707&quot;,&quot;alt&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;itemprop&quot;:&quot;image&quot;},{&quot;src&quot;:&quot;http:\\/\\/skatehousemedia.com\\/wp-content\\/upload\\/2017\\/10\\/img_5708-700x466.jpg&quot;,&quot;id&quot;:&quot;21858&quot;,&quot;title&quot;:&quot;img_5708&quot;,&quot;alt&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;itemprop&quot;:&quot;image&quot;},{&quot;src&quot;:&quot;http:\\/\\/skatehousemedia.com\\/wp-content\\/upload\\/2017\\/10\\/img_5709-700x466.jpg&quot;,&quot;id&quot;:&quot;21859&quot;,&quot;title&quot;:&quot;img_5709&quot;,&quot;alt&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;itemprop&quot;:&quot;image&quot;},{&quot;src&quot;:&quot;http:\\/\\/skatehousemedia.com\\/wp-content\\/upload\\/2017\\/10\\/img_5710-700x466.jpg&quot;,&quot;id&quot;:&quot;21860&quot;,&quot;title&quot;:&quot;img_5710&quot;,&quot;alt&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;itemprop&quot;:&quot;image&quot;},{&quot;src&quot;:&quot;http:\\/\\/skatehousemedia.com\\/wp-content\\/upload\\/2017\\/10\\/img_5711-700x466.jpg&quot;,&quot;id&quot;:&quot;21861&quot;,&quot;title&quot;:&quot;img_5711&quot;,&quot;alt&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;itemprop&quot;:&quot;image&quot;},{&quot;src&quot;:&quot;http:\\/\\/skatehousemedia.com\\/wp-content\\/upload\\/2017\\/10\\/img_5712-700x466.jpg&quot;,&quot;id&quot;:&quot;21862&quot;,&quot;title&quot;:&quot;img_5712&quot;,&quot;alt&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;itemprop&quot;:&quot;image&quot;},{&quot;src&quot;:&quot;http:\\/\\/skatehousemedia.com\\/wp-content\\/upload\\/2017\\/10\\/img_5713-700x466.jpg&quot;,&quot;id&quot;:&quot;21863&quot;,&quot;title&quot;:&quot;img_5713&quot;,&quot;alt&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;itemprop&quot;:&quot;image&quot;},{&quot;src&quot;:&quot;http:\\/\\/skatehousemedia.com\\/wp-content\\/upload\\/2017\\/10\\/img_5714-700x466.jpg&quot;,&quot;id&quot;:&quot;21864&quot;,&quot;title&quot;:&quot;img_5714&quot;,&quot;alt&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;itemprop&quot;:&quot;image&quot;},{&quot;src&quot;:&quot;http:\\/\\/skatehousemedia.com\\/wp-content\\/upload\\/2017\\/10\\/img_5715-700x466.jpg&quot;,&quot;id&quot;:&quot;21865&quot;,&quot;title&quot;:&quot;img_5715&quot;,&quot;alt&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;itemprop&quot;:&quot;image&quot;},{&quot;src&quot;:&quot;http:\\/\\/skatehousemedia.com\\/wp-content\\/upload\\/2017\\/10\\/img_5716-700x466.jpg&quot;,&quot;id&quot;:&quot;21866&quot;,&quot;title&quot;:&quot;img_5716&quot;,&quot;alt&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;itemprop&quot;:&quot;image&quot;},{&quot;src&quot;:&quot;http:\\/\\/skatehousemedia.com\\/wp-content\\/upload\\/2017\\/10\\/img_5717-700x466.jpg&quot;,&quot;id&quot;:&quot;21867&quot;,&quot;title&quot;:&quot;img_5717&quot;,&quot;alt&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;itemprop&quot;:&quot;image&quot;},{&quot;src&quot;:&quot;http:\\/\\/skatehousemedia.com\\/wp-content\\/upload\\/2017\\/10\\/img_5718-700x466.jpg&quot;,&quot;id&quot;:&quot;21868&quot;,&quot;title&quot;:&quot;img_5718&quot;,&quot;alt&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;itemprop&quot;:&quot;image&quot;},{&quot;src&quot;:&quot;http:\\/\\/skatehousemedia.com\\/wp-content\\/upload\\/2017\\/10\\/img_5719-700x466.jpg&quot;,&quot;id&quot;:&quot;21869&quot;,&quot;title&quot;:&quot;img_5719&quot;,&quot;alt&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;itemprop&quot;:&quot;image&quot;},{&quot;src&quot;:&quot;http:\\/\\/skatehousemedia.com\\/wp-content\\/upload\\/2017\\/10\\/img_5720-700x466.jpg&quot;,&quot;id&quot;:&quot;21870&quot;,&quot;title&quot;:&quot;img_5720&quot;,&quot;alt&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;itemprop&quot;:&quot;image&quot;},{&quot;src&quot;:&quot;http:\\/\\/skatehousemedia.com\\/wp-content\\/upload\\/2017\\/10\\/img_5721-700x466.jpg&quot;,&quot;id&quot;:&quot;21871&quot;,&quot;title&quot;:&quot;img_5721&quot;,&quot;alt&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;itemprop&quot;:&quot;image&quot;},{&quot;src&quot;:&quot;http:\\/\\/skatehousemedia.com\\/wp-content\\/upload\\/2017\\/10\\/img_5722-700x466.jpg&quot;,&quot;id&quot;:&quot;21872&quot;,&quot;title&quot;:&quot;img_5722&quot;,&quot;alt&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;itemprop&quot;:&quot;image&quot;},{&quot;src&quot;:&quot;http:\\/\\/skatehousemedia.com\\/wp-content\\/upload\\/2017\\/10\\/img_5723-700x466.jpg&quot;,&quot;id&quot;:&quot;21873&quot;,&quot;title&quot;:&quot;img_5723&quot;,&quot;alt&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;itemprop&quot;:&quot;image&quot;},{&quot;src&quot;:&quot;http:\\/\\/skatehousemedia.com\\/wp-content\\/upload\\/2017\\/10\\/img_5724-700x466.jpg&quot;,&quot;id&quot;:&quot;21874&quot;,&quot;title&quot;:&quot;img_5724&quot;,&quot;alt&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;itemprop&quot;:&quot;image&quot;},{&quot;src&quot;:&quot;http:\\/\\/skatehousemedia.com\\/wp-content\\/upload\\/2017\\/10\\/img_5725-700x466.jpg&quot;,&quot;id&quot;:&quot;21875&quot;,&quot;title&quot;:&quot;img_5725&quot;,&quot;alt&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;itemprop&quot;:&quot;image&quot;},{&quot;src&quot;:&quot;http:\\/\\/skatehousemedia.com\\/wp-content\\/upload\\/2017\\/10\\/img_5726-700x466.jpg&quot;,&quot;id&quot;:&quot;21876&quot;,&quot;title&quot;:&quot;img_5726&quot;,&quot;alt&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;itemprop&quot;:&quot;image&quot;},{&quot;src&quot;:&quot;http:\\/\\/skatehousemedia.com\\/wp-content\\/upload\\/2017\\/10\\/img_5727-700x466.jpg&quot;,&quot;id&quot;:&quot;21877&quot;,&quot;title&quot;:&quot;img_5727&quot;,&quot;alt&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;itemprop&quot;:&quot;image&quot;},{&quot;src&quot;:&quot;http:\\/\\/skatehousemedia.com\\/wp-content\\/upload\\/2017\\/10\\/img_5728-700x466.jpg&quot;,&quot;id&quot;:&quot;21878&quot;,&quot;title&quot;:&quot;img_5728&quot;,&quot;alt&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;itemprop&quot;:&quot;image&quot;},{&quot;src&quot;:&quot;http:\\/\\/skatehousemedia.com\\/wp-content\\/upload\\/2017\\/10\\/img_5729-700x466.jpg&quot;,&quot;id&quot;:&quot;21879&quot;,&quot;title&quot;:&quot;img_5729&quot;,&quot;alt&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;itemprop&quot;:&quot;image&quot;},{&quot;src&quot;:&quot;http:\\/\\/skatehousemedia.com\\/wp-content\\/upload\\/2017\\/10\\/img_5730-700x466.jpg&quot;,&quot;id&quot;:&quot;21880&quot;,&quot;title&quot;:&quot;img_5730&quot;,&quot;alt&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;itemprop&quot;:&quot;image&quot;},{&quot;src&quot;:&quot;http:\\/\\/skatehousemedia.com\\/wp-content\\/upload\\/2017\\/10\\/img_5731-700x466.jpg&quot;,&quot;id&quot;:&quot;21881&quot;,&quot;title&quot;:&quot;img_5731&quot;,&quot;alt&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;itemprop&quot;:&quot;image&quot;},{&quot;src&quot;:&quot;http:\\/\\/skatehousemedia.com\\/wp-content\\/upload\\/2017\\/10\\/img_5732-700x466.jpg&quot;,&quot;id&quot;:&quot;21882&quot;,&quot;title&quot;:&quot;img_5732&quot;,&quot;alt&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;itemprop&quot;:&quot;image&quot;},{&quot;src&quot;:&quot;http:\\/\\/skatehousemedia.com\\/wp-content\\/upload\\/2017\\/10\\/img_5733-700x466.jpg&quot;,&quot;id&quot;:&quot;21883&quot;,&quot;title&quot;:&quot;img_5733&quot;,&quot;alt&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;itemprop&quot;:&quot;image&quot;},{&quot;src&quot;:&quot;http:\\/\\/skatehousemedia.com\\/wp-content\\/upload\\/2017\\/10\\/img_5734-700x466.jpg&quot;,&quot;id&quot;:&quot;21884&quot;,&quot;title&quot;:&quot;img_5734&quot;,&quot;alt&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;itemprop&quot;:&quot;image&quot;},{&quot;src&quot;:&quot;http:\\/\\/skatehousemedia.com\\/wp-content\\/upload\\/2017\\/10\\/img_5735-700x466.jpg&quot;,&quot;id&quot;:&quot;21885&quot;,&quot;title&quot;:&quot;img_5735&quot;,&quot;alt&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;itemprop&quot;:&quot;image&quot;},{&quot;src&quot;:&quot;http:\\/\\/skatehousemedia.com\\/wp-content\\/upload\\/2017\\/10\\/img_5736-700x466.jpg&quot;,&quot;id&quot;:&quot;21886&quot;,&quot;title&quot;:&quot;img_5736&quot;,&quot;alt&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;itemprop&quot;:&quot;image&quot;}]\" itemscope=\"\" itemtype=\"https://schema.org/ImageGallery\"></div>\n<p>Note the fidget spinner on Austin’s belt.</p>\n<div id=\"attachment_21891\" style=\"width: 710px\" class=\"wp-caption aligncenter\"><a href=\"https://i1.wp.com/skatehousemedia.com/wp-content/upload/2017/10/img_6517.jpg\"><img class=\"size-large wp-image-21891\" src=\"https://i1.wp.com/skatehousemedia.com/wp-content/upload/2017/10/img_6517.jpg?resize=700%2C560\" alt=\"\" srcset=\"https://i1.wp.com/skatehousemedia.com/wp-content/upload/2017/10/img_6517.jpg?resize=700%2C560 700w, https://i1.wp.com/skatehousemedia.com/wp-content/upload/2017/10/img_6517.jpg?resize=250%2C200 250w, https://i1.wp.com/skatehousemedia.com/wp-content/upload/2017/10/img_6517.jpg?resize=500%2C400 500w, https://i1.wp.com/skatehousemedia.com/wp-content/upload/2017/10/img_6517.jpg?resize=768%2C614 768w, https://i1.wp.com/skatehousemedia.com/wp-content/upload/2017/10/img_6517.jpg?resize=325%2C260 325w, https://i1.wp.com/skatehousemedia.com/wp-content/upload/2017/10/img_6517.jpg?w=1200 1200w, https://i1.wp.com/skatehousemedia.com/wp-content/upload/2017/10/img_6517.jpg?resize=960%2C768 960w, https://i1.wp.com/skatehousemedia.com/wp-content/upload/2017/10/img_6517.jpg?resize=518%2C414 518w, https://i1.wp.com/skatehousemedia.com/wp-content/upload/2017/10/img_6517.jpg?resize=414%2C331 414w\" sizes=\"(max-width: 700px) 100vw, 700px\" data-recalc-dims=\"1\"></a><p class=\"wp-caption-text\">Bryce Brady, the guy who does Zealous bearings, is a local. Catch him out there on Saturdays.</p></div>\n<div id=\"attachment_21893\" style=\"width: 710px\" class=\"wp-caption aligncenter\"><a href=\"https://i1.wp.com/skatehousemedia.com/wp-content/upload/2017/10/img_6559.jpg\"><img class=\"size-large wp-image-21893\" src=\"https://i1.wp.com/skatehousemedia.com/wp-content/upload/2017/10/img_6559.jpg?resize=700%2C560\" alt=\"\" srcset=\"https://i1.wp.com/skatehousemedia.com/wp-content/upload/2017/10/img_6559.jpg?resize=700%2C560 700w, https://i1.wp.com/skatehousemedia.com/wp-content/upload/2017/10/img_6559.jpg?resize=250%2C200 250w, https://i1.wp.com/skatehousemedia.com/wp-content/upload/2017/10/img_6559.jpg?resize=500%2C400 500w, https://i1.wp.com/skatehousemedia.com/wp-content/upload/2017/10/img_6559.jpg?resize=768%2C614 768w, https://i1.wp.com/skatehousemedia.com/wp-content/upload/2017/10/img_6559.jpg?resize=325%2C260 325w, https://i1.wp.com/skatehousemedia.com/wp-content/upload/2017/10/img_6559.jpg?w=1200 1200w, https://i1.wp.com/skatehousemedia.com/wp-content/upload/2017/10/img_6559.jpg?resize=960%2C768 960w, https://i1.wp.com/skatehousemedia.com/wp-content/upload/2017/10/img_6559.jpg?resize=518%2C414 518w, https://i1.wp.com/skatehousemedia.com/wp-content/upload/2017/10/img_6559.jpg?resize=414%2C331 414w\" sizes=\"(max-width: 700px) 100vw, 700px\" data-recalc-dims=\"1\"></a><p class=\"wp-caption-text\">Austin’s skate face is always on point.</p></div>\n<div id=\"attachment_21894\" style=\"width: 710px\" class=\"wp-caption aligncenter\"><a href=\"https://i0.wp.com/skatehousemedia.com/wp-content/upload/2017/10/2017-09-30-15.23.08-2.jpg\"><img class=\"wp-image-21894 size-large\" src=\"https://i0.wp.com/skatehousemedia.com/wp-content/upload/2017/10/2017-09-30-15.23.08-2.jpg?resize=700%2C700\" alt=\"\" srcset=\"https://i0.wp.com/skatehousemedia.com/wp-content/upload/2017/10/2017-09-30-15.23.08-2.jpg?resize=700%2C700 700w, https://i0.wp.com/skatehousemedia.com/wp-content/upload/2017/10/2017-09-30-15.23.08-2.jpg?resize=250%2C250 250w, https://i0.wp.com/skatehousemedia.com/wp-content/upload/2017/10/2017-09-30-15.23.08-2.jpg?resize=500%2C500 500w, https://i0.wp.com/skatehousemedia.com/wp-content/upload/2017/10/2017-09-30-15.23.08-2.jpg?resize=768%2C768 768w, https://i0.wp.com/skatehousemedia.com/wp-content/upload/2017/10/2017-09-30-15.23.08-2.jpg?resize=150%2C150 150w, https://i0.wp.com/skatehousemedia.com/wp-content/upload/2017/10/2017-09-30-15.23.08-2.jpg?resize=550%2C550 550w, https://i0.wp.com/skatehousemedia.com/wp-content/upload/2017/10/2017-09-30-15.23.08-2.jpg?resize=1100%2C1100 1100w, https://i0.wp.com/skatehousemedia.com/wp-content/upload/2017/10/2017-09-30-15.23.08-2.jpg?resize=225%2C225 225w, https://i0.wp.com/skatehousemedia.com/wp-content/upload/2017/10/2017-09-30-15.23.08-2.jpg?resize=200%2C200 200w, https://i0.wp.com/skatehousemedia.com/wp-content/upload/2017/10/2017-09-30-15.23.08-2.jpg?resize=400%2C400 400w, https://i0.wp.com/skatehousemedia.com/wp-content/upload/2017/10/2017-09-30-15.23.08-2.jpg?resize=260%2C260 260w, https://i0.wp.com/skatehousemedia.com/wp-content/upload/2017/10/2017-09-30-15.23.08-2.jpg?resize=300%2C300 300w, https://i0.wp.com/skatehousemedia.com/wp-content/upload/2017/10/2017-09-30-15.23.08-2.jpg?resize=600%2C600 600w, https://i0.wp.com/skatehousemedia.com/wp-content/upload/2017/10/2017-09-30-15.23.08-2.jpg?resize=1200%2C1200 1200w, https://i0.wp.com/skatehousemedia.com/wp-content/upload/2017/10/2017-09-30-15.23.08-2.jpg?resize=1280%2C1280 1280w, https://i0.wp.com/skatehousemedia.com/wp-content/upload/2017/10/2017-09-30-15.23.08-2.jpg?resize=414%2C414 414w, https://i0.wp.com/skatehousemedia.com/wp-content/upload/2017/10/2017-09-30-15.23.08-2.jpg?w=1288 1288w\" sizes=\"(max-width: 700px) 100vw, 700px\" data-recalc-dims=\"1\"></a><p class=\"wp-caption-text\">Chubbs gettin’ it.</p></div>\n<p>I swear there are more than four corners on this hill. It’s just that only a few of them get good light in the afternoon, when I take off my kneepads and pick up the camera.</p>\n<div id=\"attachment_21895\" style=\"width: 710px\" class=\"wp-caption aligncenter\"><a href=\"https://i0.wp.com/skatehousemedia.com/wp-content/upload/2017/10/img_6664.jpg\"><img class=\"size-large wp-image-21895\" src=\"https://i0.wp.com/skatehousemedia.com/wp-content/upload/2017/10/img_6664.jpg?resize=700%2C875\" alt=\"\" srcset=\"https://i0.wp.com/skatehousemedia.com/wp-content/upload/2017/10/img_6664.jpg?resize=700%2C875 700w, https://i0.wp.com/skatehousemedia.com/wp-content/upload/2017/10/img_6664.jpg?resize=200%2C250 200w, https://i0.wp.com/skatehousemedia.com/wp-content/upload/2017/10/img_6664.jpg?resize=500%2C625 500w, https://i0.wp.com/skatehousemedia.com/wp-content/upload/2017/10/img_6664.jpg?resize=768%2C960 768w, https://i0.wp.com/skatehousemedia.com/wp-content/upload/2017/10/img_6664.jpg?resize=208%2C260 208w, https://i0.wp.com/skatehousemedia.com/wp-content/upload/2017/10/img_6664.jpg?w=960 960w, https://i0.wp.com/skatehousemedia.com/wp-content/upload/2017/10/img_6664.jpg?resize=614%2C768 614w, https://i0.wp.com/skatehousemedia.com/wp-content/upload/2017/10/img_6664.jpg?resize=331%2C414 331w, https://i0.wp.com/skatehousemedia.com/wp-content/upload/2017/10/img_6664.jpg?resize=414%2C518 414w\" sizes=\"(max-width: 700px) 100vw, 700px\" data-recalc-dims=\"1\"></a><p class=\"wp-caption-text\">Caleb with the squad.</p></div>\n<div id=\"attachment_21900\" style=\"width: 710px\" class=\"wp-caption aligncenter\"><a href=\"https://i0.wp.com/skatehousemedia.com/wp-content/upload/2017/10/img_6064.jpg\"><img class=\"size-large wp-image-21900\" src=\"https://i0.wp.com/skatehousemedia.com/wp-content/upload/2017/10/img_6064.jpg?resize=700%2C467\" alt=\"\" srcset=\"https://i0.wp.com/skatehousemedia.com/wp-content/upload/2017/10/img_6064.jpg?resize=700%2C467 700w, https://i0.wp.com/skatehousemedia.com/wp-content/upload/2017/10/img_6064.jpg?resize=250%2C167 250w, https://i0.wp.com/skatehousemedia.com/wp-content/upload/2017/10/img_6064.jpg?resize=500%2C333 500w, https://i0.wp.com/skatehousemedia.com/wp-content/upload/2017/10/img_6064.jpg?resize=768%2C512 768w, https://i0.wp.com/skatehousemedia.com/wp-content/upload/2017/10/img_6064.jpg?resize=150%2C100 150w, https://i0.wp.com/skatehousemedia.com/wp-content/upload/2017/10/img_6064.jpg?resize=330%2C220 330w, https://i0.wp.com/skatehousemedia.com/wp-content/upload/2017/10/img_6064.jpg?resize=900%2C600 900w, https://i0.wp.com/skatehousemedia.com/wp-content/upload/2017/10/img_6064.jpg?w=1200 1200w, https://i0.wp.com/skatehousemedia.com/wp-content/upload/2017/10/img_6064.jpg?resize=736%2C490 736w, https://i0.wp.com/skatehousemedia.com/wp-content/upload/2017/10/img_6064.jpg?resize=1024%2C683 1024w, https://i0.wp.com/skatehousemedia.com/wp-content/upload/2017/10/img_6064.jpg?resize=621%2C414 621w, https://i0.wp.com/skatehousemedia.com/wp-content/upload/2017/10/img_6064.jpg?resize=414%2C276 414w\" sizes=\"(max-width: 700px) 100vw, 700px\" data-recalc-dims=\"1\"></a><p class=\"wp-caption-text\">The flowers are very pretty.</p></div>\n<div id=\"attachment_21896\" style=\"width: 710px\" class=\"wp-caption aligncenter\"><a href=\"https://i2.wp.com/skatehousemedia.com/wp-content/upload/2017/10/img_6668.jpg\"><img class=\"wp-image-21896 size-large\" src=\"https://i2.wp.com/skatehousemedia.com/wp-content/upload/2017/10/img_6668.jpg?resize=700%2C560\" alt=\"\" srcset=\"https://i2.wp.com/skatehousemedia.com/wp-content/upload/2017/10/img_6668.jpg?resize=700%2C560 700w, https://i2.wp.com/skatehousemedia.com/wp-content/upload/2017/10/img_6668.jpg?resize=250%2C200 250w, https://i2.wp.com/skatehousemedia.com/wp-content/upload/2017/10/img_6668.jpg?resize=500%2C400 500w, https://i2.wp.com/skatehousemedia.com/wp-content/upload/2017/10/img_6668.jpg?resize=768%2C614 768w, https://i2.wp.com/skatehousemedia.com/wp-content/upload/2017/10/img_6668.jpg?resize=325%2C260 325w, https://i2.wp.com/skatehousemedia.com/wp-content/upload/2017/10/img_6668.jpg?w=1200 1200w, https://i2.wp.com/skatehousemedia.com/wp-content/upload/2017/10/img_6668.jpg?resize=960%2C768 960w, https://i2.wp.com/skatehousemedia.com/wp-content/upload/2017/10/img_6668.jpg?resize=518%2C414 518w, https://i2.wp.com/skatehousemedia.com/wp-content/upload/2017/10/img_6668.jpg?resize=414%2C331 414w\" sizes=\"(max-width: 700px) 100vw, 700px\" data-recalc-dims=\"1\"></a><p class=\"wp-caption-text\">Austin comin’ in hot.</p></div>\n<div id=\"attachment_21897\" style=\"width: 710px\" class=\"wp-caption aligncenter\"><a href=\"https://i1.wp.com/skatehousemedia.com/wp-content/upload/2017/10/img_6598.jpg\"><img class=\"size-large wp-image-21897\" src=\"https://i1.wp.com/skatehousemedia.com/wp-content/upload/2017/10/img_6598.jpg?resize=700%2C560\" alt=\"\" srcset=\"https://i1.wp.com/skatehousemedia.com/wp-content/upload/2017/10/img_6598.jpg?resize=700%2C560 700w, https://i1.wp.com/skatehousemedia.com/wp-content/upload/2017/10/img_6598.jpg?resize=250%2C200 250w, https://i1.wp.com/skatehousemedia.com/wp-content/upload/2017/10/img_6598.jpg?resize=500%2C400 500w, https://i1.wp.com/skatehousemedia.com/wp-content/upload/2017/10/img_6598.jpg?resize=768%2C614 768w, https://i1.wp.com/skatehousemedia.com/wp-content/upload/2017/10/img_6598.jpg?resize=325%2C260 325w, https://i1.wp.com/skatehousemedia.com/wp-content/upload/2017/10/img_6598.jpg?w=1200 1200w, https://i1.wp.com/skatehousemedia.com/wp-content/upload/2017/10/img_6598.jpg?resize=960%2C768 960w, https://i1.wp.com/skatehousemedia.com/wp-content/upload/2017/10/img_6598.jpg?resize=518%2C414 518w, https://i1.wp.com/skatehousemedia.com/wp-content/upload/2017/10/img_6598.jpg?resize=414%2C331 414w\" sizes=\"(max-width: 700px) 100vw, 700px\" data-recalc-dims=\"1\"></a><p class=\"wp-caption-text\">Great personal style on display here. This is Charlie Davidson.</p></div>\n<div id=\"attachment_21898\" style=\"width: 710px\" class=\"wp-caption aligncenter\"><a href=\"https://i0.wp.com/skatehousemedia.com/wp-content/upload/2017/10/img_6604.jpg\"><img class=\"size-large wp-image-21898\" src=\"https://i0.wp.com/skatehousemedia.com/wp-content/upload/2017/10/img_6604.jpg?resize=700%2C875\" alt=\"\" srcset=\"https://i0.wp.com/skatehousemedia.com/wp-content/upload/2017/10/img_6604.jpg?resize=700%2C875 700w, https://i0.wp.com/skatehousemedia.com/wp-content/upload/2017/10/img_6604.jpg?resize=200%2C250 200w, https://i0.wp.com/skatehousemedia.com/wp-content/upload/2017/10/img_6604.jpg?resize=500%2C625 500w, https://i0.wp.com/skatehousemedia.com/wp-content/upload/2017/10/img_6604.jpg?resize=768%2C960 768w, https://i0.wp.com/skatehousemedia.com/wp-content/upload/2017/10/img_6604.jpg?resize=208%2C260 208w, https://i0.wp.com/skatehousemedia.com/wp-content/upload/2017/10/img_6604.jpg?w=960 960w, https://i0.wp.com/skatehousemedia.com/wp-content/upload/2017/10/img_6604.jpg?resize=614%2C768 614w, https://i0.wp.com/skatehousemedia.com/wp-content/upload/2017/10/img_6604.jpg?resize=331%2C414 331w, https://i0.wp.com/skatehousemedia.com/wp-content/upload/2017/10/img_6604.jpg?resize=414%2C518 414w\" sizes=\"(max-width: 700px) 100vw, 700px\" data-recalc-dims=\"1\"></a><p class=\"wp-caption-text\">This was about 2 seconds after the toeside drift above. I love a hand-down to standup combo breaker.</p></div>\n<div id=\"attachment_21899\" style=\"width: 710px\" class=\"wp-caption aligncenter\"><a href=\"https://i1.wp.com/skatehousemedia.com/wp-content/upload/2017/10/img_6030.jpg\"><img class=\"size-large wp-image-21899\" src=\"https://i1.wp.com/skatehousemedia.com/wp-content/upload/2017/10/img_6030.jpg?resize=700%2C467\" alt=\"\" srcset=\"https://i1.wp.com/skatehousemedia.com/wp-content/upload/2017/10/img_6030.jpg?resize=700%2C467 700w, https://i1.wp.com/skatehousemedia.com/wp-content/upload/2017/10/img_6030.jpg?resize=250%2C167 250w, https://i1.wp.com/skatehousemedia.com/wp-content/upload/2017/10/img_6030.jpg?resize=500%2C333 500w, https://i1.wp.com/skatehousemedia.com/wp-content/upload/2017/10/img_6030.jpg?resize=768%2C512 768w, https://i1.wp.com/skatehousemedia.com/wp-content/upload/2017/10/img_6030.jpg?resize=150%2C100 150w, https://i1.wp.com/skatehousemedia.com/wp-content/upload/2017/10/img_6030.jpg?resize=330%2C220 330w, https://i1.wp.com/skatehousemedia.com/wp-content/upload/2017/10/img_6030.jpg?resize=900%2C600 900w, https://i1.wp.com/skatehousemedia.com/wp-content/upload/2017/10/img_6030.jpg?w=1200 1200w, https://i1.wp.com/skatehousemedia.com/wp-content/upload/2017/10/img_6030.jpg?resize=736%2C490 736w, https://i1.wp.com/skatehousemedia.com/wp-content/upload/2017/10/img_6030.jpg?resize=1024%2C683 1024w, https://i1.wp.com/skatehousemedia.com/wp-content/upload/2017/10/img_6030.jpg?resize=621%2C414 621w, https://i1.wp.com/skatehousemedia.com/wp-content/upload/2017/10/img_6030.jpg?resize=414%2C276 414w\" sizes=\"(max-width: 700px) 100vw, 700px\" data-recalc-dims=\"1\"></a><p class=\"wp-caption-text\">Caleb coming into the lookout righty.</p></div>\n<p>Town is a half-hour drive.</p>\n<div id=\"attachment_21888\" style=\"width: 710px\" class=\"wp-caption aligncenter\"><a href=\"https://i0.wp.com/skatehousemedia.com/wp-content/upload/2017/10/2017-09-30-20.14.39.jpg\"><img class=\"size-large wp-image-21888\" src=\"https://i0.wp.com/skatehousemedia.com/wp-content/upload/2017/10/2017-09-30-20.14.39.jpg?resize=700%2C560\" alt=\"\" srcset=\"https://i0.wp.com/skatehousemedia.com/wp-content/upload/2017/10/2017-09-30-20.14.39.jpg?resize=700%2C560 700w, https://i0.wp.com/skatehousemedia.com/wp-content/upload/2017/10/2017-09-30-20.14.39.jpg?resize=250%2C200 250w, https://i0.wp.com/skatehousemedia.com/wp-content/upload/2017/10/2017-09-30-20.14.39.jpg?resize=500%2C400 500w, https://i0.wp.com/skatehousemedia.com/wp-content/upload/2017/10/2017-09-30-20.14.39.jpg?resize=768%2C614 768w, https://i0.wp.com/skatehousemedia.com/wp-content/upload/2017/10/2017-09-30-20.14.39.jpg?resize=325%2C260 325w, https://i0.wp.com/skatehousemedia.com/wp-content/upload/2017/10/2017-09-30-20.14.39.jpg?w=1200 1200w, https://i0.wp.com/skatehousemedia.com/wp-content/upload/2017/10/2017-09-30-20.14.39.jpg?resize=960%2C768 960w, https://i0.wp.com/skatehousemedia.com/wp-content/upload/2017/10/2017-09-30-20.14.39.jpg?resize=518%2C414 518w, https://i0.wp.com/skatehousemedia.com/wp-content/upload/2017/10/2017-09-30-20.14.39.jpg?resize=414%2C331 414w\" sizes=\"(max-width: 700px) 100vw, 700px\" data-recalc-dims=\"1\"></a><p class=\"wp-caption-text\">Popped down into town for dinner and road rash treatment. Chubbs refuses to get staph again.</p></div>\n<p>The camping is pretty kind, even when the temperature goes below freezing.</p>\n<p><a href=\"https://i1.wp.com/skatehousemedia.com/wp-content/upload/2017/10/img_6740.jpg\"><img class=\"aligncenter size-large wp-image-21889\" src=\"https://i1.wp.com/skatehousemedia.com/wp-content/upload/2017/10/img_6740.jpg?resize=700%2C875\" alt=\"\" srcset=\"https://i1.wp.com/skatehousemedia.com/wp-content/upload/2017/10/img_6740.jpg?resize=700%2C875 700w, https://i1.wp.com/skatehousemedia.com/wp-content/upload/2017/10/img_6740.jpg?resize=200%2C250 200w, https://i1.wp.com/skatehousemedia.com/wp-content/upload/2017/10/img_6740.jpg?resize=500%2C625 500w, https://i1.wp.com/skatehousemedia.com/wp-content/upload/2017/10/img_6740.jpg?resize=768%2C960 768w, https://i1.wp.com/skatehousemedia.com/wp-content/upload/2017/10/img_6740.jpg?resize=208%2C260 208w, https://i1.wp.com/skatehousemedia.com/wp-content/upload/2017/10/img_6740.jpg?w=960 960w, https://i1.wp.com/skatehousemedia.com/wp-content/upload/2017/10/img_6740.jpg?resize=614%2C768 614w, https://i1.wp.com/skatehousemedia.com/wp-content/upload/2017/10/img_6740.jpg?resize=331%2C414 331w, https://i1.wp.com/skatehousemedia.com/wp-content/upload/2017/10/img_6740.jpg?resize=414%2C518 414w\" sizes=\"(max-width: 700px) 100vw, 700px\" data-recalc-dims=\"1\"></a></p>\n<p>The drive home always feels twice as long.</p>\n<div id=\"attachment_21890\" style=\"width: 710px\" class=\"wp-caption aligncenter\"><a href=\"https://i0.wp.com/skatehousemedia.com/wp-content/upload/2017/10/2017-10-01-18.25.20_1.jpg\"><img class=\"wp-image-21890 size-large\" src=\"https://i0.wp.com/skatehousemedia.com/wp-content/upload/2017/10/2017-10-01-18.25.20_1.jpg?resize=700%2C467\" alt=\"\" srcset=\"https://i0.wp.com/skatehousemedia.com/wp-content/upload/2017/10/2017-10-01-18.25.20_1.jpg?resize=700%2C467 700w, https://i0.wp.com/skatehousemedia.com/wp-content/upload/2017/10/2017-10-01-18.25.20_1.jpg?resize=250%2C167 250w, https://i0.wp.com/skatehousemedia.com/wp-content/upload/2017/10/2017-10-01-18.25.20_1.jpg?resize=500%2C333 500w, https://i0.wp.com/skatehousemedia.com/wp-content/upload/2017/10/2017-10-01-18.25.20_1.jpg?resize=768%2C512 768w, https://i0.wp.com/skatehousemedia.com/wp-content/upload/2017/10/2017-10-01-18.25.20_1.jpg?resize=150%2C100 150w, https://i0.wp.com/skatehousemedia.com/wp-content/upload/2017/10/2017-10-01-18.25.20_1.jpg?resize=330%2C220 330w, https://i0.wp.com/skatehousemedia.com/wp-content/upload/2017/10/2017-10-01-18.25.20_1.jpg?resize=900%2C600 900w, https://i0.wp.com/skatehousemedia.com/wp-content/upload/2017/10/2017-10-01-18.25.20_1.jpg?w=1200 1200w, https://i0.wp.com/skatehousemedia.com/wp-content/upload/2017/10/2017-10-01-18.25.20_1.jpg?resize=736%2C490 736w, https://i0.wp.com/skatehousemedia.com/wp-content/upload/2017/10/2017-10-01-18.25.20_1.jpg?resize=1024%2C683 1024w, https://i0.wp.com/skatehousemedia.com/wp-content/upload/2017/10/2017-10-01-18.25.20_1.jpg?resize=621%2C414 621w, https://i0.wp.com/skatehousemedia.com/wp-content/upload/2017/10/2017-10-01-18.25.20_1.jpg?resize=414%2C276 414w\" sizes=\"(max-width: 700px) 100vw, 700px\" data-recalc-dims=\"1\"></a><p class=\"wp-caption-text\">Vegas to LA traffic sucks on Sundays.</p></div>\n<p>I’m pretty sure it’s gonna start snowing up there soon and I can’t wait to get back there next spring.</p>",
-    "tags": [],
-    "categories": [
-      "Photos"
-    ],
-    "contentUrls": [
-      "https://i2.wp.com/skatehousemedia.com/wp-content/upload/2017/10/braffs-full-throttle2100x1400.jpg",
-      "https://i2.wp.com/skatehousemedia.com/wp-content/upload/2017/10/img_5137_1.jpg",
-      "https://i1.wp.com/skatehousemedia.com/wp-content/upload/2017/10/img_5810.jpg",
-      "https://i0.wp.com/skatehousemedia.com/wp-content/upload/2017/10/2017-09-30-04.53.56.jpg",
-      "https://i2.wp.com/skatehousemedia.com/wp-content/upload/2017/10/2017-09-30-16.06.16.jpg",
-      "https://i0.wp.com/skatehousemedia.com/wp-content/upload/2017/10/2017-09-30-10.04.10.jpg",
-      "https://i0.wp.com/skatehousemedia.com/wp-content/upload/2017/10/img_5393.jpg",
-      "https://i0.wp.com/skatehousemedia.com/wp-content/upload/2017/10/img_5512.jpg",
-      "https://i2.wp.com/skatehousemedia.com/wp-content/upload/2017/10/2017-10-01-12.59.37.jpg",
-      "https://i2.wp.com/skatehousemedia.com/wp-content/upload/2017/10/img_6496.jpg",
-      "https://i2.wp.com/skatehousemedia.com/wp-content/upload/2017/10/img_5976.jpg",
-      "https://i1.wp.com/skatehousemedia.com/wp-content/upload/2017/10/img_5650.jpg",
-      "https://i2.wp.com/skatehousemedia.com/wp-content/upload/2017/10/2017-09-30-17.44.09.jpg",
-      "https://i0.wp.com/skatehousemedia.com/wp-content/upload/2017/10/2017-10-01-13.04.02.jpg",
-      "https://i2.wp.com/skatehousemedia.com/wp-content/upload/2017/10/img_5631.jpg",
-      "https://i1.wp.com/skatehousemedia.com/wp-content/upload/2017/10/img_6517.jpg",
-      "https://i1.wp.com/skatehousemedia.com/wp-content/upload/2017/10/img_6559.jpg",
-      "https://i0.wp.com/skatehousemedia.com/wp-content/upload/2017/10/2017-09-30-15.23.08-2.jpg",
-      "https://i0.wp.com/skatehousemedia.com/wp-content/upload/2017/10/img_6664.jpg",
-      "https://i0.wp.com/skatehousemedia.com/wp-content/upload/2017/10/img_6064.jpg",
-      "https://i2.wp.com/skatehousemedia.com/wp-content/upload/2017/10/img_6668.jpg",
-      "https://i1.wp.com/skatehousemedia.com/wp-content/upload/2017/10/img_6598.jpg",
-      "https://i0.wp.com/skatehousemedia.com/wp-content/upload/2017/10/img_6604.jpg",
-      "https://i1.wp.com/skatehousemedia.com/wp-content/upload/2017/10/img_6030.jpg",
-      "https://i0.wp.com/skatehousemedia.com/wp-content/upload/2017/10/2017-09-30-20.14.39.jpg",
-      "https://i1.wp.com/skatehousemedia.com/wp-content/upload/2017/10/img_6740.jpg",
-      "https://i0.wp.com/skatehousemedia.com/wp-content/upload/2017/10/2017-10-01-18.25.20_1.jpg"
-    ],
-    "ranking": 3,
-    "thumbnail": null,
-    "featuredVideo": null,
-    "featuredPost": false
-  },
-  {
     "pageTitle": "Sessions: Hella Norcal",
     "postDate": "2012-07-09",
     "author": "SkateHouseMedia",
@@ -31304,24 +30316,6 @@ export const posts = [
     "ranking": 2,
     "thumbnail": "https://assets.skatehousemedia.com/thumbnails/Sessions-Hella-Norcal.jpg",
     "featuredVideo": "https://assets.skatehousemedia.com/Sessions-Hella-Norcal.mp4",
-    "featuredPost": false
-  },
-  {
-    "pageTitle": "Visitor: Mac & Gs | SkateHouseMedia.com",
-    "postDate": "2014-11-17",
-    "author": "SkateHouseMedia",
-    "bodyText": "<p><iframe src=\"https://player.vimeo.com/video/31205182\" width=\"700\" height=\"394\" frameborder=\"0\" allowfullscreen=\"\"></iframe>\n</p><p>Calgary native turned Vancouver local, George Mackenzie, is down south extending his summer days. With the warm rays beating down, it means one thing to G-Mack: Sun out, Guns out. </p>",
-    "tags": [],
-    "categories": [
-      "Sector 9",
-      "Visitors"
-    ],
-    "contentUrls": [
-      "https://vimeo.com/moogaloop.swf?clip_id=31205182&server=vimeo.com&show_title=0&show_byline=0&show_portrait=1&color=9e0000&fullscreen=1&autoplay=0&loop=0"
-    ],
-    "ranking": 1,
-    "thumbnail": null,
-    "featuredVideo": null,
     "featuredPost": false
   },
   {
@@ -31385,73 +30379,6 @@ export const posts = [
       "Community"
     ],
     "contentUrls": [],
-    "ranking": 1,
-    "thumbnail": null,
-    "featuredVideo": null,
-    "featuredPost": false
-  },
-  {
-    "pageTitle": "Sessions: Big Mountain Manning",
-    "postDate": "October 27, 2015",
-    "author": "SkateHouseMedia",
-    "bodyText": "<p><a href=\"https://landyachtz.com/home.cfm\" target=\"_blank\">Landyachtz</a> and <a href=\"https://beartrucks.com/\" target=\"_blank\">Bear Trucks</a> rider, Dexter Manning, has the balls and the skills to tackle big mountain British Columbia roads. He trekked out to a road lesser filmed, threw on some freshies, and mobbed it after finishing second at the <a href=\"https://www.skatehousemedia.com/?s=soldiers+of+downhill\" target=\"_blank\">Soldiers of Downhill</a>.</p>",
-    "tags": [
-      "Dexter Manning"
-    ],
-    "categories": [
-      "Landyachtz",
-      "Raw Run"
-    ],
-    "contentUrls": [
-      "https://landyachtz.com/home.cfm",
-      "https://beartrucks.com",
-      "https://www.skatehousemedia.com/?s=soldiers+of+downhill"
-    ],
-    "ranking": 1,
-    "thumbnail": null,
-    "featuredVideo": null,
-    "featuredPost": false
-  },
-  {
-    "pageTitle": "Madrid Skateboards – Banner 30″ w/ Zak & Justin",
-    "postDate": "2016-10-27",
-    "author": "SkateHouseMedia",
-    "bodyText": "<p>Pressed out of the <a href=\"https://madridskateboards.com\" target=\"_blank\">Madrid Skateboards</a> Huntington Beach factory and equipped to handle all-terrain shredding, this Madrid cruiser packs a ton of stoke in a small package! <a href=\"https://skatehousemedia.com/tags/zak-maytum\" target=\"_blank\">Zak Maytum</a> &amp; <a href=\"https://skatehousemedia.com/tags/justin-rouleau\" target=\"_blank\">Justin Rouleau</a> put the Banner 30″ to the test at some of their favorite local spots.</p>",
-    "tags": [
-      "Justin Rouleau",
-      "Zak Maytum"
-    ],
-    "categories": [
-      "Madrid Skateboards",
-      "Scene Supporters"
-    ],
-    "contentUrls": [
-      "https://madridskateboards.com",
-      "https://skatehousemedia.com/tags/zak-maytum",
-      "https://skatehousemedia.com/tags/justin-rouleau"
-    ],
-    "ranking": 1,
-    "thumbnail": null,
-    "featuredVideo": null,
-    "featuredPost": false
-  },
-  {
-    "pageTitle": "Landyachtz: Pintail Longboarding",
-    "postDate": "2018-10-27",
-    "author": "SkateHouseMedia",
-    "bodyText": "<p>Pintails are synonymous with longboarding and for good reason. When one of the main roads in the city closed for construction <a href=\"https://landyachtz.com/\" rel=\"noopener\" target=\"_blank\">Landyachtz</a> knew exactly what boards to ride.</p>",
-    "tags": [
-      "Dillon Stephens",
-      "Eric Chernushenko",
-      "Keenan Macartney"
-    ],
-    "categories": [
-      "Landyachtz",
-      "Scene Supporters"
-    ],
-    "contentUrls": [
-      "https://landyachtz.com"
-    ],
     "ranking": 1,
     "thumbnail": null,
     "featuredVideo": null,
@@ -31575,49 +30502,6 @@ export const posts = [
     "ranking": 1,
     "thumbnail": "https://assets.skatehousemedia.com/thumbnails/the-island-3.jpg",
     "featuredVideo": "https://assets.skatehousemedia.com/the-island-3.mp4",
-    "featuredPost": false
-  },
-  {
-    "pageTitle": "Going Fishing : Don’t Forget to Bring a Towell",
-    "postDate": "2016-10-28",
-    "author": "SkateHouseMedia",
-    "bodyText": "<p>Clever right? See What we did there? Tyler Howell goes fishing and learns why you never look back.</p>",
-    "tags": [
-      "Alex Ameen",
-      "Bad Decisions Alex",
-      "California",
-      "the fish",
-      "Towell",
-      "Tyler Howell"
-    ],
-    "categories": [
-      "Sessions"
-    ],
-    "contentUrls": [],
-    "ranking": 1,
-    "thumbnail": null,
-    "featuredVideo": null,
-    "featuredPost": false
-  },
-  {
-    "pageTitle": "Jasper Ohlson: Home Runs | Skate Blood Orange",
-    "postDate": "2016-10-28",
-    "author": "SkateHouseMedia",
-    "bodyText": "<p>“<a href=\"https://skatehousemedia.com/tags/jasper-ohlson\">Jasper Ohlson</a> spends a day in San Diego shredding everything from chunder to dirt lines. Shout out to his brother Cameron for spotting roads for us! Film/Edit: Jack Boston” – <a href=\"https://www.skatebloodorange.com\" target=\"_blank\">Blood Orange</a></p>",
-    "tags": [
-      "Jasper Ohlson"
-    ],
-    "categories": [
-      "Blood Orange",
-      "Scene Supporters"
-    ],
-    "contentUrls": [
-      "https://skatehousemedia.com/tags/jasper-ohlson",
-      "https://www.skatebloodorange.com"
-    ],
-    "ranking": 1,
-    "thumbnail": null,
-    "featuredVideo": null,
     "featuredPost": false
   },
   {
@@ -31762,44 +30646,6 @@ export const posts = [
     "featuredPost": false
   },
   {
-    "pageTitle": "European Raw Run with Danny Carlson",
-    "postDate": "October 29, 2015",
-    "author": "SkateHouseMedia",
-    "bodyText": "<p>Deep in the desolate mountains is a road with only one way in and out. With a closed road, Danny Carlson is able to push to the edge on the challenging curves.</p>",
-    "tags": [
-      "Danny Carlson"
-    ],
-    "categories": [
-      "Raw Run"
-    ],
-    "contentUrls": [],
-    "ranking": 1,
-    "thumbnail": null,
-    "featuredVideo": null,
-    "featuredPost": false
-  },
-  {
-    "pageTitle": "Landyachtz: Longboarding Through The 6 With My Bros",
-    "postDate": "2017-10-29",
-    "author": "SkateHouseMedia",
-    "bodyText": "<p><a href=\"https://landyachtz.com\" rel=\"noopener\" target=\"_blank\">Landyachtz</a> rider <a href=\"https://skatehousemedia.com/tags/steven-vera\" rel=\"noopener\" target=\"_blank\">Steven Vera</a> explores the city of Toronto for the first time. The best way to see the most of it is with four wheels and a plank of wood… and maybe a boat.</p>",
-    "tags": [
-      "Steven Vera"
-    ],
-    "categories": [
-      "Landyachtz",
-      "Scene Supporters"
-    ],
-    "contentUrls": [
-      "https://landyachtz.com",
-      "https://skatehousemedia.com/tags/steven-vera"
-    ],
-    "ranking": 1,
-    "thumbnail": null,
-    "featuredVideo": null,
-    "featuredPost": false
-  },
-  {
     "pageTitle": "Return To Radelaide",
     "postDate": "2011-07-03",
     "author": "SkateHouseMedia",
@@ -31931,27 +30777,6 @@ export const posts = [
     "featuredPost": false
   },
   {
-    "pageTitle": "Raw Run: Evan Twigg",
-    "postDate": "2015-10-30",
-    "author": "SkateHouseMedia",
-    "bodyText": "<p>Our old <a href=\"https://www.skatehousemedia.com/category/housemates\">Housemate</a> Matt is out on <a href=\"https://www.skatehousemedia.com/?s=oahu\">Oahu</a> cruisin’ hard and is already putting out content.<br>\nThis <a href=\"https://www.skatehousemedia.com/category/raw-run\">Raw Run</a> features Evan Twigg, a lucky young local, watch him skate out of his driveway.</p>",
-    "tags": [
-      "Evan Twigg"
-    ],
-    "categories": [
-      "Raw Run"
-    ],
-    "contentUrls": [
-      "https://www.skatehousemedia.com/category/housemates",
-      "https://www.skatehousemedia.com/?s=oahu",
-      "https://www.skatehousemedia.com/category/raw-run"
-    ],
-    "ranking": 1,
-    "thumbnail": null,
-    "featuredVideo": null,
-    "featuredPost": false
-  },
-  {
     "pageTitle": "Quick Clips – Benny D’s Not So Magic Puck",
     "postDate": "2017-10-30",
     "author": "SkateHouseMedia",
@@ -31966,23 +30791,6 @@ export const posts = [
     "ranking": 1,
     "thumbnail": "https://assets.skatehousemedia.com/thumbnails/Benny-Ds-Not-So-Magic-Puck-004.jpg",
     "featuredVideo": "https://assets.skatehousemedia.com/Benny-Ds-Not-So-Magic-Puck-004.mp4",
-    "featuredPost": false
-  },
-  {
-    "pageTitle": "Events: Broadway Bomb 2011 | SkateHouseMedia.com",
-    "postDate": "2011-07-12",
-    "author": "SkateHouseMedia",
-    "bodyText": "<p><iframe src=\"https://player.vimeo.com/video/31360333\" width=\"700\" height=\"394\" frameborder=\"0\" allowfullscreen=\"\"></iframe>\n</p><p>If you have been to the Broadway Bomb, you know it is one of the craziest events you can attend. It will open your eyes to the mayhem that can happen at pushing speed.</p>",
-    "tags": [],
-    "categories": [
-      "Event Coverage"
-    ],
-    "contentUrls": [
-      "https://vimeo.com/moogaloop.swf?clip_id=31360333&server=vimeo.com&show_title=0&show_byline=0&show_portrait=1&color=9e0000&fullscreen=1&autoplay=0&loop=0"
-    ],
-    "ranking": 1,
-    "thumbnail": null,
-    "featuredVideo": null,
     "featuredPost": false
   },
   {
@@ -32050,67 +30858,6 @@ export const posts = [
       "https://www.JSMSkateboarding.com"
     ],
     "ranking": 2,
-    "thumbnail": null,
-    "featuredVideo": null,
-    "featuredPost": false
-  },
-  {
-    "pageTitle": "Photos – Skatesgiving 2013 By Thomas Trnka",
-    "postDate": "2015-04-09",
-    "author": "SkateHouseMedia",
-    "bodyText": "<div id=\"attachment_7304\" style=\"width: 710px\" class=\"wp-caption aligncenter\"><a href=\"https://www.kickstarter.com/projects/dgm/downgrade-magazine\"><img class=\"size-large wp-image-7304\" title=\"Sunset Title.\" src=\"https://www.skatehousemedia.com/wp-content/upload/2014/10/skatesgiving.120mm.13title.jpg\" alt=\"\" width=\"700\" height=\"1050\"></a><p class=\"wp-caption-text\">Last year’s <a href=\"https://www.skatehousemedia.com/tags/skatesgiving\">Skatesgiving</a> was brought to you by <a href=\"https://www.landyachtz.com/\" target=\"_blank\">Landyachtz</a>, <a href=\"https://www.sector9.com/\" target=\"_blank\">Sector 9</a>, Kebbek, <a href=\"https://www.cometskateboards.com/home/\" target=\"_blank\">Comet</a>, Rayne, <a href=\"https://www.paristruckco.com\" target=\"_blank\">Paris</a>, <a href=\"https://radesigns.com/\" target=\"_blank\">RAD</a>, &amp; <a href=\"https://beartrucks.com\" target=\"_blank\">Bear</a>.</p></div>\n<p>Last year was Thomas Trnka’s first time coming on our Skatesgiving trip. He hopped on board with his Hasselblad 2003FCW, Nikon FM2 &amp; F100, Graflex, Canon 5DMII, &amp; and an Olympus Stylus Infinity. Thomas is from Montreal, Quebec and he is an active member of <a href=\"https://downgrademagazine.com\" target=\"_blank\">DGM</a>.</p>\n<p><span id=\"more-12058\"></span></p>\n<div id=\"attachment_7304\" style=\"width: 710px\" class=\"wp-caption aligncenter\"><a href=\"https://www.kickstarter.com/projects/dgm/downgrade-magazine\"><img class=\"size-large wp-image-7304\" title=\"Best Ever\" src=\"https://www.skatehousemedia.com/wp-content/upload/2014/10/SPLASH1.jpg\" alt=\"\" width=\"700\" height=\"1050\"></a><p class=\"wp-caption-text\">Thomas Trnka knows how to capture a moment that’ll speak for itself. Eric Jensen rides <a href=\"https://cometskateboards.com/\">Comet Skateboards</a>, <a href=\"https://www.calibertruckco.com/\">Caliber Trucks</a>, and <a href=\"https://rdvxgriptape.com/\">RDVX</a>.</p></div>\n<div id=\"attachment_7304\" style=\"width: 710px\" class=\"wp-caption aligncenter\"><a href=\"https://www.kickstarter.com/projects/dgm/downgrade-magazine\"><img class=\"size-large wp-image-7304\" title=\"Sick as fuck.\" src=\"https://www.skatehousemedia.com/wp-content/upload/2014/10/sg13.10Scan-141015-0001.jpg\" alt=\"\" width=\"700\" height=\"1050\"></a><p class=\"wp-caption-text\">If you look closely you can see Brian Peck throwing a “sick as fuck” (middle finger + thumbs up) whilst driving the <a href=\"https://www.cometskateboards.com/\">Comet</a> van.</p></div>\n<div id=\"attachment_7304\" style=\"width: 710px\" class=\"wp-caption aligncenter\"><a href=\"https://www.kickstarter.com/projects/dgm/downgrade-magazine\"><img class=\"size-large wp-image-7304\" title=\"Location.\" src=\"https://www.skatehousemedia.com/wp-content/upload/2014/10/sg13.07Scan-141015-0001.jpg\" alt=\"\" width=\"700\" height=\"1050\"></a><p class=\"wp-caption-text\">Immediately after <a href=\"https://www.skatehousemedia.com/02/07/2014/skatesgiving-soldiers-of-downhill-2\" target=\"_blank\">Soldiers Of Downhill</a>, we went to <a href=\"https://www.skatehousemedia.com/01/02/2014/skatesgiving-skatopia/\" target=\"_blank\">Skatopia</a>. Best way to kickstart a two week skateboarding adventure.</p></div>\n<div id=\"attachment_7304\" style=\"width: 710px\" class=\"wp-caption aligncenter\"><a href=\"https://www.kickstarter.com/projects/dgm/downgrade-magazine\"><img class=\"size-large wp-image-7304\" title=\"Follow the leader.\" src=\"https://www.skatehousemedia.com/wp-content/upload/2014/10/IMG_3388.jpg\" alt=\"\" width=\"700\" height=\"1050\"></a><p class=\"wp-caption-text\">George Mackenzie dives into the oncoming lane with Pat Schep &amp; Benjamin Dubreuil in hot pursuit.</p></div>\n<div id=\"attachment_7304\" style=\"width: 710px\" class=\"wp-caption aligncenter\"><a href=\"https://www.kickstarter.com/projects/dgm/downgrade-magazine\"><img class=\"size-large wp-image-7304\" title=\"B&amp;W.\" src=\"https://www.skatehousemedia.com/wp-content/upload/2014/10/IMG_3491.jpg\" alt=\"\" width=\"700\" height=\"1050\"></a><p class=\"wp-caption-text\"><a href=\"https://kebbekskateboards.com/\">Kebbek Skateboards</a> rider John Barnet trails the pack as <a href=\"https://www.cometskateboards.com/\">Comet Skateboards</a> rider Will Seal leads it.</p></div>\n<div id=\"attachment_7304\" style=\"width: 710px\" class=\"wp-caption aligncenter\"><a href=\"https://www.kickstarter.com/projects/dgm/downgrade-magazine\"><img class=\"size-large wp-image-7304\" title=\"All the small things.\" src=\"https://www.skatehousemedia.com/wp-content/upload/2014/10/sg13.04Scan-141015-0001.jpg\" alt=\"\" width=\"700\" height=\"1050\"></a><p class=\"wp-caption-text\">Billy “Bones” Meiners always has a trick up his sleeve. This Portland local can crush a karaoke session like no other.</p></div>\n<div id=\"attachment_7304\" style=\"width: 710px\" class=\"wp-caption aligncenter\"><a href=\"https://www.kickstarter.com/projects/dgm/downgrade-magazine\"><img class=\"size-large wp-image-7304\" title=\"Not an early grab.\" src=\"https://www.skatehousemedia.com/wp-content/upload/2014/10/peck.-sf-air-35mmScan-140501-0001-Edit.jpg\" alt=\"\" width=\"700\" height=\"1050\"></a><p class=\"wp-caption-text\"><a href=\"https://www.cometskateboards.com/\">Comet Skateboards</a>, <a href=\"https://rdvxgriptape.com/\">RDVX</a>, and <a href=\"https://www.paristruckco.com/\">Paris Truck Co.</a> rider, Brian Peck boosting out of the Lula bowl.</p></div>\n<div id=\"attachment_7304\" style=\"width: 710px\" class=\"wp-caption aligncenter\"><a href=\"https://www.kickstarter.com/projects/dgm/downgrade-magazine\"><img class=\"size-large wp-image-7304\" title=\"Schap Pep.\" src=\"https://www.skatehousemedia.com/wp-content/upload/2014/10/IMG_3414.jpg\" alt=\"\" width=\"700\" height=\"1050\"></a><p class=\"wp-caption-text\">Pat Schep takes a solo run down one of North Carolina’s finest. “Schepatitus P” rides for <a href=\"https://landyachtz.com/home.cfm/\">Landyachtz</a> &amp; <a href=\"https://beartrucks.com/\">Bear</a> .</p></div>\n<div id=\"attachment_7304\" style=\"width: 710px\" class=\"wp-caption aligncenter\"><a href=\"https://www.kickstarter.com/projects/dgm/downgrade-magazine\"><img class=\"size-large wp-image-7304\" title=\"Point it down\" src=\"https://www.skatehousemedia.com/wp-content/upload/2014/10/sg13.06Scan-141015-0001.jpg\" alt=\"\" width=\"700\" height=\"1050\"></a><p class=\"wp-caption-text\"><a href=\"https://cometskateboards.com/\">Comet Skateboards</a>, <a href=\"https://www.calibertruckco.com/\">Caliber Trucks</a>, and <a href=\"https://rdvxgriptape.com/\">RDVX</a> park shralper, Eric “I’m sorry guys” Jensen throws down a smith through the pocket.</p></div>\n<div id=\"attachment_7304\" style=\"width: 710px\" class=\"wp-caption aligncenter\"><a href=\"https://www.kickstarter.com/projects/dgm/downgrade-magazine\"><img class=\"size-large wp-image-7304\" title=\"Benjamin Dubreuil multi tasking.\" src=\"https://www.skatehousemedia.com/wp-content/upload/2014/10/sg13.09Scan-141015-0001.jpg\" alt=\"\" width=\"700\" height=\"1050\"></a><p class=\"wp-caption-text\">Ben Dub is synonymous with entertainment. He rides <a href=\"https://kebbekskateboards.com/\">Kebbek Skateboards</a>, <a href=\"https://gullwingtruckco.com/\">Gullwing Trucks</a>, and <a href=\"https://www.radesigns.com/\">Rider Approved Designs</a>.</p></div>\n<div id=\"attachment_7304\" style=\"width: 710px\" class=\"wp-caption aligncenter\"><a href=\"https://www.kickstarter.com/projects/dgm/downgrade-magazine\"><img class=\"size-large wp-image-7304\" title=\"Mouse Trap.\" src=\"https://www.skatehousemedia.com/wp-content/upload/2014/10/sg13.15Scan-141015-0001.jpg\" alt=\"\" width=\"700\" height=\"1050\"></a><p class=\"wp-caption-text\">Make sure you have real ways to have fun on those long drives. You can only count on your cell phone to run out of batteries.</p></div>\n<div id=\"attachment_7304\" style=\"width: 710px\" class=\"wp-caption aligncenter\"><a href=\"https://www.kickstarter.com/projects/dgm/downgrade-magazine\"><img class=\"size-large wp-image-7304\" title=\"Bring a 24 pack.\" src=\"https://www.skatehousemedia.com/wp-content/upload/2014/10/skatesgiv-01Scan-140501-0002.jpg\" alt=\"\" width=\"700\" height=\"1050\"></a><p class=\"wp-caption-text\">If your planning on going to Skatopia, the only way in is with a 24 pack of pabst blue ribbon.</p></div>\n<div id=\"attachment_7304\" style=\"width: 710px\" class=\"wp-caption aligncenter\"><a href=\"https://www.kickstarter.com/projects/dgm/downgrade-magazine\"><img class=\"size-large wp-image-7304\" title=\"Chasers.\" src=\"https://www.skatehousemedia.com/wp-content/upload/2014/10/IMG_3347-Edit.jpg\" alt=\"\" width=\"700\" height=\"1050\"></a><p class=\"wp-caption-text\"><a href=\"https://sector9.com/\">Sector 9 Skateboards</a> &amp; <a href=\"https://www.paristruckco.com/\">Paris Truck Co.</a> rider Matt Kienzle chases G-Mack. They’re lead by Louis chasing Boone local Will Seal.</p></div>\n<div id=\"attachment_7304\" style=\"width: 710px\" class=\"wp-caption aligncenter\"><a href=\"https://www.kickstarter.com/projects/dgm/downgrade-magazine\"><img class=\"size-large wp-image-7304\" title=\"Fullpipe bystanders .\" src=\"https://www.skatehousemedia.com/wp-content/upload/2014/10/louis.fullpipeScan-131031-0001.jpg\" alt=\"\" width=\"700\" height=\"1050\"></a><p class=\"wp-caption-text\">Louis Pilloni loves to get high on full pipes. He also loves to go fast on <a href=\"https://sector9.com/\">Sector 9 Skateboards</a>, <a href=\"https://gullwingtruckco.com/\">Gullwing Trucks</a>, <a href=\"https://rdvxgriptape.com/\">RDVX</a>, and <a href=\"https://www.radesigns.com/\">RAD Wheels</a>.</p></div>\n<div id=\"attachment_7304\" style=\"width: 710px\" class=\"wp-caption aligncenter\"><a href=\"https://www.kickstarter.com/projects/dgm/downgrade-magazine\"><img class=\"size-large wp-image-7304\" title=\"Ben Dub Solo\" src=\"https://www.skatehousemedia.com/wp-content/upload/2014/10/IMG_3467.jpg\" alt=\"\" width=\"700\" height=\"1050\"></a><p class=\"wp-caption-text\">Ben Dub has a pro-model on <a href=\"https://kebbekskateboards.com/\">Kebbek Skateboards</a>, but he chose to ride the smallest board in Kebbek‘s lineup (TM-33) instead.</p></div>\n<div id=\"attachment_7304\" style=\"width: 710px\" class=\"wp-caption aligncenter\"><a href=\"https://www.kickstarter.com/projects/dgm/downgrade-magazine\"><img class=\"size-large wp-image-7304\" title=\"xEric Jensenx.\" src=\"https://www.skatehousemedia.com/wp-content/upload/2014/10/sg13.05Scan-141015-0001.jpg\" alt=\"\" width=\"700\" height=\"1050\"></a><p class=\"wp-caption-text\"><a href=\"https://www.cometskateboards.com/\">Comet</a> skateboarders Brian Peck &amp; Eric Jensen doing one of their favorite pastimes; Mocking Matt K’s straight-edge ways.</p></div>\n<div id=\"attachment_7304\" style=\"width: 710px\" class=\"wp-caption aligncenter\"><a href=\"https://www.kickstarter.com/projects/dgm/downgrade-magazine\"><img class=\"size-large wp-image-7304\" title=\"Louis likes big bowls.\" src=\"https://www.skatehousemedia.com/wp-content/upload/2014/10/sg13.11Scan-141015-0001.jpg\" alt=\"\" width=\"700\" height=\"1050\"></a><p class=\"wp-caption-text\">Louis gets inverted in the Lula bowl cradle at Skatopia.</p></div>\n<div id=\"attachment_7304\" style=\"width: 710px\" class=\"wp-caption aligncenter\"><a href=\"https://www.kickstarter.com/projects/dgm/downgrade-magazine\"><img class=\"size-large wp-image-7304\" title=\"Rear.\" src=\"https://www.skatehousemedia.com/wp-content/upload/2014/10/sg13.01Scan-141015-0001.jpg\" alt=\"\" width=\"700\" height=\"1050\"></a><p class=\"wp-caption-text\">The rear of the “Open Road Crew” automobile.</p></div>\n<div id=\"attachment_7304\" style=\"width: 710px\" class=\"wp-caption aligncenter\"><a href=\"https://www.kickstarter.com/projects/dgm/downgrade-magazine\"><img class=\"size-large wp-image-7304\" title=\"Method Slider.\" src=\"https://www.skatehousemedia.com/wp-content/upload/2014/10/skatesgiving.35mm.billy_.method.jpg\" alt=\"\" width=\"700\" height=\"1050\"></a><p class=\"wp-caption-text\"><a href=\"https://landyachtz.com/home.cfm/\">Landyachtz</a> &amp; <a href=\"https://beartrucks.com/\">Bear</a> rider Billy Bones floats a method slider over the top of the wall.</p></div>\n<div id=\"attachment_7304\" style=\"width: 710px\" class=\"wp-caption aligncenter\"><a href=\"https://www.kickstarter.com/projects/dgm/downgrade-magazine\"><img class=\"size-large wp-image-7304\" title=\"Night Runs.\" src=\"https://www.skatehousemedia.com/wp-content/upload/2014/10/skatesgiving.35mm.03Scan-131105-0001.jpg\" alt=\"\" width=\"700\" height=\"1050\"></a><p class=\"wp-caption-text\">At dusk, the entire <a href=\"https://www.skatehousemedia.com/tags/skatesgiving\">Skatesgiving</a> team &amp; most of the Boone, NC locals prepare to drop into “<a href=\"https://www.skatehousemedia.com/03/07/2014/skatesgiving-borderlands/\">Borderland</a>” before the night sets in.</p></div>\n<div id=\"attachment_7304\" style=\"width: 710px\" class=\"wp-caption aligncenter\"><a href=\"https://www.kickstarter.com/projects/dgm/downgrade-magazine\"><img class=\"size-large wp-image-7304\" title=\"Doubles.\" src=\"https://www.skatehousemedia.com/wp-content/upload/2014/10/bobpatScan-131114-0001.jpg\" alt=\"\" width=\"700\" height=\"1050\"></a><p class=\"wp-caption-text\">Longtime Skatesgiving partakers Matt Kienzle &amp; Pat Schep make it down one of North Carolina’s steepest runs.</p></div>\n<div id=\"attachment_7304\" style=\"width: 710px\" class=\"wp-caption aligncenter\"><a href=\"https://www.kickstarter.com/projects/dgm/downgrade-magazine\"><img class=\"size-large wp-image-7304\" title=\"More than transportation.\" src=\"https://www.skatehousemedia.com/wp-content/upload/2014/10/IMG_3521.jpg\" alt=\"\" width=\"700\" height=\"1050\"></a><p class=\"wp-caption-text\">It’s weird to think that we won’t all be piling into the <a href=\"https://www.cometskateboards.com/\">Comet</a> van this year…</p></div>\n<div id=\"attachment_7304\" style=\"width: 710px\" class=\"wp-caption aligncenter\"><a href=\"https://www.kickstarter.com/projects/dgm/downgrade-magazine\"><img class=\"size-large wp-image-7304\" title=\"East Coast.\" src=\"https://www.skatehousemedia.com/wp-content/upload/2014/10/skatesgiving.120mm.14.jpg\" alt=\"\" width=\"700\" height=\"1050\"></a><p class=\"wp-caption-text\">Take advantage of the colors this thanksgiving. Don’t worry, we’re still going to North Carolina and we’ll be bringing back footage.</p></div>\n<p>If you like Thomas’ photography, make sure to check out <a href=\"https://www.downgrademagazine.com\" target=\"_blank\">DGM</a>‘s Kickstarter project.</p>\n<p><iframe src=\"https://www.kickstarter.com/projects/dgm/downgrade-magazine/widget/video.html\" width=\"700\" height=\"525\" frameborder=\"0\" scrolling=\"no\"> </iframe></p>",
-    "tags": [],
-    "categories": [
-      "Photos",
-      "Road Trip"
-    ],
-    "contentUrls": [
-      "https://www.kickstarter.com/projects/dgm/downgrade-magazine",
-      "https://www.skatehousemedia.com/tags/skatesgiving",
-      "https://www.landyachtz.com",
-      "https://www.sector9.com",
-      "https://www.cometskateboards.com/home",
-      "https://www.paristruckco.com",
-      "https://radesigns.com",
-      "https://beartrucks.com",
-      "https://downgrademagazine.com",
-      "https://cometskateboards.com",
-      "https://www.calibertruckco.com",
-      "https://rdvxgriptape.com",
-      "https://www.cometskateboards.com",
-      "https://www.skatehousemedia.com/02/07/2014/skatesgiving-soldiers-of-downhill-2",
-      "https://www.skatehousemedia.com/01/02/2014/skatesgiving-skatopia",
-      "https://kebbekskateboards.com",
-      "https://landyachtz.com/home.cfm",
-      "https://gullwingtruckco.com",
-      "https://www.radesigns.com",
-      "https://sector9.com",
-      "https://www.skatehousemedia.com/03/07/2014/skatesgiving-borderlands",
-      "https://www.downgrademagazine.com",
-      "https://www.kickstarter.com/projects/dgm/downgrade-magazine/widget/video.html"
-    ],
-    "ranking": 3,
-    "thumbnail": null,
-    "featuredVideo": null,
-    "featuredPost": false
-  },
-  {
-    "pageTitle": "GoPro: Downhill Skateboarding with Sector 9",
-    "postDate": "2017-10-31",
-    "author": "SkateHouseMedia",
-    "bodyText": "<p>It always fun exploring new filming techniques and equipment. The Sector 9 team headed out to the Southern California standard to test out&nbsp;the new GoPro 6 and Fusion cameras.</p>",
-    "tags": [
-      "Cole Trotta",
-      "Jeff Budro",
-      "Jimmy Riha",
-      "Louis Pilloni"
-    ],
-    "categories": [
-      "Sector 9",
-      "Sessions"
-    ],
-    "contentUrls": [],
-    "ranking": 1,
     "thumbnail": null,
     "featuredVideo": null,
     "featuredPost": false
@@ -32257,47 +31004,6 @@ export const posts = [
     "featuredPost": false
   },
   {
-    "pageTitle": "Kebbek Skateboards – Ben Dub in his element",
-    "postDate": "2016-11-01",
-    "author": "SkateHouseMedia",
-    "bodyText": "<p><a href=\"https://skatehousemedia.com/tags/ben-dubreuil\" target=\"_blank\">Ben Dub</a> lives in the bush and needs his skateboard for more than just skateboarding. So Kebbek Skateboards made him a deck to accommodates his lifestyle of digging for treasure, cutting down trees and body surfing.</p>",
-    "tags": [
-      "Ben Dubreuil"
-    ],
-    "categories": [
-      "Kebbek Skateboards",
-      "Scene Supporters"
-    ],
-    "contentUrls": [
-      "https://skatehousemedia.com/tags/ben-dubreuil"
-    ],
-    "ranking": 1,
-    "thumbnail": null,
-    "featuredVideo": null,
-    "featuredPost": false
-  },
-  {
-    "pageTitle": "Facetime with Calvin Staub | SkateHouseMedia.com",
-    "postDate": "2014-11-28",
-    "author": "SkateHouseMedia",
-    "bodyText": "<p><iframe src=\"https://player.vimeo.com/video/31505100\" width=\"700\" height=\"394\" frameborder=\"0\" webkitallowfullscreen=\"\" allowfullscreen=\"\"></iframe></p>\n<p>Colorado native and Lookout Mountain local Calvin Staub has been hanging out at the skatehouse for the last couple of months. We took a break from skating a local favorite to talk about helmet hair, racing your dad, and how a dirtbag skateboarder can make enough money to eat.</p>",
-    "tags": [],
-    "categories": [
-      "Facetime",
-      "Madrid Skateboards",
-      "Rider Profiles",
-      "Timeship Racing",
-      "Venom"
-    ],
-    "contentUrls": [
-      "https://player.vimeo.com/video/31505100"
-    ],
-    "ranking": 1,
-    "thumbnail": null,
-    "featuredVideo": null,
-    "featuredPost": false
-  },
-  {
     "pageTitle": "Session: Paris BBQ",
     "postDate": "2015-09-07",
     "author": "SkateHouseMedia",
@@ -32366,27 +31072,6 @@ export const posts = [
     "ranking": 1,
     "thumbnail": "https://assets.skatehousemedia.com/thumbnails/Raw-Run-Jack-Traynor.jpg",
     "featuredVideo": "https://assets.skatehousemedia.com/Raw-Run-Jack-Traynor.mp4",
-    "featuredPost": false
-  },
-  {
-    "pageTitle": "Comment Section: Downhill Skateboarding Is Very Much Alive and Hiding Out In The Mountains",
-    "postDate": "2017-11-03",
-    "author": "Max Dubler",
-    "bodyText": "<div id=\"attachment_21937\" style=\"width: 710px\" class=\"wp-caption aligncenter\"><a href=\"https://i1.wp.com/skatehousemedia.com/wp-content/upload/2017/11/mike-session-left-sky.jpg\"><img class=\"size-large wp-image-21937\" src=\"https://i1.wp.com/skatehousemedia.com/wp-content/upload/2017/11/mike-session-left-sky.jpg?resize=700%2C467\" alt=\"\" srcset=\"https://i1.wp.com/skatehousemedia.com/wp-content/upload/2017/11/mike-session-left-sky.jpg?resize=700%2C467 700w, https://i1.wp.com/skatehousemedia.com/wp-content/upload/2017/11/mike-session-left-sky.jpg?resize=250%2C167 250w, https://i1.wp.com/skatehousemedia.com/wp-content/upload/2017/11/mike-session-left-sky.jpg?resize=500%2C333 500w, https://i1.wp.com/skatehousemedia.com/wp-content/upload/2017/11/mike-session-left-sky.jpg?resize=768%2C512 768w, https://i1.wp.com/skatehousemedia.com/wp-content/upload/2017/11/mike-session-left-sky.jpg?resize=150%2C100 150w, https://i1.wp.com/skatehousemedia.com/wp-content/upload/2017/11/mike-session-left-sky.jpg?resize=330%2C220 330w, https://i1.wp.com/skatehousemedia.com/wp-content/upload/2017/11/mike-session-left-sky.jpg?resize=900%2C600 900w, https://i1.wp.com/skatehousemedia.com/wp-content/upload/2017/11/mike-session-left-sky.jpg?w=1200 1200w, https://i1.wp.com/skatehousemedia.com/wp-content/upload/2017/11/mike-session-left-sky.jpg?resize=736%2C490 736w, https://i1.wp.com/skatehousemedia.com/wp-content/upload/2017/11/mike-session-left-sky.jpg?resize=1024%2C683 1024w, https://i1.wp.com/skatehousemedia.com/wp-content/upload/2017/11/mike-session-left-sky.jpg?resize=621%2C414 621w, https://i1.wp.com/skatehousemedia.com/wp-content/upload/2017/11/mike-session-left-sky.jpg?resize=414%2C276 414w\" sizes=\"(max-width: 700px) 100vw, 700px\" data-recalc-dims=\"1\"></a><p class=\"wp-caption-text\">This is Mike. Mike comes out to Tuna every weekend and has a great time sessioning corners because he fucking loves skating. Mike is rad.</p></div>\n<p><em>This post by Max Dubler</em></p>\n<p><span style=\"font-weight: 400;\">Browsing social media over the last few months, I have noticed a dispiriting trend of people referring to downhill skateboarding as “dead” and blaming various people and forces for “killing downhill.” This is misguided.</span></p>\n<p><span style=\"font-weight: 400;\">Back when I started skating downhill, the scene was very very small, the gear was kinda shitty and hard to come by, videos came out infrequently, and we had to walk to every slide jam uphill in the snow. </span></p>\n<p><span style=\"font-weight: 400;\">In the ten years since then, I have seen an explosion of technological innovation that has made skating downhill easier, safer, cheaper, and more fun than ever. There are now dozens of excellent skateboard events every year. Strong scenes all over the world are pumping out rad videos on a daily basis. There are many many more skaters: I don’t have to be friends with everyone I know who owns slide gloves.</span></p>\n<p><span style=\"font-weight: 400;\">Yes, the business side has taken a hit over the past few years as teenagers all over the world have realized that they do not need $600 racing skateboards to get to school. As a result, many of us in The Industry are finding it harder to make a living hanging out with our friends and skateboarding all day. It’s more difficult to get sponsored than it was a few years ago, and harder still to get a paying sponsorship. That said, very few people will ever get free skate gear and the fact that industry assholes like me make less money than we used to has no impact on 99% of the people who skate.</span></p>\n<p><span style=\"font-weight: 400;\">Let’s all get some perspective on the whole “downhill is dead” thing:</span></p>\n<p><span style=\"font-weight: 400;\">If downhill skateboarding were truly “dead,” it would be impossible to find quality gear. This is not the case: the gear is better, cheaper, and more widely available than ever.&nbsp;While I mourn the loss of small boutique board builders, all the major companies that invested in the creation of innovative new technologies that make skateboarding easier and more fun are still around and putting out exciting new products, while the opportunists who simply wanted to make a buck are gone. (Seriously, as someone who learned how to predrift on Gumballs, you guys don’t know how good you have it.)</span></p>\n<p><span style=\"font-weight: 400;\">If downhill skateboarding were truly “dead,” there would be very few events due to a lack of interest and entry fees. This is not the case: almost all of the good events are still around and better than ever, sick new ones are popping up, and the crappy ones are gone. Next year’s event calendar is rad.</span></p>\n<p><span style=\"font-weight: 400;\">If downhill skateboarding were truly “dead,” it would be difficult to find people to go skate with. This is not the case: there are strong downhill scenes all over the world, from Tenerife to Tennessee. Creative, talented people in those scenes are pumping out awesome photos and videos on a daily basis and that media is finding an enthusiastic audience on social media.</span></p>\n<p>Assuming you aren’t in the sponsored skater media-industrial complex, there has never been a better time to skate down hills. Rad shit is out there. Go get some.</p>",
-    "tags": [
-      "Comment Section",
-      "Max Dubler Talks About Skateboarding",
-      "No Snarky Comments Because They Always Get Dubler In Trouble"
-    ],
-    "categories": [
-      "Comment Section"
-    ],
-    "contentUrls": [
-      "https://i1.wp.com/skatehousemedia.com/wp-content/upload/2017/11/mike-session-left-sky.jpg"
-    ],
-    "ranking": 3,
-    "thumbnail": null,
-    "featuredVideo": null,
     "featuredPost": false
   },
   {
@@ -32579,60 +31264,6 @@ export const posts = [
       "https://www.wheelbasemag.com/moto-radventure-2013"
     ],
     "ranking": 2,
-    "thumbnail": null,
-    "featuredVideo": null,
-    "featuredPost": false
-  },
-  {
-    "pageTitle": "Angie’s Curves 2014 Photo Feature by Jake Grove",
-    "postDate": "2011-07-28",
-    "author": "SkateHouseMedia",
-    "bodyText": "<div id=\"attachment_12199\" style=\"width: 710px\" class=\"wp-caption aligncenter\"><img class=\"size-large wp-image-12199\" src=\"https://www.skatehousemedia.com/wp-content/upload/2014/11/15478398290_ce7e479e81_o-700x568.jpg\" alt=\"Scott Lembach of Muir Skate, regains his balance out of turn #6.\" width=\"700\" height=\"568\"><p class=\"wp-caption-text\">Scott Lembach of <a href=\"https://www.muirskate.com\" target=\"_blank\">Muir Skate</a>, regains his balance out of turn #6.</p></div>\n<p>Words and Photos: Jake Grove</p>\n<p>Racers from around the world came together in the scorching heat of Pala, California for the <a href=\"https://www.skatehousemedia.com/10/06/2014/sector-9-angies-curves-2014-official-video\" target=\"_blank\">Second Annual Angie’s Curves</a>, taking on the course referred to as the gnarliest track in the <a href=\"https://www.internationaldownhillfederation.org/\" target=\"_blank\">IDF</a>. Maneuvering through the various curves and turns in the triple digit temperatures, riders burned through wheels and took out hay bales in a battling to speed past each other and advance to the next round. <a href=\"https://www.sector9.com/\" target=\"_blank\">Sector 9</a> went all out this year, with a total prize purse of $14,600 and the addition of a live feed on the event.</p>\n<p><span id=\"more-12170\"></span></p>\n<div id=\"attachment_12177\" style=\"width: 710px\" class=\"wp-caption aligncenter\"><img class=\"size-large wp-image-12177\" src=\"https://www.skatehousemedia.com/wp-content/upload/2014/11/IMG_1777_resized-700x466.jpg\" alt=\"The crew taking in the scenery of Pala. Thanks to Fitz Illingworth of CVLB for the rad shot.\" width=\"700\" height=\"466\"><p class=\"wp-caption-text\">The crew taking in the scenery before the chaos. Thanks to Fitz Illingworth of CVLB for the rad shot.</p></div>\n<p>I found a ride with some friends up to the hill the week before, and with my camera gear and board ready to go, I jammed myself into the back seat and set off to drive up to the spot.</p>\n<p>After looping through the different roads and neighborhoods of Pala with the constant change of iphone directions and people getting in and out of the packed car to skate around, we spotted Louis Pilloni driving by and followed behind him to the hill. We swept hay and debris off the hill the rest of the day and then returned to some shenanigans at the campsite. The next morning we woke up to a packed campsite, full of riders who had shown up the night before and were preparing for practice day.</p>\n<div id=\"attachment_12198\" style=\"width: 710px\" class=\"wp-caption aligncenter\"><img class=\"size-large wp-image-12198\" src=\"https://www.skatehousemedia.com/wp-content/upload/2014/11/15477825978_29dab5933a_o-700x525.jpg\" alt=\"To protect the microfiber cables for the live feed, a new feature was added during practice runs, “Angie’s Bump”\" width=\"700\" height=\"525\"><p class=\"wp-caption-text\">To protect the microfiber cables for the live feed, a new feature was added during practice runs, “Angie’s Bump”. If you want to see how riders tackled the feature be sure to check out <a href=\"https://www.skatehousemedia.com/09/27/2014/angies-curves-speed-bump-blooopers\" target=\"_blank\">this video</a>.</p></div>\n<div id=\"attachment_12197\" style=\"width: 710px\" class=\"wp-caption aligncenter\"><img class=\"size-large wp-image-12197\" src=\"https://www.skatehousemedia.com/wp-content/upload/2014/11/15474079065_c88b35045c_o-700x560.jpg\" alt=\"Racers traveled to race in the heat of Pala from all around the world, Maria Esyutina traveled all the way from Russia to compete in the women’s division\" width=\"700\" height=\"560\"><p class=\"wp-caption-text\">Racers traveled to race in the heat of Pala from all around the world, Maria Esyutina traveled all the way from Russia to compete in the women’s division.</p></div>\n<p>&nbsp;</p>\n<div id=\"attachment_12179\" style=\"width: 710px\" class=\"wp-caption aligncenter\"><img class=\"size-large wp-image-12179\" src=\"https://www.skatehousemedia.com/wp-content/upload/2014/11/15323883146_4d5da55a11_k-700x875.jpg\" alt=\"Tyler Howell and Byron Essert take a practice run together, bringing some friendly competition to the hill\" width=\"700\" height=\"875\"><p class=\"wp-caption-text\"><a href=\"https://www.arborcollective.com\" target=\"_blank\">Arbor</a>, <a href=\"https://calibertruckco.com/\" target=\"_blank\">Caliber</a>, and <a href=\"https://skatebloodorange.com/\" target=\"_blank\">Blood Orange</a> all terrain ripper, Tyler Howell, takes a practice run as Byron Essert lurks in the background.</p></div>\n<div id=\"attachment_12196\" style=\"width: 710px\" class=\"wp-caption aligncenter\"><img class=\"size-large wp-image-12196\" src=\"https://www.skatehousemedia.com/wp-content/upload/2014/11/15323912466_33017eea0a_o-700x560.jpg\" alt=\"Mike Fitter pushes the hay bales off of him, while they continue to domino around turn six.\" width=\"700\" height=\"560\"><p class=\"wp-caption-text\">Mike Fitter pushes the hay bales off of him, while they continue to domino around turn six. Mike achieved the top recorded speed of 69mph.</p></div>\n<p>Over 2,500 hay bales were stacked around Angie’s Curves prior to the event to keep people from going off the cliffs. We had swept all the loose hay off of the hill the day before, and in the triple digit weather even that was brutal. Big ups to all the volunteers who stacked all the hay bales and helped out the rest of the weekend.</p>\n<div id=\"attachment_12195\" style=\"width: 710px\" class=\"wp-caption aligncenter\"><img class=\"size-large wp-image-12195\" src=\"https://www.skatehousemedia.com/wp-content/upload/2014/11/15325753242_8b346590f8_o-700x560.jpg\" alt=\"Practice day was over and Sector 9 ended it right with live music by AJ Froman and Sister Juanita.\" width=\"700\" height=\"560\"><p class=\"wp-caption-text\">Practice day was over and Sector 9 ended it right with live music by AJ Froman and Sister Juanita.</p></div>\n<p>The next day, qualifying runs were taking place and riders quickly stepped up their game. Refraining to break tuck longer and longer through the straight away, there was some added competition to fight for the fastest time and win $1,000 worth of Michelin tires.</p>\n<div id=\"attachment_12194\" style=\"width: 710px\" class=\"wp-caption aligncenter\"><img class=\"size-large wp-image-12194\" src=\"https://www.skatehousemedia.com/wp-content/upload/2014/11/15139700577_7b229f4951_o-700x560.jpg\" alt=\"Chance Gaul shoots through turn 6, the fast right, with ease.\" width=\"700\" height=\"560\"><p class=\"wp-caption-text\"><a href=\"https://www.sector9.com/\" target=\"_blank\">Sector 9 Rider</a>, Chance Gaul, shoots through turn 6, the fast right, with ease.</p></div>\n<div id=\"attachment_12193\" style=\"width: 710px\" class=\"wp-caption aligncenter\"><img class=\"size-large wp-image-12193\" src=\"https://www.skatehousemedia.com/wp-content/upload/2014/11/15139539597_03e52f5e5a_o-700x875.jpg\" alt=\"Louis Pilloni was in a neon volunteer shirt the majority of the weekend, doing everything at the event to keep it running smoothly, but as soon as he got the chance he'd be leathered up and taking some runs on the hill. Without all the work Louis did, this event definitely would not have been as rad as it was.\" width=\"700\" height=\"875\"><p class=\"wp-caption-text\">Louis Pilloni (<a href=\"https://www.sector9.com/\" target=\"_blank\">Sector 9</a>, <a href=\"https://rdvxgriptape.com/\" target=\"_blank\">RDVX</a>,<a href=\"https://gullwingtruckco.com/\" target=\"_blank\"> Gullwing</a>, <a href=\"https://www.RADesigns.com\" target=\"_blank\">R.A.D.</a>) was in a neon volunteer shirt the majority of the weekend, doing everything at the event to keep it running smoothly, but as soon as he got the chance he’d be leathered up and taking some runs on the hill. Without all the work Louis did, this event definitely would not have been as rad as it was.</p></div>\n<div id=\"attachment_12192\" style=\"width: 710px\" class=\"wp-caption aligncenter\"><img class=\"size-large wp-image-12192\" src=\"https://www.skatehousemedia.com/wp-content/upload/2014/11/15263279192_77455c7a17_o-700x875.jpg\" alt=\"Richard Gibello takes a tumble through turn #6, winning the downhill bellyflop contest. \" width=\"700\" height=\"875\"><p class=\"wp-caption-text\">South African <a href=\"https://www.sector9.com/\" target=\"_blank\">Sector 9</a> Rider, Richard Gibello takes a tumble through turn #6, winning the downhill bellyflop contest.</p></div>\n<div id=\"attachment_12191\" style=\"width: 710px\" class=\"wp-caption aligncenter\"><img class=\"size-large wp-image-12191\" src=\"https://www.skatehousemedia.com/wp-content/upload/2014/11/15346701885_2ed3f6669a_o-700x560.jpg\" alt=\"Patrick Switzer took the fastest qualifying time, slaying the course with a time of  01:50.348 winning $1,000 worth of Michelin tires.\" width=\"700\" height=\"560\"><p class=\"wp-caption-text\">Patrick Switzer took the fastest qualifying time, slaying the course and winning $1,000 worth of Michelin tires.</p></div>\n<p>Qualifying day was over and after eating a bunch of Wahoos burritos on the hill, we headed back to the campsite in the packed <a href=\"https://www.muirskate.com\" target=\"_blank\">Muir van</a> driven by Mr. Tibs. After some agitated passengers got thrown into the wall of the van by Tib’s campsite drifting, the doors opened and everyone hopped out. We grabbed our boards and headed over to the Pala skatepark for the <a href=\"https://www.skatehousemedia.com/09/30/2014/gullwing-trucks-pala-death-race-2014\" target=\"_blank\">Gullwing Deathrace</a>.</p>\n<p><a href=\"https://gullwingtruckco.com/\" target=\"_blank\">Gullwing</a> put together two man heats and set up a course through half of the skatepark, leaving the other half open for everyone else to shred. The race went by pretty quickly with riders pushing off as hard as they could and pumping through the transitions, racing to the other side to advance to the next heat. The sun was soon down and Mercado was on the grill, cooking up some tacos for everyone outside the park.</p>\n<div id=\"attachment_12190\" style=\"width: 710px\" class=\"wp-caption aligncenter\"><img class=\"size-large wp-image-12190\" src=\"https://www.skatehousemedia.com/wp-content/upload/2014/11/15333926286_0ca70e405d_o-700x466.jpg\" alt=\"Brett Ciabattini and Alex Sucala shoot through the Pala skatepark, approaching the second half of the course.\" width=\"700\" height=\"466\"><p class=\"wp-caption-text\"><a href=\"https://www.originalskateboards.com/\" target=\"_blank\">Original</a> and <a href=\"https://rdvxgriptape.com/\" target=\"_blank\">RDVX</a> ripper Brett Ciabattini follows Alex Sucala through the Pala skatepark, approaching the second half of the course.</p></div>\n<p>Race day had come, and riders were all over the campsite tweaking their setups and putting freshies on. Tibs was soon driving around the campsite blasting some good ol’ ‘merican rock and roll and yelling out the window with an accent no one could understand. After speeding through the turns up the hill in the Muir van, we were at the top and the sponsors were setting up their tents preparing for the crowds of spectators to come. The Pala Indians blessed the riders and the green flags were up, leaving the course empty for riders. Racing was on.</p>\n<div id=\"attachment_12189\" style=\"width: 710px\" class=\"wp-caption aligncenter\"><img class=\"size-large wp-image-12189\" src=\"https://www.skatehousemedia.com/wp-content/upload/2014/11/15323947706_bec394d5db_o-700x875.jpg\" alt=\"Alex Charleson gets sideways through Angie’s Curve.\" width=\"700\" height=\"875\"><p class=\"wp-caption-text\"><a href=\"https://www.originalskateboards.com/\" target=\"_blank\">Original</a> and <a href=\"https://rdvxgriptape.com/\" target=\"_blank\">RDVX </a>rider, Alex Charleson, gets sideways through Angie’s Curve.</p></div>\n<div id=\"attachment_12188\" style=\"width: 710px\" class=\"wp-caption aligncenter\"><img class=\"size-large wp-image-12188\" src=\"https://www.skatehousemedia.com/wp-content/upload/2014/11/15139279909_c723a443c9_o-700x875.jpg\" alt=\" Reine Oliveira speeds through Angie’s with style, competing in the women's division.\" width=\"700\" height=\"875\"><p class=\"wp-caption-text\"><a href=\"https://www.sector9.com/\" target=\"_blank\">Sector 9</a>, Reine Oliveira, speeds through Angie’s with style, competing in the women’s division.</p></div>\n<div id=\"attachment_12187\" style=\"width: 710px\" class=\"wp-caption aligncenter\"><img class=\"size-large wp-image-12187\" src=\"https://www.skatehousemedia.com/wp-content/upload/2014/11/15268321867_60ebdac9e6_o-700x560.jpg\" alt=\"Brendan Davidson leads the heat through ambulance corner, throwing some shakas to the live feed crew.\" width=\"700\" height=\"560\"><p class=\"wp-caption-text\">Canadian <a href=\"https://www.sector9.com/\" target=\"_blank\">9′er</a> Brendan Davidson leads the heat through ambulance corner, throwing some shakas to the live feed crew.</p></div>\n<div id=\"attachment_12186\" style=\"width: 710px\" class=\"wp-caption aligncenter\"><img class=\"size-large wp-image-12186\" src=\"https://www.skatehousemedia.com/wp-content/upload/2014/11/15356938305_f6a2d2dc48_o-700x560.jpg\" alt=\"Danny Connor and Max Capps announce the event.\" width=\"700\" height=\"560\"><p class=\"wp-caption-text\">Danny Connor and Max Capps in the announcers booth.</p></div>\n<p>Sector 9 put together a live streaming of the event, sharing the footage with a worldwide audience of thousands. If you haven’t yet, watch it. The <a href=\"https://www.skatehousemedia.com/09/16/2014/angies-curves-2014-live-stream-recording\" target=\"_blank\">whole video of the event was recorded and posted online</a>.</p>\n<div id=\"attachment_12185\" style=\"width: 710px\" class=\"wp-caption aligncenter\"><img class=\"size-large wp-image-12185\" src=\"https://www.skatehousemedia.com/wp-content/upload/2014/11/15303011846_eb12ab8b63_o-700x875.jpg\" alt=\"Fabián “PunkRocker” Gutiérrez Roa came up to Pala from Mexico City.\" width=\"700\" height=\"875\"><p class=\"wp-caption-text\">Fabián “PunkRocker” Gutiérrez Roa came up to Pala from Mexico City.</p></div>\n<p>&nbsp;</p>\n<div id=\"attachment_12184\" style=\"width: 710px\" class=\"wp-caption aligncenter\"><img class=\"size-large wp-image-12184\" src=\"https://www.skatehousemedia.com/wp-content/upload/2014/11/15076953100_b40383c9d9_o-700x560.jpg\" alt=\"Jeff Budro gets down low through Angie’s Curve.\" width=\"700\" height=\"560\"><p class=\"wp-caption-text\">Legendary all terrain ripper, Jeff Budro, gets down low through Angie’s Curve.</p></div>\n<p>&nbsp;</p>\n<div id=\"attachment_12183\" style=\"width: 710px\" class=\"wp-caption aligncenter\"><img class=\"size-large wp-image-12183\" src=\"https://www.skatehousemedia.com/wp-content/upload/2014/11/15159965530_55ae13481f_o-700x875.jpg\" alt=\"Ville Hietala peaks out from behind the hay bales.\" width=\"700\" height=\"875\"><p class=\"wp-caption-text\"><a href=\"https://www.RADesigns.com\" target=\"_blank\">R.A.D.</a>&nbsp; and <a href=\"https://venomskate.com/\" target=\"_blank\">Venom</a> Finnish rider, Ville Hietala peaks out from behind the hay bales.</p></div>\n<p>Lots and lots of hay was taken out through turn #6, and then cleaned up by the volunteers, and then knocked down again, and so on.</p>\n<div id=\"attachment_12220\" style=\"width: 710px\" class=\"wp-caption aligncenter\"><img class=\"size-large wp-image-12220\" src=\"https://www.skatehousemedia.com/wp-content/upload/2014/11/15160429518_c409fe3534_o11-700x875.jpg\" alt=\"Byron Essert charging into turn #6.\" width=\"700\" height=\"875\"><p class=\"wp-caption-text\">Byron Essert charging into turn #6.</p></div>\n<div id=\"attachment_12227\" style=\"width: 710px\" class=\"wp-caption aligncenter\"><img class=\"size-large wp-image-12227\" src=\"https://www.skatehousemedia.com/wp-content/upload/2014/11/15303067096_b7d742b709_k-700x875.jpg\" alt=\"Jimmy Riha sets up for the final left.\" width=\"700\" height=\"875\"><p class=\"wp-caption-text\">Jimmy Riha sets up for the final left.</p></div>\n<div id=\"attachment_12226\" style=\"width: 710px\" class=\"wp-caption aligncenter\"><img class=\"size-large wp-image-12226\" src=\"https://www.skatehousemedia.com/wp-content/upload/2014/11/15159763339_568ec28f9b_k-700x875.jpg\" alt=\"Zak Maytum of Venom and Madrid, puts his board sideways to show his speed-wing gimmick. \" width=\"700\" height=\"875\"><p class=\"wp-caption-text\">Zak Maytum of <a href=\"https://venomskate.com/\" target=\"_blank\">Venom</a> and <a href=\"https://madridskateboards.com/\" target=\"_blank\">Madrid</a>, puts his board sideways to show his speed-wing.</p></div>\n<div id=\"attachment_12200\" style=\"width: 710px\" class=\"wp-caption aligncenter\"><img class=\"size-large wp-image-12200\" src=\"https://www.skatehousemedia.com/wp-content/upload/2014/11/15160375508_458fd90aac_o-700x560.jpg\" alt=\"Connor Ferguson took home first in junior’s division.\" width=\"700\" height=\"560\"><p class=\"wp-caption-text\">Ozzy <a href=\"https://www.sector9.com/\" target=\"_blank\">Sector 9</a>, <a href=\"https://rdvxgriptape.com/\" target=\"_blank\">RDVX</a>, and <a href=\"https://www.RADesigns.com\" target=\"_blank\">R.A.D.</a> rider, Connor Ferguson took home first in junior’s division.</p></div>\n<p>Angie’s Curves 2014 was coming to an end and the finals heat had been organized. With Jimmy Riha, Kevin Reimer, Dillon Stephens, and Zak Maytum battling out for the title of first place and $5000, the competition was on. With the riders advancing and falling behind one and other, spectators gathered at the finish line to wait for the winner to complete the course.</p>\n<div id=\"attachment_12203\" style=\"width: 710px\" class=\"wp-caption aligncenter\"><img class=\"size-large wp-image-12203\" src=\"https://www.skatehousemedia.com/wp-content/upload/2014/11/15061177740_737c3e472f_o-700x875.jpg\" alt=\"Kevin “K-Rimes” Reimer finishing the course with the inside pass through turn #9.\" width=\"700\" height=\"875\"><p class=\"wp-caption-text\">Kevin “K-Rimes” Reimer finishing the course with the inside line through turn #9.</p></div>\n<p>The cluster of riders emerged from the trees of turn #9 and as they approached the finish line, K-Rimes took first place. Dillon Stephens took 2nd, Zak Maytum with 3rd, and Jimmy Riha finished 4th. After a bunch of high fives to the riders, the <a href=\"https://www.muirskate.com\" target=\"_blank\">Muir Van</a> and U-Hauls loaded up with riders and spectators, and returned to the top of the hill for the podium.</p>\n<div id=\"attachment_12204\" style=\"width: 710px\" class=\"wp-caption aligncenter\"><img class=\"size-large wp-image-12204\" src=\"https://www.skatehousemedia.com/wp-content/upload/2014/11/15321817442_351e0bf3b2_o-700x875.jpg\" alt=\"Louis Pilloni announces the podium.\" width=\"700\" height=\"875\"><p class=\"wp-caption-text\">Louis Pilloni announces the podium.</p></div>\n<div id=\"attachment_12206\" style=\"width: 710px\" class=\"wp-caption aligncenter\"><img class=\"size-large wp-image-12206\" src=\"https://www.skatehousemedia.com/wp-content/upload/2014/11/15268168298_88c35dbceb_o-700x875.jpg\" alt=\"Elena Corrigall was carried up to the podium, taking home first place in the women's division.\" width=\"700\" height=\"875\"><p class=\"wp-caption-text\"><a href=\"https://www.landyachtz.com/\" target=\"_blank\">Landyachtz</a> and <a href=\"https://www.beartrucks.com/\" target=\"_blank\">Bear</a> Rider, Elena Corrigall was carried up to the podium, taking home first place in the women’s division.</p></div>\n<p>&nbsp;</p>\n<div id=\"attachment_12212\" style=\"width: 710px\" class=\"wp-caption aligncenter\"><img class=\"size-large wp-image-12212\" src=\"https://www.skatehousemedia.com/wp-content/upload/2014/11/15299132046_d6d75ddb8f_o-700x875.jpg\" alt=\"Kevin “K-Rimes” Reimer claimed the title for first place in open class.\" width=\"700\" height=\"875\"><p class=\"wp-caption-text\">Kevin “K-Rimes” Reimer claimed the title for first place in open class.</p></div>\n<div id=\"attachment_12207\" style=\"width: 710px\" class=\"wp-caption aligncenter\"><img class=\"size-large wp-image-12207\" src=\"https://www.skatehousemedia.com/wp-content/upload/2014/11/15243240645_20fdc80115_o-700x466.jpg\" alt=\"Huge thanks to Angie Wolf for letting us use her hill. Without her land and approval, the race never could have happened.\" width=\"700\" height=\"466\"><p class=\"wp-caption-text\">Huge thanks to Angie Wolf for letting us use her hill. Without her land and approval, the race never could have happened.</p></div>\n<div id=\"attachment_12208\" style=\"width: 710px\" class=\"wp-caption aligncenter\"><img class=\"size-large wp-image-12208\" src=\"https://www.skatehousemedia.com/wp-content/upload/2014/11/15056681349_7b3c7eec80_o-e1415064820165-700x1050.jpg\" alt=\"Jimmy “Rad Train” Riha with the podium high-five. Angie’s Curves 2014 was a blast! \" width=\"700\" height=\"1050\"><p class=\"wp-caption-text\">Jimmy “Rad Train” Riha with the podium high-five. Angie’s Curves 2014 was a blast!</p></div>\n<p>Big thanks to Angie Wolf, Louis Pilloni, all the sponsors, the volunteers, the Pala Indians and everybody else who made this event happen. Angie’s Curves 2014 was sponsored by <a href=\"https://www.sector9.com/\" target=\"_blank\">Sector 9</a>, <a href=\"https://gullwingtruckco.com/\" target=\"_blank\">Gullwing Truck Co.</a>, <a href=\"https://www.RADesigns.com\" target=\"_blank\">R.A.D. Designs</a>, Michelin Tires, <a href=\"https://www.internationaldownhillfederation.org\" target=\"_blank\">IDF Racing</a>, Zico Coconut Water, Wahoos, and <a href=\"https://www.theiantilmannfoundation.org/\" target=\"_blank\">The Ian Tilmann Foundation</a>.</p>\n<p><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Results</b></p>\n<p><b>Open:</b></p>\n<p>1st – Kevin Reimer</p>\n<p>2nd – Dillon Stephens</p>\n<p>3rd – Zak Maytum</p>\n<p>4th – Jimmy Riha</p>\n<p>5th – Sebastian Hertler</p>\n<p>6th – Brendan Davidson</p>\n<p>7th – Carlos Paixão</p>\n<p>8th – Patrick Switzer</p>\n<p><b>Junior’s:</b></p>\n<p>1st – Connor Ferguson</p>\n<p>2nd – Dane Hanna</p>\n<p>3rd – Alex Charleson</p>\n<p>4th- Oscar Gutierrez<b> </b></p>\n<p><b>Women’s:</b></p>\n<p>1st – Elena Corrigall</p>\n<p>2nd – Marie Bougourd</p>\n<p>3rd -Georgia Bontorin</p>\n<p>4th – Emily Pross</p>\n<p><i>That’s all. Be sure to watch next years race and if possible come out to the event. Thanks for reading! Now get on a board and do your thing You can check out the full Angie’s Curves 2014 photo album <a href=\"%20https://m.flickr.com/#/photos/123674776@N08/sets/72157647273630409/\" target=\"_blank\">here</a>.</i></p>\n<p>&nbsp;</p>\n<p>&nbsp;</p>\n<p>&nbsp;</p>\n<p>&nbsp;</p>\n<p>&nbsp;</p>",
-    "tags": [],
-    "categories": [
-      "Community",
-      "Event Coverage",
-      "Photos"
-    ],
-    "contentUrls": [
-      "https://www.muirskate.com",
-      "https://www.skatehousemedia.com/10/06/2014/sector-9-angies-curves-2014-official-video",
-      "https://www.internationaldownhillfederation.org",
-      "https://www.sector9.com",
-      "https://www.skatehousemedia.com/09/27/2014/angies-curves-speed-bump-blooopers",
-      "https://www.arborcollective.com",
-      "https://calibertruckco.com",
-      "https://skatebloodorange.com",
-      "https://rdvxgriptape.com",
-      "https://gullwingtruckco.com",
-      "https://www.RADesigns.com",
-      "https://www.skatehousemedia.com/09/30/2014/gullwing-trucks-pala-death-race-2014",
-      "https://www.originalskateboards.com",
-      "https://www.skatehousemedia.com/09/16/2014/angies-curves-2014-live-stream-recording",
-      "https://venomskate.com",
-      "https://madridskateboards.com",
-      "https://www.landyachtz.com",
-      "https://www.beartrucks.com",
-      "https://www.theiantilmannfoundation.org"
-    ],
-    "ranking": 3,
-    "thumbnail": null,
-    "featuredVideo": null,
-    "featuredPost": false
-  },
-  {
-    "pageTitle": "A Guide To Best Practices For Open Road Downhill Skateboarding",
-    "postDate": "2014-09-25",
-    "author": "SkateHouseMedia",
-    "bodyText": "<div id=\"attachment_14482\" style=\"width: 710px\" class=\"wp-caption aligncenter\"><img class=\"size-large wp-image-14482\" src=\"https://www.skatehousemedia.com/wp-content/upload/2015/11/Aaron-Hampshire-Magnolia-with-Truck-700x875.jpg\" alt=\"Aaron Hampshire maintaining his lane before shutting down to avoid catching that truck.\" width=\"700\" height=\"875\"><p class=\"wp-caption-text\">Aaron Hampshire maintaining his lane before shutting down to avoid catching that truck.</p></div>\n<p><em>This really long post was written by&nbsp;Max Dubler and does not necessarily represent the opinion of SkateHouseMedia or its sponsors.</em></p>\n<p><span style=\"font-weight: 400;\">Safety is a constant topic of discussion in downhill skateboarding. We all know that downhill skateboarding can be very dangerous and all of us have had our share of&nbsp;sketchy moments&nbsp;over the years, most of which we walk away from a little scraped up and a lot wiser. </span></p>\n<p><span style=\"font-weight: 400;\">Those of us who’ve been doing it for a long time and have a deep well of experience and knowledge about how to skate safely often find ourselves shaking our heads at the latest videos of people doing stupid things on the road, then taking to social media to condemn inexperienced riders for their poor judgment. </span></p>\n<p><span style=\"font-weight: 400;\">Instead of complaining about people’s sketchy riding, I want to share what I’ve learned about safety in my years of downhill skateboarding. This post is my attempt to spell out the best way to skate open roads and minimize your chances of death or serious injury.</span></p>\n<p><span id=\"more-14469\"></span></p>\n<p><span style=\"font-weight: 400;\">Skateboarding in general is never going to be totally safe, but downhill is uniquely&nbsp;dangerous. Unlike street and transition, which take place in relatively controlled environments, downhill is, by necessity, practiced mostly on open roads where there are many environmental factors beyond a skater’s control. This unpredictability, combined with the inherent danger of high speeds, makes downhill skateboarding a much higher-risk activity than “regular” skateboarding: </span><span style=\"font-weight: 400;\">nearly everyone who died skateboarding in the last few years was hit by a car or fell and hit their head while bombing a hill</span><span style=\"font-weight: 400;\">.</span></p>\n<p><span style=\"font-weight: 400;\">Every time you kick into a mountain run, you are risking serious injury or death. Last year I went off the road at 40mph and bounced off a tree, avoiding serious injury only because I happened to be wearing leathers with a built-in spine protector. I know too many people who have sustained serious, lifelong injuries as a result of crashing their skateboards.</span></p>\n<p><span style=\"font-weight: 400;\">If you’re going to skate mountain roads, you need to be smart and serious about safety.&nbsp;Even if you do everything right, shit sometimes happens.&nbsp;</span><span style=\"font-weight: 400;\">So, without further ado, here’s how to skate downhill and minimize the risk of shit happening.</span></p>\n<p><b>WEAR SAFETY GEAR</b><span style=\"font-weight: 400;\"> – Protective gear is the starting point for any discussion of skateboard safety. I’m assuming that if you’re reading this, you wear, at minimum, a hard foam&nbsp;helmet and slide gloves when you skate downhill.</span></p>\n<ul>\n<li style=\"font-weight: 400;\"><span style=\"font-weight: 400;\">Helmets are the most important piece of safety gear.&nbsp;</span>\n<ul>\n<li style=\"font-weight: 400;\"><span style=\"font-weight: 400;\">Soft foam might be more comfortable to wear, but it won’t actually protect your brain in the event of a bad hit. You need a hard-foam helmet.</span></li>\n<li style=\"font-weight: 400;\"><span style=\"font-weight: 400;\">Hard foam helmets are good for one hit only. If you smash your dome, it’s time for a new lid.</span></li>\n<li style=\"font-weight: 400;\"><span style=\"font-weight: 400;\">The chin strap needs to be snug to prevent your helmet from flying off during a crash. D ring closures are better than&nbsp;plastic clips.</span></li>\n<li style=\"font-weight: 400;\"><span style=\"font-weight: 400;\">If you can, go to a shop and try on helmets in person to find the best fit. Helmet manufacturers all use different molds and different brands fit different head shapes.</span></li>\n<li style=\"font-weight: 400;\"><span style=\"font-weight: 400;\">I am not a particularly attractive man to begin with and smashing my face on the ground wouldn’t help anything, so I ride a full face helmet when I skate downhill. (The face shield also keeps me from getting hit in the face with rocks and prevents bugs from flying into my mouth, which is exactly as gross as it sounds.)</span></li>\n<li style=\"font-weight: 400;\"><span style=\"font-weight: 400;\">There are several skate-specific full face helmets to choose from. Personally, I ride a TSG because I like the design, it fits me well, and it has a good visor system.</span></li>\n<li style=\"font-weight: 400;\"><span style=\"font-weight: 400;\">If you’re on a budget or want extra protection, downhill mountain bike helmets are great for downhill skateboarding. They’re usually bulkier and less aerodynamic than dedicated skate helmets, but the extra foam thickness makes them safer and the vents keep you cooler on hot days. It’s pretty easy to add a face shield yourself.</span></li>\n</ul>\n</li>\n<li style=\"font-weight: 400;\"><span style=\"font-weight: 400;\">Gloves are the second-most important piece of safety gear, mostly because they allow you to ride with control and avoid crashing in the first place.</span>\n<ul>\n<li style=\"font-weight: 400;\"><span style=\"font-weight: 400;\">All commercial slide gloves are pretty good. Leather is more durable and will protect your hands better. Textile is cooler and more breathable.</span></li>\n<li style=\"font-weight: 400;\"><span style=\"font-weight: 400;\">A good beveled edge will keep your slide pucks from catching on cracks in the road.</span></li>\n</ul>\n</li>\n<li style=\"font-weight: 400;\"><span style=\"font-weight: 400;\">I would like to see spine protectors join helmets and gloves as standard safety equipment, as your spinal cord is just as delicate and essential to your well-being as your brain.</span></li>\n<li style=\"font-weight: 400;\"><span style=\"font-weight: 400;\">Knee pads are always a good call.</span></li>\n<li style=\"font-weight: 400;\"><span style=\"font-weight: 400;\">If you’re wearing street clothes or picking out leathers, bright colors will help you be seen by motorists and pedestrians.</span></li>\n<li style=\"font-weight: 400;\"><span style=\"font-weight: 400;\">For maximum protection, skate-specific NJK leathers with full pads and a spine protector can’t be beat. There’s a reason all the top pro riders are willing to pay full price for NJKs: they are far and away the best designed, most durable, easiest to ride in leathers for downhill skateboarding. Don’t waste your money on any other brands. You’re better off with off-the-rack NJKs than custom off-brand leathers.</span></li>\n</ul>\n<p><span style=\"font-weight: 400;\">All that said, <span style=\"text-decoration: underline;\">safety gear is your </span></span><span style=\"text-decoration: underline;\"><i><span style=\"font-weight: 400;\">last</span></i></span><span style=\"font-weight: 400;\"><span style=\"text-decoration: underline;\"> line of defense</span>. </span><span style=\"font-weight: 400;\">The best way to stay safe is to avoid crashing in the first place and to avoid uncontrolled crashes at all costs.</span></p>\n<p><b>UNCONTROLLED CRASHES: THE WORST CASE SCENARIO</b><span style=\"font-weight: 400;\"> Uncontrolled crashes that lead to collisions with fixed, immovable objects are the most dangerous thing about downhill skateboarding</span><span style=\"font-weight: 400;\">. To avoid this kind of crash, you need to (a) avoid hitting or getting hit by a car, and (b) stay on the road and in your lane at all times, preferably while on your skateboard.</span></p>\n<blockquote><p><span style=\"font-weight: 400;\">“Speed never killed anyone. It’s suddenly becoming stationary, that’s what gets you.” – Jeremy Clarkson</span></p></blockquote>\n<p><b>SITUATIONAL AWARENESS, SKATING COMPETENCE, AND RISK MANAGEMENT</b><span style=\"font-weight: 400;\"> are the keys to avoiding uncontrolled crashes. I will attempt to lay out best practices here.</span></p>\n<p><b>SKATING COMPETENCE</b><span style=\"font-weight: 400;\"> – This guide presumes that you know how to control yourself on your skateboard at speed. You should know how to predrift both ways to slow down for corners, footbrake at speed, and maintain your lane all the way through any corner. If you do not yet possess these skills, session corners with spotters to work on them before you try to go bomb down mountain roads.</span></p>\n<p><span style=\"font-weight: 400;\">Author’s note: long standup slides on a straight hill do not necessarily prepare you for real downhill riding. Make sure you know how to slow down and take a line, not just slide far on wheels that don’t grip.</span></p>\n<p><span style=\"font-weight: 400;\">This also presumes that your gear is appropriate for high-speed riding and in good working order. You need wheels that grip, a full set of mounting hardware, trucks and bushings that are stable at speed, and bearings that aren’t going to explode from neglect.</span></p>\n<p><b>RISK MANAGEMENT AND SITUATIONAL AWARENESS</b><span style=\"font-weight: 400;\"> – Learning how to control a skateboard is relatively straightforward. Learning how to evaluate the potential hazards on a given road, adjust your skateboarding to prepare for the worst-case scenario and skate safely is much more nuanced and difficult.</span></p>\n<p><b>WHEN TO SKATE</b><span style=\"font-weight: 400;\"> – Ideally, you want to skate at times with the least traffic, usually very early mornings at first light (dawn patrol) or during the day on weekdays. Avoid skating during busy times, usually rush hours and weekend daytimes. Individual roads might have peculiar busy times, so it’s worth doing all the research and reconnaissance you can.</span></p>\n<p><b>EVALUATING THE HILL</b><span style=\"font-weight: 400;\"> – When you arrive at a road you’re planning to skate, drive up from the bottom and have the person in the passenger seat check for gravel, wet pavement, and other debris in the road. If you see any potentially hazardous gravel or rocks, pull over and kick them out of the road.</span></p>\n<p><span style=\"font-weight: 400;\">Note the location of driveways, intersections, parked cars, pull-outs and other places where you might encounter a car and approach these sections of road with the knowledge that you may have to stop suddenly.</span></p>\n<p><b>SKATING CONSERVATIVELY</b><span style=\"font-weight: 400;\"> – More than anything else, your frame of mind informs the safety of your skateboarding.</span> <span style=\"font-weight: 400;\">You want to skate conservatively and always be prepared for the worst case scenario.</span></p>\n<p><span style=\"font-weight: 400;\">If you approach your open-road downhill skating with a “fuck it, I’m just going to go for it 100%, not think about the consequences, roll the dice and hope it works out” mindset, you are going to get hurt or killed. This mindset, which is somewhat useful on closed roads and when you’re skating street or transition, is bad for open road downhill because the consequences of an uncontrolled crash at high speed are much worse than the potential consequences of slamming at the skatepark or hitting hay at a race. In practice, this mindset is what motivates people to take stupid risks like going into the uphill lane on blind corners.</span></p>\n<p><span style=\"font-weight: 400;\">On the other hand, if you approach your skating with the knowledge that the road will be there tomorrow and that there’s a time and place to push it, you will skate more conservatively and be much less likely to find yourself in a bad situation.</span></p>\n<p><span style=\"font-weight: 400;\">In practice, skating conservatively means chilling out, recognizing the difference between the fast line and the safe line, maintaining your lane at all times, and being ready for spots where you might encounter an unexpected car.</span></p>\n<ul>\n<li style=\"font-weight: 400;\"><span style=\"font-weight: 400;\">Chill out</span><span style=\"font-weight: 400;\">. There’s no need to go full bore 100% edge-of-control fast on open roads. Slow it down a little and keep it together so you don’t crash. You can go balls-out at events with closed roads and safety precautions.</span></li>\n<li style=\"font-weight: 400;\"><span style=\"font-weight: 400;\">Recognize the difference between the fast line and the safe line</span><span style=\"font-weight: 400;\">. There’s famous downhill road in Santa Barbara with two very steep right-hand hairpins that uphill vehicles often cut. The fast downhill line is to slide in the uphill lane, dive to the middle of the downhill lane, then fade wide. The safe line is to slide almost to a stop on the inside of the downhill lane, grip up at the apex and hug the edge of the road all the way through, then roll out at running speed.</span></li>\n<li style=\"font-weight: 400;\"><span style=\"font-weight: 400;\">If you want to take the fast, dangerous line, </span><span style=\"font-weight: 400;\">use spotters</span><span style=\"font-weight: 400;\">. (More on this later.)</span></li>\n<li style=\"font-weight: 400;\"><span style=\"font-weight: 400;\">Maintain your lane at all times.</span><span style=\"font-weight: 400;\"> There is no going into the oncoming lane unless you have a clear view of oncoming traffic, and even then it’s a bad idea. On narrow or undivided roads, stay far over to your side.</span></li>\n<li style=\"font-weight: 400;\"><span style=\"font-weight: 400;\">Be ready to encounter cars.</span><span style=\"font-weight: 400;\"> Most people drive like idiots. Don’t trust drivers to stay in their lane or look both ways before pulling out into the road. It’s better to go a little slower and hug your side of the road than to bounce off a car that was in 2’ into your lane.</span></li>\n<li style=\"font-weight: 400;\"><span style=\"font-weight: 400;\">Reaction time and physical coordination is critical</span><span style=\"font-weight: 400;\">. Don’t skate downhill when you’re drunk or high.</span></li>\n<li style=\"font-weight: 400;\"><span style=\"font-weight: 400;\">You need to be able to see and hear what’s going on around you</span><span style=\"font-weight: 400;\">. Protect your eyes with sunglasses or a face shield and don’t ride with headphones.</span></li>\n<li style=\"font-weight: 400;\"><span style=\"font-weight: 400;\">Be ok with </span><i><span style=\"font-weight: 400;\">not</span></i><span style=\"font-weight: 400;\"> skating.</span><span style=\"font-weight: 400;\"> You’re going to encounter situations where it’s impossible for you to skate with any reasonable degree of safety. It is ok to say “this is fucked, I’m not down, let’s go to the next spot” or “this traffic is crazy, let’s come back tomorrow at dawn” or “I’m just gonna drive at this spot.”</span></li>\n</ul>\n<p><b>SLIDE EARLY FOR CORNERS</b><span style=\"font-weight: 400;\"> – It’s better to slide early, grip up early and pick up speed as you roll through a corner than to slide too late and go off the road. Sliding early also gives you the time and space to slide more and adjust your line or, if you don’t make it, slide to a stop in a controlled manner, rather than going off the road.</span></p>\n<div id=\"attachment_14479\" style=\"width: 710px\" class=\"wp-caption aligncenter\"><img class=\"size-large wp-image-14479\" src=\"https://www.skatehousemedia.com/wp-content/upload/2015/11/Czech-Local-Footbrake-at-Kozakov-700x875.jpg\" alt=\"Unidentified Czech Local lighting up the Kozakov track with a sick smoking footbrake.\" width=\"700\" height=\"875\"><p class=\"wp-caption-text\"><del>Unidentified</del> Czech Local Jakup Los lighting up the Kozakov track with a sick smoking footbrake.</p></div>\n<p><b>THE IMPORTANCE OF FOOTBRAKING</b><span style=\"font-weight: 400;\"> – Footbraking is important for three reasons. First, the overwhelming majority of people have never seen downhill skateboarding and do not know how to read a skater’s body language. When a driver unfamiliar with downhill skateboarding sees you crouching down and putting your hand on the ground, they don’t see someone about to slide the wheels across the pavement to slow down in a controlled manner and skate safely through a corner, they see someone about to crash. Everyone intuitively understands that dragging your foot along the pavement will slow you down.</span></p>\n<p><span style=\"font-weight: 400;\">Second, footbraking allows you to slow down gradually and in a straight line, making it extremely useful for pack riding and dealing with cars. Coming up on your friend into a tricky corner with only one line? Drop a little footbrake to put a little distance between you. Unexpected car? Footbrake to the side of the road.</span></p>\n<p><span style=\"font-weight: 400;\">Third, footbraking is actually a great way to slow down. Once you get the hang of it, footbraking will slow you down just as quickly as sliding.</span></p>\n<div id=\"attachment_14480\" style=\"width: 710px\" class=\"wp-caption aligncenter\"><img class=\"size-large wp-image-14480\" src=\"https://www.skatehousemedia.com/wp-content/upload/2015/11/Zak-Footbraking-Behind-Car-700x467.jpg\" alt=\"You don't see pros footbraking behind cars in raw runs because catching up to a car is cause for a do-over, but it happens fairly frequently.\" width=\"700\" height=\"467\"><p class=\"wp-caption-text\">You don’t see pros footbraking behind cars in raw runs because catching up to a car is cause for a do-over, but it happens fairly frequently. Zak Maytum, Italy, 2015.</p></div>\n<p><b>DEALING WITH CARS</b><span style=\"font-weight: 400;\"> – The overwhelming majority of people driving cars have never seen downhill skateboarding and are freaked out by the sight of people on skateboards&nbsp;whizzing past them at 40mph on a narrow mountain road. </span><i><span style=\"font-weight: 400;\">This is a completely rational response to what we do. </span></i><span style=\"font-weight: 400;\">I still get nervous when I encounter unexpected skaters on the road.</span></p>\n<ul>\n<li style=\"font-weight: 400;\"><span style=\"font-weight: 400;\">The best way to deal with cars is to avoid them completely. Pick a low-traffic time to session. When it’s time to drop in, wait for a long gap in downhill traffic.</span></li>\n<li style=\"font-weight: 400;\"><span style=\"font-weight: 400;\">If you catch up to a car driving downhill, slow down or stop. You don’t know if and when they’re going to hit&nbsp;the brakes and you don’t want to slam into the back of an immovable object. Passing cars is dangerous and not that cool (even the most underpowered car&nbsp;can step on the gas and leave you in the dust). Waiting a couple minutes to finish the run is not that big of a deal. The pavement is not going anywhere. Don’t do <a href=\"https://www.liveleak.com/view?i=a99_1405731751&amp;comments=1\" target=\"_blank\">what these fucking idiots did.</a></span></li>\n<li style=\"font-weight: 400;\"><span style=\"font-weight: 400;\">If a car catches up to you, footbrake to the right-hand side of the road* as soon as possible and let them pass. (At the bottom of the run, yell at the shuttle driver for allowing a car to pass.)</span></li>\n</ul>\n<p>*Not applicable in left-hand traffic countries.</p>\n<p><b>USING SPOTTERS</b><span style=\"font-weight: 400;\"> is a great way to go fast relatively safely on an open road. A spotter is someone who hangs out on a corner, watches for oncoming cars and uses arm signals or flags to tell skaters whether or not the corner is clear.</span></p>\n<ul>\n<li style=\"font-weight: 400;\"><span style=\"font-weight: 400;\">If you’re spotting, keep your attention focused on uphill traffic. You are not there to watch your friends skate. You are there to keep your friends from getting hit by a car.</span></li>\n<li style=\"font-weight: 400;\"><span style=\"font-weight: 400;\">Stand where skaters can see you and you can see oncoming traffic.</span></li>\n<li style=\"font-weight: 400;\"><span style=\"font-weight: 400;\">If no car is coming, signal a clear corner by waving your whole arm in a circular motion or using a green flag until all skaters have passed through the corner. </span></li>\n<li style=\"font-weight: 400;\"><span style=\"font-weight: 400;\">If a car is coming, hold one arm above your head, palm out or wave a yellow flag.</span></li>\n<li style=\"font-weight: 400;\"><span style=\"font-weight: 400;\">If a big truck is coming or the road is impassable around the corner and skaters need to stop, hold your arms in an X over your head or wave a red flag.</span></li>\n<li style=\"font-weight: 400;\">If you’re skating, don’t cut the lane, even if the spotter says it’s clear. Spotters blow it all the time.</li>\n</ul>\n<p><b>THE SHUTTLE/CHASE CAR</b></p>\n<p>When it’s your turn to drive a run, you have two jobs: first, you’re the sweeper. You make sure everyone gets down ok and pick up anyone who, for whatever reason, cannot or does not want to skate all the way down the run. If someone crashes, you make sure they’re ok and pick them up if they aren’t.</p>\n<p><span style=\"font-weight: 400;\">Second, and most importantly, you are the shield that protects skaters from downhill traffic. No matter how closely you’re being tailgated, you do not ever pull over to allow cars to pass (honking the horn to alert skaters to the presence of a car trying to pass you is sometimes a good idea). Should someone pass you in spite of your efforts, you should make every effort to inform the skaters by honking the horn.</span></p>\n<div id=\"attachment_14481\" style=\"width: 710px\" class=\"wp-caption aligncenter\"><img class=\"size-large wp-image-14481\" src=\"https://www.skatehousemedia.com/wp-content/upload/2015/11/Aaron-Quentin-and-Tai-One-Way-700x467.jpg\" alt=\"Aaron Breetwor, Quentin Gachot, and Tai Nakayama all know each other's style, so they can skate close together on a one-way downhill.\" width=\"700\" height=\"467\"><p class=\"wp-caption-text\">Aaron Breetwor, Quentin Gachot, and Tai Nakayama all know each other’s style, so they can skate close together on a one-way downhill.</p></div>\n<p><b>RIDING IN GROUPS</b><span style=\"font-weight: 400;\">– Given the capacity of most passenger vehicles, you’ll almost always be dropping into a hill with at least 2-5 other riders. Nobody wants to get crashed out by another rider doing something dumb, so some etiquette is in order.</span></p>\n<ul>\n<li style=\"font-weight: 400;\"><span style=\"font-weight: 400;\">Open road riding is not a race; the goal is to make it down and have a good time, not beat your friends to the bottom. Ain’t nothing wrong with chilling in back.</span></li>\n<li style=\"font-weight: 400;\"><span style=\"font-weight: 400;\">Be aware of other riders around you. If you’re coming up behind someone, clap or give them a touch to let them know you’re there.</span></li>\n<li style=\"font-weight: 400;\"><span style=\"font-weight: 400;\">Don’t kick in first if you’re the slowest rider. You don’t want everyone passing you or struggling to stay behind.</span></li>\n<li style=\"font-weight: 400;\"><span style=\"font-weight: 400;\">If you’re thinking about making a pass, make sure you’re going to be able to stay in front: don’t do that make-the-pass-and-immediately-airbrake thing.</span></li>\n<li style=\"font-weight: 400;\"><span style=\"font-weight: 400;\">If you’re going to bump someone, be gentle and make sure they’re ready for it.</span></li>\n</ul>\n<p><span style=\"font-weight: 400;\">Once again, the key here is to </span><i><span style=\"font-weight: 400;\">chill</span></i><span style=\"font-weight: 400;\">. There’s a time and a place to rage. You can get your fill of insane pack riding at at Maryhill Freeride. There’s no need to go three wide through blind corners on open roads.</span></p>\n<p><b>WHEN SOMEONE CRASHES </b><span style=\"font-weight: 400;\">You can do everything right and still crash due to factors beyond your control. I am not qualified to give medical advice, but I urge all skaters who ride downhill to get trained in first aid</span><span style=\"font-weight: 400;\"> and keep a first aid kit in their car</span><span style=\"font-weight: 400;\">.</span></p>\n<p><span style=\"font-weight: 400;\">In the event of a bad crash resulting in serious injury, the very first thing you should do is call 911 and tell them the truth about what happened so they can tell you want to do and send professional help. Your friend’s health and safety is more important than your skate spot.</span></p>\n<p><b>CONCLUSION:</b><span style=\"font-weight: 400;\"> Downhill skateboarding inherently dangerous, but it can be done with a reasonable degree of safety&nbsp;if you respect the road and make smart decisions about when, where, and how you skate. Being aware of your surroundings, recognizing and managing risk, and skating conservatively will allow you to skate downhill as safely as possible.</span></p>\n<p>Also, if there’s anything I’ve missed here, please feel free to comment on Facebook or get in touch with me directly (max at skatehousemedia.com) and I’ll add it.</p>",
-    "tags": [],
-    "categories": [
-      "Learning Curve"
-    ],
-    "contentUrls": [
-      "https://www.liveleak.com/view?i=a99_1405731751&comments=1"
-    ],
-    "ranking": 3,
     "thumbnail": null,
     "featuredVideo": null,
     "featuredPost": false
@@ -33454,26 +32085,6 @@ export const posts = [
     "ranking": 1,
     "thumbnail": "https://assets.skatehousemedia.com/thumbnails/Quick-Clips-Ditch-Road-Doubles.jpg",
     "featuredVideo": "https://assets.skatehousemedia.com/Quick-Clips-Ditch-Road-Doubles.mp4",
-    "featuredPost": false
-  },
-  {
-    "pageTitle": "Sector 9: One More Shot in Russia",
-    "postDate": "November 16, 2015",
-    "author": "SkateHouseMedia",
-    "bodyText": "<p>The summer of 2015 saw a crew of Sector 9ers including Jackson Shapiera, Louis Pilloni, Marc Ferullo, and Nick Sacks, traveling to Russia for a few days of skating and culture with long time <a href=\"https://www.Sector9.com\" target=\"_blank\">Sector 9 Skateboards</a> distributor, Capital Distribution.</p>\n<p><span id=\"more-17357\"></span><br>\n“When we first arrived to Moscow we did some exploring before finding a late lunch. We then headed to the historic Red Square for some flatground skating before boarding a midnight train headed to St. Petersburg.&nbsp; When we got on the train the Capital Distribution guys welcomed us to Mother Russia with multiple glasses of Jim Beam and apple juice.&nbsp; When the train arrived in St. Petersburg none of us had gotten nearly enough sleep, a theme that was maintained throughout our entire time in Russia!</p>\n<p>It was then off into the city of St. Ptersburg to visit Traektoria Boardshop and Quiksilver Russia crew before heading to a biathlon track on the outskirts of town. They had some runs on a smooth, curvy, and closed road that ended up being really fun. Our wheels were shredded so the crew went out into the town for a nice dinner and a few drinks. As it occasionally does, a few drinks turned into a night of drinks, and skating around the historic city center. A group of local skaters took us for a tour through the city which started at the Church on Spilt Blood, a church built on the site where former Tsar Alexander II was killed in the late 1800’s. As the story goes he was riding along in his carriage when an assassin threw a grenade at him. The grenade only stopped the carriage and didn’t hurt the Tsar, who got out of the vehicle to confront and reprimand the anarchist conspirator. While this was taking place, a second assassin took the opportunity to detonate his bomb, killing himself and mortally wounding Alexander II.</p>\n<p>After barely any sleep again, it was off to the train station to head back to Moscow. Once we got back to Moscow Jacko and I got the chance to head to a local ski jump hill called Kant, that has a t-bar to bring you back to the top.&nbsp; The local skaters showed up in force and rallied runs until it was time to head to the next session. Next stop was the famous Gorky Park!</p>\n<p>Gorky Park contains various lakes, fountains, carousels, grass fields, flowers, miles of trails, a skatepark, and more. The park stretches for miles and has chairs set up all along the river bank for people to lounge and enjoy summer. Once everyone showed up for the instructional freeride, so did the weather. It started to rain buckets with thunder and lightning sending skaters fleeing for dry land. Lots of people were disappointed so I decided to show them that a little rain never hurt anyone, and is actually the best way to learn how to slide! Within a few minutes of Jacko and I taking runs in the pouring rain, the rest of the Russians followed suit and were soon skating, smiling, soaked and stoked!</p>\n<p>After the group skate, we headed to a café in the park that had been rented out so we could&nbsp; party. We had way too much fun with all of the locals, various Sector 9 videos were projecting on the wall, and to top it off there were prizes and giveaway for all of the local crew. Jacko also challenged, and beat, all-comers in an arm wrestling match.</p>\n<p>This concluded what was a short but spectacular trip to Russia. The Russians were some of the friendliest and most outgoing people I have run into during my travels. The culture we experienced was amazing, and the cities were beautiful. Sector 9 любит Россию! ! (Sector 9 loves Russia)” -Louis Pilloni</p>",
-    "tags": [
-      "Jackson Shaperia",
-      "Louis Pilloni"
-    ],
-    "categories": [
-      "Road Trip"
-    ],
-    "contentUrls": [
-      "https://www.Sector9.com"
-    ],
-    "ranking": 3,
-    "thumbnail": null,
-    "featuredVideo": null,
     "featuredPost": false
   },
   {
@@ -35328,24 +33939,6 @@ export const posts = [
     "featuredPost": false
   },
   {
-    "pageTitle": "Juergen Gritzner Pro Model – Kebbek Skateboards",
-    "postDate": "2016-12-08",
-    "author": "SkateHouseMedia",
-    "bodyText": "<p>Dangerous tail maneuvers, mini keyboards and the ill eagle. Listen to what Juergen has to say about his face melting pro model.</p>",
-    "tags": [
-      "juergen Gritzner"
-    ],
-    "categories": [
-      "Kebbek Skateboards",
-      "Scene Supporters"
-    ],
-    "contentUrls": [],
-    "ranking": 1,
-    "thumbnail": null,
-    "featuredVideo": null,
-    "featuredPost": false
-  },
-  {
     "pageTitle": "A Run with Ethan Lau",
     "postDate": "2013-09-10",
     "author": "SkateHouseMedia",
@@ -35383,28 +33976,6 @@ export const posts = [
     ],
     "ranking": 3,
     "thumbnail": "https://img.youtube.com/vi/nb-fhI6xHtE/hqdefault.jpg",
-    "featuredVideo": null,
-    "featuredPost": false
-  },
-  {
-    "pageTitle": "Landyachtz – World Class Downhill Skateboard Racing",
-    "postDate": "2014-09-16",
-    "author": "SkateHouseMedia",
-    "bodyText": "<p><iframe src=\"https://player.vimeo.com/video/54873382?title=0&amp;byline=0&amp;badge=0&amp;color=9e0000\" frameborder=\"0\" width=\"700\" height=\"394\"></iframe></p>\n<p>Every year <a href=\"https://www.landyachtz.com/\" target=\"_blank\">Landyachtz</a>, Bear and Hawgs sponsor races and freerides. Two local events are the <a href=\"https://www.skatehousemedia.com/tags/britannia-classic\" target=\"_blank\">Britannia Classic</a> and the <a href=\"https://www.skatehousemedia.com/tags/whistler\" target=\"_blank\">Whistler Longboard Festival</a>, held every year just off of the beautiful sea to sky highway.</p>",
-    "tags": [],
-    "categories": [
-      "Event Coverage",
-      "Landyachtz",
-      "Scene Supporters"
-    ],
-    "contentUrls": [
-      "https://www.landyachtz.com",
-      "https://www.skatehousemedia.com/tags/britannia-classic",
-      "https://www.skatehousemedia.com/tags/whistler",
-      "https://player.vimeo.com/video/54873382?title=0&byline=0&badge=0&color=9e0000"
-    ],
-    "ranking": 1,
-    "thumbnail": null,
     "featuredVideo": null,
     "featuredPost": false
   },
@@ -35461,67 +34032,6 @@ export const posts = [
     "ranking": 1,
     "thumbnail": "https://assets.skatehousemedia.com/thumbnails/Raw-Run-Brian-Holden.jpg",
     "featuredVideo": "https://assets.skatehousemedia.com/Raw-Run-Brian-Holden.mp4",
-    "featuredPost": false
-  },
-  {
-    "pageTitle": "Event Coverage : La Macarena Slide Jam",
-    "postDate": "2016-12-09",
-    "author": "SkateHouseMedia",
-    "bodyText": "<p>Bogota is the home of the spin fiend. They don’t have particularly long runs around here, but they make due with a handful of steep city blocks. Absurdly slidey wheels, short wheelbases, and radical spinning maneuvers are king here. </p>",
-    "tags": [
-      "Alex Ameen",
-      "Bad Decisions Alex",
-      "Bogota",
-      "chela giraldo",
-      "chepe",
-      "Colombia",
-      "la macarena",
-      "nicolas marty",
-      "slide jam"
-    ],
-    "categories": [
-      "Event Coverage"
-    ],
-    "contentUrls": [],
-    "ranking": 1,
-    "thumbnail": null,
-    "featuredVideo": null,
-    "featuredPost": false
-  },
-  {
-    "pageTitle": "NCDH | Brad Perala",
-    "postDate": "2016-12-09",
-    "author": "SkateHouseMedia",
-    "bodyText": "<p>The <a href=\"https://ncdownhill.com\" target=\"_blank\">NCDH</a> boys linked up and created this banger of Ol’ Man <a href=\"https://skatehousemedia.com/tags/brad-perala\" target=\"_blank\">Bradley Perala</a> riding his <a href=\"https://valhallaskateboards.com\" target=\"_blank\">Valhalla</a> Skateboard.</p>",
-    "tags": [
-      "Brad Perala"
-    ],
-    "categories": [
-      "Community Front Page"
-    ],
-    "contentUrls": [
-      "https://ncdownhill.com",
-      "https://skatehousemedia.com/tags/brad-perala",
-      "https://valhallaskateboards.com"
-    ],
-    "ranking": 1,
-    "thumbnail": null,
-    "featuredVideo": null,
-    "featuredPost": false
-  },
-  {
-    "pageTitle": "Xert Raw Run – Javier Tato",
-    "postDate": "2016-12-09",
-    "author": "SkateHouseMedia",
-    "bodyText": "<p>The Ridersfly crew is organizing a new event in Spain, check out this clip of Javier Tato crushing the track and get hyped!</p>",
-    "tags": [],
-    "categories": [
-      "Community"
-    ],
-    "contentUrls": [],
-    "ranking": 1,
-    "thumbnail": null,
-    "featuredVideo": null,
     "featuredPost": false
   },
   {
@@ -35608,24 +34118,6 @@ export const posts = [
       "https://skategreenerpastures.com"
     ],
     "ranking": 2,
-    "thumbnail": null,
-    "featuredVideo": null,
-    "featuredPost": false
-  },
-  {
-    "pageTitle": "Landyachtz – Breaking In The Van",
-    "postDate": "2013-05-23",
-    "author": "SkateHouseMedia",
-    "bodyText": "<p><iframe src=\"//player.vimeo.com/video/80516304\" width=\"700\" height=\"394\" frameborder=\"0\" title=\"Breaking In The Van - Behind The Scene\" webkitallowfullscreen=\"\" mozallowfullscreen=\"\" allowfullscreen=\"\"></iframe></p>\n<p><a href=\"https://landyachtz.com/\" target=\"_blank\">Landyachtz</a> presents a visual rendition of their latest photo mission.</p>",
-    "tags": [],
-    "categories": [
-      "Landyachtz",
-      "Road Trip"
-    ],
-    "contentUrls": [
-      "https://landyachtz.com"
-    ],
-    "ranking": 1,
     "thumbnail": null,
     "featuredVideo": null,
     "featuredPost": false
@@ -35785,29 +34277,6 @@ export const posts = [
     "featuredPost": false
   },
   {
-    "pageTitle": "Community: Oregon Be Alright",
-    "postDate": "2015-12-11",
-    "author": "SkateHouseMedia",
-    "bodyText": "<p>Oregon is holding. There are gems in the hills and the locals are killing it. Follow along with some Oregonian as they destroy some steep descents .</p>",
-    "tags": [
-      "Conner Stanek",
-      "Dan Mullaney",
-      "Dan Wilczek",
-      "Joel Hill",
-      "Jordan Koehler",
-      "Ryan Smith",
-      "Vance Weibel"
-    ],
-    "categories": [
-      "Community"
-    ],
-    "contentUrls": [],
-    "ranking": 1,
-    "thumbnail": null,
-    "featuredVideo": null,
-    "featuredPost": false
-  },
-  {
     "pageTitle": "The Rock Wall Corner | SkateHouseMedia.com",
     "postDate": "2012-02-03",
     "author": "SkateHouseMedia",
@@ -35900,29 +34369,6 @@ export const posts = [
     "featuredPost": false
   },
   {
-    "pageTitle": "Community – Recollections / Red Dirt Motion",
-    "postDate": "2017-12-12",
-    "author": "SkateHouseMedia",
-    "bodyText": "<p>Downhill folk of unconvential origins reflect on some memorable descents, both near and far. </p>",
-    "tags": [
-      "Chase Hiller",
-      "Dylan Greenbaker",
-      "Jargh Hammons",
-      "Lars Troutwine",
-      "Ray Adams",
-      "Seth Gouker",
-      "Stevie Dumaine"
-    ],
-    "categories": [
-      "Community Front Page"
-    ],
-    "contentUrls": [],
-    "ranking": 1,
-    "thumbnail": null,
-    "featuredVideo": null,
-    "featuredPost": false
-  },
-  {
     "pageTitle": "Raw Run – Garrett Gourley",
     "postDate": "2017-12-12",
     "author": "SkateHouseMedia",
@@ -35944,26 +34390,6 @@ export const posts = [
     "ranking": 1,
     "thumbnail": "https://assets.skatehousemedia.com/thumbnails/Raw-Run-Garrett-Gourley.jpg",
     "featuredVideo": "https://assets.skatehousemedia.com/Raw-Run-Garrett-Gourley.mp4",
-    "featuredPost": false
-  },
-  {
-    "pageTitle": "ARBOR SUCROSE INITIATIVE :: AXEL SERRAT PRO WHEELS",
-    "postDate": "2018-12-12",
-    "author": "SkateHouseMedia",
-    "bodyText": "<p>Arbor Sucrose’s “<a href=\"https://www.arborcollective.com/us/axel-serrat-pro-wheels.html\">Axel Serrat Pro Model</a>” Wheel will fulfill all of your hybrid skating needs. It specializes in high speed performance when bombing, slashing, or carving. Axel’s wheel has the versatility required for charging on the hill or across any urban setting.</p>",
-    "tags": [
-      "Axel Serrat"
-    ],
-    "categories": [
-      "Arbor",
-      "Scene Supporters"
-    ],
-    "contentUrls": [
-      "https://www.arborcollective.com/us/axel-serrat-pro-wheels.html"
-    ],
-    "ranking": 1,
-    "thumbnail": null,
-    "featuredVideo": null,
     "featuredPost": false
   },
   {
@@ -36095,25 +34521,6 @@ export const posts = [
     "ranking": 1,
     "thumbnail": "https://assets.skatehousemedia.com/thumbnails/Raw-Cuts-with-Jasmijn-Hanegraef-and-Lisa-Peters.jpg",
     "featuredVideo": "https://assets.skatehousemedia.com/Raw-Cuts-with-Jasmijn-Hanegraef-and-Lisa-Peters.mp4",
-    "featuredPost": false
-  },
-  {
-    "pageTitle": "Landyachtz: Chill Day with Mackenzie Yoshida",
-    "postDate": "2018-12-13",
-    "author": "SkateHouseMedia",
-    "bodyText": "<p><a rel=\"noreferrer noopener\" aria-label=\"Landyachtz rider Mackenzie Yoshida shows us his typical day living in Oahu. Join him as he tours us around his local scene, hitting a classic surf break and sneaking in some late night skating on his local hill. Mahalo. Film/Edit: Dave Leslie (opens in a new tab)\" href=\"https://www.landyachtz.com\" target=\"_blank\"><strong>Landyachtz rider Mackenzie Yoshida </strong></a>shows us his typical day living in Oahu. Join him as he tours us around his local scene, hitting a classic surf break and sneaking in some late night skating on his local hill. Mahalo. Film/Edit: Dave Leslie</p>",
-    "tags": [
-      "Mackenzie Yoshida"
-    ],
-    "categories": [
-      "Landyachtz"
-    ],
-    "contentUrls": [
-      "https://www.landyachtz.com"
-    ],
-    "ranking": 1,
-    "thumbnail": null,
-    "featuredVideo": null,
     "featuredPost": false
   },
   {
@@ -36283,23 +34690,6 @@ export const posts = [
     "ranking": 1,
     "thumbnail": "https://assets.skatehousemedia.com/thumbnails/Raw-Run-Bill-Rice.jpg",
     "featuredVideo": "https://assets.skatehousemedia.com/Raw-Run-Bill-Rice.mp4",
-    "featuredPost": false
-  },
-  {
-    "pageTitle": "Raw Run: Deck-her | SkateHouseMedia.com",
-    "postDate": "2012-10-26",
-    "author": "SkateHouseMedia",
-    "bodyText": "<p><iframe src=\"https://player.vimeo.com/video/17047818\" width=\"700\" height=\"394\" frameborder=\"0\"></iframe></p>\n<p>Join four friends on an epic journey from the top of a rollercoaster canyon road, all the way to the bottom…</p>",
-    "tags": [],
-    "categories": [
-      "Raw Run"
-    ],
-    "contentUrls": [
-      "https://player.vimeo.com/video/17047818"
-    ],
-    "ranking": 1,
-    "thumbnail": null,
-    "featuredVideo": null,
     "featuredPost": false
   },
   {
@@ -36476,27 +34866,6 @@ export const posts = [
     "featuredPost": false
   },
   {
-    "pageTitle": "Dmitri Menas: Hittin’ It From The Back(side)",
-    "postDate": "December 16, 2015",
-    "author": "SkateHouseMedia",
-    "bodyText": "<p>Dmitri Menas skating a San Diego classic tucked within the mountains.&nbsp; Filmed by Aidan Hermann / Edited by Steven Gill.</p>",
-    "tags": [
-      "California",
-      "Dmitri Menas",
-      "San Diego",
-      "Aidan Hermann",
-      "Steven Gill"
-    ],
-    "categories": [
-      "Community"
-    ],
-    "contentUrls": [],
-    "ranking": 1,
-    "thumbnail": null,
-    "featuredVideo": null,
-    "featuredPost": false
-  },
-  {
     "pageTitle": "Max Dubler Photo Feature",
     "postDate": "2011-01-09",
     "author": "SkateHouseMedia",
@@ -36509,23 +34878,6 @@ export const posts = [
     "contentUrls": [
       "https://www.flickr.com/photos/maxwellstoreydubler/5269621912/sizes/l",
       "https://www.flickr.com/photos/maxwellstoreydubler/5266318871/sizes/l"
-    ],
-    "ranking": 1,
-    "thumbnail": null,
-    "featuredVideo": null,
-    "featuredPost": false
-  },
-  {
-    "pageTitle": "Quick Run with Fernando Yuppie",
-    "postDate": "2016-09-26",
-    "author": "SkateHouseMedia",
-    "bodyText": "<p><iframe src=\"https://player.vimeo.com/video/17911465\" width=\"700\" height=\"394\" frameborder=\"0\" webkitallowfullscreen=\"\" mozallowfullscreen=\"\" allowfullscreen=\"\"></iframe></p>\n<p>A short but solid run with our Brazilian friend Fernando Yuppie, soft wheels style.</p>",
-    "tags": [],
-    "categories": [
-      "Visitors"
-    ],
-    "contentUrls": [
-      "https://player.vimeo.com/video/17911465"
     ],
     "ranking": 1,
     "thumbnail": null,
@@ -36567,24 +34919,6 @@ export const posts = [
     ],
     "ranking": 3,
     "thumbnail": "https://img.youtube.com/vi/TfUttI1ujbU/hqdefault.jpg",
-    "featuredVideo": null,
-    "featuredPost": false
-  },
-  {
-    "pageTitle": "Life In The Fast Lane",
-    "postDate": "2011-07-31",
-    "author": "SkateHouseMedia",
-    "bodyText": "<p><iframe src=\"//player.vimeo.com/video/81847097\" width=\"700\" height=\"394\" frameborder=\"0\" title=\"Paris Truck Co. Presents: Matt K in Life In The Fast Lane\" webkitallowfullscreen=\"\" mozallowfullscreen=\"\" allowfullscreen=\"\"></iframe></p>\n<p><a href=\"https://www.sector9.com/\" target=\"_blank\">Sector 9</a> rider and housemate <a href=\"https://www.skatehousemedia.com/tags/matt-kienzle\" target=\"_blank\">Matt Kienzle</a> gets to see many splendid views but nothing compares to New Zealand mountain sides.</p>",
-    "tags": [],
-    "categories": [
-      "Road Trip"
-    ],
-    "contentUrls": [
-      "https://www.sector9.com",
-      "https://www.skatehousemedia.com/tags/matt-kienzle"
-    ],
-    "ranking": 1,
-    "thumbnail": null,
     "featuredVideo": null,
     "featuredPost": false
   },
@@ -36854,25 +35188,6 @@ export const posts = [
     "featuredPost": false
   },
   {
-    "pageTitle": "Raw Run: Drop That Switch",
-    "postDate": "2014-10-15",
-    "author": "SkateHouseMedia",
-    "bodyText": "<p><iframe src=\"//player.vimeo.com/video/79545883\" width=\"700\" height=\"394\" frameborder=\"0\" webkitallowfullscreen=\"\" mozallowfullscreen=\"\" allowfullscreen=\"\"></iframe></p>\n<p><a href=\"https://www.raynelongboards.com/\" target=\"_blank\">Rayne</a> rider George “G-Mack” Mackenzie has been pushing his switch game for that past year or so. Watch this raw run from our <a href=\"https://www.skatehousemedia.com/tags/skatesgiving\" target=\"_blank\">skatesgiving</a> trip and try and figure out how fast he was going.</p>",
-    "tags": [],
-    "categories": [
-      "Raw Run",
-      "Road Trip"
-    ],
-    "contentUrls": [
-      "https://www.raynelongboards.com",
-      "https://www.skatehousemedia.com/tags/skatesgiving"
-    ],
-    "ranking": 1,
-    "thumbnail": null,
-    "featuredVideo": null,
-    "featuredPost": false
-  },
-  {
     "pageTitle": "Standup Pendy with Campbell Hile",
     "postDate": "2013-09-12",
     "author": "SkateHouseMedia",
@@ -36882,73 +35197,6 @@ export const posts = [
       "Community"
     ],
     "contentUrls": [],
-    "ranking": 1,
-    "thumbnail": null,
-    "featuredVideo": null,
-    "featuredPost": false
-  },
-  {
-    "pageTitle": "Sessions: Tucan & Matthew Deitch",
-    "postDate": "2015-11-24",
-    "author": "SkateHouseMedia",
-    "bodyText": "<p><iframe src=\"//player.vimeo.com/video/114905112\" width=\"700\" height=\"394\" frameborder=\"0\" allowfullscreen=\"allowfullscreen\"></iframe></p>\n<p><a href=\"https://absboards.com\">Action Board Shop</a> rider Matthew Deitch knows Asheville like the back of his hand. He brought housemate <a href=\"https://www.skatehousemedia.com/tags/matt-kienzle\">Matt Kienzle</a> to one of steepest runs North Carolina has to offer. <a href=\"https://www.flickr.com/photos/128057551@N07/\">Creamybeige</a> Photo.</p>",
-    "tags": [],
-    "categories": [
-      "Action Board Shop",
-      "Scene Supporters",
-      "Sessions"
-    ],
-    "contentUrls": [
-      "https://absboards.com",
-      "https://www.skatehousemedia.com/tags/matt-kienzle",
-      "https://www.flickr.com/photos/128057551@N07"
-    ],
-    "ranking": 1,
-    "thumbnail": null,
-    "featuredVideo": null,
-    "featuredPost": false
-  },
-  {
-    "pageTitle": "AK Asphalt | Levi Hawken",
-    "postDate": "2016-12-19",
-    "author": "SkateHouseMedia",
-    "bodyText": "<p><a href=\"https://www.sector9.com\" target=\"_blank\">Sector 9</a>‘er <a href=\"https://skatehousemedia.com/tags/levi-hawken\" target=\"_blank\">Levi Hawken</a> has been eyeing up these lines for a while. Fellow Kiwi <a href=\"https://www.youtube.com/user/np101np101\" target=\"_blank\">Crunchie</a> tried to capture the feeling of what its like to see how gnarly he skates in person.</p>",
-    "tags": [
-      "Levi Hawken"
-    ],
-    "categories": [
-      "Community Front Page"
-    ],
-    "contentUrls": [
-      "https://www.sector9.com",
-      "https://skatehousemedia.com/tags/levi-hawken",
-      "https://www.youtube.com/user/np101np101"
-    ],
-    "ranking": 1,
-    "thumbnail": null,
-    "featuredVideo": null,
-    "featuredPost": false
-  },
-  {
-    "pageTitle": "Original Skateboards – EU Sessions Pt. One",
-    "postDate": "2016-12-19",
-    "author": "SkateHouseMedia",
-    "bodyText": "<p>The <a href=\"https://originalskateboards.com\" target=\"_blank\">Original Skateboards</a> team heads from Barcelona up through the Pyrenees mountains and over to Montpelier skating some of the best spots in the European Union.</p>",
-    "tags": [
-      "Aleix Gallimo",
-      "Andrei Churakov",
-      "Nil Bellmunt",
-      "Petter Reinem",
-      "Sam Holding",
-      "Will Stephan"
-    ],
-    "categories": [
-      "Original Skateboards",
-      "Scene Supporters"
-    ],
-    "contentUrls": [
-      "https://originalskateboards.com"
-    ],
     "ranking": 1,
     "thumbnail": null,
     "featuredVideo": null,
@@ -36988,23 +35236,6 @@ export const posts = [
     "ranking": 1,
     "thumbnail": "https://assets.skatehousemedia.com/thumbnails/PSA-Use-Your-Head.jpg",
     "featuredVideo": "https://assets.skatehousemedia.com/PSA-Use-Your-Head.mp4",
-    "featuredPost": false
-  },
-  {
-    "pageTitle": "Dalua Downhill – Teaser 2012 | SkateHouseMedia.com",
-    "postDate": "2014-02-04",
-    "author": "SkateHouseMedia",
-    "bodyText": "<p><iframe src=\"https://player.vimeo.com/video/33736381\" width=\"700\" height=\"394\" frameborder=\"0\" allowfullscreen=\"\"></iframe></p>\n<p>Zeppelin Films gives out a teaser of the 2012 action from Dalua Downhill.</p>",
-    "tags": [],
-    "categories": [
-      "Community"
-    ],
-    "contentUrls": [
-      "https://vimeo.com/moogaloop.swf?clip_id=33736381&server=vimeo.com&show_title=0&show_byline=0&show_portrait=0&color=00adef&fullscreen=1&autoplay=0&loop=0"
-    ],
-    "ranking": 1,
-    "thumbnail": null,
-    "featuredVideo": null,
     "featuredPost": false
   },
   {
@@ -37087,40 +35318,6 @@ export const posts = [
     "featuredPost": false
   },
   {
-    "pageTitle": "Caliber Truck Co. 2013",
-    "postDate": "2014-12-03",
-    "author": "SkateHouseMedia",
-    "bodyText": "<p><iframe src=\"//player.vimeo.com/video/82396092?title=0&amp;byline=0&amp;color=9e0000\" width=\"700\" height=\"394\" frameborder=\"0\" webkitallowfullscreen=\"\" mozallowfullscreen=\"\" allowfullscreen=\"\"></iframe></p>\n<p>“Over the past year, Caliber has been committed to creating the highest quality and most eye-catching media available in the downhill scene. For your enjoyment, we’ve created a video recap of our favorite clips from 2013. The true love for skateboarding shines through in each of our team riders and their unique styles. We hope you enjoy!” -<a href=\"https://www.calibertruckco.com\" target=\"_blank\" rel=\"nofollow\">Caliber Truck Co.</a></p>",
-    "tags": [],
-    "categories": [
-      "Caliber Truck Co"
-    ],
-    "contentUrls": [
-      "https://www.calibertruckco.com"
-    ],
-    "ranking": 2,
-    "thumbnail": null,
-    "featuredVideo": null,
-    "featuredPost": false
-  },
-  {
-    "pageTitle": "Landyachtz’s Stephen Vaughn by Sea Level Magazine",
-    "postDate": "2016-08-26",
-    "author": "SkateHouseMedia",
-    "bodyText": "<p><iframe src=\"//www.youtube.com/embed/lTYp4NeKGAA?rel=0\" height=\"394\" width=\"700\" allowfullscreen=\"\" frameborder=\"0\"></iframe></p>\n<p>“<a href=\"https://www.landyachtz.com/\" target=\"_blank\">Landyachtz’s</a> Stephen Vaughn has been back in Florida for a minute now, and this is the footage from the past couple months. Enjoy! In addition to the above edit, Sea Level went out to skate with Stephen Vaughn at his home park the other day and we decided that it deserved its own video. Watch as he maneuvers his way around a crowded park full of scooters and bicycles.” Sea Level Magazine</p>\n<p><iframe src=\"//www.youtube.com/embed/Ps0PDbdcEFQ?rel=0\" height=\"394\" width=\"700\" allowfullscreen=\"\" frameborder=\"0\"></iframe></p>",
-    "tags": [],
-    "categories": [
-      "Landyachtz"
-    ],
-    "contentUrls": [
-      "https://www.landyachtz.com"
-    ],
-    "ranking": 2,
-    "thumbnail": null,
-    "featuredVideo": null,
-    "featuredPost": false
-  },
-  {
     "pageTitle": "Scene Supporter – Action Board Shop",
     "postDate": "2015-05-30",
     "author": "SkateHouseMedia",
@@ -37137,24 +35334,6 @@ export const posts = [
     ],
     "ranking": 5,
     "thumbnail": "https://img.youtube.com/vi/Hy-F-ZhHrko/hqdefault.jpg",
-    "featuredVideo": null,
-    "featuredPost": false
-  },
-  {
-    "pageTitle": "Kebbek Skateboards – Crafty on Carbon Juergen",
-    "postDate": "December 20, 2015",
-    "author": "SkateHouseMedia",
-    "bodyText": "<p>“Crafty” Raphaël Therrien takes out the Kebbek Skateboards Juergen Gritzner Carbon for a first session. Winter came late so out we skate.</p>",
-    "tags": [
-      "Raphaël Therrien"
-    ],
-    "categories": [
-      "Kebbek Skateboards",
-      "Scene Supporters"
-    ],
-    "contentUrls": [],
-    "ranking": 1,
-    "thumbnail": null,
     "featuredVideo": null,
     "featuredPost": false
   },
@@ -37211,90 +35390,6 @@ export const posts = [
     "featuredPost": false
   },
   {
-    "pageTitle": "Hot Heels Africa 2014 Raw Run with Kyle and Decio",
-    "postDate": "2014-11-02",
-    "author": "SkateHouseMedia",
-    "bodyText": "<p><iframe src=\"//player.vimeo.com/video/115030245\" width=\"700\" height=\"394\" frameborder=\"0\" title=\"Hot Heels Raw Run\" webkitallowfullscreen=\"\" mozallowfullscreen=\"\" allowfullscreen=\"\"></iframe></p>\n<p>Hot Heels 2014 went down just last weekend in South Africa and Chubbs was there to capture this raw run of the top 2 finishers Kyle Wester and Decio Lourenco.  Follow along for a look at the track!</p>",
-    "tags": [],
-    "categories": [
-      "Event Coverage",
-      "Rider Approved Designs",
-      "Scene Supporters"
-    ],
-    "contentUrls": [],
-    "ranking": 1,
-    "thumbnail": null,
-    "featuredVideo": null,
-    "featuredPost": false
-  },
-  {
-    "pageTitle": "Asheville Pastry Boys | APB Vol.1",
-    "postDate": "2016-12-21",
-    "author": "SkateHouseMedia",
-    "bodyText": "<p>Introducing the Asheville Pastry Boys, all your favorite pastries come together in this one. #<a href=\"https://www.instagram.com/explore/tags/ashevilledoesntexist/\" target=\"_blank\">ashevilledoesnotexist</a></p>",
-    "tags": [
-      "Anthony Flis",
-      "Brandon Kourie",
-      "David Bubier",
-      "Jake Calloway",
-      "Matthew Deitch",
-      "Rick Allen",
-      "Stephen Smith",
-      "Tyler Hunt"
-    ],
-    "categories": [
-      "Community Front Page"
-    ],
-    "contentUrls": [
-      "https://www.instagram.com/explore/tags/ashevilledoesntexist"
-    ],
-    "ranking": 1,
-    "thumbnail": null,
-    "featuredVideo": null,
-    "featuredPost": false
-  },
-  {
-    "pageTitle": "Arbor Skateboards :: Passing through the Pyrenees with Axel Serrat",
-    "postDate": "2017-12-21",
-    "author": "SkateHouseMedia",
-    "bodyText": "<p>“Take a cruise through the Pyrenees with <a href=\"https://arborcollective.com/skateboards/riders/axel-serrat/\" target=\"_blank\" rel=\"noopener\">Arbor Team Rider, Axel Serrat</a>. Enjoy the high altitude Iberian sights and fall vibes, as Axel navigates some incredible Spanish passes.” – <a href=\"https://arborcollective.com/skateboards/\" target=\"_blank\" rel=\"noopener\">Arbor Skateboards</a></p>",
-    "tags": [
-      "Axel Serrat"
-    ],
-    "categories": [
-      "Arbor",
-      "Sessions"
-    ],
-    "contentUrls": [
-      "https://arborcollective.com/skateboards/riders/axel-serrat",
-      "https://arborcollective.com/skateboards"
-    ],
-    "ranking": 1,
-    "thumbnail": null,
-    "featuredVideo": null,
-    "featuredPost": false
-  },
-  {
-    "pageTitle": "Arbor Skateboards :: Axel Serrat – Lifted Barcelona",
-    "postDate": "2018-12-21",
-    "author": "SkateHouseMedia",
-    "bodyText": "<p>Axel Serrat’s <a href=\"https://arborcollective.com/axel-serrat-pro-model.html\">Pro Model</a> is an all around freeride and hybrid skate machine that was made to be as versatile as Axel is as a rider. From bombing his local hills, or skating the legendary street spots of Barcelona, Axel designed this deck to skate everything.</p>",
-    "tags": [
-      "Axel Serrat"
-    ],
-    "categories": [
-      "Arbor",
-      "Scene Supporters"
-    ],
-    "contentUrls": [
-      "https://arborcollective.com/axel-serrat-pro-model.html"
-    ],
-    "ranking": 1,
-    "thumbnail": null,
-    "featuredVideo": null,
-    "featuredPost": false
-  },
-  {
     "pageTitle": "Jah Bubba Giant 2010",
     "postDate": "2012-02-25",
     "author": "SkateHouseMedia",
@@ -37310,31 +35405,6 @@ export const posts = [
     ],
     "ranking": 4,
     "thumbnail": "https://img.youtube.com/vi/WnvAKnw2xfQ/hqdefault.jpg",
-    "featuredVideo": null,
-    "featuredPost": false
-  },
-  {
-    "pageTitle": "Skatesgiving: Dry Run | SkateHouseMedia.com",
-    "postDate": "2015-08-11",
-    "author": "SkateHouseMedia",
-    "bodyText": "<p><iframe src=\"https://player.vimeo.com/video/34080792\" width=\"700\" height=\"394\" frameborder=\"0\" webkitallowfullscreen=\"\" mozallowfullscreen=\"\" allowfullscreen=\"\"></iframe></p>\n<p>The East Coast part of the Skatehouse crew went on an epic adventure this past skatesgiving.<br>\nThey hit all the best spots the Beast Coast has to offer, here’s one of many.</p>\n<p>Sponsors that made this trip happen; <a href=\"https://www.cometskateboards.com/home/\">Comet</a>, Kebbek, <a href=\"https://landyachtz.com/\">Lanyachtz</a>, <a href=\"https://sector9.com/\">Sector 9</a>, Rotule, &amp; <a href=\"https://www.raynelongboards.com/\">Rayne</a></p>",
-    "tags": [],
-    "categories": [
-      "Comet Skateboards",
-      "Landyachtz",
-      "Rayne Longboards",
-      "Road Trip",
-      "Sector 9"
-    ],
-    "contentUrls": [
-      "https://www.cometskateboards.com/home",
-      "https://landyachtz.com",
-      "https://sector9.com",
-      "https://www.raynelongboards.com",
-      "https://player.vimeo.com/video/34080792"
-    ],
-    "ranking": 1,
-    "thumbnail": null,
     "featuredVideo": null,
     "featuredPost": false
   },
@@ -37363,24 +35433,6 @@ export const posts = [
       "https://www.flickr.com/photos/maxwellstoreydubler/15894650528/player"
     ],
     "ranking": 2,
-    "thumbnail": null,
-    "featuredVideo": null,
-    "featuredPost": false
-  },
-  {
-    "pageTitle": "Running with Lou-Dog | SkateHouseMedia.com",
-    "postDate": "2015-09-30",
-    "author": "SkateHouseMedia",
-    "bodyText": "<p><iframe src=\"https://player.vimeo.com/video/34103036\" width=\"700\" height=\"394\" frameborder=\"0\" webkitallowfullscreen=\"\" mozallowfullscreen=\"\" allowfullscreen=\"\"></iframe></p>\n<p>Shot while the Texas crew was in town a week ago.  Enjoy this quick little vid that puts you on the board rallying hills with the Lou-Dog. </p>",
-    "tags": [],
-    "categories": [
-      "Housemates",
-      "Raw Run"
-    ],
-    "contentUrls": [
-      "https://player.vimeo.com/video/34103036"
-    ],
-    "ranking": 1,
     "thumbnail": null,
     "featuredVideo": null,
     "featuredPost": false
