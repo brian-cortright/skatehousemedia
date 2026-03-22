@@ -15,7 +15,7 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
   const post = posts.find((item: Post) => slugify(item.pageTitle) === slug);
 
   const wordCount = post?.bodyText ? getWordCount(post.bodyText) : 0;
-  const shouldNoIndex = wordCount < 100;
+  const shouldNoIndex = wordCount < 150;
 
   return {
     title: post?.pageTitle ?? 'Post',

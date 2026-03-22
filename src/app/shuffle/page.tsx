@@ -117,7 +117,7 @@ const Shuffle: React.FC = () => {
 
   return (
     <main className={styles.pageWrapper}>
-      <Script
+      {/* <Script
         async
         src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6675084090356256"
         crossOrigin="anonymous"
@@ -132,7 +132,7 @@ const Shuffle: React.FC = () => {
       />
       <Script id="adsense-init" strategy="afterInteractive">
         {`(adsbygoogle = window.adsbygoogle || []).push({});`}
-      </Script>
+      </Script> */}
       <Headline
         as="h1"
         margin="0 auto var(--spacing-small_300) auto"

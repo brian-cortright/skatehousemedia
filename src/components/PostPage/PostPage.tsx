@@ -19,7 +19,7 @@ export const PostPage: React.FC<PostPageProps> = ({ post }) => {
 
   return (
     <>
-      <Script
+      {/* <Script
         async
         src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6675084090356256"
         crossOrigin="anonymous"
@@ -34,7 +34,7 @@ export const PostPage: React.FC<PostPageProps> = ({ post }) => {
       />
       <Script id="adsense-init" strategy="afterInteractive">
         {`(adsbygoogle = window.adsbygoogle || []).push({});`}
-      </Script>
+      </Script> */}
       <div className={styles.titleWrapper}>
         <Headline as="h1" variant="6">
           {pageTitle}
