@@ -1,6 +1,32 @@
 // @ts-nocheck
 export const posts = [
   {
+    "pageTitle": "The Aeon Movie 2",
+    "postDate": "2025-09-26",
+    "author": "SkateHouseMedia",
+    "bodyText": "<p>The second installment of The Aeon Movie saga. A 5 year project following the relocation effort of Aeon R&D from Bellingham Washington to Moose Pass Alaska. Filmed in Washington State, B.C. Canada, Alaska, Maui. Created and edited by Jacob Delgado. Made possible by the efforts of a deeply passionate group of individuals including Ben Bartlett, Alec Burchuk, Paul MCCauly, Alex Mehlin, Kai Griffin, Devon Dotson, Jake Chastain, John Slugg and Westen Groh. Aeon R&D now operates in Moose Pass Alaska. Manufacturing boards and providing contract machining and repair services to the local area. At the current stage of construction, the compound includes a mini ramp, a shop building, a yurt, an entirely off grid power system and various associated outbuildings. Aeon is the culmination of all these projects as well as what brought us here in the first place; riding the boards we create and creating more boards to ride. We are doing the long play, it is meant to take an eon. Stay tuned to watch it all come together.</p>",
+    "tags": [
+      'Aeon R&D',
+      'Jacob Delgado',
+      'Ben Bartlett',
+      'Alec Burchuk',
+      'Paul MCCauly',
+      'Alex Mehlin',
+      'Kai Griffin',
+      'Devon Dotson',
+      'Jake Chastain',
+      'John Slugg',
+      'Westen Groh'
+    ],
+    "categories": [
+      "Community"
+    ],
+    "ranking": 1,
+    "thumbnail": "https://img.youtube.com/vi/VcipY09AECk/hqdefault.jpg",
+    "featuredVideo": 'https://www.youtube.com/watch?v=VcipY09AECk',
+    "featuredPost": true
+  },
+  {
     "pageTitle": "Bay Sessions 7: Byron and James",
     "postDate": "2013-07-30",
     "author": "SkateHouseMedia",
