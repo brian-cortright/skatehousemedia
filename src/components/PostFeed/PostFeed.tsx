@@ -28,6 +28,7 @@ const PostFeed: React.FC<PostFeedProps> = ({ posts }) => {
       <div className={styles.gridContainer}>
         {[...posts]
           .sort((a, b) => (b.ranking || 0) - (a.ranking || 0))
+          .filter((post) => !post.featuredPost)
           .slice(0, visiblePosts)
           .map((post, indx) => (
             <FeedCard key={`feed-post-${indx}`} {...post} />

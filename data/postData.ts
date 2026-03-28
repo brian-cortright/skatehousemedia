@@ -1,6 +1,24 @@
 // @ts-nocheck
 export const posts = [
   {
+    "pageTitle": "Can't Kickflip Podcast Ep. 24: Brian Peck",
+    "postDate": "2025-09-26",
+    "author": "SkateHouseMedia",
+    "bodyText": "<p>Like many of us during the pandemic, the crew over at the <a href='https://www.youtube.com/@Cantkickflippod'>Can't Kickflip Podcast</a> found themselves diving deep into the world of podcasts to pass the time. They realized that while there are plenty of shows out there, nothing beats a skater sitting down to tell their own story—the raw history of how they became who they are today. Realizing these stories needed to be preserved before they faded into the grapevine, they quit talking about it and got to work. Now deep into their second season with over 24 episodes in the bag, the lineup is looking heavy. They’ve already chopped it up with some of our favorites and total legends like <a href='https://www.youtube.com/watch?v=wurCpWPvtf0'>James Kelly</a>, <a href='https://www.youtube.com/watch?v=sqL7Nnv2GjY'>Ross Druckery</a>, <a href='https://www.youtube.com/watch?v=bNBCrI0VN9k'>Byron Essert</a>, and <a href='https://www.youtube.com/watch?v=q10_mNBOneQ'>Brandon Tissen</a>. With a strong list of legends and up-and-coming rippers still to come, you’re going to want to keep an eye on this space. Tune in, listen back, and enjoy these skater tales with us.</p>",
+    "tags": [
+      "Can't Kickflip Podcast",
+      'Brian Peck'
+    ],
+    "categories": [
+      "Community",
+      "Podcast"
+    ],
+    "ranking": 5,
+    "thumbnail": "https://img.youtube.com/vi/PtahNTwCPuk/hqdefault.jpg",
+    "featuredVideo": 'https://www.youtube.com/watch?v=PtahNTwCPuk',
+    "featuredPost": true
+  },
+  {
     "pageTitle": "The Aeon Movie 2",
     "postDate": "2025-09-26",
     "author": "SkateHouseMedia",
@@ -21,10 +39,10 @@ export const posts = [
     "categories": [
       "Community"
     ],
-    "ranking": 1,
+    "ranking": 5,
     "thumbnail": "https://img.youtube.com/vi/VcipY09AECk/hqdefault.jpg",
     "featuredVideo": 'https://www.youtube.com/watch?v=VcipY09AECk',
-    "featuredPost": true
+    "featuredPost": false
   },
   {
     "pageTitle": "Bay Sessions 7: Byron and James",
