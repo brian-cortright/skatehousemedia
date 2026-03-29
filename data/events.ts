@@ -51,6 +51,16 @@ export const events: Event[] = [
     websiteLink: "https://www.maryhillratz.com/",
   },
   {
+    title: "NCDH Video Premier",
+    date: "2026-04-30",
+    endDate: "2026-04-30",
+    region: "North America",
+    country: "US",
+    featuredImage: 'https://assets.skatehousemedia.com/images/NCDH-EULOGY-DIGITAL-FLYER-4x5-FINAL.jpg',
+    registrationLink: null,
+    websiteLink: "https://www.facebook.com/share/1HhZyxYzY6/",
+  },
+  {
     title: "Giants Head Freeride",
     date: "2026-06-05",
     endDate: "2026-06-07",

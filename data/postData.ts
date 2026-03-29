@@ -1,6 +1,24 @@
 // @ts-nocheck
 export const posts = [
   {
+    "pageTitle": "NCDH Video Premier",
+    "postDate": "2025-09-28",
+    "author": "SkateHouseMedia",
+    "bodyText": "<h2>NCDH Drops New Heat: Film Premiere at Eulogy</h2><p>Asheville’s scene has always been one of the most dedicated in the United States, and on <strong>Thursday, April 30th</strong>, North Carolina Downhill (NCDH) is bringing that energy to <strong>Eulogy</strong> for a night of high-speed cinema and community vibes.</p><p>Featuring a new film that promises to showcase the raw speed and style we’ve come to expect from the NCDH crew.</p><h3>The Details:</h3><ul><li><strong>Where:</strong> Eulogy, Asheville</li><li><strong>Doors:</strong> 7:00 PM (Get in early for the merch and giveaways)</li><li><strong>The Main Event:</strong> 8:00 PM Premiere</li><li><strong>The After-Vibe:</strong> DJ HEEM from 9:00 PM – 11:00 PM</li><li><strong>Entry:</strong> Suggested $10 Donation to keep NCDH initiatives rolling</li></ul><p>Beyond the footage, this is a chance to get the local community in one room to talk shop, grab some fresh gear, and keep our scene growing.</p><p>Once the lights come up, <strong>DJ HEEM</strong> is taking over the decks until 11:00 PM. Bring a tenner for the door, grab a drink, and come celebrate the work NCDH is putting in for the culture.</p><p>See you at Eulogy.</p>",
+    "tags": [
+      "NCDH",
+      'Video Premier'
+    ],
+    "categories": [
+      "Community",
+      "Video Premier"
+    ],
+    "ranking": 5,
+    "thumbnail": 'https://assets.skatehousemedia.com/images/NCDH-EULOGY-DIGITAL-FLYER-4x5-FINAL.jpg',
+    "featuredVideo": null,
+    "featuredPost": false
+  },
+  {
     "pageTitle": "Can't Kickflip Podcast Ep. 24: Brian Peck",
     "postDate": "2025-09-26",
     "author": "SkateHouseMedia",
