@@ -116,3 +116,12 @@ export async function fetchSitemapData() {
   ]);
   return { posts, videoPosts, taxonomy };
 }
+
+// ── Events ──────────────────────────────────────────────────────────
+export async function fetchEvents() {
+  return sanityClient.fetch<any[]>(
+    `*[_type == "event"] | order(date asc) {
+      _id, title, date, endDate, region, country, featuredImage, registrationLink, websiteLink
+    }`
+  );
+}

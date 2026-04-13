@@ -6,7 +6,8 @@ import { Headline, BodyText } from "@/components/Typography/Typography";
 import Button from "@/components/Button/Button";
 import Popup from "@/components/Popup/Popup";
 import RegionBadge from "@/components/RegionBadge/RegionBadge";
-import { events } from "../../../data/events";
+import { useSanityQuery } from "@/hooks/useSanity";
+import { fetchEvents } from "@/lib/sanity";
 import { 
   FilterIcon, 
   AddIcon, 
@@ -24,10 +25,13 @@ export default function EventsPage() {
   const [selectedRegion, setSelectedRegion] = useState<string | null>(null);
   const [isPopupOpen, setIsPopupOpen] = useState(false);
 
+  const { data: eventsData, loading } = useSanityQuery(() => fetchEvents(), []);
+  const events = eventsData || [];
+
   const regions = useMemo(() => {
     const uniqueRegions = new Set(events.map(e => e.region));
-    return Array.from(uniqueRegions).sort();
-  }, []);
+    return Array.from(uniqueRegions).filter(Boolean).sort() as string[];
+  }, [events]);
 
   const filteredEvents = useMemo(() => {
     let result = [...events];
@@ -35,7 +39,7 @@ export default function EventsPage() {
       result = result.filter(e => e.region === selectedRegion);
     }
     return result.sort((a, b) => new Date(a.date).getTime() - new Date(b.date).getTime());
-  }, [selectedRegion]);
+  }, [selectedRegion, events]);
 
   const formatDate = (dateStr: string, endDateStr?: string) => {
     const d = new Date(dateStr);
@@ -60,6 +64,10 @@ export default function EventsPage() {
     
     return `${month} ${day}, ${year}`;
   };
+
+  if (loading) {
+    return <main className={styles.pageWrapper}></main>;
+  }
 
   return (
     <main className={styles.pageWrapper}>

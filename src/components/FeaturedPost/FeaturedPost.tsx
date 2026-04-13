@@ -5,7 +5,7 @@ import localStyles from './FeaturedPost.module.css';
 import { Headline, BodyText } from '../Typography/Typography';
 import LinkOutIcon from '../enhancedSvg/svgs/LinkOutIcon';
 import formatDate from '@/utils/formatDate';
-import { extractExcerpt } from '@/utils/extractors';
+import { getExcerpt } from '@/utils/getWordCount';
 
 interface FeaturedPostProps {
   posts: Post[];
@@ -28,7 +28,7 @@ const FeaturedPost: React.FC<FeaturedPostProps> = ({ posts }) => {
   });
 
   const featured = featuredPosts[0];
-  const excerpt = extractExcerpt(featured.body, 250);
+  const excerpt = getExcerpt(featured.body, 250);
   const slug = featured.slug?.current || '';
 
   return (

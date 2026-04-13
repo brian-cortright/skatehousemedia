@@ -2,13 +2,13 @@ import React from 'react';
 import Link from "next/link";
 import styles from "./PostFeed.module.css";
 import { BodyText, Headline } from "@/components/Typography/Typography";
-import { extractExcerpt } from "@/utils/extractors";
+import { getExcerpt } from "@/utils/getWordCount";
 import type { Post } from "@/types";
 import LinkOutIcon from '../enhancedSvg/svgs/LinkOutIcon';
 import formatDate from '@/utils/formatDate';
 
 const FeedCard: React.FC<Post> = ({ title, publishedAt, author, body, thumbnail, slug }) => {
-  const excerpt = extractExcerpt(body, 120);
+  const excerpt = getExcerpt(body, 120);
   const postSlug = slug?.current || '';
 
   return (
