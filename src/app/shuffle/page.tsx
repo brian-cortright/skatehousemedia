@@ -1,6 +1,7 @@
 "use client";
 import React, { useEffect, useRef, useState } from "react";
-import { posts } from "../../../data/postData";
+import { fetchVideoPosts } from "@/lib/sanity";
+import { useSanityQuery } from "@/hooks/useSanity";
 import styles from "./shuffle.module.css";
 import {
   BodyText,
@@ -10,21 +11,20 @@ import {
 import Button from "@/components/Button";
 import { usePopup } from "@/components/Popup/PopupContext";
 import useTimer from "@/hooks/useTimer";
-import Script from "next/script";
 import type { Post } from "@/types";
 import { getVimeoId } from "@/utils/videoUtils";
 import { getYouTubeId } from "@/utils/videoUtils";
-
-const videoPosts = posts.filter((p: Post) => p.featuredVideo);
 
 const Shuffle: React.FC = () => {
   const videoRef = useRef<HTMLVideoElement>(null);
   const unMutedVideo = useRef(false);
   const videoPlayCount = useRef(0);
   const [currentIndex, setCurentIndex] = useState(0);
-  const [shuffledList, setShuffledList] = useState<Post[]>(videoPosts);
-  const [currentPost, setCurrentPost] = useState<Post | undefined>(shuffledList[currentIndex]);
+  const [shuffledList, setShuffledList] = useState<Post[]>([]);
+  const [currentPost, setCurrentPost] = useState<Post | undefined>(undefined);
   const { openPopup, closePopup } = usePopup();
+
+  const { data: videoPosts } = useSanityQuery(() => fetchVideoPosts(), []);
 
   // Set an expiration time to pop the 'Continue watching' popup
   // Set to 25 minutes
@@ -61,8 +61,8 @@ const Shuffle: React.FC = () => {
     },
   });
 
-  const shuffleVideos = () => {
-    const newShuffle = [].concat(shuffledList as never[]);
+  const shuffleVideos = (posts: Post[]) => {
+    const newShuffle = [...posts];
     for (let i = newShuffle.length - 1; i > 0; i--) {
       const j = Math.floor(Math.random() * (i + 1));
       const temp = newShuffle[i];
@@ -72,6 +72,13 @@ const Shuffle: React.FC = () => {
     setShuffledList(newShuffle);
     setCurentIndex(0);
   };
+
+  // Shuffle when video posts load
+  useEffect(() => {
+    if (videoPosts && videoPosts.length > 0) {
+      shuffleVideos(videoPosts);
+    }
+  }, [videoPosts]);
 
   const setVideoToNext = () => {
     setCurentIndex(currentIndex + 1);
@@ -84,11 +91,6 @@ const Shuffle: React.FC = () => {
     unMutedVideo.current = false;
     videoPlayCount.current = videoPlayCount.current + 1;
   };
-
-  useEffect(() => {
-    shuffleVideos();
-    // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, []);
 
   useEffect(() => {
     setCurrentPost(shuffledList[currentIndex]);
@@ -109,30 +111,18 @@ const Shuffle: React.FC = () => {
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [videoRef.current]);
 
-  const currentSrc = currentPost?.featuredVideo ?? "";
+  const currentSrc = currentPost?.featuredVideo?.url ?? "";
   const youtubeId = currentSrc ? getYouTubeId(currentSrc) : null;
   const vimeoId = currentSrc ? getVimeoId(currentSrc) : null;
 
   const upNext = shuffledList.slice(currentIndex + 1, currentIndex + 4);
 
+  if (!videoPosts) {
+    return <main className={styles.pageWrapper}></main>;
+  }
+
   return (
     <main className={styles.pageWrapper}>
-      {/* <Script
-        async
-        src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6675084090356256"
-        crossOrigin="anonymous"
-        strategy="afterInteractive"
-      />
-      <ins
-        className="adsbygoogle banner"
-        data-ad-client="ca-pub-6675084090356256"
-        data-ad-slot="4725789316"
-        data-ad-format="auto"
-        data-full-width-responsive="true"
-      />
-      <Script id="adsense-init" strategy="afterInteractive">
-        {`(adsbygoogle = window.adsbygoogle || []).push({});`}
-      </Script> */}
       <Headline
         as="h1"
         margin="0 auto var(--spacing-small_300) auto"
@@ -167,14 +157,14 @@ const Shuffle: React.FC = () => {
               controls
               muted
               preload="none"
-              poster={currentPost?.thumbnail ?? undefined}
+              poster={currentPost?.thumbnail?.url ?? undefined}
               ref={videoRef}
               src={currentSrc || undefined}
             />
           )}
           <div className={styles.playerCardBody}>
             <div className={styles.playerCardText}>
-              <Subhead variant="2">{currentPost?.pageTitle}</Subhead>
+              <Subhead variant="2">{currentPost?.title}</Subhead>
               <BodyText variant="5" color="var(--color-grey-600)">
                 {currentIndex + 1} / {shuffledList.length}
               </BodyText>
@@ -183,7 +173,7 @@ const Shuffle: React.FC = () => {
               <Button handleClick={() => setVideoToNext()}>
                 <Subhead variant="4">Next Video</Subhead>
               </Button>
-              <Button handleClick={() => shuffleVideos()}>
+              <Button handleClick={() => shuffleVideos(videoPosts || [])}>
                 <Subhead variant="4">Reshuffle</Subhead>
               </Button>
             </div>
@@ -203,10 +193,10 @@ const Shuffle: React.FC = () => {
             >
               <div
                 className={styles.queueThumbnail}
-                style={{ backgroundImage: `url(${post.thumbnail})` }}
+                style={{ backgroundImage: `url(${post.thumbnail?.url})` }}
               />
               <div className={styles.queueInfo}>
-                <Subhead variant="4">{post.pageTitle}</Subhead>
+                <Subhead variant="4">{post.title}</Subhead>
               </div>
             </button>
           ))}

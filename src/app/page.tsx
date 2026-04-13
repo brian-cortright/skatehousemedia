@@ -3,8 +3,8 @@ import React, { useState, useCallback, useRef } from 'react';
 import styles from "./home.module.css";
 import PostFeed from "@/components/PostFeed/PostFeed";
 import FeaturedPost from "@/components/FeaturedPost/FeaturedPost";
-import { posts } from "../../data/postData";
-import { taxonomy } from "../../data/taxonomy";
+import { fetchPosts, fetchPostCount, fetchTaxonomy } from "@/lib/sanity";
+import { useSanityQuery } from "@/hooks/useSanity";
 import SearchBar from '@/components/SearchBar';
 import Button from '@/components/Button';
 import FilterIcon from '@/components/enhancedSvg/svgs/FilterIcon';
@@ -12,13 +12,16 @@ import CloseIcon from '@/components/enhancedSvg/svgs/CloseIcon';
 import { Headline, BodyText } from '@/components/Typography';
 import { usePopup } from '@/components/Popup/PopupContext';
 import FilterPopupContent from '@/components/FilterPopupContent/FilterPopupContent';
-import type { Post, Taxonomy } from '@/types';
+import type { Post } from '@/types';
 
+const PAGE_SIZE = 20;
 
 export default function Home() {
   const [searchInput, setSearchInput] = useState("");
   const [selectedTags, setSelectedTags] = useState<Set<string>>(new Set());
   const [selectedCategories, setSelectedCategories] = useState<Set<string>>(new Set());
+  const [page, setPage] = useState(0);
+  const [allPosts, setAllPosts] = useState<Post[]>([]);
   const { openPopup } = usePopup();
 
   const selectedTagsRef = useRef(selectedTags);
@@ -26,23 +29,47 @@ export default function Home() {
   const selectedCategoriesRef = useRef(selectedCategories);
   selectedCategoriesRef.current = selectedCategories;
 
-  const sortedCategories = [...(taxonomy as Taxonomy).categories].sort((a, b) => a.localeCompare(b));
-  const sortedTags = [...(taxonomy as Taxonomy).tags].sort((a, b) => a.localeCompare(b));
+  // Fetch initial posts
+  const { loading: postsLoading } = useSanityQuery(async () => {
+    const posts = await fetchPosts(0, PAGE_SIZE);
+    setAllPosts(posts);
+    return posts;
+  }, []);
+
+  // Fetch total count for "load more"
+  const { data: totalCount } = useSanityQuery(() => fetchPostCount(), []);
+
+  // Fetch taxonomy for filters
+  const { data: taxonomy } = useSanityQuery(() => fetchTaxonomy(), []);
+
+  const sortedCategories = taxonomy
+    ? [...taxonomy.categories].filter(Boolean).sort((a, b) => a.localeCompare(b))
+    : [];
+  const sortedTags = taxonomy
+    ? [...taxonomy.tags].filter(Boolean).sort((a, b) => a.localeCompare(b))
+    : [];
+
+  const loadMorePosts = async () => {
+    const nextPage = page + 1;
+    const morePosts = await fetchPosts(nextPage, PAGE_SIZE);
+    setAllPosts((prev) => [...prev, ...morePosts]);
+    setPage(nextPage);
+  };
 
   const filterPosts = useCallback(() => {
-    return posts.filter((post) => {
+    return allPosts.filter((post) => {
       const matchesSearch = searchInput === "" ||
-        post.pageTitle.toLowerCase().includes(searchInput.toLowerCase());
+        post.title.toLowerCase().includes(searchInput.toLowerCase());
 
       const matchesTags = selectedTags.size === 0 ||
-        (post as Post).tags?.some((tag) => selectedTags.has(tag));
+        post.tags?.some((tag) => selectedTags.has(tag));
 
       const matchesCategories = selectedCategories.size === 0 ||
-        (post as Post).categories?.some((cat) => selectedCategories.has(cat));
+        post.categories?.some((cat) => selectedCategories.has(cat));
 
       return matchesSearch && matchesTags && matchesCategories;
     });
-  }, [searchInput, selectedTags, selectedCategories]);
+  }, [searchInput, selectedTags, selectedCategories, allPosts]);
 
   const filteredPosts = filterPosts();
 
@@ -100,10 +127,15 @@ export default function Home() {
   };
 
   const hasActiveFilters = selectedTags.size > 0 || selectedCategories.size > 0;
+  const hasMore = totalCount ? allPosts.length < totalCount : false;
+
+  if (postsLoading) {
+    return <main className={styles.pageWrapper}></main>;
+  }
 
   return (
     <main className={styles.pageWrapper}>
-      <FeaturedPost posts={posts} />
+      <FeaturedPost posts={allPosts} />
       <Headline className={styles.postFeedTitle} as='h2' variant='6'>Posts</Headline>
       <div className={styles.searchWrapper}>
         <Button handleClick={handleFilterClick}>
@@ -137,6 +169,13 @@ export default function Home() {
         </div>
       )}
       <PostFeed posts={filteredPosts} />
+      {hasMore && !hasActiveFilters && (
+        <div style={{ display: 'flex', justifyContent: 'center', margin: 'var(--spacing-medium_300) 0' }}>
+          <Button handleClick={loadMorePosts} mode="dark">
+            Load More Posts
+          </Button>
+        </div>
+      )}
     </main>
   );
 }

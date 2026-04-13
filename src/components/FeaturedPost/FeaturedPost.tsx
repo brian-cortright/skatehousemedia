@@ -2,21 +2,14 @@ import React from 'react';
 import Link from 'next/link';
 import type { Post } from '@/types';
 import localStyles from './FeaturedPost.module.css';
-import { Headline, Subhead, BodyText } from '../Typography/Typography';
+import { Headline, BodyText } from '../Typography/Typography';
 import LinkOutIcon from '../enhancedSvg/svgs/LinkOutIcon';
-import slugify from '@/utils/slugify';
 import formatDate from '@/utils/formatDate';
+import { extractExcerpt } from '@/utils/extractors';
 
 interface FeaturedPostProps {
   posts: Post[];
 }
-
-const stripHtml = (html: string): string => html?.replace(/<[^>]*>/g, "").replace(/&[^;]+;/g, " ") || "";
-
-const truncate = (text: string, maxLength: number = 250): string => {
-  if (text.length <= maxLength) return text;
-  return text.slice(0, maxLength).trimEnd() + "…";
-};
 
 const FeaturedPost: React.FC<FeaturedPostProps> = ({ posts }) => {
   // Find featured posts
@@ -27,16 +20,16 @@ const FeaturedPost: React.FC<FeaturedPostProps> = ({ posts }) => {
     return null;
   }
 
-  // Sort by most recent publish date (postDate)
+  // Sort by most recent publish date (publishedAt)
   featuredPosts.sort((a, b) => {
-    const dateA = new Date(a.postDate || 0).getTime();
-    const dateB = new Date(b.postDate || 0).getTime();
+    const dateA = new Date(a.publishedAt || 0).getTime();
+    const dateB = new Date(b.publishedAt || 0).getTime();
     return dateB - dateA;
   });
 
   const featured = featuredPosts[0];
-  const excerpt = truncate(stripHtml(featured.bodyText));
-  const slug = slugify(featured.pageTitle);
+  const excerpt = extractExcerpt(featured.body, 250);
+  const slug = featured.slug?.current || '';
 
   return (
     <div className={localStyles.featuredWrapper}>
@@ -46,18 +39,18 @@ const FeaturedPost: React.FC<FeaturedPostProps> = ({ posts }) => {
       <div className={localStyles.cardWrapper}>
         <Link href={`/post/${slug}`}>
           <div className={localStyles.card}>
-            {featured.thumbnail && (
+            {featured.thumbnail?.url && (
               <div className={localStyles.imageContainer}>
-                <img src={featured.thumbnail} alt={featured.pageTitle} className={localStyles.thumbnail} />
+                <img src={featured.thumbnail.url} alt={featured.title} className={localStyles.thumbnail} />
                 <div className={localStyles.imageOverlay}>
                   <LinkOutIcon fill='var(--color-grey-800)' size='medium' />
                 </div>
               </div>
             )}
             <div className={localStyles.cardBody}>
-              <Headline as='h3' variant="7">{featured.pageTitle}</Headline>
+              <Headline as='h3' variant="7">{featured.title}</Headline>
               <div className={localStyles.cardMeta}>
-                {featured.postDate && <BodyText variant="5">{formatDate(featured.postDate)}</BodyText>}
+                {featured.publishedAt && <BodyText variant="5">{formatDate(featured.publishedAt)}</BodyText>}
                 {featured.author && <BodyText variant="5">{featured.author}</BodyText>}
               </div>
               {excerpt && (

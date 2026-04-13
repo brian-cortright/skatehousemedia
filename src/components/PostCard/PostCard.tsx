@@ -2,35 +2,28 @@ import React from 'react';
 import Link from "next/link";
 import styles from "./PostCard.module.css";
 import { Subhead, BodyText } from "../Typography/Typography";
-import slugify from "@/utils/slugify";
 import formatDate from "@/utils/formatDate";
+import { extractExcerpt } from "@/utils/extractors";
 
 interface PostCardProps {
-  pageTitle: string;
-  postDate?: string;
+  title: string;
+  slug: { current: string };
+  publishedAt?: string;
   author?: string;
-  bodyText: string;
+  body?: any[];
 }
 
-const stripHtml = (html: string): string => html?.replace(/<[^>]*>/g, "").replace(/&[^;]+;/g, " ") || "";
-
-const truncate = (text: string, maxLength: number = 120): string => {
-  if (text.length <= maxLength) return text;
-  return text.slice(0, maxLength).trimEnd() + "…";
-};
-
-const PostCard: React.FC<PostCardProps> = ({ pageTitle, postDate, author, bodyText }) => {
-  const excerpt = truncate(stripHtml(bodyText));
-  const slug = slugify(pageTitle);
+const PostCard: React.FC<PostCardProps> = ({ title, slug, publishedAt, author, body }) => {
+  const excerpt = extractExcerpt(body, 120);
 
   return (
     <div className={styles.cardWrapper}>
-      <Link href={`/post/${slug}`}>
+      <Link href={`/post/${slug?.current || ''}`}>
         <div className={styles.card}>
           <div className={styles.cardBody}>
-            <Subhead variant="3">{pageTitle}</Subhead>
+            <Subhead variant="3">{title}</Subhead>
             <div className={styles.cardMeta}>
-              {postDate && <BodyText variant="5" color="#999">{formatDate(postDate)}</BodyText>}
+              {publishedAt && <BodyText variant="5" color="#999">{formatDate(publishedAt)}</BodyText>}
               {author && <BodyText variant="5" color="#999">{author}</BodyText>}
             </div>
             {excerpt && (

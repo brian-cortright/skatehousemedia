@@ -1,18 +1,26 @@
 "use client";
 import React from 'react';
-import { posts } from "../../../data/postData";
-import { taxonomy } from "../../../data/taxonomy";
+import { fetchTaxonomy, fetchPosts } from "@/lib/sanity";
+import { useSanityQuery } from "@/hooks/useSanity";
 import slugify from "@/utils/slugify";
 import Link from "next/link";
 import styles from "./categories.module.css";
 import { Headline, BodyText } from "@/components/Typography/Typography";
-import type { Post, Taxonomy } from "@/types";
-
-const getPostCount = (category: string): number =>
-  (posts as Post[]).filter((post) => post.categories?.includes(category)).length;
 
 const CategoriesPage: React.FC = () => {
-  const sorted = [...(taxonomy as Taxonomy).categories].sort((a, b) => a.localeCompare(b));
+  const { data: taxonomy } = useSanityQuery(() => fetchTaxonomy(), []);
+  const { data: allPosts } = useSanityQuery(() => fetchPosts(0, 10000), []);
+
+  const sorted = taxonomy
+    ? [...taxonomy.categories].filter(Boolean).sort((a, b) => a.localeCompare(b))
+    : [];
+
+  const getPostCount = (category: string): number =>
+    (allPosts || []).filter((post) => post.categories?.includes(category)).length;
+
+  if (!taxonomy) {
+    return <main className={styles.pageWrapper}></main>;
+  }
 
   return (
     <>

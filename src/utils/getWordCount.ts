@@ -1,16 +1,37 @@
-function stripHtml(html: string): string {
-  return html.replace(/<[^>]*>/g, '').replace(/&nbsp;/g, ' ').replace(/&amp;/g, '&').replace(/&lt;/g, '<').replace(/&gt;/g, '>').replace(/&quot;/g, '"').replace(/\\n/g, ' ').replace(/\s+/g, ' ').trim();
+/**
+ * Extracts plain text from Portable Text blocks.
+ */
+export function portableTextToPlainText(blocks?: any[]): string {
+  if (!blocks) return "";
+  return blocks
+    .filter((block: any) => block._type === "block")
+    .map((block: any) =>
+      (block.children || [])
+        .map((child: any) => child.text || "")
+        .join("")
+    )
+    .join(" ")
+    .replace(/\s+/g, " ")
+    .trim();
 }
 
-export function getWordCount(html: string): number {
-  const words = stripHtml(html).split(/\s+/).filter((w: string) => w.length > 0);
-  return words.length;
+/**
+ * Gets the word count from Portable Text blocks.
+ */
+export function getWordCount(blocks?: any[]): number {
+  const text = portableTextToPlainText(blocks);
+  if (!text) return 0;
+  return text.split(/\s+/).filter((w: string) => w.length > 0).length;
 }
 
-export function getExcerpt(html: string, maxLength: number = 155): string {
-  const text = stripHtml(html);
+/**
+ * Gets an excerpt from Portable Text blocks.
+ */
+export function getExcerpt(blocks?: any[], maxLength: number = 155): string {
+  const text = portableTextToPlainText(blocks);
+  if (!text) return "";
   if (text.length <= maxLength) return text;
   const truncated = text.slice(0, maxLength);
-  const lastSpace = truncated.lastIndexOf(' ');
-  return (lastSpace > 0 ? truncated.slice(0, lastSpace) : truncated) + '…';
+  const lastSpace = truncated.lastIndexOf(" ");
+  return (lastSpace > 0 ? truncated.slice(0, lastSpace) : truncated) + "…";
 }

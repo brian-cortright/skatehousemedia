@@ -1,18 +1,14 @@
 import type { MetadataRoute } from 'next';
-import { posts } from "../../data/postData";
-import { taxonomy } from "../../data/taxonomy";
+import { fetchSitemapData } from "@/lib/sanity";
 import slugify from "@/utils/slugify";
-import { getWordCount } from "@/utils/getWordCount";
-import type { Post } from "@/types";
 
 export const dynamic = "force-static";
 
 const BASE_URL = "https://skatehousemedia.com";
 
-const videoPosts = posts.filter((p: Post) => p.featuredVideo);
-const indexablePosts = posts.filter((p: Post) => p.bodyText && getWordCount(p.bodyText) >= 100);
+export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
+  const { posts, videoPosts, taxonomy } = await fetchSitemapData();
 
-export default function sitemap(): MetadataRoute.Sitemap {
   const staticPages: MetadataRoute.Sitemap = [
     {
       url: BASE_URL,
@@ -64,28 +60,30 @@ export default function sitemap(): MetadataRoute.Sitemap {
     },
   ];
 
-  const postPages: MetadataRoute.Sitemap = indexablePosts.map((post: Post) => ({
-    url: `${BASE_URL}/post/${slugify(post.pageTitle)}`,
-    lastModified: new Date(),
-    changeFrequency: "yearly" as const,
-    priority: 0.7,
-  }));
+  const postPages: MetadataRoute.Sitemap = posts
+    .filter((p) => p.bodyWordCount >= 100)
+    .map((post) => ({
+      url: `${BASE_URL}/post/${post.slug}`,
+      lastModified: post.publishedAt ? new Date(post.publishedAt) : new Date(),
+      changeFrequency: "yearly" as const,
+      priority: 0.7,
+    }));
 
-  const videoPages: MetadataRoute.Sitemap = videoPosts.map((post: Post) => ({
-    url: `${BASE_URL}/watch/${slugify(post.pageTitle)}`,
+  const videoPages: MetadataRoute.Sitemap = videoPosts.map((post) => ({
+    url: `${BASE_URL}/watch/${post.slug}`,
     lastModified: new Date(),
     changeFrequency: "yearly" as const,
     priority: 0.6,
   }));
 
-  const categoryPages: MetadataRoute.Sitemap = taxonomy.categories.map((cat: string) => ({
+  const categoryPages: MetadataRoute.Sitemap = taxonomy.categories.filter(Boolean).map((cat: string) => ({
     url: `${BASE_URL}/categories/${slugify(cat)}`,
     lastModified: new Date(),
     changeFrequency: "monthly" as const,
     priority: 0.5,
   }));
 
-  const tagPages: MetadataRoute.Sitemap = taxonomy.tags.map((tag: string) => ({
+  const tagPages: MetadataRoute.Sitemap = taxonomy.tags.filter(Boolean).map((tag: string) => ({
     url: `${BASE_URL}/tags/${slugify(tag)}`,
     lastModified: new Date(),
     changeFrequency: "monthly" as const,

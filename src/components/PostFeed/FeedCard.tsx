@@ -2,33 +2,32 @@ import React from 'react';
 import Link from "next/link";
 import styles from "./PostFeed.module.css";
 import { BodyText, Headline } from "@/components/Typography/Typography";
-import slugify from "@/utils/slugify";
-import { stripHtmlAndTruncate } from "@/utils/extractors";
+import { extractExcerpt } from "@/utils/extractors";
 import type { Post } from "@/types";
 import LinkOutIcon from '../enhancedSvg/svgs/LinkOutIcon';
 import formatDate from '@/utils/formatDate';
 
-const FeedCard: React.FC<Post> = ({ pageTitle, postDate, author, bodyText, thumbnail }) => {
-  const excerpt = stripHtmlAndTruncate(bodyText, 120);
-  const slug = slugify(pageTitle);
+const FeedCard: React.FC<Post> = ({ title, publishedAt, author, body, thumbnail, slug }) => {
+  const excerpt = extractExcerpt(body, 120);
+  const postSlug = slug?.current || '';
 
   return (
-    <Link href={`/post/${slug}`} style={{ textDecoration: 'none' }}>
+    <Link href={`/post/${postSlug}`} style={{ textDecoration: 'none' }}>
     <article className={styles.cardWrapper}>
-      {thumbnail && (
+      {thumbnail?.url && (
         <div className={styles.cardImageWrapper}>
-          <img className={styles.cardImage} src={thumbnail} alt={pageTitle} loading="lazy" />
+          <img className={styles.cardImage} src={thumbnail.url} alt={title} loading="lazy" />
           <div className={styles.cardImageOverlay}>
             <LinkOutIcon fill='var(--color-grey-800)' size='medium' />
           </div>
         </div>
       )}
       <div className={styles.cardBody}>
-        <Headline as='h3' variant="7">{pageTitle}</Headline>
+        <Headline as='h3' variant="7">{title}</Headline>
 
-        {postDate || author ? (
+        {publishedAt || author ? (
           <div className={styles.cardMeta}>
-            {postDate && <BodyText variant="5">{formatDate(postDate)}</BodyText>}
+            {publishedAt && <BodyText variant="5">{formatDate(publishedAt)}</BodyText>}
             {author && <BodyText variant="5">by {author}</BodyText>}
           </div>
         ) : null}
@@ -39,7 +38,7 @@ const FeedCard: React.FC<Post> = ({ pageTitle, postDate, author, bodyText, thumb
           </div>
         )}
       </div>
-      {!thumbnail ? (
+      {!thumbnail?.url ? (
         <BodyText className={styles.readMore} variant="5">
           Read More
           <LinkOutIcon fill='var(--color-grey-800)' size='small' />
