@@ -1,7 +1,7 @@
 "use client";
 import React, { useState, useCallback, useRef } from "react";
-import { posts } from "../../../data/postData";
-import { featuredVideosTaxonomy } from "../../../data/taxonomy";
+import { fetchVideoPosts, fetchVideoTaxonomy } from "@/lib/sanity";
+import { useSanityQuery } from "@/hooks/useSanity";
 import styles from "./videos.module.css";
 import { Headline, BodyText } from "@/components/Typography/Typography";
 import VideoCard from "@/components/VideoCard/VideoCard";
@@ -13,10 +13,7 @@ import CloseIcon from "@/components/enhancedSvg/svgs/CloseIcon";
 import { usePopup } from "@/components/Popup/PopupContext";
 import FilterPopupContent from "@/components/FilterPopupContent/FilterPopupContent";
 import Script from "next/script";
-import slugify from "@/utils/slugify";
-import type { Post, Taxonomy } from "@/types";
 
-const videoPosts = posts.filter((p: Post) => p.featuredVideo);
 
 const Videos: React.FC = () => {
   const [searchInput, setSearchInput] = useState("");
@@ -29,23 +26,31 @@ const Videos: React.FC = () => {
   const selectedCategoriesRef = useRef(selectedCategories);
   selectedCategoriesRef.current = selectedCategories;
 
-  const sortedCategories = [...(featuredVideosTaxonomy as Taxonomy).categories].sort((a, b) => a.localeCompare(b));
-  const sortedTags = [...(featuredVideosTaxonomy as Taxonomy).tags].sort((a, b) => a.localeCompare(b));
+  const { data: videoPosts, loading } = useSanityQuery(() => fetchVideoPosts(), []);
+  const { data: taxonomy } = useSanityQuery(() => fetchVideoTaxonomy(), []);
+
+  const sortedCategories = taxonomy
+    ? [...taxonomy.categories].filter(Boolean).sort((a, b) => a.localeCompare(b))
+    : [];
+  const sortedTags = taxonomy
+    ? [...taxonomy.tags].filter(Boolean).sort((a, b) => a.localeCompare(b))
+    : [];
 
   const filterVideos = useCallback(() => {
+    if (!videoPosts) return [];
     return videoPosts.filter((post) => {
       const matchesSearch = searchInput === "" ||
-        post.pageTitle.toLowerCase().includes(searchInput.toLowerCase());
+        post.title.toLowerCase().includes(searchInput.toLowerCase());
 
       const matchesTags = selectedTags.size === 0 ||
-        (post as Post).tags?.some((tag) => selectedTags.has(tag));
+        post.tags?.some((tag: string) => selectedTags.has(tag));
 
       const matchesCategories = selectedCategories.size === 0 ||
-        (post as Post).categories?.some((cat) => selectedCategories.has(cat));
+        post.categories?.some((cat: string) => selectedCategories.has(cat));
 
       return matchesSearch && matchesTags && matchesCategories;
     });
-  }, [searchInput, selectedTags, selectedCategories]);
+  }, [searchInput, selectedTags, selectedCategories, videoPosts]);
 
   const filteredVideos = filterVideos();
 
@@ -103,6 +108,10 @@ const Videos: React.FC = () => {
   };
 
   const hasActiveFilters = selectedTags.size > 0 || selectedCategories.size > 0;
+
+  if (loading) {
+    return <main className={styles.pageWrapper}></main>;
+  }
 
   return (
     <>
@@ -166,9 +175,9 @@ const Videos: React.FC = () => {
         {filteredVideos && filteredVideos.length > 0 && (
           <div className={styles.grid}>
             {filteredVideos.map((post, index) => {
-              const slug = slugify(post.pageTitle);
-              const thumbnail = post.thumbnail || '';
-              const title = post.pageTitle;
+              const slug = post.slug?.current || '';
+              const thumbnail = post.thumbnail?.url || '';
+              const title = post.title;
               return (
                 <LazyWrapper
                   enable={index > 9}

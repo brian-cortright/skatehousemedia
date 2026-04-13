@@ -2,10 +2,9 @@
 import React from 'react';
 import styles from "./PostPage.module.css";
 import { Headline, Subhead, BodyText } from "@/components/Typography/Typography";
-import Script from "next/script";
 import slugify from "@/utils/slugify";
 import Link from "next/link";
-import Markdown from "@/components/Markdown/Markdown";
+import PortableBody from "@/components/PortableBody/PortableBody";
 import VideoPlayer from "@/components/VideoPlayer";
 import type { Post } from "@/types";
 import formatDate from "@/utils/formatDate";
@@ -15,34 +14,18 @@ interface PostPageProps {
 }
 
 export const PostPage: React.FC<PostPageProps> = ({ post }) => {
-  const { pageTitle, postDate, author, bodyText, tags, categories, featuredVideo, thumbnail } = post || {};
+  const { title, publishedAt, author, body, tags, categories, featuredVideo, thumbnail } = post || {};
 
   return (
     <>
-      {/* <Script
-        async
-        src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6675084090356256"
-        crossOrigin="anonymous"
-        strategy="afterInteractive"
-      />
-      <ins
-        className="adsbygoogle banner"
-        data-ad-client="ca-pub-6675084090356256"
-        data-ad-slot="4725789316"
-        data-ad-format="auto"
-        data-full-width-responsive="true"
-      />
-      <Script id="adsense-init" strategy="afterInteractive">
-        {`(adsbygoogle = window.adsbygoogle || []).push({});`}
-      </Script> */}
       <div className={styles.titleWrapper}>
         <Headline as="h1" variant="6">
-          {pageTitle}
+          {title}
         </Headline>
       </div>
-      {postDate || author ? (
+      {publishedAt || author ? (
         <div className={styles.bylineWrapper}>
-          {postDate ? <Subhead variant="3">Published on: {formatDate(postDate)}</Subhead> : null}
+          {publishedAt ? <Subhead variant="3">Published on: {formatDate(publishedAt)}</Subhead> : null}
           {author ? <Subhead variant="3">By: {author}</Subhead> : null}
         </div>
       ) : null}
@@ -78,11 +61,11 @@ export const PostPage: React.FC<PostPageProps> = ({ post }) => {
           ) : null}
         </div>
       ) : null}
-      {featuredVideo ? (
-        <VideoPlayer src={featuredVideo} thumbnail={thumbnail ?? undefined} />
+      {featuredVideo?.url ? (
+        <VideoPlayer src={featuredVideo.url} thumbnail={thumbnail?.url ?? undefined} />
       ) : null}
       <div className={styles.contentWrapper}>
-        <Markdown text={bodyText} />
+        <PortableBody value={body} />
       </div>
     </>
   );

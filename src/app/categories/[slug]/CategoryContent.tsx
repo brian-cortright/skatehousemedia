@@ -24,11 +24,12 @@ const CategoryContent: React.FC<CategoryContentProps> = ({ category, posts }) =>
         <div className={styles.grid}>
           {posts.map((post, index) => (
             <PostCard
-              key={`${post.pageTitle}-${index}`}
-              pageTitle={post.pageTitle}
-              postDate={post.postDate}
+              key={`${post.title}-${index}`}
+              title={post.title}
+              slug={post.slug}
+              publishedAt={post.publishedAt}
               author={post.author}
-              bodyText={post.bodyText}
+              body={post.body}
             />
           ))}
         </div>

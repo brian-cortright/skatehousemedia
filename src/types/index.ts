@@ -1,13 +1,14 @@
 export interface Post {
-  pageTitle: string;
-  postDate?: string;
+  _id?: string;
+  title: string;
+  slug: { current: string };
+  publishedAt?: string;
   author?: string;
-  bodyText: string;
-  thumbnail?: string | null;
-  featuredVideo?: string | null;
+  body?: any[];
+  thumbnail?: { url?: string } | null;
+  featuredVideo?: { url?: string } | null;
   tags?: string[];
   categories?: string[];
-  ranking?: number;
   featuredPost?: boolean | string;
 }
 
