@@ -3,7 +3,7 @@
   border-radius: var(--border-radius-600);
   cursor: pointer;
   display: inline-flex;
-  font-family: 'Noto Sans', sans-serif;
+  font-family: "Noto Sans", sans-serif;
   justify-content: center;
   padding: var(--spacing-small_200) var(--spacing-medium_100);
   text-decoration: none;
@@ -13,6 +13,37 @@
 
 .button > * {
   color: inherit;
+}
+
+/* Force nested Typography/etc. to inherit the button's color (higher specificity than .typography). */
+.button.light,
+.button.light * {
+  color: var(--color-shm-black);
+}
+
+.button.dark,
+.button.dark * {
+  color: var(--color-white);
+}
+
+.button.outline.light,
+.button.outline.light * {
+  color: var(--color-grey-800);
+}
+
+.button.outline.light:hover,
+.button.outline.light:hover * {
+  color: var(--color-shm-black);
+}
+
+.button.outline.dark,
+.button.outline.dark * {
+  color: var(--color-white);
+}
+
+.button.outline.dark:hover,
+.button.outline.dark:hover * {
+  color: var(--color-shm-black);
 }
 
 /* Light mode */
