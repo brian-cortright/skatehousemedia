@@ -12,7 +12,7 @@ interface VideoCardProps {
 const VideoCard: React.FC<VideoCardProps> = ({ slug, thumbnail, title }) => {
   return (
     <div className={styles.cardWrapper}>
-      <Link href={`watch/${slug}`}>
+      <Link href={`/watch/${slug}`}>
         <div className={styles.card}>
           <div className={styles.imageWrapper}>
             <img alt={title} loading="lazy" src={thumbnail} />
