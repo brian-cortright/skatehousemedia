@@ -1,0 +1,11 @@
+---
+import Base from "@/layouts/Base.astro";
+import HomeIsland from "@/components/islands/HomeIsland";
+---
+
+<Base
+  title="SkateHouseMedia"
+  description="Downhill skateboarding videos, event coverage, rider profiles, and community content since 2009"
+>
+  <HomeIsland client:only="react" pathname={Astro.url.pathname} />
+</Base>

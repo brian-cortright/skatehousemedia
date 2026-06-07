@@ -2,6 +2,7 @@
 
 # dependencies
 /node_modules
+/sanity/node_modules
 /.pnp
 .wrangler/
 .pnp.js
@@ -10,13 +11,16 @@
 # testing
 /coverage
 
-# next.js
+# Astro
+.astro/
+dist/
+
+# next.js (legacy)
 /.next/
 /out/
 
 # production
 /build
-/dist/
 
 # misc
 .DS_Store
@@ -30,6 +34,7 @@ yarn-error.log*
 
 # local env files
 .env*.local
+.env
 
 # vercel
 .vercel

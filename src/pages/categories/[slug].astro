@@ -1,0 +1,44 @@
+---
+import type { GetStaticPaths } from "astro";
+import Base from "@/layouts/Base.astro";
+import CategoryIsland from "@/components/islands/CategoryIsland";
+import { fetchTaxonomy, fetchPostsByCategory } from "@/lib/sanity";
+import slugify from "@/utils/slugify";
+import type { Post } from "@/types";
+
+export const getStaticPaths: GetStaticPaths = async () => {
+  const taxonomy = await fetchTaxonomy();
+  const categories = taxonomy.categories.filter(Boolean);
+
+  const paths = await Promise.all(
+    categories.map(async (category) => {
+      const posts = await fetchPostsByCategory(category);
+      return {
+        params: { slug: slugify(category) },
+        props: { category, posts },
+      };
+    })
+  );
+
+  return paths;
+};
+
+interface Props {
+  category: string;
+  posts: Post[];
+}
+
+const { category, posts } = Astro.props as unknown as Props;
+---
+
+<Base
+  title={`${category} — SkateHouseMedia`}
+  description={`Posts in the ${category} category on SkateHouseMedia.`}
+>
+  <CategoryIsland
+    client:only="react"
+    pathname={Astro.url.pathname}
+    category={category}
+    posts={posts}
+  />
+</Base>

@@ -1,0 +1,11 @@
+---
+import Base from "@/layouts/Base.astro";
+import CategoriesIsland from "@/components/islands/CategoriesIsland";
+---
+
+<Base
+  title="Categories — SkateHouseMedia"
+  description="Browse all post categories on SkateHouseMedia — downhill skateboarding event coverage, rider profiles, road trips, and more."
+>
+  <CategoriesIsland client:only="react" pathname={Astro.url.pathname} />
+</Base>

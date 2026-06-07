@@ -4,12 +4,12 @@ import Navigation from "./Navigation/Navigation";
 import Footer from "./Navigation/Footer";
 import { PopupProvider } from "./Popup/PopupContext";
 
-interface ClientLayoutProps {
+interface AppShellProps {
   children: React.ReactNode;
   pathname?: string;
 }
 
-const ClientLayout: React.FC<ClientLayoutProps> = ({ children, pathname }) => {
+const AppShell: React.FC<AppShellProps> = ({ children, pathname }) => {
   return (
     <PopupProvider>
       <Navigation pathname={pathname} />
@@ -19,4 +19,4 @@ const ClientLayout: React.FC<ClientLayoutProps> = ({ children, pathname }) => {
   );
 };
 
-export default ClientLayout;
+export default AppShell;

@@ -1,8 +1,13 @@
 "use client";
 import React from "react";
-import { PortableText, PortableTextComponents } from "@portabletext/react";
-import { BodyText, Headline, Subhead } from "@/components/Typography/Typography";
-import Link from "next/link";
+import { PortableText } from "@portabletext/react";
+import type { PortableTextComponents } from "@portabletext/react";
+import {
+  BodyText,
+  Headline,
+  Subhead,
+} from "@/components/Typography/Typography";
+import Link from "@/components/Link";
 
 interface PortableBodyProps {
   value?: any[];
@@ -47,8 +52,12 @@ const components: PortableTextComponents = {
     ),
   },
   list: {
-    bullet: ({ children }) => <ul style={{ paddingLeft: "1.5rem" }}>{children}</ul>,
-    number: ({ children }) => <ol style={{ paddingLeft: "1.5rem" }}>{children}</ol>,
+    bullet: ({ children }) => (
+      <ul style={{ paddingLeft: "1.5rem" }}>{children}</ul>
+    ),
+    number: ({ children }) => (
+      <ol style={{ paddingLeft: "1.5rem" }}>{children}</ol>
+    ),
   },
   listItem: {
     bullet: ({ children }) => (
@@ -73,10 +82,24 @@ const components: PortableTextComponents = {
     videoEmbed: ({ value }) => {
       if (!value?.url) return null;
       return (
-        <div style={{ position: "relative", paddingBottom: "56.25%", height: 0, margin: "var(--spacing-medium_200) 0" }}>
+        <div
+          style={{
+            position: "relative",
+            paddingBottom: "56.25%",
+            height: 0,
+            margin: "var(--spacing-medium_200) 0",
+          }}
+        >
           <iframe
             src={value.url}
-            style={{ position: "absolute", top: 0, left: 0, width: "100%", height: "100%", border: 0 }}
+            style={{
+              position: "absolute",
+              top: 0,
+              left: 0,
+              width: "100%",
+              height: "100%",
+              border: 0,
+            }}
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
             allowFullScreen
           />

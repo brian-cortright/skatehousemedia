@@ -1,0 +1,12 @@
+# Compiled Sanity Studio
+/dist
+
+# Temporary Sanity runtime
+/.sanity
+
+# Dependencies
+/node_modules
+
+# Env
+.env
+*.local

@@ -1,5 +1,5 @@
-import React from 'react';
-import Link from "next/link";
+import React from "react";
+import Link from "@/components/Link";
 import styles from "./VideoCard.module.css";
 import { Subhead } from "../Typography/Typography";
 
@@ -18,9 +18,7 @@ const VideoCard: React.FC<VideoCardProps> = ({ slug, thumbnail, title }) => {
             <img alt={title} loading="lazy" src={thumbnail} />
           </div>
           <div className={styles.titleWrapper}>
-            <Subhead variant='3'>
-              {title}
-            </Subhead>
+            <Subhead variant="3">{title}</Subhead>
           </div>
         </div>
       </Link>

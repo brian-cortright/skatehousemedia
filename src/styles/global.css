@@ -1,0 +1,132 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap");
+
+:root {
+  font-family: "Noto Sans";
+  font-weight: 400;
+
+  /* Colors V2 */
+  --color-black: #000000;
+  --color-white: #ffffff;
+  --color-shm-black: #131314;
+  --color-grey-50: #1e1f20;
+  --color-grey-100: #212121;
+  --color-grey-200: #2d2d2d;
+  --color-grey-300: #404040;
+  --color-grey-400: #757575;
+  --color-grey-500: #9e9e9e;
+  --color-grey-600: #bdbdbd;
+  --color-grey-700: #e0e0e0;
+  --color-grey-800: #eeeeee;
+  --color-grey-900: #fafafa;
+  --accent-blue-50: #004a77;
+  --accent-blue-100: #7fcfff;
+  --accent-red-50: #ff6090;
+  --accent-red-100: #e91e63;
+  --accent-yellow-50: #ffd740;
+  --accent-yellow-100: #ffc107;
+  --accent-green-50: #66bb6a;
+  --accent-green-100: #4caf50;
+
+  /* Font Sizing */
+  --font-min: 10px;
+  --font-xs: 12px;
+  --font-sm: 14px;
+  --font-base: 16px;
+  --font-base-plus: 20px;
+  --font-md: 24px;
+  --font-md-plus: 32px;
+  --font-lg: 40px;
+  --font-lg-plus: 44px;
+  --font-xl: 48px;
+  --font-xxl: 56px;
+  --font-xxxl: 64px;
+  --font-xxxxl: 72px;
+  --font-max: 80px;
+
+  /* Font Weights */
+  --weight-thin: 200;
+  --weight-light: 300;
+  --weight-normal: 400;
+  --weight-medium: 500;
+  --weight-bold: 700;
+  --weight-bolder: 800;
+
+  /* Line Heights */
+  --line-height-sm: 80%;
+  --line-height-base: 100%;
+  --line-height-base-plus: 110%;
+  --line-height-md-plus: 116%;
+  --line-height-lg: 125%;
+  --line-height-xl: 130%;
+  --line-height-xxl: 135%;
+  --line-height-max: 150%;
+
+  /* Spacing */
+  --spacing-small_50: 2px;
+  --spacing-small_100: 4px;
+  --spacing-small_150: 6px;
+  --spacing-small_200: 8px;
+  --spacing-small_300: 12px;
+  --spacing-small_400: 14px;
+  --spacing-medium_100: 16px;
+  --spacing-medium_150: 20px;
+  --spacing-medium_200: 24px;
+  --spacing-medium_300: 32px;
+  --spacing-medium_350: 36px;
+  --spacing-large_50: 40px;
+  --spacing-large_100: 48px;
+  --spacing-large_150: 56px;
+  --spacing-large_200: 64px;
+  --spacing-large_300: 80px;
+  --spacing-large_400: 96px;
+  --spacing-large_500: 128px;
+  --spacing-large_600: 256px;
+
+  /* Border Radius */
+  --border-radius-50: 4px;
+  --border-radius-100: 8px;
+  --border-radius-200: 12px;
+  --border-radius-300: 16px;
+  --border-radius-400: 20px;
+  --border-radius-500: 24px;
+  --border-radius-600: 28px;
+
+  /* Transitions */
+  --transition-default: all 300ms ease;
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+html,
+body {
+  max-width: 100vw;
+  min-height: 100vh;
+  overflow-x: hidden;
+}
+
+body {
+  color: rgb(var(--color-grey-800));
+  background: var(--color-shm-black);
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+@media (prefers-color-scheme: dark) {
+  html {
+    color-scheme: dark;
+  }
+}
+
+.adsbygoogle.banner {
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  width: 100%;
+}

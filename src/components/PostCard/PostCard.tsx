@@ -1,5 +1,5 @@
-import React from 'react';
-import Link from "next/link";
+import React from "react";
+import Link from "@/components/Link";
 import styles from "./PostCard.module.css";
 import { Subhead, BodyText } from "../Typography/Typography";
 import formatDate from "@/utils/formatDate";
@@ -13,18 +13,32 @@ interface PostCardProps {
   body?: any[];
 }
 
-const PostCard: React.FC<PostCardProps> = ({ title, slug, publishedAt, author, body }) => {
+const PostCard: React.FC<PostCardProps> = ({
+  title,
+  slug,
+  publishedAt,
+  author,
+  body,
+}) => {
   const excerpt = extractExcerpt(body, 120);
 
   return (
     <div className={styles.cardWrapper}>
-      <Link href={`/post/${slug?.current || ''}`}>
+      <Link href={`/post/${slug?.current || ""}`}>
         <div className={styles.card}>
           <div className={styles.cardBody}>
             <Subhead variant="3">{title}</Subhead>
             <div className={styles.cardMeta}>
-              {publishedAt && <BodyText variant="5" color="#999">{formatDate(publishedAt)}</BodyText>}
-              {author && <BodyText variant="5" color="#999">{author}</BodyText>}
+              {publishedAt && (
+                <BodyText variant="5" color="#999">
+                  {formatDate(publishedAt)}
+                </BodyText>
+              )}
+              {author && (
+                <BodyText variant="5" color="#999">
+                  {author}
+                </BodyText>
+              )}
             </div>
             {excerpt && (
               <div className={styles.cardExcerpt}>
