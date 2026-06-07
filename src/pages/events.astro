@@ -1,0 +1,11 @@
+---
+import Base from "@/layouts/Base.astro";
+import EventsIsland from "@/components/islands/EventsIsland";
+---
+
+<Base
+  title="SkateHouseMedia | Events Calendar"
+  description="Upcoming skateboarding events, competitions, and community meetups around the globe."
+>
+  <EventsIsland client:only="react" pathname={Astro.url.pathname} />
+</Base>

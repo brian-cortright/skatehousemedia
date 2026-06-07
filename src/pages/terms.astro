@@ -1,0 +1,11 @@
+---
+import Base from "@/layouts/Base.astro";
+import TermsIsland from "@/components/islands/TermsIsland";
+---
+
+<Base
+  title="Terms of Service — SkateHouseMedia"
+  description="Terms of Service for SkateHouseMedia.com — the rules and guidelines governing your use of the site."
+>
+  <TermsIsland client:only="react" pathname={Astro.url.pathname} />
+</Base>

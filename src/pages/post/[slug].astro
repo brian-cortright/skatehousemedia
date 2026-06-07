@@ -1,0 +1,36 @@
+---
+import type { GetStaticPaths } from "astro";
+import Base from "@/layouts/Base.astro";
+import PostIsland from "@/components/islands/PostIsland";
+import { fetchAllPostSlugs, fetchPostBySlug } from "@/lib/sanity";
+import { extractExcerpt } from "@/utils/extractors";
+import type { Post } from "@/types";
+
+export const getStaticPaths: GetStaticPaths = async () => {
+  const slugs = await fetchAllPostSlugs();
+  const paths = await Promise.all(
+    slugs.map(async (s) => {
+      const post = await fetchPostBySlug(s.slug);
+      return { params: { slug: s.slug }, props: { post } };
+    })
+  );
+  return paths;
+};
+
+interface Props {
+  post: Post;
+}
+
+const { post } = Astro.props as unknown as Props;
+const description = post?.body ? extractExcerpt(post.body, 200) : undefined;
+const ogImage = (post?.thumbnail as any)?.url;
+---
+
+<Base
+  title={post?.title ? `${post.title} — SkateHouseMedia` : "SkateHouseMedia"}
+  description={description || "Downhill skateboarding videos, event coverage, rider profiles, and community content since 2009"}
+  ogImage={ogImage}
+  ogType="article"
+>
+  <PostIsland client:only="react" pathname={Astro.url.pathname} post={post} />
+</Base>

@@ -1,5 +1,5 @@
-import React from 'react';
-import Link from "next/link";
+import React from "react";
+import Link from "@/components/Link";
 import { MidsLogo, VenomLogo } from "../enhancedSvg/svgs";
 import { Subhead, BodyText } from "../Typography/Typography";
 import styles from "./Footer.module.css";
@@ -9,7 +9,11 @@ const Footer: React.FC = () => {
     <footer className={styles.container}>
       <div className={styles.footerTop}>
         <div className={styles.sponsorsWrapper}>
-          <BodyText className={styles.introParagraph} textAlignment="center" variant="6">
+          <BodyText
+            className={styles.introParagraph}
+            textAlignment="center"
+            variant="6"
+          >
             {`This months site fees are paid for by:`}
           </BodyText>
           <div className={styles.sponsorWrapper}>
@@ -23,20 +27,28 @@ const Footer: React.FC = () => {
         </div>
         <nav className={styles.footerNav}>
           <ul className={styles.navLinks}>
-            <Subhead as='h2' variant="2">Quick Links</Subhead>
+            <Subhead as="h2" variant="2">
+              Quick Links
+            </Subhead>
             <li>
               <Link href="/">
-              <Subhead as='h3' fontWeight="400" variant="4">Blog</Subhead>
+                <Subhead as="h3" fontWeight="400" variant="4">
+                  Blog
+                </Subhead>
               </Link>
             </li>
             <li>
               <Link href="/videos">
-              <Subhead as='h3' fontWeight="400" variant="4">Videos</Subhead>
+                <Subhead as="h3" fontWeight="400" variant="4">
+                  Videos
+                </Subhead>
               </Link>
             </li>
             <li>
               <Link href="/events">
-                <Subhead as='h3' fontWeight="400" variant="4">Events</Subhead>
+                <Subhead as="h3" fontWeight="400" variant="4">
+                  Events
+                </Subhead>
               </Link>
             </li>
             {/* <li>
@@ -46,53 +58,73 @@ const Footer: React.FC = () => {
             </li> */}
           </ul>
           <ul className={styles.navLinks}>
-            <Subhead as='h2' variant="2">Browse</Subhead>
+            <Subhead as="h2" variant="2">
+              Browse
+            </Subhead>
             <li>
               <Link href="/shuffle">
-              <Subhead as='h3' fontWeight="400" variant="4">Shuffle</Subhead>
+                <Subhead as="h3" fontWeight="400" variant="4">
+                  Shuffle
+                </Subhead>
               </Link>
             </li>
             <li>
               <Link href="/categories">
-              <Subhead as='h3' fontWeight="400" variant="4">Categories</Subhead>
+                <Subhead as="h3" fontWeight="400" variant="4">
+                  Categories
+                </Subhead>
               </Link>
             </li>
             <li>
               <Link href="/tags">
-                <Subhead as='h3' fontWeight="400" variant="4">Tags</Subhead>
+                <Subhead as="h3" fontWeight="400" variant="4">
+                  Tags
+                </Subhead>
               </Link>
             </li>
             <li>
               <Link href="/contact">
-                <Subhead as='h3' fontWeight="400" variant="4">Contact</Subhead>
+                <Subhead as="h3" fontWeight="400" variant="4">
+                  Contact
+                </Subhead>
               </Link>
             </li>
           </ul>
           <ul className={styles.navLinks}>
-            <Subhead as='h2' variant="2">Boring Stuff</Subhead>
+            <Subhead as="h2" variant="2">
+              Boring Stuff
+            </Subhead>
             <li>
               <Link href="/contact">
-                <Subhead as='h3' fontWeight="400" variant="4">Contact</Subhead>
+                <Subhead as="h3" fontWeight="400" variant="4">
+                  Contact
+                </Subhead>
               </Link>
             </li>
             <li>
               <Link href="/privacy-policy">
-                <Subhead as='h3' fontWeight="400" variant="4">Privacy Policy</Subhead>
+                <Subhead as="h3" fontWeight="400" variant="4">
+                  Privacy Policy
+                </Subhead>
               </Link>
             </li>
             <li>
               <Link href="/terms">
-                <Subhead as='h3' fontWeight="400" variant="4">Terms of Service</Subhead>
+                <Subhead as="h3" fontWeight="400" variant="4">
+                  Terms of Service
+                </Subhead>
               </Link>
             </li>
           </ul>
         </nav>
       </div>
       <div className={styles.footerBottom}>
-        <BodyText variant="5">© {new Date().getFullYear()} Skatehouse Media. All rights reserved.</BodyText>
+        <BodyText variant="5">
+          © {new Date().getFullYear()} Skatehouse Media. All rights reserved.
+        </BodyText>
       </div>
     </footer>
-  )
-}
+  );
+};
 
-export default Footer
+export default Footer;

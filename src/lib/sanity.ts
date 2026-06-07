@@ -1,11 +1,33 @@
 import { createClient } from "@sanity/client";
+import imageUrlBuilder from "@sanity/image-url";
+
+const projectId =
+  import.meta.env.PUBLIC_SANITY_PROJECT_ID ||
+  (typeof process !== "undefined"
+    ? process.env.PUBLIC_SANITY_PROJECT_ID
+    : undefined);
+const dataset =
+  import.meta.env.PUBLIC_SANITY_DATASET ||
+  (typeof process !== "undefined"
+    ? process.env.PUBLIC_SANITY_DATASET
+    : undefined);
+
+if (!projectId) {
+  throw new Error("Missing PUBLIC_SANITY_PROJECT_ID environment variable");
+}
+if (!dataset) {
+  throw new Error("Missing PUBLIC_SANITY_DATASET environment variable");
+}
 
 export const sanityClient = createClient({
-  projectId: process.env.NEXT_PUBLIC_SANITY_PROJECT_ID!,
-  dataset: process.env.NEXT_PUBLIC_SANITY_DATASET!,
+  projectId,
+  dataset,
   apiVersion: "2024-01-01",
   useCdn: true,
 });
+
+const builder = imageUrlBuilder(sanityClient);
+export const urlFor = (source: any) => builder.image(source);
 
 // ── Paginated posts (newest first) ──────────────────────────────────
 export async function fetchPosts(page = 0, pageSize = 20) {
@@ -16,7 +38,7 @@ export async function fetchPosts(page = 0, pageSize = 20) {
       _id, title, slug, publishedAt, author, tags, categories,
       thumbnail, featuredVideo, featuredPost
     }`,
-    { start, end }
+    { start, end },
   );
 }
 
@@ -29,14 +51,14 @@ export async function fetchPostCount() {
 export async function fetchPostBySlug(slug: string) {
   return sanityClient.fetch<any>(
     `*[_type == "post" && slug.current == $slug][0]`,
-    { slug }
+    { slug },
   );
 }
 
 // ── All post slugs (for generateStaticParams) ───────────────────────
 export async function fetchAllPostSlugs() {
   return sanityClient.fetch<{ slug: string }[]>(
-    `*[_type == "post"]{ "slug": slug.current }`
+    `*[_type == "post"]{ "slug": slug.current }`,
   );
 }
 
@@ -46,14 +68,14 @@ export async function fetchVideoPosts() {
     `*[_type == "post" && defined(featuredVideo)] | order(publishedAt desc) {
       _id, title, slug, publishedAt, author, tags, categories,
       thumbnail, featuredVideo, featuredPost
-    }`
+    }`,
   );
 }
 
 // ── Video post slugs (for generateStaticParams) ─────────────────────
 export async function fetchVideoPostSlugs() {
   return sanityClient.fetch<{ slug: string }[]>(
-    `*[_type == "post" && defined(featuredVideo)]{ "slug": slug.current }`
+    `*[_type == "post" && defined(featuredVideo)]{ "slug": slug.current }`,
   );
 }
 
@@ -63,7 +85,7 @@ export async function fetchTaxonomy() {
     `{
       "categories": array::unique(*[_type == "post"].categories[]),
       "tags": array::unique(*[_type == "post"].tags[])
-    }`
+    }`,
   );
 }
 
@@ -73,7 +95,7 @@ export async function fetchVideoTaxonomy() {
     `{
       "categories": array::unique(*[_type == "post" && defined(featuredVideo)].categories[]),
       "tags": array::unique(*[_type == "post" && defined(featuredVideo)].tags[])
-    }`
+    }`,
   );
 }
 
@@ -84,7 +106,7 @@ export async function fetchPostsByCategory(category: string) {
       _id, title, slug, publishedAt, author, tags, categories,
       thumbnail, featuredVideo, featuredPost
     }`,
-    { category }
+    { category },
   );
 }
 
@@ -95,22 +117,24 @@ export async function fetchPostsByTag(tag: string) {
       _id, title, slug, publishedAt, author, tags, categories,
       thumbnail, featuredVideo, featuredPost
     }`,
-    { postTag: tag }
+    { postTag: tag },
   );
 }
 
 // ── Sitemap helpers ─────────────────────────────────────────────────
 export async function fetchSitemapData() {
   const [posts, videoPosts, taxonomy] = await Promise.all([
-    sanityClient.fetch<{ slug: string; publishedAt: string; bodyWordCount: number }[]>(
+    sanityClient.fetch<
+      { slug: string; publishedAt: string; bodyWordCount: number }[]
+    >(
       `*[_type == "post"]{
         "slug": slug.current,
         publishedAt,
         "bodyWordCount": length(pt::text(body))
-      }`
+      }`,
     ),
     sanityClient.fetch<{ slug: string }[]>(
-      `*[_type == "post" && defined(featuredVideo)]{ "slug": slug.current }`
+      `*[_type == "post" && defined(featuredVideo)]{ "slug": slug.current }`,
     ),
     fetchTaxonomy(),
   ]);
@@ -122,6 +146,6 @@ export async function fetchEvents() {
   return sanityClient.fetch<any[]>(
     `*[_type == "event"] | order(date asc) {
       _id, title, date, endDate, region, country, featuredImage, registrationLink, websiteLink
-    }`
+    }`,
   );
 }

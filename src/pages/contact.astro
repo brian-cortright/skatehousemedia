@@ -1,0 +1,11 @@
+---
+import Base from "@/layouts/Base.astro";
+import ContactIsland from "@/components/islands/ContactIsland";
+---
+
+<Base
+  title="Contact Us — SkateHouseMedia"
+  description="Get in touch with SkateHouseMedia — questions, content inquiries, collaboration ideas, or site issues."
+>
+  <ContactIsland client:only="react" pathname={Astro.url.pathname} />
+</Base>

@@ -1,9 +1,13 @@
 "use client";
-import React from 'react';
+import React from "react";
 import styles from "./PostPage.module.css";
-import { Headline, Subhead, BodyText } from "@/components/Typography/Typography";
+import {
+  Headline,
+  Subhead,
+  BodyText,
+} from "@/components/Typography/Typography";
 import slugify from "@/utils/slugify";
-import Link from "next/link";
+import Link from "@/components/Link";
 import PortableBody from "@/components/PortableBody/PortableBody";
 import VideoPlayer from "@/components/VideoPlayer";
 import type { Post } from "@/types";
@@ -14,7 +18,16 @@ interface PostPageProps {
 }
 
 export const PostPage: React.FC<PostPageProps> = ({ post }) => {
-  const { title, publishedAt, author, body, tags, categories, featuredVideo, thumbnail } = post || {};
+  const {
+    title,
+    publishedAt,
+    author,
+    body,
+    tags,
+    categories,
+    featuredVideo,
+    thumbnail,
+  } = post || {};
 
   return (
     <>
@@ -25,7 +38,11 @@ export const PostPage: React.FC<PostPageProps> = ({ post }) => {
       </div>
       {publishedAt || author ? (
         <div className={styles.bylineWrapper}>
-          {publishedAt ? <Subhead variant="3">Published on: {formatDate(publishedAt)}</Subhead> : null}
+          {publishedAt ? (
+            <Subhead variant="3">
+              Published on: {formatDate(publishedAt)}
+            </Subhead>
+          ) : null}
           {author ? <Subhead variant="3">By: {author}</Subhead> : null}
         </div>
       ) : null}
@@ -39,7 +56,8 @@ export const PostPage: React.FC<PostPageProps> = ({ post }) => {
               {categories.map((category, index) => (
                 <Link href={`/categories/${slugify(category)}`} key={category}>
                   <BodyText variant="5">
-                    {category}{index < categories.length - 1 ? ', ' : ''}
+                    {category}
+                    {index < categories.length - 1 ? ", " : ""}
                   </BodyText>
                 </Link>
               ))}
@@ -53,7 +71,8 @@ export const PostPage: React.FC<PostPageProps> = ({ post }) => {
               {tags.map((tag, index) => (
                 <Link href={`/tags/${slugify(tag)}`} key={tag}>
                   <BodyText variant="5">
-                    {tag}{index < tags.length - 1 ? ', ' : ''}
+                    {tag}
+                    {index < tags.length - 1 ? ", " : ""}
                   </BodyText>
                 </Link>
               ))}
@@ -62,7 +81,10 @@ export const PostPage: React.FC<PostPageProps> = ({ post }) => {
         </div>
       ) : null}
       {featuredVideo?.url ? (
-        <VideoPlayer src={featuredVideo.url} thumbnail={thumbnail?.url ?? undefined} />
+        <VideoPlayer
+          src={featuredVideo.url}
+          thumbnail={thumbnail?.url ?? undefined}
+        />
       ) : null}
       <div className={styles.contentWrapper}>
         <PortableBody value={body} />

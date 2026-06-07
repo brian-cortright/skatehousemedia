@@ -1,11 +1,16 @@
 "use client";
 import React from "react";
-import ReactMarkdown, { Components } from "react-markdown";
+import ReactMarkdown from "react-markdown";
+import type { Components } from "react-markdown";
 import rehypeRaw from "rehype-raw";
 import remarkGfm from "remark-gfm";
 import rehypeSlug from "rehype-slug";
-import { BodyText, Headline, Subhead } from "@/components/Typography/Typography";
-import Link from "next/link";
+import {
+  BodyText,
+  Headline,
+  Subhead,
+} from "@/components/Typography/Typography";
+import Link from "@/components/Link";
 
 interface ChildrenProps {
   children?: React.ReactNode;

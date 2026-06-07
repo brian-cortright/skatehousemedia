@@ -1,5 +1,0 @@
-# Allow all bots
-User-agent: *
-Allow: /
-
-Sitemap: https://skatehousemedia.com/sitemap.xml

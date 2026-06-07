@@ -1,0 +1,11 @@
+---
+import Base from "@/layouts/Base.astro";
+import TagsIsland from "@/components/islands/TagsIsland";
+---
+
+<Base
+  title="Tags — SkateHouseMedia"
+  description="Browse all post tags on SkateHouseMedia — find content by rider, event, location, and more."
+>
+  <TagsIsland client:only="react" pathname={Astro.url.pathname} />
+</Base>

@@ -1,0 +1,34 @@
+---
+import type { GetStaticPaths } from "astro";
+import Base from "@/layouts/Base.astro";
+import WatchIsland from "@/components/islands/WatchIsland";
+import { fetchVideoPostSlugs, fetchPostBySlug } from "@/lib/sanity";
+import type { Post } from "@/types";
+
+export const getStaticPaths: GetStaticPaths = async () => {
+  const slugs = await fetchVideoPostSlugs();
+  const paths = await Promise.all(
+    slugs.map(async (s) => {
+      const post = await fetchPostBySlug(s.slug);
+      return { params: { slug: s.slug }, props: { post } };
+    })
+  );
+  return paths;
+};
+
+interface Props {
+  post: Post;
+}
+
+const { post } = Astro.props as unknown as Props;
+const ogImage = (post?.thumbnail as any)?.url;
+---
+
+<Base
+  title={post?.title ? `Watch: ${post.title} — SkateHouseMedia` : "SkateHouseMedia"}
+  description={`Watch ${post?.title ?? ""} on SkateHouseMedia.`}
+  ogImage={ogImage}
+  ogType="video.other"
+>
+  <WatchIsland client:only="react" pathname={Astro.url.pathname} post={post} />
+</Base>

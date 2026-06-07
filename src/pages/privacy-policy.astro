@@ -1,0 +1,11 @@
+---
+import Base from "@/layouts/Base.astro";
+import PrivacyIsland from "@/components/islands/PrivacyIsland";
+---
+
+<Base
+  title="Privacy Policy — SkateHouseMedia"
+  description="Privacy Policy for SkateHouseMedia.com — how we collect, use, and protect your information."
+>
+  <PrivacyIsland client:only="react" pathname={Astro.url.pathname} />
+</Base>
